@@ -2645,7 +2645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 160.782 160.02 90)
 			(effects
 				(font
@@ -2723,7 +2723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 235.9152 154.94 0)
 			(effects
 				(font
@@ -3026,7 +3026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCC25800:750319331"
+		(property "Footprint" "ETH1CVOLT_A:750319331"
 			(at 203.2 149.86 0)
 			(effects
 				(font
@@ -3501,7 +3501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 131.572 160.02 90)
 			(effects
 				(font
@@ -3579,7 +3579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 179.832 132.08 90)
 			(effects
 				(font
@@ -3657,7 +3657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 131.572 149.86 90)
 			(effects
 				(font
@@ -4197,7 +4197,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 166.37 166.37 0)
 			(effects
 				(font
@@ -4346,7 +4346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 235.9152 142.24 0)
 			(effects
 				(font
@@ -4500,7 +4500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 179.832 160.02 90)
 			(effects
 				(font
@@ -4676,7 +4676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 124.1552 158.75 0)
 			(effects
 				(font
@@ -4828,7 +4828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 176.53 123.19 0)
 			(effects
 				(font

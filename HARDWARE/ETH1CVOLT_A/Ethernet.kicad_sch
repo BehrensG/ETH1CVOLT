@@ -9616,7 +9616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ETH1HMSR-SMS:NX5032GA"
+		(property "Footprint" "ETH1CVOLT_A:NX5032GA"
 			(at 146.05 176.53 0)
 			(effects
 				(font

@@ -315,6 +315,380 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x05_Odd_Even"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x05_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2080,6 +2454,22 @@
 		(color 0 0 0 0)
 		(uuid "fd02120e-0bcd-4df6-bc25-511b3a2c1a95")
 	)
+	(no_connect
+		(at 275.59 274.32)
+		(uuid "0fd6b7e4-1174-4665-b4d7-bb8da9011fe2")
+	)
+	(no_connect
+		(at 275.59 269.24)
+		(uuid "110ac4c5-11d7-4140-a71e-b516aaebe181")
+	)
+	(no_connect
+		(at 262.89 274.32)
+		(uuid "19947482-fd50-4298-9c96-b05494a5ae3f")
+	)
+	(no_connect
+		(at 262.89 269.24)
+		(uuid "27e4494a-8b50-448c-9b10-3d8e2e1a6339")
+	)
 	(wire
 		(pts
 			(xy 213.36 50.8) (xy 213.36 52.07)
@@ -2129,6 +2519,16 @@
 			(type default)
 		)
 		(uuid "0aed46d2-e571-4460-8f3e-63cee1679dc5")
+	)
+	(wire
+		(pts
+			(xy 259.08 271.78) (xy 262.89 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7bb0f8-33d8-459e-8181-3d704fce97a5")
 	)
 	(wire
 		(pts
@@ -2212,6 +2612,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 266.7) (xy 262.89 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118fe235-556a-4347-a8d9-a443f9ec7104")
+	)
+	(wire
+		(pts
 			(xy 195.58 109.22) (xy 195.58 95.25)
 		)
 		(stroke
@@ -2229,6 +2639,16 @@
 			(type default)
 		)
 		(uuid "12e5d3c1-3045-43e1-a0a9-aff29dfc294e")
+	)
+	(wire
+		(pts
+			(xy 279.4 276.86) (xy 275.59 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1401af16-1a1e-464e-91a0-2e1520536193")
 	)
 	(wire
 		(pts
@@ -2519,6 +2939,16 @@
 			(type default)
 		)
 		(uuid "3eb67a25-83b6-4c45-80bb-cf316aee40ed")
+	)
+	(wire
+		(pts
+			(xy 275.59 271.78) (xy 279.4 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4f08ba-b9dd-4d7b-b5de-d8d79ac955a1")
 	)
 	(wire
 		(pts
@@ -3383,6 +3813,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 266.7) (xy 275.59 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cded8b76-23a0-4d58-9c12-35b008d78af7")
+	)
+	(wire
+		(pts
 			(xy 299.72 33.02) (xy 299.72 34.29)
 		)
 		(stroke
@@ -3640,6 +4080,16 @@
 			(type default)
 		)
 		(uuid "fb7d6e8e-6a2b-4cb1-b766-ad8b9a5caec9")
+	)
+	(wire
+		(pts
+			(xy 259.08 276.86) (xy 262.89 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd02b359-cac9-4cb1-adbf-fcde176dde1b")
 	)
 	(label "+HV4"
 		(at 226.06 34.29 0)
@@ -4025,7 +4475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 211.582 46.99 90)
 			(effects
 				(font
@@ -4162,7 +4612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.462 93.98 90)
 			(effects
 				(font
@@ -4232,7 +4682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 196.5452 116.84 0)
 			(effects
 				(font
@@ -4368,7 +4818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.162 113.03 90)
 			(effects
 				(font
@@ -4640,7 +5090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 195.58 33.3248 0)
 			(effects
 				(font
@@ -4710,7 +5160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 195.072 64.77 90)
 			(effects
 				(font
@@ -4777,7 +5227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BOOST_LT8365:05-08-1871_ADI"
+		(property "Footprint" "ETH1CVOLT_A:05-08-1871_ADI"
 			(at 177.8 91.44 0)
 			(effects
 				(font
@@ -4878,7 +5328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 212.09 157.7848 0)
 			(effects
 				(font
@@ -5012,7 +5462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BOOST_LT8365:74437324100"
+		(property "Footprint" "ETH1CVOLT_A:74437324100"
 			(at 176.53 158.75 0)
 			(effects
 				(font
@@ -5082,7 +5532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 272.542 73.66 90)
 			(effects
 				(font
@@ -5152,7 +5602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 182.372 233.68 90)
 			(effects
 				(font
@@ -5425,7 +5875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.1152 246.38 0)
 			(effects
 				(font
@@ -5631,7 +6081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.1152 121.92 0)
 			(effects
 				(font
@@ -5767,7 +6217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 272.542 107.95 90)
 			(effects
 				(font
@@ -6037,7 +6487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 232.41 160.528 90)
 			(effects
 				(font
@@ -6173,7 +6623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 167.3352 241.3 0)
 			(effects
 				(font
@@ -6346,6 +6796,73 @@
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/af66c62a-bba3-4457-94b1-d4b2bf9780de"
 					(reference "C115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ETH1CVOLT_A:+110V_ISO")
+		(at 259.08 266.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e616e34-5cae-4820-ba21-48f226301bf0")
+		(property "Reference" "#PWR0148"
+			(at 262.89 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+110V_ISO"
+			(at 255.27 266.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 259.08 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f3677d1-62a1-4bc6-a965-7da86c04c97e")
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/af66c62a-bba3-4457-94b1-d4b2bf9780de"
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -6625,6 +7142,73 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
+		(at 279.4 271.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81cdd89a-93fd-499b-8ec8-b2f547c90752")
+		(property "Reference" "#PWR0150"
+			(at 285.75 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 283.21 271.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0620bdc-fed5-4012-bfbf-ab1b60bb0aa3")
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/af66c62a-bba3-4457-94b1-d4b2bf9780de"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ETH1CVOLT_A:GND_ISO")
 		(at 228.6 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6717,7 +7301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 167.3352 116.84 0)
 			(effects
 				(font
@@ -6785,7 +7369,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 213.36 178.308 90)
 			(effects
 				(font
@@ -6855,7 +7439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.462 81.28 90)
 			(effects
 				(font
@@ -6898,6 +7482,73 @@
 		)
 	)
 	(symbol
+		(lib_id "ETH1CVOLT_A:GND_ISO")
+		(at 259.08 271.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d625699-1c14-4ed5-84c0-6658d74d7e1d")
+		(property "Reference" "#PWR0149"
+			(at 252.73 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 255.27 271.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eca7a01d-f774-4d67-89e5-710b49e5c02d")
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/af66c62a-bba3-4457-94b1-d4b2bf9780de"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 274.32 233.68 0)
 		(unit 1)
@@ -6925,7 +7576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 272.542 233.68 90)
 			(effects
 				(font
@@ -6995,7 +7646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 260.6548 172.72 0)
 			(effects
 				(font
@@ -7133,7 +7784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 272.542 198.12 90)
 			(effects
 				(font
@@ -7407,7 +8058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 208.28 33.3248 0)
 			(effects
 				(font
@@ -7450,6 +8101,73 @@
 		)
 	)
 	(symbol
+		(lib_id "ETH1CVOLT_A:-110V_ISO")
+		(at 279.4 276.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a47190b3-6e62-4cff-a6ec-0f49d14f2c11")
+		(property "Reference" "#PWR097"
+			(at 275.59 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-110V_ISO"
+			(at 283.21 276.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 279.4 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0878d3a2-0619-4f7a-a8a0-673bd882aa65")
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/af66c62a-bba3-4457-94b1-d4b2bf9780de"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 246.38 52.07 0)
 		(unit 1)
@@ -7477,7 +8195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 247.3452 55.88 0)
 			(effects
 				(font
@@ -7656,6 +8374,73 @@
 		)
 	)
 	(symbol
+		(lib_id "ETH1CVOLT_A:+110V_ISO")
+		(at 279.4 266.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeed4c28-e813-41fe-9ecf-338759889e95")
+		(property "Reference" "#PWR098"
+			(at 275.59 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+110V_ISO"
+			(at 283.21 266.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 279.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecc4f279-44c3-4174-9eee-25f323b5cb97")
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/af66c62a-bba3-4457-94b1-d4b2bf9780de"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 193.04 158.75 90)
 		(unit 1)
@@ -7681,7 +8466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 196.85 157.7848 0)
 			(effects
 				(font
@@ -7815,7 +8600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BOOST_LT8365:05-08-1871_ADI"
+		(property "Footprint" "ETH1CVOLT_A:05-08-1871_ADI"
 			(at 177.8 215.9 0)
 			(effects
 				(font
@@ -7918,7 +8703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 272.542 189.23 90)
 			(effects
 				(font
@@ -8023,6 +8808,73 @@
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/af66c62a-bba3-4457-94b1-d4b2bf9780de"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ETH1CVOLT_A:-110V_ISO")
+		(at 259.08 276.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4bc1dfb-0b6a-484b-9171-d7470047c304")
+		(property "Reference" "#PWR099"
+			(at 262.89 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-110V_ISO"
+			(at 255.27 276.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 259.08 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87935c75-d76b-478d-8170-757c16f29cd4")
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/af66c62a-bba3-4457-94b1-d4b2bf9780de"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -8322,7 +9174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 196.5452 241.3 0)
 			(effects
 				(font
@@ -8392,7 +9244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 272.542 64.77 90)
 			(effects
 				(font
@@ -8597,7 +9449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.462 218.44 90)
 			(effects
 				(font
@@ -8803,7 +9655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 182.372 109.22 90)
 			(effects
 				(font
@@ -8939,7 +9791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.162 237.49 90)
 			(effects
 				(font
@@ -9007,7 +9859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BOOST_LT8365:74437324100"
+		(property "Footprint" "ETH1CVOLT_A:74437324100"
 			(at 176.53 34.29 0)
 			(effects
 				(font
@@ -9075,7 +9927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 251.46 160.528 90)
 			(effects
 				(font
@@ -9279,7 +10131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 237.49 36.068 90)
 			(effects
 				(font
@@ -9482,7 +10334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.462 205.74 90)
 			(effects
 				(font
@@ -9585,6 +10437,98 @@
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/af66c62a-bba3-4457-94b1-d4b2bf9780de"
 					(reference "#FLG018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
+		(at 267.97 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdbbd1af-5487-4e52-bb07-f22fa922f653")
+		(property "Reference" "J8"
+			(at 269.24 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x05_Odd_Even"
+			(at 269.24 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD"
+			(at 267.97 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 267.97 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "3424850a-9356-4e02-9f92-22c2a2e68657")
+		)
+		(pin "3"
+			(uuid "dd343679-1ea5-4d83-9278-ce966af3cb3e")
+		)
+		(pin "5"
+			(uuid "043f5c51-c06d-4d21-aaa0-39660e633d93")
+		)
+		(pin "10"
+			(uuid "cde83beb-3862-4fae-ab43-5755ee1d87e4")
+		)
+		(pin "1"
+			(uuid "e8e812b2-ab09-4543-a400-06970c08ad0b")
+		)
+		(pin "4"
+			(uuid "6733244d-5c2b-4139-a10f-1dc7acb9cde9")
+		)
+		(pin "9"
+			(uuid "cff1d711-da46-417d-a26b-b8b38ca86703")
+		)
+		(pin "7"
+			(uuid "32b3cefb-593e-4b21-bfb1-65a7acbb3287")
+		)
+		(pin "2"
+			(uuid "f29100e7-97f3-4497-9e40-f93b45d506e9")
+		)
+		(pin "8"
+			(uuid "7b73352c-f8e4-4223-a4b6-750a5a145aef")
+		)
+		(instances
+			(project ""
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/af66c62a-bba3-4457-94b1-d4b2bf9780de"
+					(reference "J8")
 					(unit 1)
 				)
 			)

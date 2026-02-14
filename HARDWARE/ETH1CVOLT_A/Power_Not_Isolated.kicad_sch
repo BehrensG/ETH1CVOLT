@@ -3084,7 +3084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 132.08 144.78 0)
 			(effects
 				(font
@@ -3777,7 +3777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder"
+		(property "Footprint" ""
 			(at 277.8252 132.08 0)
 			(effects
 				(font
@@ -4089,7 +4089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 142.24 119.38 0)
 			(effects
 				(font

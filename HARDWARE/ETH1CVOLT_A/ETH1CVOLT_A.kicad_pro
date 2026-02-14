@@ -665,6 +665,10 @@
     [
       "8417bd5c-73ec-4e98-b7c0-b091fea457ee",
       "Output"
+    ],
+    [
+      "62dce88f-62ee-4857-96f3-986f7b276210",
+      "Isolation IO"
     ]
   ],
   "text_variables": {}
