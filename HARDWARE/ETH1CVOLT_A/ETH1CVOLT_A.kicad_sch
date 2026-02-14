@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ca79f0b4-91f7-4537-917d-68d425c03ca3")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 195.58 127)
+		(size 49.53 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "485861e8-c90d-4c19-b473-548e94ff000e")
+		(property "Sheetname" "Block Diagram"
+			(at 195.58 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BlockDiagram.kicad_sch"
+			(at 195.58 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

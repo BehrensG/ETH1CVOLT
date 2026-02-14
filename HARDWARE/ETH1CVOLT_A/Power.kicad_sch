@@ -1,0 +1,112 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "58739980-f7f4-452b-aaf8-c7b684548e17")
+	(paper "A3")
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 203.2 186.69) (xy 203.2 281.94)
+		)
+		(stroke
+			(width 1)
+			(type dash)
+		)
+		(uuid "5a9cfbc5-904f-4c4e-8749-4732603883b9")
+	)
+	(polyline
+		(pts
+			(xy 203.2 15.24) (xy 203.2 121.92)
+		)
+		(stroke
+			(width 1)
+			(type dash)
+		)
+		(uuid "aaf3d580-70ca-4ce5-ad8a-cfd0bca3bf61")
+	)
+	(sheet
+		(at 36.83 52.07)
+		(size 156.21 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "46440f40-a1d8-4f0c-8c97-f1b8c5865235")
+		(property "Sheetname" "Power Not Isolated"
+			(at 36.83 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Not_Isolated.kicad_sch"
+			(at 36.83 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 124.46)
+		(size 344.17 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "ff9439b0-b623-4d10-a906-fb4e3cb6e044")
+		(property "Sheetname" "Power Isolated"
+			(at 36.83 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Isolated.kicad_sch"
+			(at 36.83 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8"
+					(page "7")
+				)
+			)
+		)
+	)
+)

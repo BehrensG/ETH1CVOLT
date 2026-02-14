@@ -1,0 +1,300 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c7ad436e-1c7d-43f1-821e-d5ce146c7a04")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 34.29 30.48)
+		(size 76.2 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "1d747a36-5c92-45f1-93fa-e53d9a23d71f")
+		(property "Sheetname" "UCC25800_1"
+			(at 34.29 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UCC25800.kicad_sch"
+			(at 34.29 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND_ISO" passive
+			(at 110.49 36.83 0)
+			(uuid "a1b0202a-689c-4d00-b52f-2e4eac8e9190")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+24V_ISO" passive
+			(at 110.49 44.45 0)
+			(uuid "ccef3d0f-269b-4c14-b33e-6c34c49dedb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 90.17)
+		(size 76.2 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "68615744-92a5-42c5-912b-e5cadd1d46eb")
+		(property "Sheetname" "UCC25800_2"
+			(at 35.56 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UCC25800.kicad_sch"
+			(at 35.56 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND_ISO" passive
+			(at 111.76 100.33 0)
+			(uuid "dbb2260e-8901-4604-a47b-98bf1627e116")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+24V_ISO" passive
+			(at 111.76 113.03 0)
+			(uuid "36fa91ac-d2f4-4576-9675-0c5b247e7565")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 88.9)
+		(size 88.9 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "6d967ebd-a46f-4449-b98b-985b0576b4a9")
+		(property "Sheetname" "Medium Voltage"
+			(at 132.08 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Medium_Voltage.kicad_sch"
+			(at 132.08 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 29.21)
+		(size 88.9 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "7836756d-300e-4359-bd0e-a42b608a3735")
+		(property "Sheetname" "Low Voltage"
+			(at 132.08 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Low_Voltage.kicad_sch"
+			(at 132.08 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 165.1)
+		(size 124.46 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "af66c62a-bba3-4457-94b1-d4b2bf9780de")
+		(property "Sheetname" "High Voltage"
+			(at 147.32 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "High_Voltage.kicad_sch"
+			(at 147.32 231.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 151.13)
+		(size 76.2 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "e7ed1b5e-dfb6-443d-bd3c-6f84d66c1622")
+		(property "Sheetname" "UCC25800_3"
+			(at 35.56 150.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UCC25800.kicad_sch"
+			(at 35.56 202.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044"
+					(page "10")
+				)
+			)
+		)
+	)
+)
