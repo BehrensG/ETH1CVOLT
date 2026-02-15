@@ -199,7 +199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18728f6e-0639-4b8b-bd6f-986c80098a21")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 48.26 265.4299 0)
 			(effects
 				(font
@@ -247,7 +247,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -327,7 +327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6540a9d-bed9-452d-8c34-b85e67da640a")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 27.94 274.3199 0)
 			(effects
 				(font
@@ -375,7 +375,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)

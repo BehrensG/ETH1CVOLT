@@ -39,16 +39,6 @@
 				(justify left top)
 			)
 		)
-		(pin "GND_ISO" passive
-			(at 110.49 36.83 0)
-			(uuid "a1b0202a-689c-4d00-b52f-2e4eac8e9190")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+24V_ISO" passive
 			(at 110.49 44.45 0)
 			(uuid "ccef3d0f-269b-4c14-b33e-6c34c49dedb0")
@@ -99,16 +89,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GND_ISO" passive
-			(at 111.76 100.33 0)
-			(uuid "dbb2260e-8901-4604-a47b-98bf1627e116")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "+24V_ISO" passive
