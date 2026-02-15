@@ -2022,6 +2022,12 @@
 		(uuid "060c4930-94f8-4305-9840-824cf4d02e9a")
 	)
 	(junction
+		(at 250.19 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "074f921a-a365-4b66-87fe-69e7692a796f")
+	)
+	(junction
 		(at 154.94 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2034,13 +2040,13 @@
 		(uuid "110e75bd-68a1-406f-896c-8c3d73777f13")
 	)
 	(junction
-		(at 127 205.74)
+		(at 121.92 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "118fce0c-ebb5-4cfe-9e42-f62fcc566b7c")
 	)
 	(junction
-		(at 127 59.69)
+		(at 121.92 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "195da3ae-d73d-4e92-8adb-44dc3d5546a1")
@@ -2052,7 +2058,19 @@
 		(uuid "1c1dc538-2758-4359-96a6-24eb495798b5")
 	)
 	(junction
-		(at 127 168.91)
+		(at 250.19 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f640e70-0e89-4a80-a013-e7a99f1f8820")
+	)
+	(junction
+		(at 250.19 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26077c75-afd3-4550-9283-92073a66e2dc")
+	)
+	(junction
+		(at 121.92 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b9589ea-e6dd-47c5-9476-6df9c5aad19a")
@@ -2062,18 +2080,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d865675-abb0-4467-91b7-dcd63a43a5f6")
-	)
-	(junction
-		(at 247.65 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ea363d7-184e-4d41-9c99-834579715235")
-	)
-	(junction
-		(at 247.65 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4047be08-0dc0-48d3-819f-9a29b3f8f6db")
 	)
 	(junction
 		(at 168.91 96.52)
@@ -2088,13 +2094,7 @@
 		(uuid "428d4f43-1b22-4a81-9b61-e6d1c6028b1b")
 	)
 	(junction
-		(at 247.65 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45c88b30-4c35-4051-ae87-a58f01035849")
-	)
-	(junction
-		(at 142.24 205.74)
+		(at 139.7 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45d78918-e277-4367-a466-0c3cdf3bc6cf")
@@ -2112,7 +2112,7 @@
 		(uuid "484bf744-c858-419c-acb9-f63bc23d6f86")
 	)
 	(junction
-		(at 142.24 96.52)
+		(at 139.7 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fbaa127-e36e-49b0-8a9b-130b28267d42")
@@ -2160,7 +2160,13 @@
 		(uuid "90ddf192-9012-47c3-9840-ecf2dd96af07")
 	)
 	(junction
-		(at 142.24 168.91)
+		(at 250.19 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9532e745-85d0-4fad-8d7a-a4224144b03b")
+	)
+	(junction
+		(at 139.7 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9761cec1-2f61-4739-b929-5b59ae261dcc")
@@ -2178,7 +2184,7 @@
 		(uuid "9cbf3414-efce-47dd-80c0-d32394b3bb56")
 	)
 	(junction
-		(at 142.24 59.69)
+		(at 139.7 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2e47cee-9dae-419b-9d1d-3aaa1076fd78")
@@ -2190,7 +2196,7 @@
 		(uuid "b983014e-9247-4015-996e-88def7f4c0ec")
 	)
 	(junction
-		(at 127 96.52)
+		(at 121.92 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcc5108c-eab6-439f-bf53-0caed07fd60f")
@@ -2224,12 +2230,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d65ef42a-ef25-47d4-b8ef-fc5fd8bc085d")
-	)
-	(junction
-		(at 247.65 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8607493-92fd-47e8-80c6-382b0e8ecfea")
 	)
 	(junction
 		(at 168.91 59.69)
@@ -2281,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 58.42) (xy 247.65 59.69)
+			(xy 250.19 58.42) (xy 250.19 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2291,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 96.52) (xy 247.65 81.28)
+			(xy 250.19 96.52) (xy 250.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2301,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 205.74) (xy 247.65 205.74)
+			(xy 232.41 205.74) (xy 250.19 205.74)
 		)
 		(stroke
 			(width 0)
@@ -2311,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 59.69) (xy 127 59.69)
+			(xy 139.7 59.69) (xy 121.92 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2351,7 +2351,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 186.69) (xy 127 205.74)
+			(xy 121.92 186.69) (xy 121.92 205.74)
 		)
 		(stroke
 			(width 0)
@@ -2431,7 +2431,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 205.74) (xy 127 207.01)
+			(xy 121.92 205.74) (xy 121.92 207.01)
 		)
 		(stroke
 			(width 0)
@@ -2441,7 +2441,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 167.64) (xy 247.65 168.91)
+			(xy 250.19 167.64) (xy 250.19 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2451,7 +2451,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 168.91) (xy 154.94 168.91)
+			(xy 139.7 168.91) (xy 154.94 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2481,7 +2481,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 69.85) (xy 127 59.69)
+			(xy 121.92 69.85) (xy 121.92 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2501,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 205.74) (xy 142.24 205.74)
+			(xy 121.92 205.74) (xy 139.7 205.74)
 		)
 		(stroke
 			(width 0)
@@ -2581,7 +2581,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 96.52) (xy 154.94 96.52)
+			(xy 139.7 96.52) (xy 154.94 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2611,7 +2611,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 77.47) (xy 142.24 96.52)
+			(xy 139.7 77.47) (xy 139.7 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2631,7 +2631,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 77.47) (xy 127 96.52)
+			(xy 121.92 77.47) (xy 121.92 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2651,7 +2651,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 96.52) (xy 247.65 96.52)
+			(xy 232.41 96.52) (xy 250.19 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2731,7 +2731,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 179.07) (xy 127 168.91)
+			(xy 121.92 179.07) (xy 121.92 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2741,7 +2741,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 97.79) (xy 127 96.52)
+			(xy 121.92 97.79) (xy 121.92 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2781,7 +2781,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 182.88) (xy 247.65 168.91)
+			(xy 250.19 182.88) (xy 250.19 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2811,7 +2811,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 58.42) (xy 127 59.69)
+			(xy 121.92 58.42) (xy 121.92 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2831,7 +2831,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 205.74) (xy 154.94 205.74)
+			(xy 139.7 205.74) (xy 154.94 205.74)
 		)
 		(stroke
 			(width 0)
@@ -2861,7 +2861,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 73.66) (xy 247.65 59.69)
+			(xy 250.19 73.66) (xy 250.19 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2871,7 +2871,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 59.69) (xy 232.41 59.69)
+			(xy 232.41 59.69) (xy 250.19 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2881,7 +2881,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 190.5) (xy 247.65 205.74)
+			(xy 250.19 190.5) (xy 250.19 205.74)
 		)
 		(stroke
 			(width 0)
@@ -2901,7 +2901,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 168.91) (xy 142.24 168.91)
+			(xy 121.92 168.91) (xy 139.7 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2982,7 +2982,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 179.07) (xy 142.24 168.91)
+			(xy 139.7 179.07) (xy 139.7 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2992,7 +2992,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 186.69) (xy 142.24 205.74)
+			(xy 139.7 186.69) (xy 139.7 205.74)
 		)
 		(stroke
 			(width 0)
@@ -3002,7 +3002,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 96.52) (xy 142.24 96.52)
+			(xy 121.92 96.52) (xy 139.7 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3052,7 +3052,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 69.85) (xy 142.24 59.69)
+			(xy 139.7 69.85) (xy 139.7 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3072,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 167.64) (xy 127 168.91)
+			(xy 121.92 167.64) (xy 121.92 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 205.74) (xy 247.65 207.01)
+			(xy 250.19 205.74) (xy 250.19 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3142,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 59.69) (xy 154.94 59.69)
+			(xy 139.7 59.69) (xy 154.94 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3152,7 +3152,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 168.91) (xy 247.65 168.91)
+			(xy 232.41 168.91) (xy 250.19 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3242,7 +3242,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 96.52) (xy 247.65 97.79)
+			(xy 250.19 96.52) (xy 250.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3358,7 +3358,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1u/100V"
 			(at 185.42 163.83 90)
 			(effects
 				(font
@@ -3366,7 +3366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 189.23 167.9448 0)
 			(effects
 				(font
@@ -3410,7 +3410,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:+44V_ISO")
-		(at 247.65 58.42 0)
+		(at 250.19 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3419,7 +3419,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bf373c6-4ec0-4243-9399-81c1bc75803a")
 		(property "Reference" "#PWR076"
-			(at 247.65 62.23 0)
+			(at 250.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,7 +3428,7 @@
 			)
 		)
 		(property "Value" "+44V_ISO"
-			(at 247.65 53.34 0)
+			(at 250.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 58.42 0)
+			(at 250.19 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 58.42 0)
+			(at 250.19 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3454,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 247.65 58.42 0)
+			(at 250.19 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3613,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:+24V_MV_ISO")
-		(at 127 167.64 0)
+		(at 121.92 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3622,7 +3622,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ee316ea-48be-465c-aa25-0d06ab128af0")
 		(property "Reference" "#PWR073"
-			(at 127 171.45 0)
+			(at 121.92 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3631,7 @@
 			)
 		)
 		(property "Value" "+24V_MV_ISO"
-			(at 127 162.56 0)
+			(at 121.92 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 167.64 0)
+			(at 121.92 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 167.64 0)
+			(at 121.92 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3657,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 127 167.64 0)
+			(at 121.92 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +3752,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:-41V_ISO")
-		(at 247.65 167.64 0)
+		(at 250.19 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3761,7 +3761,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cc2fe4b-f0ec-45bd-aeb0-160ae5120e09")
 		(property "Reference" "#PWR078"
-			(at 247.65 171.45 0)
+			(at 250.19 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +3770,7 @@
 			)
 		)
 		(property "Value" "-41V_ISO"
-			(at 247.65 162.56 0)
+			(at 250.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 167.64 0)
+			(at 250.19 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 167.64 0)
+			(at 250.19 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3796,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 247.65 167.64 0)
+			(at 250.19 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +3955,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 182.88 0)
+		(at 139.7 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3964,7 +3964,7 @@
 		(fields_autoplaced yes)
 		(uuid "465565fa-db70-42c8-a083-641f13f5ce92")
 		(property "Reference" "C65"
-			(at 146.05 181.6099 0)
+			(at 143.51 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,8 +3972,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 146.05 184.1499 0)
+		(property "Value" "10u/50V"
+			(at 143.51 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,8 +3981,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.2052 186.69 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 140.6652 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 182.88 0)
+			(at 139.7 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4000,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 182.88 0)
+			(at 139.7 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4099,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 73.66 0)
+		(at 121.92 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4108,7 +4108,7 @@
 		(fields_autoplaced yes)
 		(uuid "484d4488-18a3-4941-b1da-6b3a6c158b6a")
 		(property "Reference" "C62"
-			(at 130.81 72.3899 0)
+			(at 125.73 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,8 +4116,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 130.81 74.9299 0)
+		(property "Value" "4u7/50V"
+			(at 125.73 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,8 +4125,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 127.9652 77.47 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 122.8852 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +4135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 73.66 0)
+			(at 121.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4144,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 73.66 0)
+			(at 121.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4239,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 127 207.01 0)
+		(at 121.92 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4248,7 +4248,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b0cb729-b5da-445c-b742-a82fc25c5265")
 		(property "Reference" "#PWR074"
-			(at 127 213.36 0)
+			(at 121.92 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +4257,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 127 212.09 0)
+			(at 121.92 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 207.01 0)
+			(at 121.92 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 207.01 0)
+			(at 121.92 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 207.01 0)
+			(at 121.92 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +4305,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 73.66 0)
+		(at 139.7 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4314,7 +4314,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d642b75-9451-416b-adcf-f746e03eea63")
 		(property "Reference" "C64"
-			(at 146.05 72.3899 0)
+			(at 143.51 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,8 +4322,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 146.05 74.9299 0)
+		(property "Value" "10u/50V"
+			(at 143.51 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,8 +4331,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.2052 77.47 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 140.6652 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4341,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 73.66 0)
+			(at 139.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4350,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 73.66 0)
+			(at 139.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4532,7 +4532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "4u7/100V"
 			(at 236.22 78.7399 0)
 			(effects
 				(font
@@ -4541,7 +4541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 233.3752 81.28 0)
 			(effects
 				(font
@@ -4585,7 +4585,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:+24V_MV_ISO")
-		(at 127 58.42 0)
+		(at 121.92 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4594,7 +4594,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e1318ba-cae3-45f9-987c-37b84ba67bde")
 		(property "Reference" "#PWR071"
-			(at 127 62.23 0)
+			(at 121.92 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4603,7 @@
 			)
 		)
 		(property "Value" "+24V_MV_ISO"
-			(at 127 53.34 0)
+			(at 121.92 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +4620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +4629,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 127 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4651,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 247.65 77.47 0)
+		(at 250.19 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4660,7 +4660,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e2a96c6-4040-41b6-b3c6-4d679b4e9da8")
 		(property "Reference" "C73"
-			(at 251.46 76.1999 0)
+			(at 254 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,8 +4668,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 251.46 78.7399 0)
+		(property "Value" "10u/100V"
+			(at 254 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,8 +4677,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 248.6152 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 251.1552 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4687,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4696,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 247.65 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +4804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "4u7/100V"
 			(at 236.22 187.9599 0)
 			(effects
 				(font
@@ -4813,7 +4813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 233.3752 190.5 0)
 			(effects
 				(font
@@ -5035,7 +5035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 196.85 175.26 0)
 			(effects
 				(font
@@ -5091,7 +5091,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 247.65 97.79 0)
+		(at 250.19 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5100,7 +5100,7 @@
 		(fields_autoplaced yes)
 		(uuid "715a71e6-c818-4bdd-8b2c-7f22446faf6b")
 		(property "Reference" "#PWR077"
-			(at 247.65 104.14 0)
+			(at 250.19 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5109,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 247.65 102.87 0)
+			(at 250.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 97.79 0)
+			(at 250.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 97.79 0)
+			(at 250.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 97.79 0)
+			(at 250.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5294,7 +5294,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 127 97.79 0)
+		(at 121.92 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5303,7 +5303,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ea2ac82-1cad-4a17-a182-7d5709413099")
 		(property "Reference" "#PWR072"
-			(at 127 104.14 0)
+			(at 121.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +5312,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 127 102.87 0)
+			(at 121.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 97.79 0)
+			(at 121.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 97.79 0)
+			(at 121.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5338,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 97.79 0)
+			(at 121.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +5777,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 247.65 207.01 0)
+		(at 250.19 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5786,7 +5786,7 @@
 		(fields_autoplaced yes)
 		(uuid "a53e0192-c888-41ca-b5e4-349c5915aa1b")
 		(property "Reference" "#PWR079"
-			(at 247.65 213.36 0)
+			(at 250.19 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,7 +5795,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 247.65 212.09 0)
+			(at 250.19 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 207.01 0)
+			(at 250.19 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 207.01 0)
+			(at 250.19 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5821,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 207.01 0)
+			(at 250.19 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6045,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 247.65 186.69 0)
+		(at 250.19 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6054,7 +6054,7 @@
 		(fields_autoplaced yes)
 		(uuid "c93d8915-34f9-4c22-a951-36cdf2a94f8e")
 		(property "Reference" "C74"
-			(at 251.46 185.4199 0)
+			(at 254 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,8 +6062,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 251.46 187.9599 0)
+		(property "Value" "10u/100V"
+			(at 254 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,8 +6071,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 248.6152 190.5 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 251.1552 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 186.69 0)
+			(at 250.19 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,7 +6090,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 247.65 186.69 0)
+			(at 250.19 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 196.85 66.04 0)
 			(effects
 				(font
@@ -6418,7 +6418,7 @@
 				)
 			)
 		)
-		(property "Value" "6u8"
+		(property "Value" "74438335068"
 			(at 173.99 57.15 90)
 			(effects
 				(font
@@ -6470,7 +6470,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 182.88 0)
+		(at 121.92 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6479,7 +6479,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfba98f8-8ded-43b9-9e24-847945fc2830")
 		(property "Reference" "C63"
-			(at 130.81 181.6099 0)
+			(at 125.73 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,8 +6487,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 130.81 184.1499 0)
+		(property "Value" "4u7/50V"
+			(at 125.73 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6496,8 +6496,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 127.9652 186.69 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 122.8852 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,7 +6506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 182.88 0)
+			(at 121.92 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6515,7 +6515,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 182.88 0)
+			(at 121.92 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

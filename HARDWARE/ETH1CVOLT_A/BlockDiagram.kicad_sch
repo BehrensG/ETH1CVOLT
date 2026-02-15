@@ -89,6 +89,106 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 144.78 54.61) (xy 152.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10130729-627c-47ae-bc75-5e0399f4d9c8")
+	)
+	(wire
+		(pts
+			(xy 144.78 63.5) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b09f67-43c0-4718-9d0a-fbb8ebc45f8d")
+	)
+	(wire
+		(pts
+			(xy 144.78 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9c71d2-1ccf-4e2a-8652-7deaf6943860")
+	)
+	(wire
+		(pts
+			(xy 144.78 72.39) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1f94d7-8402-41cf-982f-5573b35ea049")
+	)
+	(wire
+		(pts
+			(xy 144.78 74.93) (xy 152.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f82117a-474d-4dd2-a1ab-ab73ee576c5b")
+	)
+	(wire
+		(pts
+			(xy 144.78 60.96) (xy 152.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c62121c-0bfe-498b-8080-3aef952fed70")
+	)
+	(wire
+		(pts
+			(xy 144.78 80.01) (xy 152.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d60d952-95e4-4f2f-8ffc-23fa1b2865a8")
+	)
+	(wire
+		(pts
+			(xy 144.78 67.31) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce77eab3-04ad-46b7-b999-2d653cc64992")
+	)
+	(wire
+		(pts
+			(xy 144.78 57.15) (xy 152.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1859633-17f5-4bf2-8998-8e1cf6fc7b2c")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 152.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54aff49-8de7-42ea-8b8a-c0712a15d448")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 45.72 266.7 0)
@@ -430,7 +530,7 @@
 		)
 	)
 	(sheet
-		(at 243.84 62.23)
+		(at 215.9 33.02)
 		(size 67.31 67.31)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -446,7 +546,7 @@
 		)
 		(uuid "8417bd5c-73ec-4e98-b7c0-b091fea457ee")
 		(property "Sheetname" "Output"
-			(at 243.84 61.5184 0)
+			(at 215.9 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,7 +555,7 @@
 			)
 		)
 		(property "Sheetfile" "Output.kicad_sch"
-			(at 243.84 130.1246 0)
+			(at 215.9 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
