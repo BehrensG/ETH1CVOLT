@@ -91,7 +91,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 54.61) (xy 152.4 54.61)
+			(xy 215.9 97.79) (xy 223.52 97.79)
 		)
 		(stroke
 			(width 0)
@@ -101,7 +101,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 63.5) (xy 152.4 63.5)
+			(xy 215.9 106.68) (xy 223.52 106.68)
 		)
 		(stroke
 			(width 0)
@@ -111,7 +111,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 69.85) (xy 152.4 69.85)
+			(xy 215.9 113.03) (xy 223.52 113.03)
 		)
 		(stroke
 			(width 0)
@@ -121,7 +121,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 72.39) (xy 152.4 72.39)
+			(xy 215.9 115.57) (xy 223.52 115.57)
 		)
 		(stroke
 			(width 0)
@@ -131,7 +131,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 74.93) (xy 152.4 74.93)
+			(xy 215.9 118.11) (xy 223.52 118.11)
 		)
 		(stroke
 			(width 0)
@@ -141,7 +141,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 60.96) (xy 152.4 60.96)
+			(xy 215.9 104.14) (xy 223.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -151,7 +151,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 80.01) (xy 152.4 80.01)
+			(xy 215.9 123.19) (xy 223.52 123.19)
 		)
 		(stroke
 			(width 0)
@@ -161,7 +161,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 67.31) (xy 152.4 67.31)
+			(xy 215.9 110.49) (xy 223.52 110.49)
 		)
 		(stroke
 			(width 0)
@@ -171,7 +171,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 57.15) (xy 152.4 57.15)
+			(xy 215.9 100.33) (xy 223.52 100.33)
 		)
 		(stroke
 			(width 0)
@@ -181,7 +181,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 77.47) (xy 152.4 77.47)
+			(xy 215.9 120.65) (xy 223.52 120.65)
 		)
 		(stroke
 			(width 0)
@@ -446,8 +446,8 @@
 		)
 	)
 	(sheet
-		(at 86.36 104.14)
-		(size 106.68 58.42)
+		(at 101.6 139.7)
+		(size 205.74 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -462,7 +462,7 @@
 		)
 		(uuid "18da2cad-962d-47df-95e7-fd94fee0a7d8")
 		(property "Sheetname" "Power"
-			(at 86.36 103.4284 0)
+			(at 101.6 138.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,7 +471,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 86.36 163.1446 0)
+			(at 101.6 173.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -488,8 +488,8 @@
 		)
 	)
 	(sheet
-		(at 220.98 148.59)
-		(size 57.15 43.18)
+		(at 101.6 93.98)
+		(size 38.1 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -504,7 +504,7 @@
 		)
 		(uuid "62dce88f-62ee-4857-96f3-986f7b276210")
 		(property "Sheetname" "Isolation IO"
-			(at 220.98 147.8784 0)
+			(at 101.6 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,7 +513,7 @@
 			)
 		)
 		(property "Sheetfile" "Isolation_IO.kicad_sch"
-			(at 220.98 192.3546 0)
+			(at 101.6 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,8 +530,8 @@
 		)
 	)
 	(sheet
-		(at 215.9 33.02)
-		(size 67.31 67.31)
+		(at 269.24 93.98)
+		(size 38.1 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -546,7 +546,7 @@
 		)
 		(uuid "8417bd5c-73ec-4e98-b7c0-b091fea457ee")
 		(property "Sheetname" "Output"
-			(at 215.9 32.3084 0)
+			(at 269.24 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,7 +555,7 @@
 			)
 		)
 		(property "Sheetfile" "Output.kicad_sch"
-			(at 215.9 100.9146 0)
+			(at 269.24 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -572,7 +572,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 50.8)
+		(at 223.52 93.98)
 		(size 38.1 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -588,7 +588,7 @@
 		)
 		(uuid "8418af92-873a-4080-ac55-b7f0e108f36d")
 		(property "Sheetname" "Ethernet"
-			(at 152.4 50.0884 0)
+			(at 223.52 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,7 +597,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 152.4 84.4046 0)
+			(at 223.52 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,7 +606,7 @@
 			)
 		)
 		(pin "RMII_TXD1" bidirectional
-			(at 152.4 57.15 180)
+			(at 223.52 100.33 180)
 			(uuid "6613df71-997c-49b3-947f-21afcefb0769")
 			(effects
 				(font
@@ -616,7 +616,7 @@
 			)
 		)
 		(pin "REF_CLK" bidirectional
-			(at 152.4 74.93 180)
+			(at 223.52 118.11 180)
 			(uuid "6cb09974-873f-4d31-a8a7-ee7802d4af17")
 			(effects
 				(font
@@ -626,7 +626,7 @@
 			)
 		)
 		(pin "RMII_MDIO" bidirectional
-			(at 152.4 69.85 180)
+			(at 223.52 113.03 180)
 			(uuid "288b722e-9fb1-4e71-8e84-7e3e107bdb39")
 			(effects
 				(font
@@ -636,7 +636,7 @@
 			)
 		)
 		(pin "RMII_CRS_DV" bidirectional
-			(at 152.4 72.39 180)
+			(at 223.52 115.57 180)
 			(uuid "2ea1611d-ef21-4f88-9c3d-ef98ae582d81")
 			(effects
 				(font
@@ -646,7 +646,7 @@
 			)
 		)
 		(pin "RMII_RXD1" bidirectional
-			(at 152.4 63.5 180)
+			(at 223.52 106.68 180)
 			(uuid "60907a49-2d21-4b97-b068-e540a507d2d0")
 			(effects
 				(font
@@ -656,7 +656,7 @@
 			)
 		)
 		(pin "RMII_MDC" bidirectional
-			(at 152.4 77.47 180)
+			(at 223.52 120.65 180)
 			(uuid "25d1ceaa-aa52-4afd-af83-84915724ef2b")
 			(effects
 				(font
@@ -666,7 +666,7 @@
 			)
 		)
 		(pin "RMII_TXD0" bidirectional
-			(at 152.4 54.61 180)
+			(at 223.52 97.79 180)
 			(uuid "ba9a6517-5519-495b-ac71-452a4d8391e2")
 			(effects
 				(font
@@ -676,7 +676,7 @@
 			)
 		)
 		(pin "RMII_TXEN" bidirectional
-			(at 152.4 67.31 180)
+			(at 223.52 110.49 180)
 			(uuid "ab40cf7c-011c-4854-b813-5147bfc2d829")
 			(effects
 				(font
@@ -686,7 +686,7 @@
 			)
 		)
 		(pin "NRST" bidirectional
-			(at 152.4 80.01 180)
+			(at 223.52 123.19 180)
 			(uuid "5f528ae6-f795-48ba-8b6c-043fd29fcdde")
 			(effects
 				(font
@@ -696,7 +696,7 @@
 			)
 		)
 		(pin "RMII_RXD0" bidirectional
-			(at 152.4 60.96 180)
+			(at 223.52 104.14 180)
 			(uuid "a1fe2bc5-dafa-41d5-a369-94e5cf4641ec")
 			(effects
 				(font
@@ -714,7 +714,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 50.8)
+		(at 147.32 93.98)
 		(size 68.58 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -730,7 +730,7 @@
 		)
 		(uuid "f9ee2615-d0e0-4475-99e9-603338445df7")
 		(property "Sheetname" "MCU"
-			(at 76.2 50.0884 0)
+			(at 147.32 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,7 +739,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 76.2 84.4046 0)
+			(at 147.32 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -748,7 +748,7 @@
 			)
 		)
 		(pin "RMII_MDC" bidirectional
-			(at 144.78 77.47 0)
+			(at 215.9 120.65 0)
 			(uuid "b76db76f-774a-4a75-9c95-e3ab4a479109")
 			(effects
 				(font
@@ -758,7 +758,7 @@
 			)
 		)
 		(pin "RMII_MDIO" bidirectional
-			(at 144.78 69.85 0)
+			(at 215.9 113.03 0)
 			(uuid "f35e3be4-f7b9-4a4b-9fdf-e8fcf74bef97")
 			(effects
 				(font
@@ -768,7 +768,7 @@
 			)
 		)
 		(pin "RMII_TXD1" bidirectional
-			(at 144.78 57.15 0)
+			(at 215.9 100.33 0)
 			(uuid "5591519a-6346-455b-9ebc-0e4bc3f764ea")
 			(effects
 				(font
@@ -778,7 +778,7 @@
 			)
 		)
 		(pin "REF_CLK" bidirectional
-			(at 144.78 74.93 0)
+			(at 215.9 118.11 0)
 			(uuid "4bf88c5e-1c97-4f0d-8433-a3e30038921b")
 			(effects
 				(font
@@ -788,7 +788,7 @@
 			)
 		)
 		(pin "RMII_TXEN" bidirectional
-			(at 144.78 67.31 0)
+			(at 215.9 110.49 0)
 			(uuid "fcfc766a-a572-4384-b1c0-a68d1a327d14")
 			(effects
 				(font
@@ -798,7 +798,7 @@
 			)
 		)
 		(pin "RMII_TXD0" bidirectional
-			(at 144.78 54.61 0)
+			(at 215.9 97.79 0)
 			(uuid "ab789d81-ba5e-406b-8dc6-3d210fad96fc")
 			(effects
 				(font
@@ -808,7 +808,7 @@
 			)
 		)
 		(pin "NRST" bidirectional
-			(at 144.78 80.01 0)
+			(at 215.9 123.19 0)
 			(uuid "a8ea25f2-727c-4ef4-8839-a9e9ce93e69c")
 			(effects
 				(font
@@ -818,7 +818,7 @@
 			)
 		)
 		(pin "RMII_CRS_DV" bidirectional
-			(at 144.78 72.39 0)
+			(at 215.9 115.57 0)
 			(uuid "86b6f4d9-e3dc-4e6c-9065-a74a37c5249d")
 			(effects
 				(font
@@ -828,7 +828,7 @@
 			)
 		)
 		(pin "RMII_RXD0" bidirectional
-			(at 144.78 60.96 0)
+			(at 215.9 104.14 0)
 			(uuid "cb1a7589-4eae-4fa3-9073-6c7d541a5725")
 			(effects
 				(font
@@ -838,7 +838,7 @@
 			)
 		)
 		(pin "RMII_RXD1" bidirectional
-			(at 144.78 63.5 0)
+			(at 215.9 106.68 0)
 			(uuid "f195e1f6-68e7-471e-b19f-e7032a001d62")
 			(effects
 				(font

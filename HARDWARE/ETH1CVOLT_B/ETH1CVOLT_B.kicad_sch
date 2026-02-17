@@ -2,12 +2,12 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ca79f0b4-91f7-4537-917d-68d425c03ca3")
-	(paper "A3")
+	(uuid "18612734-e331-4379-b1d3-176cfdcf99d5")
+	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 299.72 212.09)
-		(size 49.53 34.29)
+		(at 189.23 127)
+		(size 59.69 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,9 +20,9 @@
 		(fill
 			(color 255 229 191 1.0000)
 		)
-		(uuid "485861e8-c90d-4c19-b473-548e94ff000e")
+		(uuid "b64e35a5-c86f-43a6-acb5-469d75a46b72")
 		(property "Sheetname" "Block Diagram"
-			(at 299.72 211.3784 0)
+			(at 189.23 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +30,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "BlockDiagram.kicad_sch"
-			(at 299.72 246.9646 0)
+		(property "Sheetfile" "Block_Diagram.kicad_sch"
+			(at 189.23 159.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,8 +40,8 @@
 			)
 		)
 		(instances
-			(project "ETH1CVOLT_A"
-				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3"
+			(project "ETH1CVOLT_B"
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5"
 					(page "2")
 				)
 			)

@@ -5880,7 +5880,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7/2W"
+		(property "Value" "10k/2W"
 			(at 356.87 67.31 90)
 			(effects
 				(font
@@ -8249,7 +8249,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7/2W"
+		(property "Value" "10k/2W"
 			(at 356.87 77.47 90)
 			(effects
 				(font
