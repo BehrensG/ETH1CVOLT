@@ -2746,7 +2746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "108e54ee-e12c-46e8-8e6b-84060204d27f")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 228.6 124.46 0)
 			(effects
 				(font
@@ -2796,7 +2796,7 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/46440f40-a1d8-4f0c-8c97-f1b8c5865235"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3157,7 +3157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c3c4a55-36fa-433e-96c5-b89fc8cf71b0")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 276.86 124.46 0)
 			(effects
 				(font
@@ -3207,7 +3207,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/46440f40-a1d8-4f0c-8c97-f1b8c5865235"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3715,7 +3715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af52610f-dbfb-4a52-924f-4076b4cf9500")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR052"
 			(at 137.16 152.4 0)
 			(effects
 				(font
@@ -3765,7 +3765,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/46440f40-a1d8-4f0c-8c97-f1b8c5865235"
-					(reference "#PWR0172")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4090,7 +4090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e20b6896-1f99-4ce2-9b67-bb0a6fa00cc3")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 276.86 152.4 0)
 			(effects
 				(font
@@ -4140,7 +4140,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/46440f40-a1d8-4f0c-8c97-f1b8c5865235"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

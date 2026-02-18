@@ -3,10 +3,10 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "18612734-e331-4379-b1d3-176cfdcf99d5")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols)
 	(sheet
-		(at 189.23 127)
+		(at 297.18 212.09)
 		(size 59.69 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "b64e35a5-c86f-43a6-acb5-469d75a46b72")
 		(property "Sheetname" "Block Diagram"
-			(at 189.23 126.2884 0)
+			(at 297.18 211.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "Block_Diagram.kicad_sch"
-			(at 189.23 159.3346 0)
+			(at 297.18 244.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

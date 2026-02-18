@@ -420,6 +420,30 @@
     [
       "e070f8b0-b8ae-4993-be35-2bc92e042c0e",
       "DAC"
+    ],
+    [
+      "491d5013-f6ed-4b41-b769-ee3854033f07",
+      "ADC"
+    ],
+    [
+      "1057ce79-fecf-4d24-b933-5c82b89cf20b",
+      "MV Output"
+    ],
+    [
+      "0898eb57-afff-4e93-82f5-5379cc95a973",
+      "LV Output"
+    ],
+    [
+      "dab81acb-601b-4578-836c-bbc42190f256",
+      "MUX"
+    ],
+    [
+      "d441a377-bbc5-43e3-9bee-7a77827b9964",
+      "HV Output"
+    ],
+    [
+      "bcfb0e39-33a0-49fc-a1d3-17493c55337d",
+      "Voltage Reference"
     ]
   ],
   "text_variables": {}

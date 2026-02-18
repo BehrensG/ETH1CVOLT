@@ -321,7 +321,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ETH1CVOLT_A:+3V3_ISO"
+		(symbol "ETH1CVOLT_A:+5VD_ISO"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -342,7 +342,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3_ISO"
+			(property "Value" "+5VD_ISO"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -386,7 +386,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_ISO_0_1"
+			(symbol "+5VD_ISO_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -424,7 +424,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_ISO_1_1"
+			(symbol "+5VD_ISO_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2626,7 +2626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "105d12fb-3851-412f-8f22-73486ed8b983")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0174"
 			(at 209.55 123.19 0)
 			(effects
 				(font
@@ -2676,22 +2676,23 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0169")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ETH1CVOLT_A:+3V3_ISO")
+		(lib_id "ETH1CVOLT_A:+5VD_ISO")
 		(at 209.55 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1a66c5cc-7cf5-4a1b-91d1-72bd1b916edc")
-		(property "Reference" "#PWR0170"
+		(fields_autoplaced yes)
+		(uuid "132e510e-0afc-442e-9eb6-6a9c2b03f459")
+		(property "Reference" "#PWR094"
 			(at 209.55 143.51 0)
 			(effects
 				(font
@@ -2700,7 +2701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_ISO"
+		(property "Value" "+5VD_ISO"
 			(at 209.55 134.62 0)
 			(effects
 				(font
@@ -2736,12 +2737,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f6351c4-6fb4-455f-89df-876d3bd5d606")
+			(uuid "7e36826a-0c97-4f69-a4f9-cfee1043d6d3")
 		)
 		(instances
-			(project "ETH1CVOLT_A"
+			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0170")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -2757,7 +2758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c5d152e-e18b-4f6e-8c14-f0350f0ea4c9")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0169"
 			(at 199.39 85.09 0)
 			(effects
 				(font
@@ -2807,7 +2808,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0164")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -2936,7 +2937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f307618-ed5c-4990-900b-1e11e8133901")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0172"
 			(at 199.39 181.61 0)
 			(effects
 				(font
@@ -2986,7 +2987,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0167")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -3002,7 +3003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a014dc8d-2a37-4ee9-84cd-80bbcc0a1599")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0171"
 			(at 199.39 143.51 0)
 			(effects
 				(font
@@ -3052,7 +3053,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0166")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -3139,71 +3140,6 @@
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
 					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ETH1CVOLT_A:+3V3_ISO")
-		(at 209.55 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af6be4c1-b913-4f50-84da-81726a208180")
-		(property "Reference" "#PWR0168"
-			(at 209.55 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_ISO"
-			(at 209.55 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol"
-			(at 209.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64f4b7c8-be55-461a-8e28-0af2d9c375a2")
-		)
-		(instances
-			(project ""
-				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -3418,7 +3354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dad9a096-a7f9-43f0-90db-199ad3e71198")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0170"
 			(at 199.39 123.19 0)
 			(effects
 				(font
@@ -3468,7 +3404,73 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0165")
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ETH1CVOLT_A:+5VD_ISO")
+		(at 209.55 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e47f50a5-c24f-4b13-817d-c2b698b97708")
+		(property "Reference" "#PWR098"
+			(at 209.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD_ISO"
+			(at 209.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2f8250f-ca0c-46df-bd55-a3fc7440f47a")
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -3484,7 +3486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7287c60-c590-49c3-871d-0ada378ad57b")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0176"
 			(at 209.55 181.61 0)
 			(effects
 				(font
@@ -3534,7 +3536,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0171")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
