@@ -393,7 +393,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ETH1CVOLT_A:+5VD_ISO"
+		(symbol "ETH1CVOLT_A:+VD_ISO"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -414,7 +414,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5VD_ISO"
+			(property "Value" "+VD_ISO"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -458,7 +458,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5VD_ISO_0_1"
+			(symbol "+VD_ISO_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -496,7 +496,7 @@
 					)
 				)
 			)
-			(symbol "+5VD_ISO_1_1"
+			(symbol "+VD_ISO_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -725,131 +725,6 @@
 			(symbol "GND_ISO_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ETH1CVOLT_B:+10VREF_ISO"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+10VREF_ISO"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+10VREF_ISO_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+10VREF_ISO_1_1"
-				(pin power_in line
-					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -1494,7 +1369,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 107.95) (xy 245.11 107.95)
+			(xy 227.33 107.95) (xy 229.87 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1514,7 +1389,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 118.11) (xy 222.25 118.11)
+			(xy 203.2 118.11) (xy 205.74 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1524,7 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 120.65) (xy 222.25 120.65)
+			(xy 203.2 120.65) (xy 205.74 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1554,7 +1429,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 105.41) (xy 222.25 105.41)
+			(xy 203.2 105.41) (xy 205.74 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1564,7 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 110.49) (xy 222.25 110.49)
+			(xy 203.2 110.49) (xy 205.74 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1574,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 123.19) (xy 222.25 123.19)
+			(xy 203.2 123.19) (xy 205.74 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1584,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 102.87) (xy 222.25 102.87)
+			(xy 203.2 102.87) (xy 205.74 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1594,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 107.95) (xy 234.95 107.95)
+			(xy 203.2 107.95) (xy 219.71 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1644,7 +1519,7 @@
 	)
 	(hierarchical_label "HV_DAC"
 		(shape output)
-		(at 222.25 110.49 0)
+		(at 205.74 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1655,7 +1530,7 @@
 	)
 	(hierarchical_label "LV_MEAS"
 		(shape input)
-		(at 222.25 118.11 0)
+		(at 205.74 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1666,7 +1541,7 @@
 	)
 	(hierarchical_label "LV_DAC"
 		(shape output)
-		(at 222.25 102.87 0)
+		(at 205.74 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1697,6 +1572,17 @@
 		)
 		(uuid "6ebffcc1-0fe3-4e9d-a742-ff61773e2172")
 	)
+	(hierarchical_label "VREF_TEST"
+		(shape input)
+		(at 205.74 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8da384bb-0092-4088-9da5-5f3976745306")
+	)
 	(hierarchical_label "MUX_A0"
 		(shape input)
 		(at 162.56 113.03 180)
@@ -1710,7 +1596,7 @@
 	)
 	(hierarchical_label "HV_MEAS"
 		(shape input)
-		(at 222.25 123.19 0)
+		(at 205.74 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1721,7 +1607,7 @@
 	)
 	(hierarchical_label "MV_DAC"
 		(shape output)
-		(at 222.25 105.41 0)
+		(at 205.74 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1743,7 +1629,7 @@
 	)
 	(hierarchical_label "MV_MEAS"
 		(shape input)
-		(at 222.25 120.65 0)
+		(at 205.74 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1762,7 +1648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11371734-fd8e-41b5-aa02-5c4d489e5fb4")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 26.67 266.6999 0)
 			(effects
 				(font
@@ -1780,7 +1666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 23.8252 271.78 0)
 			(effects
 				(font
@@ -1816,7 +1702,7 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -1832,7 +1718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12e8bdf5-c2bc-4fd3-9065-6af2403c5ee5")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR064"
 			(at 43.18 267.97 0)
 			(effects
 				(font
@@ -1882,7 +1768,7 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "#PWR029")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1898,7 +1784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c40a4bf-e4f1-4dcd-a5b4-6d69c16eee83")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR063"
 			(at 22.86 278.13 0)
 			(effects
 				(font
@@ -1948,7 +1834,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "#PWR023")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1964,7 +1850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32ae0b67-77e9-424d-8add-9c3c3cf8c333")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR068"
 			(at 194.31 96.52 0)
 			(effects
 				(font
@@ -2014,7 +1900,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "#PWR027")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2022,15 +1908,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 107.95 90)
+		(at 223.52 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3c6e9eed-0c8a-4948-acc3-0f8447cfffb3")
-		(property "Reference" "R10"
-			(at 238.76 102.87 90)
+		(property "Reference" "R28"
+			(at 223.52 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,15 +1924,15 @@
 			)
 		)
 		(property "Value" "100k/0.1%"
-			(at 238.76 105.41 90)
+			(at 223.52 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 238.76 109.728 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +1941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 107.95 0)
+			(at 223.52 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +1950,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 238.76 107.95 0)
+			(at 223.52 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +1967,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "R10")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2097,7 +1983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e0e86af-c33d-4406-8060-28621d6e1ade")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR062"
 			(at 22.86 267.97 0)
 			(effects
 				(font
@@ -2147,14 +2033,14 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "#PWR022")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ETH1CVOLT_A:+5VD_ISO")
+		(lib_id "ETH1CVOLT_A:+VD_ISO")
 		(at 172.72 127 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2163,7 +2049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aec42ce-73e2-4a39-bfa7-dd86636ad460")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR066"
 			(at 176.53 127 0)
 			(effects
 				(font
@@ -2172,7 +2058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD_ISO"
+		(property "Value" "+VD_ISO"
 			(at 168.91 126.9999 90)
 			(effects
 				(font
@@ -2214,7 +2100,7 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "#PWR026")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2230,7 +2116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b9cf383-e889-40f1-a4ec-f3ad45cf645f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR067"
 			(at 181.61 142.24 0)
 			(effects
 				(font
@@ -2280,7 +2166,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "#PWR021")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2288,7 +2174,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 245.11 107.95 90)
+		(at 229.87 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2296,8 +2182,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e66f3a-7671-4a96-8a2d-7e87b4ad9368")
-		(property "Reference" "#PWR024"
-			(at 251.46 107.95 0)
+		(property "Reference" "#PWR070"
+			(at 236.22 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2192,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 248.92 107.9499 90)
+			(at 233.68 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 107.95 0)
+			(at 229.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 107.95 0)
+			(at 229.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 107.95 0)
+			(at 229.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2233,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "#PWR024")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2362,7 +2248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab90101a-1cc1-451f-9a34-d7673dbaa7da")
-		(property "Reference" "U6"
+		(property "Reference" "U13"
 			(at 181.61 91.44 0)
 			(effects
 				(font
@@ -2458,7 +2344,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "U6")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -2474,7 +2360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3506323-b20f-480c-9f32-8704ed8bdadc")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR069"
 			(at 194.31 132.08 0)
 			(effects
 				(font
@@ -2524,7 +2410,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "#PWR030")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2540,7 +2426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7807705-4b72-4fd5-87c2-363a4115b321")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR065"
 			(at 43.18 278.13 0)
 			(effects
 				(font
@@ -2590,74 +2476,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ETH1CVOLT_B:+10VREF_ISO")
-		(at 205.74 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3fe6e41-663a-4257-93eb-ecfa63f29331")
-		(property "Reference" "#PWR075"
-			(at 201.93 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+10VREF_ISO"
-			(at 209.55 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol"
-			(at 205.74 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53d0ed71-8f06-4877-9723-69f772e8397a")
-		)
-		(instances
-			(project "ETH1CVOLT_B"
-				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "#PWR075")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -2673,7 +2492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d404dce3-b1c3-47d8-ad44-15f051d0eb75")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 46.99 266.6999 0)
 			(effects
 				(font
@@ -2691,7 +2510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.1452 271.78 0)
 			(effects
 				(font
@@ -2727,7 +2546,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/dab81acb-601b-4578-836c-bbc42190f256"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)

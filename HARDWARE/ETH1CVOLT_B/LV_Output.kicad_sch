@@ -1369,7 +1369,7 @@
 		)
 		(uuid "d405a47b-4b10-467e-b31c-5234d41a74fc")
 	)
-	(hierarchical_label "MV_MEAS"
+	(hierarchical_label "LV_MEAS"
 		(shape output)
 		(at 116.84 140.97 180)
 		(effects
@@ -1412,7 +1412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e20cd55-a76d-4c7b-9d81-1a5994379c8c")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 212.09 113.0299 90)
 			(effects
 				(font
@@ -1469,7 +1469,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1485,7 +1485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "359b104d-9348-4d3f-a29f-0fcae5dc8d6f")
-		(property "Reference" "R6"
+		(property "Reference" "R24"
 			(at 139.7 134.6199 0)
 			(effects
 				(font
@@ -1503,7 +1503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.382 135.89 90)
 			(effects
 				(font
@@ -1539,7 +1539,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "R6")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -1555,7 +1555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ba04521-a0ac-4a94-9d57-2b3366574043")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR060"
 			(at 214.63 118.11 0)
 			(effects
 				(font
@@ -1605,7 +1605,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "#PWR018")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1621,8 +1621,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55f3d896-0eff-4463-815c-ee5a1413ccdf")
-		(property "Reference" "U5"
-			(at 154.94 123.19 0)
+		(property "Reference" "U12"
+			(at 149.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,8 +1630,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ADA4522-1"
-			(at 150.4381 125.73 0)
+		(property "Value" "ADA4522-1ARMZ"
+			(at 143.51 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,7 +1639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 163.83 135.89 0)
 			(effects
 				(font
@@ -1694,7 +1694,7 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "U5")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -1710,7 +1710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5922cf71-e187-418f-91b2-ca4ebed79314")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR058"
 			(at 163.83 134.62 0)
 			(effects
 				(font
@@ -1760,7 +1760,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "#PWR016")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -1776,7 +1776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a0ef1b3-d290-452e-a95f-82cd66dbe39b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR061"
 			(at 226.06 132.08 0)
 			(effects
 				(font
@@ -1826,7 +1826,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "#PWR019")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1842,7 +1842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cead0f3-da7b-429f-a8be-bbac7fcc199f")
-		(property "Reference" "R1"
+		(property "Reference" "R27"
 			(at 199.39 107.95 90)
 			(effects
 				(font
@@ -1894,7 +1894,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "R1")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -1910,7 +1910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72ab21e5-2aaa-4c91-aa22-69b1a21dce13")
-		(property "Reference" "R2"
+		(property "Reference" "R26"
 			(at 185.42 121.92 90)
 			(effects
 				(font
@@ -1926,7 +1926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.42 130.048 90)
 			(effects
 				(font
@@ -1962,7 +1962,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "R2")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -2049,7 +2049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6c50c49-fe1a-4ec2-8a04-0f9d8641f108")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR056"
 			(at 137.16 157.48 0)
 			(effects
 				(font
@@ -2099,7 +2099,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "#PWR020")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2115,7 +2115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc3980f6-2817-49fe-994a-e7907be30b65")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR057"
 			(at 163.83 127 0)
 			(effects
 				(font
@@ -2165,7 +2165,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "#PWR015")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2181,7 +2181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db4ba1cb-268b-406a-91c6-042fa4e19538")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR059"
 			(at 214.63 110.49 0)
 			(effects
 				(font
@@ -2231,7 +2231,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "#PWR017")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2247,7 +2247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5338893-ada4-476b-b14a-6f09944e425c")
-		(property "Reference" "R8"
+		(property "Reference" "R25"
 			(at 139.7 144.7799 0)
 			(effects
 				(font
@@ -2265,7 +2265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.382 146.05 90)
 			(effects
 				(font
@@ -2301,7 +2301,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/0898eb57-afff-4e93-82f5-5379cc95a973"
-					(reference "R8")
+					(reference "R25")
 					(unit 1)
 				)
 			)

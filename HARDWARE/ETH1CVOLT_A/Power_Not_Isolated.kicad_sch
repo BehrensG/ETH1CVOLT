@@ -1320,7 +1320,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:FDS9435A"
+		(symbol "Transistor_FET:SiS443DN"
 			(pin_names
 				(hide yes)
 			)
@@ -1336,7 +1336,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FDS9435A"
+			(property "Value" "SiS443DN"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1345,7 +1345,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1356,7 +1356,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDS9435A-D.PDF"
+			(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -1366,7 +1366,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-5.3A Id, -30V Vds, P-Channel MOSFET, 50mOhm Ron, SO-8"
+			(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1384,7 +1384,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1393,7 +1393,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FDS9435A_0_1"
+			(symbol "SiS443DN_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1560,7 +1560,7 @@
 					)
 				)
 			)
-			(symbol "FDS9435A_1_1"
+			(symbol "SiS443DN_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1590,63 +1590,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2308,7 +2251,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 121.92) (xy 172.72 121.92)
+			(xy 162.56 121.92) (xy 172.72 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2338,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 121.92) (xy 157.48 121.92)
+			(xy 137.16 121.92) (xy 154.94 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3010,7 +2953,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 161.29 121.92 90)
+		(at 158.75 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3018,23 +2961,23 @@
 		(dnp no)
 		(uuid "472edbff-134d-4a09-9369-294acb2f659e")
 		(property "Reference" "F1"
-			(at 161.29 116.205 90)
+			(at 158.75 116.205 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1812L075/33DR"
-			(at 161.29 118.745 90)
+		(property "Value" "3425L300/36MR"
+			(at 158.75 118.745 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
-			(at 161.29 123.698 90)
+		(property "Footprint" ""
+			(at 158.75 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,8 +2985,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/resettable-ptcs-1812l-datasheet?assetguid=ca5c80cb-504e-4a8a-8e74-0107520a1717"
-			(at 161.29 121.92 0)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-pptc-3425l-datasheet?assetguid=2d6edd27-25e8-4c94-8797-3cc720f26270"
+			(at 158.75 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +2995,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 121.92 0)
+			(at 158.75 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,6 +3085,86 @@
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/46440f40-a1d8-4f0c-8c97-f1b8c5865235"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:SiS443DN")
+		(at 177.8 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f061402-bbe1-4668-accd-f597edf2d9ea")
+		(property "Reference" "Q1"
+			(at 177.8 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SiS443DN"
+			(at 177.8 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 179.705 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8d6bb358-04b0-4a63-bb75-e8915df4cb9b")
+		)
+		(pin "1"
+			(uuid "d171399f-9f75-4038-be02-5cf7ecad0d06")
+		)
+		(pin "4"
+			(uuid "b4f2dde5-8dcb-44d0-b53f-df61cfe76e56")
+		)
+		(pin "5"
+			(uuid "3281d8ef-be1c-4cd1-af60-5d211ca23910")
+		)
+		(pin "2"
+			(uuid "29c98a38-7611-4c1f-bd55-2bbe83045dfa")
+		)
+		(instances
+			(project ""
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/46440f40-a1d8-4f0c-8c97-f1b8c5865235"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3832,95 +3855,6 @@
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/46440f40-a1d8-4f0c-8c97-f1b8c5865235"
 					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:FDS9435A")
-		(at 177.8 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3ea7907-de73-4257-aa5e-51f0254c9bcc")
-		(property "Reference" "Q1"
-			(at 177.8 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FDS9435A"
-			(at 177.8 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 179.705 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDS9435A-D.PDF"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-5.3A Id, -30V Vds, P-Channel MOSFET, 50mOhm Ron, SO-8"
-			(at 177.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b73b4b68-9d72-431a-8bce-ea54a04a1136")
-		)
-		(pin "7"
-			(uuid "0d18a0a7-5b34-41a2-bc78-3c715b033833")
-		)
-		(pin "6"
-			(uuid "634a65d5-a050-4bb6-8e3d-9776070894b0")
-		)
-		(pin "5"
-			(uuid "46b42251-16e0-4a6f-9c05-6ff03c426635")
-		)
-		(pin "8"
-			(uuid "6594c927-b0b4-4d88-beb5-0cfd60d849eb")
-		)
-		(pin "3"
-			(uuid "ac6e951d-5ac6-4ba4-a19b-105c27db32b9")
-		)
-		(pin "2"
-			(uuid "80625b58-a885-45e1-807e-0a49efad7a06")
-		)
-		(pin "1"
-			(uuid "d65ddcf6-c23f-4622-8bb4-af7f09c72a8d")
-		)
-		(instances
-			(project ""
-				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/46440f40-a1d8-4f0c-8c97-f1b8c5865235"
-					(reference "Q1")
 					(unit 1)
 				)
 			)

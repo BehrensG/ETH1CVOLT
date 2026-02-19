@@ -6,8 +6,8 @@
 	(paper "A3")
 	(lib_symbols)
 	(sheet
-		(at 140.97 50.8)
-		(size 78.74 34.29)
+		(at 182.88 100.33)
+		(size 39.37 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "0898eb57-afff-4e93-82f5-5379cc95a973")
 		(property "Sheetname" "LV Output"
-			(at 140.97 50.0884 0)
+			(at 182.88 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +31,42 @@
 			)
 		)
 		(property "Sheetfile" "LV_Output.kicad_sch"
-			(at 140.97 85.6746 0)
+			(at 182.88 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LV_OUTPUT" output
+			(at 222.25 104.14 0)
+			(uuid "bf613c68-e370-44df-8834-c7d0887cddc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LV_DAC" input
+			(at 182.88 104.14 180)
+			(uuid "cd08d2e6-6196-4d8a-a7fe-e91bb4c02b7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LV_MEAS" output
+			(at 182.88 111.76 180)
+			(uuid "f9a71a1f-060a-49f0-942b-c2a1cee493b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -48,8 +78,8 @@
 		)
 	)
 	(sheet
-		(at 140.97 93.98)
-		(size 78.74 38.1)
+		(at 182.88 129.54)
+		(size 39.37 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +94,7 @@
 		)
 		(uuid "1057ce79-fecf-4d24-b933-5c82b89cf20b")
 		(property "Sheetname" "MV Output"
-			(at 140.97 93.2684 0)
+			(at 182.88 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,12 +103,52 @@
 			)
 		)
 		(property "Sheetfile" "MV_Output.kicad_sch"
-			(at 140.97 132.6646 0)
+			(at 182.88 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MV_DAC" input
+			(at 182.88 133.35 180)
+			(uuid "22966e1a-fd71-4be4-87e4-c31349342ec1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MV_MEAS" output
+			(at 182.88 138.43 180)
+			(uuid "db3f87ef-d377-404c-8496-feb283ff9a3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MUX_A0" input
+			(at 182.88 143.51 180)
+			(uuid "9dcdd123-2007-4e69-b5ae-fe26636871eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MV_OUTPUT" output
+			(at 222.25 133.35 0)
+			(uuid "94d6e361-ba34-4754-bcb4-33e9264bc0ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -90,8 +160,8 @@
 		)
 	)
 	(sheet
-		(at 66.04 104.14)
-		(size 52.07 39.37)
+		(at 80.01 143.51)
+		(size 39.37 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +176,7 @@
 		)
 		(uuid "491d5013-f6ed-4b41-b769-ee3854033f07")
 		(property "Sheetname" "ADC"
-			(at 66.04 103.4284 0)
+			(at 80.01 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,12 +185,82 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 66.04 144.0946 0)
+			(at 80.01 166.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ADC_VOLT_SCLK" input
+			(at 80.01 147.32 180)
+			(uuid "e31d4ae0-ce82-4632-9a82-b9720f0e43c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_VOLT_SDO" output
+			(at 80.01 149.86 180)
+			(uuid "4b5f17ce-2dfb-49db-b997-cdc67f1131fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL_x100" input
+			(at 80.01 162.56 180)
+			(uuid "249d2101-b7e7-4f5b-b17f-2d129c2ca5bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL_x1" input
+			(at 80.01 157.48 180)
+			(uuid "5912d85f-545b-45c9-bd8e-50ff9b1c04cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL_x10" input
+			(at 80.01 160.02 180)
+			(uuid "72c869e5-bcc0-4a8e-bdd7-47ddec9bc91b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_VOLT_~{CS}" input
+			(at 80.01 152.4 180)
+			(uuid "2b4d486f-0d3b-4414-bc22-9c4e8797287c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_MEAS" input
+			(at 119.38 147.32 0)
+			(uuid "34784485-2820-43ea-8adf-a745fea9319d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -132,8 +272,192 @@
 		)
 	)
 	(sheet
-		(at 64.77 152.4)
-		(size 83.82 64.77)
+		(at 287.02 118.11)
+		(size 39.37 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "6ad06e4a-63e7-4d21-8547-f0ec75510858")
+		(property "Sheetname" "Current Measurement"
+			(at 287.02 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Measurement.kicad_sch"
+			(at 287.02 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_CURR_SCLK" input
+			(at 287.02 129.54 180)
+			(uuid "b309254e-f812-4ef5-ae89-497b73149386")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CURR_P_MEAS" input
+			(at 312.42 118.11 90)
+			(uuid "95d36fa3-ee9f-4445-8547-d6d42916e4e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CURR_N_MEAS" output
+			(at 320.04 118.11 90)
+			(uuid "cc390892-a7a9-425a-8222-a7d6a3a5fddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_CURR_SDI" input
+			(at 287.02 121.92 180)
+			(uuid "2e800840-e138-4dda-a5d6-8831038ca5f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CURR_~{CS}" input
+			(at 287.02 124.46 180)
+			(uuid "56714917-c5f0-4d39-8473-e47c4ad5d0b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CURR_SDO" output
+			(at 287.02 127 180)
+			(uuid "fb86a08f-15e1-4ed4-ba83-38cac485b5c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT_B"
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 232.41 100.33)
+		(size 39.37 80.01)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "81c204f4-2589-4141-915e-6bfa5a3fd9a1")
+		(property "Sheetname" "Output"
+			(at 232.41 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Output.kicad_sch"
+			(at 232.41 180.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HV_OUTPUT" input
+			(at 232.41 163.83 180)
+			(uuid "e8d1f2c0-fc94-4d59-9812-76959700bd2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LV_OUTPUT" input
+			(at 232.41 104.14 180)
+			(uuid "e9b43f97-11c5-4d63-ba87-7de6fc260b2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MV_OUTPUT" input
+			(at 232.41 133.35 180)
+			(uuid "f2bcb941-1cac-4e2e-8610-14cb4a759b23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT" output
+			(at 271.78 104.14 0)
+			(uuid "4a80f70c-1bfa-4615-81c9-3c11baf8a8a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT_B"
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 124.46)
+		(size 39.37 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -148,7 +472,7 @@
 		)
 		(uuid "bcfb0e39-33a0-49fc-a1d3-17493c55337d")
 		(property "Sheetname" "Voltage Reference"
-			(at 64.77 151.6884 0)
+			(at 80.01 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,12 +481,52 @@
 			)
 		)
 		(property "Sheetfile" "Voltage_Reference.kicad_sch"
-			(at 64.77 217.7546 0)
+			(at 80.01 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SEL_x10" input
+			(at 80.01 130.81 180)
+			(uuid "0fced445-8190-4b43-a015-09a45f7534d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VREF_TEST" output
+			(at 119.38 128.27 0)
+			(uuid "96463eb9-4c32-4607-8592-cd437dad2166")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SEL_x1" input
+			(at 80.01 128.27 180)
+			(uuid "256e4409-455d-4349-a5a0-207b25e98686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL_x100" input
+			(at 80.01 133.35 180)
+			(uuid "155fbeda-e2d0-4d86-8846-bddd8a34b81b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -174,8 +538,8 @@
 		)
 	)
 	(sheet
-		(at 238.76 52.07)
-		(size 64.77 55.88)
+		(at 182.88 160.02)
+		(size 39.37 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -190,7 +554,7 @@
 		)
 		(uuid "d441a377-bbc5-43e3-9bee-7a77827b9964")
 		(property "Sheetname" "HV Output"
-			(at 238.76 51.3584 0)
+			(at 182.88 159.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,12 +563,62 @@
 			)
 		)
 		(property "Sheetfile" "HV_Output.kicad_sch"
-			(at 238.76 108.5346 0)
+			(at 182.88 180.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MUX_A0" input
+			(at 182.88 173.99 180)
+			(uuid "cc2a3d4c-4b69-4c5f-880c-4ceb07ad4460")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HV_DAC" input
+			(at 182.88 163.83 180)
+			(uuid "17905a67-af17-4153-8db6-07f37a376697")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HV_MEAS" output
+			(at 182.88 168.91 180)
+			(uuid "996fc8d3-3eff-4f0a-85ab-7bfae9097437")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HV_OUTPUT" output
+			(at 222.25 163.83 0)
+			(uuid "e3195326-20aa-49d9-874a-7d33c7478e35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MUX_A1" input
+			(at 182.88 176.53 180)
+			(uuid "2ebe0bef-459c-4db9-a1c0-576c4c76de11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -216,8 +630,8 @@
 		)
 	)
 	(sheet
-		(at 187.96 172.72)
-		(size 111.76 68.58)
+		(at 128.27 100.33)
+		(size 39.37 80.01)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -232,7 +646,7 @@
 		)
 		(uuid "dab81acb-601b-4578-836c-bbc42190f256")
 		(property "Sheetname" "MUX"
-			(at 187.96 172.0084 0)
+			(at 128.27 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,12 +655,122 @@
 			)
 		)
 		(property "Sheetfile" "MUX.kicad_sch"
-			(at 187.96 241.8846 0)
+			(at 128.27 180.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "HV_DAC" output
+			(at 167.64 163.83 0)
+			(uuid "5216bba8-d85b-41d0-ac38-18d9a2e0610b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LV_MEAS" input
+			(at 167.64 111.76 0)
+			(uuid "b721b0d0-1f5a-4642-a203-9a74460347c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LV_DAC" output
+			(at 167.64 104.14 0)
+			(uuid "1f7f8da9-fabf-4264-b275-5be4336dfacc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_OUTPUT" input
+			(at 128.27 104.14 180)
+			(uuid "316fb930-7599-4086-913a-8db9cdce22d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_MEAS" output
+			(at 128.27 147.32 180)
+			(uuid "2850ffbc-105a-4f8c-a028-cc2f3de0af43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VREF_TEST" input
+			(at 128.27 128.27 180)
+			(uuid "294ae9e8-0094-4995-9142-57df8d515f7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MUX_A0" input
+			(at 167.64 143.51 0)
+			(uuid "3ee0a3bb-4b28-4c11-b10f-1f1f88b36915")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HV_MEAS" input
+			(at 167.64 168.91 0)
+			(uuid "635ae16d-9f7e-4d83-b0e8-7f1445d1c6c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MV_DAC" output
+			(at 167.64 133.35 0)
+			(uuid "8515ae5e-04da-4711-9734-5a543ebab5f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MUX_A1" input
+			(at 167.64 176.53 0)
+			(uuid "4927a555-b9de-42dc-a4cb-ba5c596aeb4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MV_MEAS" input
+			(at 167.64 138.43 0)
+			(uuid "ca65795c-58de-4dd1-b31d-c08470624a21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -258,8 +782,8 @@
 		)
 	)
 	(sheet
-		(at 66.04 50.8)
-		(size 52.07 40.64)
+		(at 80.01 100.33)
+		(size 39.37 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -274,7 +798,7 @@
 		)
 		(uuid "e070f8b0-b8ae-4993-be35-2bc92e042c0e")
 		(property "Sheetname" "DAC"
-			(at 66.04 50.0884 0)
+			(at 80.01 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,12 +807,62 @@
 			)
 		)
 		(property "Sheetfile" "DAC.kicad_sch"
-			(at 66.04 92.0246 0)
+			(at 80.01 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DAC_SCLK" input
+			(at 80.01 106.68 180)
+			(uuid "517209a7-7ab9-4a38-a67c-6b1e4b28f539")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_~{SYNC}" input
+			(at 80.01 109.22 180)
+			(uuid "12782de5-94b1-4bba-affc-aad9be696b54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_SDO" output
+			(at 80.01 111.76 180)
+			(uuid "1188ab9c-b92d-45f4-b0e5-586732c357ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_OUTPUT" output
+			(at 119.38 104.14 0)
+			(uuid "9b89e753-e9ab-4cd0-9a4d-20ec01be7311")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_SDIN" input
+			(at 80.01 104.14 180)
+			(uuid "68d961e4-ed3e-4588-9118-aead025695bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

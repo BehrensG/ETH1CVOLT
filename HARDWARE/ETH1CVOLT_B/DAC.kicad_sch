@@ -1004,7 +1004,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ETH1CVOLT_A:+5VA_ISO"
+		(symbol "ETH1CVOLT_A:+VA_ISO"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1025,7 +1025,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5VA_ISO"
+			(property "Value" "+VA_ISO"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1069,7 +1069,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5VA_ISO_0_1"
+			(symbol "+VA_ISO_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1107,7 +1107,7 @@
 					)
 				)
 			)
-			(symbol "+5VA_ISO_1_1"
+			(symbol "+VA_ISO_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1129,7 +1129,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ETH1CVOLT_A:+5VD_ISO"
+		(symbol "ETH1CVOLT_A:+VD_ISO"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1150,7 +1150,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5VD_ISO"
+			(property "Value" "+VD_ISO"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1194,7 +1194,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5VD_ISO_0_1"
+			(symbol "+VD_ISO_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1232,7 +1232,7 @@
 					)
 				)
 			)
-			(symbol "+5VD_ISO_1_1"
+			(symbol "+VD_ISO_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2966,7 +2966,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0055f410-474f-4d8a-b094-d7b01a03c835")
-		(property "Reference" "R9"
+		(property "Reference" "R4"
 			(at 279.4 104.14 90)
 			(effects
 				(font
@@ -2982,7 +2982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 279.4 112.268 90)
 			(effects
 				(font
@@ -3018,7 +3018,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "R9")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3049,7 +3049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 194.31 176.8348 0)
 			(effects
 				(font
@@ -3092,110 +3092,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4522-4")
-		(at 193.04 97.79 0)
-		(mirror y)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "079053c3-a2f3-4131-88ab-fa23b949d888")
-		(property "Reference" "U4"
-			(at 193.04 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4522-4"
-			(at 193.04 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
-			(at 191.77 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO quad operational amplifiers"
-			(at 193.04 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "37febad7-9746-4aec-9683-167f3d85b4e0")
-		)
-		(pin "5"
-			(uuid "992466a7-59ae-4b30-b286-c6dd0ff4b06e")
-		)
-		(pin "1"
-			(uuid "b71b1504-bf6a-4976-bde4-50fee6145241")
-		)
-		(pin "14"
-			(uuid "13846af8-4bc9-493e-9440-2217412d3321")
-		)
-		(pin "2"
-			(uuid "d89bf19b-daf0-4489-90dc-4e86b8f8e577")
-		)
-		(pin "3"
-			(uuid "e1d13959-125a-4f32-a072-e3330109760e")
-		)
-		(pin "7"
-			(uuid "e4191784-add2-4643-a9d7-ad91cd471229")
-		)
-		(pin "13"
-			(uuid "3c00d180-586b-41b9-98ed-d8b04014ca97")
-		)
-		(pin "8"
-			(uuid "afc3d3a0-7230-4e16-a03b-4c90a78d7200")
-		)
-		(pin "9"
-			(uuid "df64f633-8b5b-4ed2-b61b-9ad830d30e9f")
-		)
-		(pin "12"
-			(uuid "08b48f47-9dc0-4776-abb2-f3996a7b0c4b")
-		)
-		(pin "11"
-			(uuid "0049db72-5e93-4887-9295-375f5e4ded6a")
-		)
-		(pin "10"
-			(uuid "c9210609-eaa7-470d-af5a-77f1033942e9")
-		)
-		(pin "4"
-			(uuid "3ad82a55-2bd3-4e37-9f6f-14ab55de4249")
-		)
-		(instances
-			(project "ETH1CVOLT_B"
-				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "U4")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ETH1CVOLT_A:+21V_ISO")
 		(at 177.8 158.75 0)
 		(unit 1)
@@ -3205,7 +3101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a0bba64-6656-46f3-b405-f8c91c7dcfa7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 177.8 162.56 0)
 			(effects
 				(font
@@ -3255,14 +3151,14 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ETH1CVOLT_A:+5VA_ISO")
+		(lib_id "ETH1CVOLT_A:+VA_ISO")
 		(at 165.1 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3271,7 +3167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d46d51b-b11c-4119-b686-e884947dbf96")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -3280,7 +3176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA_ISO"
+		(property "Value" "+VA_ISO"
 			(at 165.1 90.17 0)
 			(effects
 				(font
@@ -3321,7 +3217,7 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3337,7 +3233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1da504f6-e201-42c5-aa4a-060eca0ba864")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 162.56 198.12 0)
 			(effects
 				(font
@@ -3387,7 +3283,111 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR04")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:ADA4522-4")
+		(at 254 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22ccd009-d8ee-4c73-a231-af41e3e28ee4")
+		(property "Reference" "U1"
+			(at 254 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4522-4ARUZ"
+			(at 254 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 252.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO quad operational amplifiers"
+			(at 254 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ff4e032-e625-4882-b7e3-d4b7448ca362")
+		)
+		(pin "14"
+			(uuid "a5bc470a-5640-4907-9a73-0a56ec95d6b7")
+		)
+		(pin "13"
+			(uuid "89db4c9a-02a6-45f8-afe8-d93613a1057d")
+		)
+		(pin "11"
+			(uuid "8219b8b8-7021-493d-bd1d-2e69e039c4ce")
+		)
+		(pin "6"
+			(uuid "102519b1-531e-472e-b6fc-59fcd4a4c0ed")
+		)
+		(pin "10"
+			(uuid "3f093ce4-2acc-4fb5-9c89-71fa967c9a55")
+		)
+		(pin "2"
+			(uuid "9ed98c91-8aa7-47ff-9545-e39a83c2673b")
+		)
+		(pin "9"
+			(uuid "1ce04639-577a-484d-b932-c462e4f747e8")
+		)
+		(pin "7"
+			(uuid "e342b108-0931-48ba-925c-16dd7f547ac2")
+		)
+		(pin "8"
+			(uuid "a2e6f13b-3cae-49a7-93f7-9391197d4ee3")
+		)
+		(pin "12"
+			(uuid "20e173b4-d397-4a96-af9d-c2aaa20ea513")
+		)
+		(pin "4"
+			(uuid "3beb9054-df37-4735-be52-903b2c190bdb")
+		)
+		(pin "5"
+			(uuid "534ddab1-bbfd-40ff-a845-be80a921b781")
+		)
+		(pin "3"
+			(uuid "f32958ce-01fc-46d4-aa66-f1830dccc250")
+		)
+		(instances
+			(project ""
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3402,7 +3402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "263a49a1-ae24-4243-ba77-56c7910c20fd")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 144.78 160.02 0)
 			(effects
 				(font
@@ -3505,7 +3505,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3521,7 +3521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2914c135-a9aa-41df-a6ae-72b616468aff")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 177.8 121.92 0)
 			(effects
 				(font
@@ -3571,7 +3571,7 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3587,7 +3587,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3750588e-4aca-44a9-9570-38ebbd754f51")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 292.1 104.14 90)
 			(effects
 				(font
@@ -3603,7 +3603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 292.1 112.268 90)
 			(effects
 				(font
@@ -3639,14 +3639,14 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ETH1CVOLT_A:+5VD_ISO")
+		(lib_id "ETH1CVOLT_A:+VD_ISO")
 		(at 153.67 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3655,7 +3655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4363aa85-c013-47f5-bc58-a26ee96be948")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 153.67 99.06 0)
 			(effects
 				(font
@@ -3664,7 +3664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD_ISO"
+		(property "Value" "+VD_ISO"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -3705,7 +3705,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3736,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 194.31 113.3348 0)
 			(effects
 				(font
@@ -3779,7 +3779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ETH1CVOLT_A:+5VD_ISO")
+		(lib_id "ETH1CVOLT_A:+VD_ISO")
 		(at 153.67 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3788,7 +3788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47153a0d-fe80-47a2-be98-75594ba99d82")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 153.67 162.56 0)
 			(effects
 				(font
@@ -3797,7 +3797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD_ISO"
+		(property "Value" "+VD_ISO"
 			(at 153.67 153.67 0)
 			(effects
 				(font
@@ -3838,8 +3838,218 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:ADA4522-4")
+		(at 27.94 265.43 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "611c05b8-d744-483f-9184-fe8d957a2475")
+		(property "Reference" "U1"
+			(at 26.67 264.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADA4522-4ARUZ"
+			(at 26.67 266.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 26.67 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
+			(at 29.21 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO quad operational amplifiers"
+			(at 27.94 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ff4e032-e625-4882-b7e3-d4b7448ca363")
+		)
+		(pin "14"
+			(uuid "a5bc470a-5640-4907-9a73-0a56ec95d6b8")
+		)
+		(pin "13"
+			(uuid "89db4c9a-02a6-45f8-afe8-d93613a1057e")
+		)
+		(pin "11"
+			(uuid "8219b8b8-7021-493d-bd1d-2e69e039c4cf")
+		)
+		(pin "6"
+			(uuid "102519b1-531e-472e-b6fc-59fcd4a4c0ee")
+		)
+		(pin "10"
+			(uuid "3f093ce4-2acc-4fb5-9c89-71fa967c9a56")
+		)
+		(pin "2"
+			(uuid "9ed98c91-8aa7-47ff-9545-e39a83c2673c")
+		)
+		(pin "9"
+			(uuid "1ce04639-577a-484d-b932-c462e4f747e9")
+		)
+		(pin "7"
+			(uuid "e342b108-0931-48ba-925c-16dd7f547ac3")
+		)
+		(pin "8"
+			(uuid "a2e6f13b-3cae-49a7-93f7-9391197d4ee4")
+		)
+		(pin "12"
+			(uuid "20e173b4-d397-4a96-af9d-c2aaa20ea514")
+		)
+		(pin "4"
+			(uuid "3beb9054-df37-4735-be52-903b2c190bdc")
+		)
+		(pin "5"
+			(uuid "534ddab1-bbfd-40ff-a845-be80a921b782")
+		)
+		(pin "3"
+			(uuid "f32958ce-01fc-46d4-aa66-f1830dccc251")
+		)
+		(instances
+			(project ""
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:ADA4522-4")
+		(at 193.04 97.79 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "740aebfa-9622-4603-9ef1-0d457711cf3a")
+		(property "Reference" "U1"
+			(at 193.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4522-4ARUZ"
+			(at 193.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 194.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO quad operational amplifiers"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ff4e032-e625-4882-b7e3-d4b7448ca364")
+		)
+		(pin "14"
+			(uuid "a5bc470a-5640-4907-9a73-0a56ec95d6b9")
+		)
+		(pin "13"
+			(uuid "89db4c9a-02a6-45f8-afe8-d93613a1057f")
+		)
+		(pin "11"
+			(uuid "8219b8b8-7021-493d-bd1d-2e69e039c4d0")
+		)
+		(pin "6"
+			(uuid "102519b1-531e-472e-b6fc-59fcd4a4c0ef")
+		)
+		(pin "10"
+			(uuid "3f093ce4-2acc-4fb5-9c89-71fa967c9a57")
+		)
+		(pin "2"
+			(uuid "9ed98c91-8aa7-47ff-9545-e39a83c2673d")
+		)
+		(pin "9"
+			(uuid "1ce04639-577a-484d-b932-c462e4f747ea")
+		)
+		(pin "7"
+			(uuid "e342b108-0931-48ba-925c-16dd7f547ac4")
+		)
+		(pin "8"
+			(uuid "a2e6f13b-3cae-49a7-93f7-9391197d4ee5")
+		)
+		(pin "12"
+			(uuid "20e173b4-d397-4a96-af9d-c2aaa20ea515")
+		)
+		(pin "4"
+			(uuid "3beb9054-df37-4735-be52-903b2c190bdd")
+		)
+		(pin "5"
+			(uuid "534ddab1-bbfd-40ff-a845-be80a921b783")
+		)
+		(pin "3"
+			(uuid "f32958ce-01fc-46d4-aa66-f1830dccc252")
+		)
+		(instances
+			(project ""
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -3854,7 +4064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "762f993b-4c53-45c2-8743-8e3ef5f9436d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -3904,7 +4114,7 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3920,7 +4130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "763a5743-bc61-4c94-bdcf-e927d193d5f4")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR01"
 			(at 25.4 261.62 0)
 			(effects
 				(font
@@ -3970,8 +4180,112 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR011")
+					(reference "#PWR01")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:ADA4522-4")
+		(at 306.07 120.65 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84275aab-8bed-475c-a606-3c9420925b68")
+		(property "Reference" "U1"
+			(at 306.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4522-4ARUZ"
+			(at 306.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 304.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
+			(at 307.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO quad operational amplifiers"
+			(at 306.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ff4e032-e625-4882-b7e3-d4b7448ca365")
+		)
+		(pin "14"
+			(uuid "a5bc470a-5640-4907-9a73-0a56ec95d6ba")
+		)
+		(pin "13"
+			(uuid "89db4c9a-02a6-45f8-afe8-d93613a10580")
+		)
+		(pin "11"
+			(uuid "8219b8b8-7021-493d-bd1d-2e69e039c4d1")
+		)
+		(pin "6"
+			(uuid "102519b1-531e-472e-b6fc-59fcd4a4c0f0")
+		)
+		(pin "10"
+			(uuid "3f093ce4-2acc-4fb5-9c89-71fa967c9a58")
+		)
+		(pin "2"
+			(uuid "9ed98c91-8aa7-47ff-9545-e39a83c2673e")
+		)
+		(pin "9"
+			(uuid "1ce04639-577a-484d-b932-c462e4f747eb")
+		)
+		(pin "7"
+			(uuid "e342b108-0931-48ba-925c-16dd7f547ac5")
+		)
+		(pin "8"
+			(uuid "a2e6f13b-3cae-49a7-93f7-9391197d4ee6")
+		)
+		(pin "12"
+			(uuid "20e173b4-d397-4a96-af9d-c2aaa20ea516")
+		)
+		(pin "4"
+			(uuid "3beb9054-df37-4735-be52-903b2c190bde")
+		)
+		(pin "5"
+			(uuid "534ddab1-bbfd-40ff-a845-be80a921b784")
+		)
+		(pin "3"
+			(uuid "f32958ce-01fc-46d4-aa66-f1830dccc253")
+		)
+		(instances
+			(project ""
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
+					(reference "U1")
+					(unit 2)
 				)
 			)
 		)
@@ -4058,7 +4372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dc655bb-359d-4821-9a96-398c8c01703c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR02"
 			(at 25.4 269.24 0)
 			(effects
 				(font
@@ -4108,7 +4422,7 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR013")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4124,7 +4438,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ec43c3b-777d-4ef9-887a-7ed620a4a27c")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 226.06 104.14 90)
 			(effects
 				(font
@@ -4140,7 +4454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 226.06 112.268 90)
 			(effects
 				(font
@@ -4176,7 +4490,7 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4186,13 +4500,13 @@
 		(lib_id "Amplifier_Operational:ADA4522-4")
 		(at 193.04 161.29 0)
 		(mirror y)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b0ee5b4d-238f-4159-b5c7-972cfd58d3a8")
-		(property "Reference" "U4"
+		(uuid "a3757735-efa3-4b56-92b8-d7250c0f739d")
+		(property "Reference" "U1"
 			(at 193.04 151.13 0)
 			(effects
 				(font
@@ -4200,7 +4514,7 @@
 				)
 			)
 		)
-		(property "Value" "ADA4522-4"
+		(property "Value" "ADA4522-4ARUZ"
 			(at 193.04 153.67 0)
 			(effects
 				(font
@@ -4208,7 +4522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 194.31 158.75 0)
 			(effects
 				(font
@@ -4235,53 +4549,53 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "6d26a70f-809d-450c-9306-9a8f14e5f845")
-		)
-		(pin "5"
-			(uuid "b166b93c-73af-43ae-bab7-59cb46428124")
-		)
 		(pin "1"
-			(uuid "b71b1504-bf6a-4976-bde4-50fee6145241")
+			(uuid "5ff4e032-e625-4882-b7e3-d4b7448ca366")
 		)
 		(pin "14"
-			(uuid "13846af8-4bc9-493e-9440-2217412d3321")
-		)
-		(pin "2"
-			(uuid "d89bf19b-daf0-4489-90dc-4e86b8f8e577")
-		)
-		(pin "3"
-			(uuid "e1d13959-125a-4f32-a072-e3330109760e")
-		)
-		(pin "7"
-			(uuid "024baee3-21f4-4543-a830-642df5a8feee")
+			(uuid "a5bc470a-5640-4907-9a73-0a56ec95d6bb")
 		)
 		(pin "13"
-			(uuid "3c00d180-586b-41b9-98ed-d8b04014ca97")
-		)
-		(pin "8"
-			(uuid "afc3d3a0-7230-4e16-a03b-4c90a78d7200")
-		)
-		(pin "9"
-			(uuid "df64f633-8b5b-4ed2-b61b-9ad830d30e9f")
-		)
-		(pin "12"
-			(uuid "08b48f47-9dc0-4776-abb2-f3996a7b0c4b")
+			(uuid "89db4c9a-02a6-45f8-afe8-d93613a10581")
 		)
 		(pin "11"
-			(uuid "0049db72-5e93-4887-9295-375f5e4ded6a")
+			(uuid "8219b8b8-7021-493d-bd1d-2e69e039c4d2")
+		)
+		(pin "6"
+			(uuid "102519b1-531e-472e-b6fc-59fcd4a4c0f1")
 		)
 		(pin "10"
-			(uuid "c9210609-eaa7-470d-af5a-77f1033942e9")
+			(uuid "3f093ce4-2acc-4fb5-9c89-71fa967c9a59")
+		)
+		(pin "2"
+			(uuid "9ed98c91-8aa7-47ff-9545-e39a83c2673f")
+		)
+		(pin "9"
+			(uuid "1ce04639-577a-484d-b932-c462e4f747ec")
+		)
+		(pin "7"
+			(uuid "e342b108-0931-48ba-925c-16dd7f547ac6")
+		)
+		(pin "8"
+			(uuid "a2e6f13b-3cae-49a7-93f7-9391197d4ee7")
+		)
+		(pin "12"
+			(uuid "20e173b4-d397-4a96-af9d-c2aaa20ea517")
 		)
 		(pin "4"
-			(uuid "3ad82a55-2bd3-4e37-9f6f-14ab55de4249")
+			(uuid "3beb9054-df37-4735-be52-903b2c190bdf")
+		)
+		(pin "5"
+			(uuid "534ddab1-bbfd-40ff-a845-be80a921b785")
+		)
+		(pin "3"
+			(uuid "f32958ce-01fc-46d4-aa66-f1830dccc254")
 		)
 		(instances
-			(project "ETH1CVOLT_B"
+			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "U4")
-					(unit 3)
+					(reference "U1")
+					(unit 4)
 				)
 			)
 		)
@@ -4296,7 +4610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b27facc0-3a90-4edd-97d8-e990ae876645")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 240.03 123.19 0)
 			(effects
 				(font
@@ -4347,7 +4661,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4362,7 +4676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2a493a9-55b2-4826-a011-b790905bac1c")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 144.78 96.52 0)
 			(effects
 				(font
@@ -4465,7 +4779,7 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4481,7 +4795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c49c87ae-af43-4e0b-8d81-4e33a7edb563")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 162.56 134.62 0)
 			(effects
 				(font
@@ -4531,111 +4845,7 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4522-4")
-		(at 254 120.65 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5cafb2f-e36d-4ea4-80ff-d47140453c5c")
-		(property "Reference" "U10"
-			(at 254 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4522-4"
-			(at 254 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO quad operational amplifiers"
-			(at 254 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "3e49ee37-05c4-4acc-a313-da4c00028231")
-		)
-		(pin "5"
-			(uuid "af296478-3774-409c-b4c1-e5c37eb9df88")
-		)
-		(pin "1"
-			(uuid "1b3af614-7d04-4932-9b97-80d03a9b10e8")
-		)
-		(pin "14"
-			(uuid "13846af8-4bc9-493e-9440-2217412d3321")
-		)
-		(pin "2"
-			(uuid "6fd9e114-4847-4583-b79e-6ffa07b02e83")
-		)
-		(pin "3"
-			(uuid "569e4df9-6280-4725-aca6-26925377907a")
-		)
-		(pin "7"
-			(uuid "e2c3c0a1-a9bf-4441-a8e4-ea05021cca2b")
-		)
-		(pin "13"
-			(uuid "3c00d180-586b-41b9-98ed-d8b04014ca97")
-		)
-		(pin "8"
-			(uuid "afc3d3a0-7230-4e16-a03b-4c90a78d7200")
-		)
-		(pin "9"
-			(uuid "df64f633-8b5b-4ed2-b61b-9ad830d30e9f")
-		)
-		(pin "12"
-			(uuid "08b48f47-9dc0-4776-abb2-f3996a7b0c4b")
-		)
-		(pin "11"
-			(uuid "0049db72-5e93-4887-9295-375f5e4ded6a")
-		)
-		(pin "10"
-			(uuid "c9210609-eaa7-470d-af5a-77f1033942e9")
-		)
-		(pin "4"
-			(uuid "3ad82a55-2bd3-4e37-9f6f-14ab55de4249")
-		)
-		(instances
-			(project ""
-				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "U10")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4651,7 +4861,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cd6b4d91-f472-4d61-a3ca-b747b54dfe2f")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 238.76 104.14 90)
 			(effects
 				(font
@@ -4667,7 +4877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 238.76 112.268 90)
 			(effects
 				(font
@@ -4703,14 +4913,14 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ETH1CVOLT_A:+5VA_ISO")
+		(lib_id "ETH1CVOLT_A:+VA_ISO")
 		(at 165.1 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4719,7 +4929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb83cfe-51a9-41d3-bbc5-ded59f7defea")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 165.1 162.56 0)
 			(effects
 				(font
@@ -4728,7 +4938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA_ISO"
+		(property "Value" "+VA_ISO"
 			(at 165.1 153.67 0)
 			(effects
 				(font
@@ -4769,7 +4979,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4852,7 +5062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e40d171d-74e4-46c8-a8a6-cf7a24c4d529")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 177.8 185.42 0)
 			(effects
 				(font
@@ -4902,112 +5112,8 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4522-4")
-		(at 306.07 120.65 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5872f56-1dca-4a89-9553-6aa3efa20b29")
-		(property "Reference" "U3"
-			(at 306.07 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4522-4"
-			(at 306.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
-			(at 307.34 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO quad operational amplifiers"
-			(at 306.07 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "3e49ee37-05c4-4acc-a313-da4c00028231")
-		)
-		(pin "5"
-			(uuid "af296478-3774-409c-b4c1-e5c37eb9df88")
-		)
-		(pin "1"
-			(uuid "b71b1504-bf6a-4976-bde4-50fee6145241")
-		)
-		(pin "14"
-			(uuid "13846af8-4bc9-493e-9440-2217412d3321")
-		)
-		(pin "2"
-			(uuid "d89bf19b-daf0-4489-90dc-4e86b8f8e577")
-		)
-		(pin "3"
-			(uuid "e1d13959-125a-4f32-a072-e3330109760e")
-		)
-		(pin "7"
-			(uuid "e2c3c0a1-a9bf-4441-a8e4-ea05021cca2b")
-		)
-		(pin "13"
-			(uuid "3c00d180-586b-41b9-98ed-d8b04014ca97")
-		)
-		(pin "8"
-			(uuid "afc3d3a0-7230-4e16-a03b-4c90a78d7200")
-		)
-		(pin "9"
-			(uuid "df64f633-8b5b-4ed2-b61b-9ad830d30e9f")
-		)
-		(pin "12"
-			(uuid "08b48f47-9dc0-4776-abb2-f3996a7b0c4b")
-		)
-		(pin "11"
-			(uuid "0049db72-5e93-4887-9295-375f5e4ded6a")
-		)
-		(pin "10"
-			(uuid "c9210609-eaa7-470d-af5a-77f1033942e9")
-		)
-		(pin "4"
-			(uuid "3ad82a55-2bd3-4e37-9f6f-14ab55de4249")
-		)
-		(instances
-			(project "ETH1CVOLT_B"
-				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "U3")
-					(unit 2)
 				)
 			)
 		)
@@ -5022,7 +5128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebddfd47-4d82-4a04-9c25-fbe71b92a287")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 223.52 167.64 90)
 			(effects
 				(font
@@ -5038,7 +5144,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.52 175.768 90)
 			(effects
 				(font
@@ -5074,7 +5180,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5148,109 +5254,6 @@
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
 					(reference "RN1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4522-4")
-		(at 27.94 265.43 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd2033ee-2573-44e7-828c-0113e2ee431a")
-		(property "Reference" "U4"
-			(at 31.75 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4522-4"
-			(at 33.02 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
-			(at 29.21 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO quad operational amplifiers"
-			(at 27.94 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "12620624-c688-4fe9-911f-a956c5660998")
-		)
-		(pin "5"
-			(uuid "9f2f7cb0-8d02-45d1-bc77-1fa0bc98c3e9")
-		)
-		(pin "1"
-			(uuid "b71b1504-bf6a-4976-bde4-50fee6145241")
-		)
-		(pin "14"
-			(uuid "13846af8-4bc9-493e-9440-2217412d3321")
-		)
-		(pin "2"
-			(uuid "d89bf19b-daf0-4489-90dc-4e86b8f8e577")
-		)
-		(pin "3"
-			(uuid "e1d13959-125a-4f32-a072-e3330109760e")
-		)
-		(pin "7"
-			(uuid "065b978d-7656-4b1b-9199-054427f3eff0")
-		)
-		(pin "13"
-			(uuid "3c00d180-586b-41b9-98ed-d8b04014ca97")
-		)
-		(pin "8"
-			(uuid "afc3d3a0-7230-4e16-a03b-4c90a78d7200")
-		)
-		(pin "9"
-			(uuid "df64f633-8b5b-4ed2-b61b-9ad830d30e9f")
-		)
-		(pin "12"
-			(uuid "08b48f47-9dc0-4776-abb2-f3996a7b0c4b")
-		)
-		(pin "11"
-			(uuid "0049db72-5e93-4887-9295-375f5e4ded6a")
-		)
-		(pin "10"
-			(uuid "c9210609-eaa7-470d-af5a-77f1033942e9")
-		)
-		(pin "4"
-			(uuid "3ad82a55-2bd3-4e37-9f6f-14ab55de4249")
-		)
-		(instances
-			(project "ETH1CVOLT_B"
-				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/e070f8b0-b8ae-4993-be35-2bc92e042c0e"
-					(reference "U4")
-					(unit 5)
 				)
 			)
 		)

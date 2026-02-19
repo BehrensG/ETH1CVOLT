@@ -639,20 +639,12 @@
       "Power Isolated"
     ],
     [
-      "1d747a36-5c92-45f1-93fa-e53d9a23d71f",
-      "UCC25800_1"
-    ],
-    [
-      "68615744-92a5-42c5-912b-e5cadd1d46eb",
-      "UCC25800_2"
-    ],
-    [
-      "e7ed1b5e-dfb6-443d-bd3c-6f84d66c1622",
-      "UCC25800_3"
-    ],
-    [
       "6d967ebd-a46f-4449-b98b-985b0576b4a9",
       "Medium Voltage"
+    ],
+    [
+      "2ca714ab-eaa4-47e2-8e62-bcadfa00e38a",
+      "DC-DC Isolated"
     ],
     [
       "7836756d-300e-4359-bd0e-a42b608a3735",

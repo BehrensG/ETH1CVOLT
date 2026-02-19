@@ -321,7 +321,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ETH1CVOLT_A:+5VD_ISO"
+		(symbol "ETH1CVOLT_A:+VD_ISO"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -342,7 +342,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5VD_ISO"
+			(property "Value" "+VD_ISO"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -386,7 +386,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5VD_ISO_0_1"
+			(symbol "+VD_ISO_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -424,7 +424,7 @@
 					)
 				)
 			)
-			(symbol "+5VD_ISO_1_1"
+			(symbol "+VD_ISO_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2626,7 +2626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "105d12fb-3851-412f-8f22-73486ed8b983")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0165"
 			(at 209.55 123.19 0)
 			(effects
 				(font
@@ -2676,14 +2676,14 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0174")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ETH1CVOLT_A:+5VD_ISO")
+		(lib_id "ETH1CVOLT_A:+VD_ISO")
 		(at 209.55 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2692,7 +2692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "132e510e-0afc-442e-9eb6-6a9c2b03f459")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0166"
 			(at 209.55 143.51 0)
 			(effects
 				(font
@@ -2701,7 +2701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD_ISO"
+		(property "Value" "+VD_ISO"
 			(at 209.55 134.62 0)
 			(effects
 				(font
@@ -2742,7 +2742,7 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR094")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -2758,7 +2758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c5d152e-e18b-4f6e-8c14-f0350f0ea4c9")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0160"
 			(at 199.39 85.09 0)
 			(effects
 				(font
@@ -2808,7 +2808,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0169")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -2824,7 +2824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53941f67-b32f-4938-b835-031408c4f07f")
-		(property "Reference" "U19"
+		(property "Reference" "U18"
 			(at 211.6933 138.43 0)
 			(effects
 				(font
@@ -2921,7 +2921,7 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "U19")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -2937,7 +2937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f307618-ed5c-4990-900b-1e11e8133901")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0163"
 			(at 199.39 181.61 0)
 			(effects
 				(font
@@ -2987,7 +2987,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0172")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -3003,7 +3003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a014dc8d-2a37-4ee9-84cd-80bbcc0a1599")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0162"
 			(at 199.39 143.51 0)
 			(effects
 				(font
@@ -3053,7 +3053,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0171")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -3155,7 +3155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b01f58a7-a0bf-4615-a553-03860f7bb8be")
-		(property "Reference" "U18"
+		(property "Reference" "U17"
 			(at 211.6933 80.01 0)
 			(effects
 				(font
@@ -3252,7 +3252,7 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "U18")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -3354,7 +3354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dad9a096-a7f9-43f0-90db-199ad3e71198")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0161"
 			(at 199.39 123.19 0)
 			(effects
 				(font
@@ -3404,14 +3404,14 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0170")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ETH1CVOLT_A:+5VD_ISO")
+		(lib_id "ETH1CVOLT_A:+VD_ISO")
 		(at 209.55 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3420,7 +3420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e47f50a5-c24f-4b13-817d-c2b698b97708")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0164"
 			(at 209.55 85.09 0)
 			(effects
 				(font
@@ -3429,7 +3429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD_ISO"
+		(property "Value" "+VD_ISO"
 			(at 209.55 76.2 0)
 			(effects
 				(font
@@ -3470,7 +3470,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR098")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -3486,7 +3486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7287c60-c590-49c3-871d-0ada378ad57b")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0167"
 			(at 209.55 181.61 0)
 			(effects
 				(font
@@ -3536,7 +3536,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/62dce88f-62ee-4857-96f3-986f7b276210"
-					(reference "#PWR0176")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
