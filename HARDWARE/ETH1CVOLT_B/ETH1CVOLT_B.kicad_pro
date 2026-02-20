@@ -677,6 +677,14 @@
     [
       "6ad06e4a-63e7-4d21-8547-f0ec75510858",
       "Current Measurement"
+    ],
+    [
+      "469ac50f-2ff0-4faa-9752-d5c2efbef628",
+      "Connectors Output"
+    ],
+    [
+      "fc485c76-3c3b-4e17-9525-ece6a0f7038f",
+      "Connectors Input"
     ]
   ],
   "text_variables": {}

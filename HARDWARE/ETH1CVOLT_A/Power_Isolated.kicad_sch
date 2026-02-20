@@ -5,9 +5,29 @@
 	(uuid "c7ad436e-1c7d-43f1-821e-d5ce146c7a04")
 	(paper "A3")
 	(lib_symbols)
+	(polyline
+		(pts
+			(xy 158.75 15.24) (xy 158.75 76.2)
+		)
+		(stroke
+			(width 1)
+			(type dash)
+		)
+		(uuid "6a7bafab-a956-4eb3-a85e-0dac3e04210d")
+	)
+	(polyline
+		(pts
+			(xy 158.75 204.47) (xy 158.75 280.67)
+		)
+		(stroke
+			(width 1)
+			(type dash)
+		)
+		(uuid "9d3ba39c-4212-4950-90df-4432b4de056e")
+	)
 	(sheet
-		(at 69.85 85.09)
-		(size 101.6 69.85)
+		(at 106.68 80.01)
+		(size 101.6 119.38)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +42,7 @@
 		)
 		(uuid "2ca714ab-eaa4-47e2-8e62-bcadfa00e38a")
 		(property "Sheetname" "DC-DC Isolated"
-			(at 69.85 84.3784 0)
+			(at 106.68 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +51,7 @@
 			)
 		)
 		(property "Sheetfile" "DC_DC_Isolated.kicad_sch"
-			(at 69.85 155.5246 0)
+			(at 106.68 199.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +68,8 @@
 		)
 	)
 	(sheet
-		(at 213.36 85.09)
-		(size 88.9 48.26)
+		(at 217.17 121.92)
+		(size 101.6 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +84,7 @@
 		)
 		(uuid "6d967ebd-a46f-4449-b98b-985b0576b4a9")
 		(property "Sheetname" "Medium Voltage"
-			(at 213.36 84.3784 0)
+			(at 217.17 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +93,7 @@
 			)
 		)
 		(property "Sheetfile" "Medium_Voltage.kicad_sch"
-			(at 213.36 133.9346 0)
+			(at 217.17 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,8 +110,8 @@
 		)
 	)
 	(sheet
-		(at 213.36 25.4)
-		(size 88.9 52.07)
+		(at 217.17 80.01)
+		(size 101.6 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +126,7 @@
 		)
 		(uuid "7836756d-300e-4359-bd0e-a42b608a3735")
 		(property "Sheetname" "Low Voltage"
-			(at 213.36 24.6884 0)
+			(at 217.17 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +135,7 @@
 			)
 		)
 		(property "Sheetfile" "Low_Voltage.kicad_sch"
-			(at 213.36 78.0546 0)
+			(at 217.17 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,8 +152,8 @@
 		)
 	)
 	(sheet
-		(at 228.6 161.29)
-		(size 124.46 66.04)
+		(at 217.17 163.83)
+		(size 101.6 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -148,7 +168,7 @@
 		)
 		(uuid "af66c62a-bba3-4457-94b1-d4b2bf9780de")
 		(property "Sheetname" "High Voltage"
-			(at 228.6 160.5784 0)
+			(at 217.17 163.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +177,7 @@
 			)
 		)
 		(property "Sheetfile" "High_Voltage.kicad_sch"
-			(at 228.6 227.9146 0)
+			(at 217.17 199.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

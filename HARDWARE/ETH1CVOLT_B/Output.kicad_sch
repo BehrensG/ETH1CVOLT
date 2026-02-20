@@ -5,7 +5,131 @@
 	(uuid "6aab498a-72b6-4610-9743-2c941dec5df9")
 	(paper "A3")
 	(lib_symbols
-		(symbol "ETH1CVOLT_A:GND_ISO"
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ETH1CVOLT_A:+VD_ISO"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -18,7 +142,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,8 +150,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND_ISO"
-				(at 0 -3.81 0)
+			(property "Value" "+VD_ISO"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -52,7 +176,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,10 +194,34 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_ISO_0_1"
+			(symbol "+VD_ISO_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -84,9 +232,9 @@
 					)
 				)
 			)
-			(symbol "GND_ISO_1_1"
+			(symbol "+VD_ISO_1_1"
 				(pin power_in line
-					(at 0 0 270)
+					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -654,6 +802,45 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "+/-20V"
+		(exclude_from_sim no)
+		(at 182.88 83.82 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "a998ed17-b169-43ff-a627-186f7e6678a1")
+	)
+	(text "+/-100V"
+		(exclude_from_sim no)
+		(at 184.15 160.02 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "c8b79980-5489-4fec-940d-191a30643c1e")
+	)
+	(text "+/-40V"
+		(exclude_from_sim no)
+		(at 182.88 119.38 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "e6710686-e10d-45b9-ae55-25d25f51d97b")
+	)
 	(junction
 		(at 228.6 121.92)
 		(diameter 0)
@@ -698,13 +885,23 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 196.85 86.36)
+			(xy 171.45 86.36) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ffa4404-4f1a-46ed-8484-65de1c90fcd8")
+	)
+	(wire
+		(pts
+			(xy 196.85 104.14) (xy 196.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "335352e2-8f3a-4143-a927-7377876825dc")
 	)
 	(wire
 		(pts
@@ -728,6 +925,46 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 104.14) (xy 201.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddc12c2-8325-4d8e-93f1-1578fb60c000")
+	)
+	(wire
+		(pts
+			(xy 189.23 181.61) (xy 196.85 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8a608f-f4cf-43a8-8d11-373b781006ea")
+	)
+	(wire
+		(pts
+			(xy 207.01 105.41) (xy 201.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50efe41e-271e-4542-8a33-ad307dfde652")
+	)
+	(wire
+		(pts
+			(xy 180.34 140.97) (xy 181.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e947a7-8d5e-4498-b73f-55ea4dd67bf0")
+	)
+	(wire
+		(pts
 			(xy 201.93 121.92) (xy 201.93 124.46)
 		)
 		(stroke
@@ -735,6 +972,26 @@
 			(type default)
 		)
 		(uuid "55bec1bc-ea9f-432a-9669-b72e8df1f8b7")
+	)
+	(wire
+		(pts
+			(xy 201.93 180.34) (xy 201.93 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5886a08b-8366-427b-a929-c578f24a76e0")
+	)
+	(wire
+		(pts
+			(xy 196.85 180.34) (xy 196.85 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f63b964-f5fa-49c2-bf6a-6cf51c7a8025")
 	)
 	(wire
 		(pts
@@ -748,6 +1005,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 140.97) (xy 201.93 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e564ce-d644-4965-86fc-3caa005f3e5e")
+	)
+	(wire
+		(pts
 			(xy 196.85 162.56) (xy 196.85 165.1)
 		)
 		(stroke
@@ -758,13 +1025,43 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 162.56) (xy 196.85 162.56)
+			(xy 171.45 162.56) (xy 196.85 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7702c813-e2b3-4ab9-bfc9-a6ab6d327c8c")
+	)
+	(wire
+		(pts
+			(xy 180.34 105.41) (xy 181.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a1e068-869e-4885-9ca4-564590ff8659")
+	)
+	(wire
+		(pts
+			(xy 189.23 105.41) (xy 196.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9b4089-3d45-4136-a17a-e388962f6cf2")
+	)
+	(wire
+		(pts
+			(xy 196.85 139.7) (xy 196.85 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817c75d4-3bc5-4337-9804-29e5339fda76")
 	)
 	(wire
 		(pts
@@ -798,13 +1095,53 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 121.92) (xy 196.85 121.92)
+			(xy 180.34 181.61) (xy 181.61 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af07622b-31af-4e23-8feb-b46cc0ee966d")
+	)
+	(wire
+		(pts
+			(xy 171.45 121.92) (xy 196.85 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b1f5dfa3-9892-46a3-9561-5d470e733318")
+	)
+	(wire
+		(pts
+			(xy 189.23 140.97) (xy 196.85 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b7fb42-c3c0-40bc-b57d-5d2d3f2bb9ef")
+	)
+	(wire
+		(pts
+			(xy 201.93 139.7) (xy 201.93 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b569ac-9aa0-44e6-b2e5-e3da7649bbd1")
+	)
+	(wire
+		(pts
+			(xy 207.01 181.61) (xy 201.93 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5bce250-4b0b-42b0-8001-c140a3cc1429")
 	)
 	(wire
 		(pts
@@ -818,7 +1155,7 @@
 	)
 	(hierarchical_label "HV_OUTPUT"
 		(shape input)
-		(at 182.88 162.56 180)
+		(at 171.45 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -827,9 +1164,20 @@
 		)
 		(uuid "0470241b-975d-4773-bc01-bd5c62f3e37a")
 	)
+	(hierarchical_label "LV_OUT_PMOS"
+		(shape input)
+		(at 207.01 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3eae3650-c652-4d90-9564-3d1e6ac0102e")
+	)
 	(hierarchical_label "LV_OUTPUT"
 		(shape input)
-		(at 182.88 86.36 180)
+		(at 171.45 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -838,9 +1186,20 @@
 		)
 		(uuid "7961f598-af69-4448-8a6c-84e447988ecf")
 	)
+	(hierarchical_label "MV_OUT_PMOS"
+		(shape input)
+		(at 207.01 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8a1cb31-83be-477b-9ebc-8cac830fb802")
+	)
 	(hierarchical_label "MV_OUTPUT"
 		(shape input)
-		(at 182.88 121.92 180)
+		(at 171.45 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -860,6 +1219,17 @@
 		)
 		(uuid "ebdffddf-90c7-4edd-9c71-1ad358460477")
 	)
+	(hierarchical_label "HV_OUT_PMOS"
+		(shape input)
+		(at 207.01 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f07e4215-4109-477e-88e0-8e3afdd11338")
+	)
 	(symbol
 		(lib_id "Relay_SolidState:CPC1010N")
 		(at 199.39 96.52 90)
@@ -870,7 +1240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06c3c1d3-832d-4d7c-a4d5-584ca742d0e6")
-		(property "Reference" "U20"
+		(property "Reference" "U24"
 			(at 204.47 95.2499 90)
 			(effects
 				(font
@@ -931,24 +1301,24 @@
 		(instances
 			(project ""
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/81c204f4-2589-4141-915e-6bfa5a3fd9a1"
-					(reference "U20")
+					(reference "U24")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 201.93 104.14 0)
+		(lib_id "ETH1CVOLT_A:+VD_ISO")
+		(at 180.34 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a7c51f0-e8d2-4291-a48f-b22fd2b58fa0")
-		(property "Reference" "#PWR0102"
-			(at 201.93 110.49 0)
+		(uuid "11d5fcb2-e5e3-434b-a2a8-524c98c0509f")
+		(property "Reference" "#PWR073"
+			(at 184.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,16 +1326,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_ISO"
-			(at 201.93 109.22 0)
+		(property "Value" "+VD_ISO"
+			(at 176.53 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 104.14 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +1345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 104.14 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,8 +1353,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 104.14 0)
+		(property "Description" "Power symbol"
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,12 +1363,215 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b4c4067-a792-4228-ad88-7f8fe31afdf7")
+			(uuid "f6f1d057-0012-4f3c-89ce-8a733daf319a")
 		)
 		(instances
-			(project ""
+			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/81c204f4-2589-4141-915e-6bfa5a3fd9a1"
-					(reference "#PWR0102")
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.42 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21140a7b-208b-48f5-9cd1-c1d8b3b8f353")
+		(property "Reference" "R65"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k/0.1%"
+			(at 185.42 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.42 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69433244-8c63-4c4c-b526-626b2ddf26a8")
+		)
+		(pin "2"
+			(uuid "9d9501c9-78ab-4e80-b020-9255d7c9866e")
+		)
+		(instances
+			(project "ETH1CVOLT_B"
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/81c204f4-2589-4141-915e-6bfa5a3fd9a1"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.42 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2da44ab1-8a43-4947-a14b-88782661c542")
+		(property "Reference" "R67"
+			(at 185.42 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k/0.1%"
+			(at 185.42 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.42 183.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e953f849-4d64-4707-a7c4-5bf423d6dc20")
+		)
+		(pin "2"
+			(uuid "dce7eb34-3eb7-4aad-aa1b-dee1bb8e5e88")
+		)
+		(instances
+			(project "ETH1CVOLT_B"
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/81c204f4-2589-4141-915e-6bfa5a3fd9a1"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ETH1CVOLT_A:+VD_ISO")
+		(at 180.34 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58abfda4-af2b-402c-9914-bbc06d08e2ba")
+		(property "Reference" "#PWR060"
+			(at 184.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VD_ISO"
+			(at 176.53 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 180.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bd94817-d919-4ae9-84b2-5b0171b8c9b1")
+		)
+		(instances
+			(project "ETH1CVOLT_B"
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/81c204f4-2589-4141-915e-6bfa5a3fd9a1"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1013,7 +1587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f76802c-b644-4c42-a703-1e88c59d6976")
-		(property "Reference" "U21"
+		(property "Reference" "U25"
 			(at 204.47 130.8099 90)
 			(effects
 				(font
@@ -1074,24 +1648,24 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/81c204f4-2589-4141-915e-6bfa5a3fd9a1"
-					(reference "U21")
+					(reference "U25")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 201.93 139.7 0)
+		(lib_id "ETH1CVOLT_A:+VD_ISO")
+		(at 180.34 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "924682b5-f92a-4bb6-b49b-052844091ce2")
-		(property "Reference" "#PWR0103"
-			(at 201.93 146.05 0)
+		(uuid "a4611c5f-ddbd-4887-9158-6d23e9891778")
+		(property "Reference" "#PWR059"
+			(at 184.15 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,16 +1673,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_ISO"
-			(at 201.93 144.78 0)
+		(property "Value" "+VD_ISO"
+			(at 176.53 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 139.7 0)
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 139.7 0)
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,8 +1700,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 139.7 0)
+		(property "Description" "Power symbol"
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,12 +1710,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a746c25-54d7-4b52-9e4b-716b1771efc6")
+			(uuid "e12ce71c-f7b0-41f7-9910-64d640b42de2")
 		)
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/81c204f4-2589-4141-915e-6bfa5a3fd9a1"
-					(reference "#PWR0103")
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.42 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae3ba916-753b-4f51-ab49-66c9b2385e91")
+		(property "Reference" "R66"
+			(at 185.42 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k/0.1%"
+			(at 185.42 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.42 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f9076a3-2f19-4a8d-a586-c0b4f3736391")
+		)
+		(pin "2"
+			(uuid "50bea5a2-1d7c-40a1-baf8-1f4d60d04fe5")
+		)
+		(instances
+			(project "ETH1CVOLT_B"
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/81c204f4-2589-4141-915e-6bfa5a3fd9a1"
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -1156,7 +1799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba710b49-79ed-4ff1-8c95-418bbc0b2d65")
-		(property "Reference" "U22"
+		(property "Reference" "U26"
 			(at 204.47 171.4499 90)
 			(effects
 				(font
@@ -1217,73 +1860,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/81c204f4-2589-4141-915e-6bfa5a3fd9a1"
-					(reference "U22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 201.93 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6683462-54b2-43fc-b981-89e06847eb23")
-		(property "Reference" "#PWR0104"
-			(at 201.93 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_ISO"
-			(at 201.93 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "632a54b0-541f-4640-9bfa-9b92a1698452")
-		)
-		(instances
-			(project "ETH1CVOLT_B"
-				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/81c204f4-2589-4141-915e-6bfa5a3fd9a1"
-					(reference "#PWR0104")
+					(reference "U26")
 					(unit 1)
 				)
 			)
