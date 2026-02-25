@@ -627,7 +627,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AD8236"
+	(symbol "AD8221ARM "
 		(pin_names
 			(offset 0.127)
 		)
@@ -642,7 +642,7 @@
 				)
 			)
 		)
-		(property "Value" "AD8236"
+		(property "Value" "AD8221ARM"
 			(at 3.81 5.08 0)
 			(effects
 				(font
@@ -650,7 +650,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at -7.62 0 0)
 			(effects
 				(font
@@ -659,7 +659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8236.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8221.pdf"
 			(at 8.89 -10.16 0)
 			(effects
 				(font
@@ -668,7 +668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single 40 μA Micropower Instrumentation Amplifier with Zero Crossover Distortion, MSOP-8"
+		(property "Description" "Precision Instrumentation Amplifier"
 			(at 0 0 0)
 			(effects
 				(font
@@ -695,7 +695,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AD8236_0_1"
+		(symbol "AD8221ARM _0_1"
 			(polyline
 				(pts
 					(xy -7.62 7.62) (xy -7.62 -7.62) (xy 7.62 0) (xy -7.62 7.62)
@@ -709,7 +709,7 @@
 				)
 			)
 		)
-		(symbol "AD8236_1_1"
+		(symbol "AD8221ARM _1_1"
 			(pin input line
 				(at -10.16 5.08 0)
 				(length 2.54)

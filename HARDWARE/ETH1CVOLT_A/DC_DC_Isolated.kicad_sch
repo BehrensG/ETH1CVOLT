@@ -1157,6 +1157,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 190.5 132.08)
@@ -1534,6 +1635,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 120.65) (xy 190.5 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98016a79-0025-4499-90fd-ac4926f36140")
+	)
+	(wire
+		(pts
 			(xy 129.54 130.81) (xy 129.54 132.08)
 		)
 		(stroke
@@ -1762,6 +1873,96 @@
 		)
 		(uuid "fe14d6ae-721d-4b87-b7cc-c831cc689ad4")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 13.97 17.78) (xy 213.36 17.78) (xy 213.36 283.21) (xy 13.97 282.575)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 5d4667b1-29c9-40d7-9b38-1db7553f8384)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 220.98 17.78) (xy 220.98 283.21) (xy 298.45 283.21) (xy 298.45 251.46) (xy 406.4 251.46) (xy 406.4 17.78)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid c41a72e9-4d4a-4885-970b-23557acde4a7)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 13.97 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45dcfeab-5d20-40de-8cef-ded1f3963a2a")
+		(property "Netclass" "DIR"
+			(at 15.24 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" "DIR"
+			(at -603.25 -134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 220.98 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2a004bb-205e-4ce3-ac1a-01760a43c0c7")
+		(property "Netclass" "ISO"
+			(at 222.25 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" "ISO"
+			(at -396.24 -134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:L")
 		(at 177.8 121.92 90)
@@ -1788,7 +1989,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1CVOLT_A:744774022"
 			(at 177.8 121.92 0)
 			(effects
 				(font
@@ -1915,7 +2116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u/50V"
+		(property "Value" "10u/100V"
 			(at 238.76 128.2699 0)
 			(effects
 				(font
@@ -2128,7 +2329,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1CVOLT_A:744774022"
 			(at 119.38 121.92 0)
 			(effects
 				(font
@@ -2461,7 +2662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u/50V"
+		(property "Value" "10u/100V"
 			(at 168.91 128.2699 0)
 			(effects
 				(font
@@ -2531,7 +2732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7/50V"
+		(property "Value" "4u7/100V"
 			(at 255.27 128.2699 0)
 			(effects
 				(font
@@ -2671,7 +2872,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u/50V"
+		(property "Value" "10u/100V"
 			(at 194.31 128.2699 0)
 			(effects
 				(font
@@ -2717,6 +2918,72 @@
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/2ca714ab-eaa4-47e2-8e62-bcadfa00e38a"
 					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 190.5 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddf1ad4d-be1c-4144-81ca-afae0c7545d2")
+		(property "Reference" "#FLG021"
+			(at 190.5 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 190.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "555c1d36-bcc4-445a-8d3f-65096d2f3ba9")
+		)
+		(instances
+			(project ""
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/2ca714ab-eaa4-47e2-8e62-bcadfa00e38a"
+					(reference "#FLG021")
 					(unit 1)
 				)
 			)
@@ -2814,7 +3081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1CVOLT_A:744774022"
 			(at 119.38 132.08 0)
 			(effects
 				(font

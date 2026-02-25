@@ -473,14 +473,830 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "DIR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.2,
+        "microvia_drill": 0.2,
+        "name": "ISO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.2,
+        "via_drill": 0.2,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "+110V_ISO": [
+        "ISO"
+      ],
+      "+21V_ISO": [
+        "ISO"
+      ],
+      "+24V": [
+        "DIR"
+      ],
+      "+24V_ISO": [
+        "ISO"
+      ],
+      "+3.3V": [
+        "DIR",
+        "ISO"
+      ],
+      "+44V_ISO": [
+        "ISO"
+      ],
+      "+5VD_ISO": [
+        "ISO"
+      ],
+      "+7V_ISO": [
+        "ISO"
+      ],
+      "+VA_ISO": [
+        "ISO"
+      ],
+      "+VD_ISO": [
+        "ISO"
+      ],
+      "-110V_ISO": [
+        "ISO"
+      ],
+      "-21V_ISO": [
+        "ISO"
+      ],
+      "-41V_ISO": [
+        "ISO"
+      ],
+      "/Block Diagram/Ethernet/ETH_RXN": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/ETH_RXP": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/ETH_TXN": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/ETH_TXP": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/LED1": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/LED2": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/MODE0": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/MODE1": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/MODE2": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/REFCLK0": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/REF_CLK": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/RMII_CRS_DV": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/RMII_MDC": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/RMII_MDIO": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/RMII_RXD0": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/RMII_RXD1": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/RMII_TXD0": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/RMII_TXD1": [
+        "DIR"
+      ],
+      "/Block Diagram/Ethernet/RMII_TXEN": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/ADC_CURR_SCLK": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/ADC_CURR_SDI": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/ADC_CURR_SDO": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/ADC_CURR_~{CS}": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/ADC_VOLT_SCLK": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/ADC_VOLT_SDO": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/ADC_VOLT_~{CS}": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/AUX_SEL": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/DAC_SCLK": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/DAC_SDIN": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/DAC_SDO": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/DAC_~{SYNC}": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/HV_OUT_PMOS": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/LV_OUT_PMOS": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/MCU_ADC_CURR_SCLK": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_ADC_CURR_SDI": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_ADC_CURR_SDO": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_ADC_CURR_~{CS}": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_ADC_VOLT_SCLK": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_ADC_VOLT_SDO": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_ADC_VOLT_~{CS}": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_AUX_SEL": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_DAC_SCLK": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_DAC_SDIN": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_DAC_SDO": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_DAC_~{SYNC}": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_HV_OUT_PMOS": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_LV_OUT_PMOS": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_MUX_A0": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_MUX_A1": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_MV_OUT_PMOS": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_SEL_x1": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_SEL_x10": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MCU_SEL_x100": [
+        "DIR"
+      ],
+      "/Block Diagram/Isolation IO/MUX_A0": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/MUX_A1": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/MV_OUT_PMOS": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/SEL_x1": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/SEL_x10": [
+        "ISO"
+      ],
+      "/Block Diagram/Isolation IO/SEL_x100": [
+        "ISO"
+      ],
+      "/Block Diagram/MCU/EEPROM_nWP": [
+        "DIR"
+      ],
+      "/Block Diagram/MCU/I2C1_SCL": [
+        "DIR"
+      ],
+      "/Block Diagram/MCU/I2C1_SDA": [
+        "DIR"
+      ],
+      "/Block Diagram/MCU/MCU_DEF": [
+        "DIR"
+      ],
+      "/Block Diagram/MCU/MCU_OUTPUT_RL_CTR": [
+        "DIR"
+      ],
+      "/Block Diagram/MCU/NRST": [
+        "DIR"
+      ],
+      "/Block Diagram/MCU/TCK_SWCLK": [
+        "DIR"
+      ],
+      "/Block Diagram/MCU/TMS_SWDIO": [
+        "DIR"
+      ],
+      "/Block Diagram/Output/MCU_OUTPUT_RL_CTR": [
+        "DIR"
+      ],
+      "/Block Diagram/Output/OUTPUT+": [
+        "ISO"
+      ],
+      "/Block Diagram/Output/OUTPUT-": [
+        "ISO"
+      ],
+      "/Block Diagram/Power/Power Isolated/High Voltage/+HV1": [
+        "ISO"
+      ],
+      "/Block Diagram/Power/Power Isolated/High Voltage/+HV2": [
+        "ISO"
+      ],
+      "/Block Diagram/Power/Power Isolated/High Voltage/+HV3": [
+        "ISO"
+      ],
+      "/Block Diagram/Power/Power Isolated/High Voltage/+HV4": [
+        "ISO"
+      ],
+      "/Block Diagram/Power/Power Isolated/High Voltage/-HV1": [
+        "ISO"
+      ],
+      "/Block Diagram/Power/Power Isolated/High Voltage/-HV2": [
+        "ISO"
+      ],
+      "/Block Diagram/Power/Power Isolated/High Voltage/-HV3": [
+        "ISO"
+      ],
+      "/Block Diagram/Power/Power Isolated/High Voltage/-HV4": [
+        "ISO"
+      ],
+      "Earth": [
+        "DIR"
+      ],
+      "GND": [
+        "DIR",
+        "ISO"
+      ],
+      "GND_ISO": [
+        "ISO"
+      ],
+      "Net-(C114-Pad1)": [
+        "DIR"
+      ],
+      "Net-(C13-Pad1)": [
+        "DIR"
+      ],
+      "Net-(C15-Pad1)": [
+        "DIR"
+      ],
+      "Net-(C96-Pad1)": [
+        "ISO"
+      ],
+      "Net-(C97-Pad1)": [
+        "ISO"
+      ],
+      "Net-(D1-A)": [
+        "DIR"
+      ],
+      "Net-(D10-A)": [
+        "ISO"
+      ],
+      "Net-(D11-A)": [
+        "ISO"
+      ],
+      "Net-(D12-K)": [
+        "ISO"
+      ],
+      "Net-(D14-A)": [
+        "ISO"
+      ],
+      "Net-(D15-A)": [
+        "ISO"
+      ],
+      "Net-(D2-K)": [
+        "DIR"
+      ],
+      "Net-(D3-A)": [
+        "ISO"
+      ],
+      "Net-(D4-A)": [
+        "ISO"
+      ],
+      "Net-(D5-A)": [
+        "ISO"
+      ],
+      "Net-(D6-A)": [
+        "ISO"
+      ],
+      "Net-(D6-K)": [
+        "ISO"
+      ],
+      "Net-(D7-A)": [
+        "ISO"
+      ],
+      "Net-(D9-K)": [
+        "ISO"
+      ],
+      "Net-(J2-Pad11)": [
+        "DIR"
+      ],
+      "Net-(J2-Pad9)": [
+        "DIR"
+      ],
+      "Net-(J3-Pin_1)": [
+        "DIR"
+      ],
+      "Net-(J7-Pin_1)": [
+        "ISO"
+      ],
+      "Net-(J8-Pin_1)": [
+        "ISO"
+      ],
+      "Net-(K3-Pad10)": [
+        "ISO"
+      ],
+      "Net-(K3-Pad3)": [
+        "ISO"
+      ],
+      "Net-(Q1-D)": [
+        "DIR"
+      ],
+      "Net-(R19-Pad2)": [
+        "ISO"
+      ],
+      "Net-(R34-Pad2)": [
+        "ISO"
+      ],
+      "Net-(R37-Pad2)": [
+        "ISO"
+      ],
+      "Net-(R41-Pad2)": [
+        "ISO"
+      ],
+      "Net-(R61-Pad2)": [
+        "DIR"
+      ],
+      "Net-(R62-Pad2)": [
+        "ISO"
+      ],
+      "Net-(R65-Pad2)": [
+        "ISO"
+      ],
+      "Net-(R70-Pad2)": [
+        "DIR"
+      ],
+      "Net-(R71-Pad2)": [
+        "DIR"
+      ],
+      "Net-(R72-Pad2)": [
+        "DIR"
+      ],
+      "Net-(U1-BOOT0)": [
+        "DIR"
+      ],
+      "Net-(U1-PH0)": [
+        "DIR"
+      ],
+      "Net-(U1-PH1)": [
+        "DIR"
+      ],
+      "Net-(U10-EN{slash}UVLO)": [
+        "ISO"
+      ],
+      "Net-(U10-FBX)": [
+        "ISO"
+      ],
+      "Net-(U10-INTVCC)": [
+        "ISO"
+      ],
+      "Net-(U10-SW)": [
+        "ISO"
+      ],
+      "Net-(U11-+Vin)": [
+        "DIR"
+      ],
+      "Net-(U12-BUF)": [
+        "ISO"
+      ],
+      "Net-(U12-FBN)": [
+        "ISO"
+      ],
+      "Net-(U12-FBP)": [
+        "ISO"
+      ],
+      "Net-(U12-INN)": [
+        "ISO"
+      ],
+      "Net-(U12-NR{slash}SS)": [
+        "ISO"
+      ],
+      "Net-(U13-SENSE{slash}ADJ)": [
+        "ISO"
+      ],
+      "Net-(U13-SS)": [
+        "ISO"
+      ],
+      "Net-(U14-SENSE{slash}ADJ)": [
+        "ISO"
+      ],
+      "Net-(U14-SS)": [
+        "ISO"
+      ],
+      "Net-(U15-EN{slash}UVLO)": [
+        "ISO"
+      ],
+      "Net-(U15-FBX)": [
+        "ISO"
+      ],
+      "Net-(U15-INVTCC)": [
+        "ISO"
+      ],
+      "Net-(U15-RT)": [
+        "ISO"
+      ],
+      "Net-(U15-SS)": [
+        "ISO"
+      ],
+      "Net-(U15-VC)": [
+        "ISO"
+      ],
+      "Net-(U16-EN{slash}UVLO)": [
+        "ISO"
+      ],
+      "Net-(U16-FBX)": [
+        "ISO"
+      ],
+      "Net-(U16-INVTCC)": [
+        "ISO"
+      ],
+      "Net-(U16-RT)": [
+        "ISO"
+      ],
+      "Net-(U16-SS)": [
+        "ISO"
+      ],
+      "Net-(U16-VC)": [
+        "ISO"
+      ],
+      "Net-(U3-RBIAS)": [
+        "DIR"
+      ],
+      "Net-(U3-RXER{slash}PHYAD0)": [
+        "DIR"
+      ],
+      "Net-(U3-VDDCR)": [
+        "DIR"
+      ],
+      "Net-(U3-XTAL1{slash}CLKIN)": [
+        "DIR"
+      ],
+      "Net-(U3-XTAL2)": [
+        "DIR"
+      ],
+      "Net-(U5-EN{slash}UVLO)": [
+        "ISO"
+      ],
+      "Net-(U5-FBX)": [
+        "ISO"
+      ],
+      "Net-(U5-INTVCC)": [
+        "ISO"
+      ],
+      "Net-(U6-EN{slash}UVLO)": [
+        "ISO"
+      ],
+      "Net-(U6-FBX)": [
+        "ISO"
+      ],
+      "Net-(U6-INTVCC)": [
+        "ISO"
+      ],
+      "Net-(U6-SW)": [
+        "ISO"
+      ],
+      "Net-(U7-FB{slash}Vout)": [
+        "ISO"
+      ],
+      "Net-(U7-LX)": [
+        "ISO"
+      ],
+      "Net-(U7-VCC)": [
+        "ISO"
+      ],
+      "Net-(U8-FB{slash}Vout)": [
+        "ISO"
+      ],
+      "Net-(U8-LX)": [
+        "ISO"
+      ],
+      "Net-(U8-VCC)": [
+        "ISO"
+      ],
+      "Net-(U9-EN{slash}UVLO)": [
+        "ISO"
+      ],
+      "Net-(U9-FBX)": [
+        "ISO"
+      ],
+      "Net-(U9-INTVCC)": [
+        "ISO"
+      ],
+      "Net-(U9-SW)": [
+        "ISO"
+      ],
+      "VCCQ": [
+        "DIR"
+      ],
+      "VDD": [
+        "DIR"
+      ],
+      "VDDA": [
+        "DIR"
+      ],
+      "unconnected-(D1-NC-Pad2)": [
+        "DIR"
+      ],
+      "unconnected-(J1-Pin_6-Pad6)": [
+        "DIR"
+      ],
+      "unconnected-(J1-Pin_7-Pad7)": [
+        "DIR"
+      ],
+      "unconnected-(J1-Pin_8-Pad8)": [
+        "DIR"
+      ],
+      "unconnected-(J1-Pin_9-Pad9)": [
+        "DIR"
+      ],
+      "unconnected-(J11-Pin_3-Pad3)": [
+        "ISO"
+      ],
+      "unconnected-(J11-Pin_4-Pad4)": [
+        "ISO"
+      ],
+      "unconnected-(J11-Pin_7-Pad7)": [
+        "ISO"
+      ],
+      "unconnected-(J11-Pin_8-Pad8)": [
+        "ISO"
+      ],
+      "unconnected-(J13-Pin_2-Pad2)": [
+        "ISO"
+      ],
+      "unconnected-(J13-Pin_4-Pad4)": [
+        "ISO"
+      ],
+      "unconnected-(J13-Pin_6-Pad6)": [
+        "ISO"
+      ],
+      "unconnected-(J13-Pin_8-Pad8)": [
+        "ISO"
+      ],
+      "unconnected-(J2-NC-Pad7)": [
+        "DIR"
+      ],
+      "unconnected-(J9-Pin_3-Pad3)": [
+        "ISO"
+      ],
+      "unconnected-(J9-Pin_4-Pad4)": [
+        "ISO"
+      ],
+      "unconnected-(J9-Pin_5-Pad5)": [
+        "ISO"
+      ],
+      "unconnected-(J9-Pin_6-Pad6)": [
+        "ISO"
+      ],
+      "unconnected-(K2-Pad10)": [
+        "ISO"
+      ],
+      "unconnected-(K2-Pad3)": [
+        "ISO"
+      ],
+      "unconnected-(K3-Pad5)": [
+        "ISO"
+      ],
+      "unconnected-(K3-Pad8)": [
+        "ISO"
+      ],
+      "unconnected-(U1-PA0-Pad22)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PA12-Pad71)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PA3-Pad25)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PB0-Pad34)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PB1-Pad35)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PB14-Pad53)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PB15-Pad54)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PB2-Pad36)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PB3-Pad89)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PB4-Pad90)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PB8-Pad95)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PB9-Pad96)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PC0-Pad15)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PC13-Pad7)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PC14-Pad8)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PC15-Pad9)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PC2_C-Pad17)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PC3_C-Pad18)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD0-Pad81)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD1-Pad82)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD10-Pad57)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD11-Pad58)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD12-Pad59)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD13-Pad60)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD14-Pad61)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD2-Pad83)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD3-Pad84)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD4-Pad85)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD5-Pad86)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD6-Pad87)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD7-Pad88)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD8-Pad55)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PD9-Pad56)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE0-Pad97)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE10-Pad40)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE11-Pad41)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE12-Pad42)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE13-Pad43)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE14-Pad44)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE15-Pad45)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE3-Pad2)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE7-Pad37)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE8-Pad38)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE9-Pad39)": [
+        "DIR"
+      ],
+      "unconnected-(U11-Remote-Pad6)": [
+        "DIR"
+      ],
+      "unconnected-(U11-Trim-Pad4)": [
+        "ISO"
+      ],
+      "unconnected-(U15-NC-Pad6)": [
+        "ISO"
+      ],
+      "unconnected-(U16-NC-Pad6)": [
+        "ISO"
+      ],
+      "unconnected-(U17-INA-Pad2)": [
+        "DIR"
+      ],
+      "unconnected-(U17-OUTA-Pad15)": [
+        "ISO"
+      ],
+      "unconnected-(U7-MODE-Pad5)": [
+        "ISO"
+      ],
+      "unconnected-(U7-~{RESET}-Pad6)": [
+        "ISO"
+      ],
+      "unconnected-(U8-MODE-Pad5)": [
+        "ISO"
+      ],
+      "unconnected-(U8-~{RESET}-Pad6)": [
+        "ISO"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": ""
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -560,14 +1376,38 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

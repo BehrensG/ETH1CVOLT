@@ -1,4 +1,4 @@
-26562765686472332
+26587389085133301
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60024,6 +60024,104 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ETH1CVOLT_A
+05-08-1871_ADI
+MSOP, 16 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081667_F_MSE16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MSOP SO
+0
+24
+13
+ETH1CVOLT_A
+0603PS-SRF
+
+inductor handsolder
+0
+2
+2
+ETH1CVOLT_A
+960-19-12-S-AB-0
+
+
+0
+2
+1
+ETH1CVOLT_A
+744774022
+WE-PD2 SMT Power Inductor
+inductor
+0
+2
+2
+ETH1CVOLT_A
+750319331
+
+
+0
+8
+8
+ETH1CVOLT_A
+74408063470
+WE-HEPC SMT Power Inductor 
+inductor
+0
+2
+2
+ETH1CVOLT_A
+74437324100
+
+
+0
+2
+2
+ETH1CVOLT_A
+74438335068
+WE-MAPI SMT Power Inductor
+inductor
+0
+2
+2
+ETH1CVOLT_A
+74489440068
+COUPLED INDUCTOR  WE-TDC 8038
+
+0
+4
+4
+ETH1CVOLT_A
+ACM2012-900-2P-T001
+
+
+0
+4
+4
+ETH1CVOLT_A
+MF-GSMF
+MF-GSMF Series – PTC Resettable Fuses
+fuse smd
+0
+2
+2
+ETH1CVOLT_A
+NX5032GA
+Crystal
+
+0
+2
+2
+ETH1CVOLT_A
+S16N-PC
+
+
+0
+5
+1
+ETH1CVOLT_B
+CP-12-8
+12-Lead Lead Frame Chip Scale Package [LFCSP] 7 x 7 mm Body and 0.75 mm Package Heigh
+
+0
+13
+13
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

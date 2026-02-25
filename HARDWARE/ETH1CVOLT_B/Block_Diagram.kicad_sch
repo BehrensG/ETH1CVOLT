@@ -449,6 +449,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 80.01) (xy 353.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b9fa1d-4112-4483-9f10-6e046d43fc0c")
+	)
+	(wire
+		(pts
 			(xy 68.58 166.37) (xy 234.95 166.37)
 		)
 		(stroke
@@ -925,6 +935,16 @@
 				(justify left top)
 			)
 		)
+		(pin "OUT+" input
+			(at 353.06 80.01 180)
+			(uuid "aab68a5a-37c7-430a-b693-f949f8077e1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72"
@@ -1173,7 +1193,7 @@
 			(color 255 229 191 1.0000)
 		)
 		(uuid "81c204f4-2589-4141-915e-6bfa5a3fd9a1")
-		(property "Sheetname" "Output"
+		(property "Sheetname" "Output Selection"
 			(at 243.84 75.4884 0)
 			(effects
 				(font
@@ -1182,7 +1202,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Output.kicad_sch"
+		(property "Sheetfile" "Output_Selection.kicad_sch"
 			(at 243.84 156.7946 0)
 			(effects
 				(font
@@ -1438,7 +1458,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72"
-					(page "8")
+					(page "7")
 				)
 			)
 		)
@@ -1590,7 +1610,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72"
-					(page "7")
+					(page "8")
 				)
 			)
 		)

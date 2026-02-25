@@ -1786,107 +1786,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -2371,7 +2270,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 271.78) (xy 255.27 271.78)
+			(xy 165.1 250.19) (xy 168.91 250.19)
 		)
 		(stroke
 			(width 0)
@@ -2541,7 +2440,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 266.7) (xy 255.27 266.7)
+			(xy 165.1 245.11) (xy 168.91 245.11)
 		)
 		(stroke
 			(width 0)
@@ -2721,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 274.32) (xy 271.78 274.32)
+			(xy 181.61 252.73) (xy 185.42 252.73)
 		)
 		(stroke
 			(width 0)
@@ -2761,7 +2660,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 271.78) (xy 271.78 271.78)
+			(xy 181.61 250.19) (xy 185.42 250.19)
 		)
 		(stroke
 			(width 0)
@@ -3272,7 +3171,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 269.24) (xy 255.27 269.24)
+			(xy 165.1 247.65) (xy 168.91 247.65)
 		)
 		(stroke
 			(width 0)
@@ -3312,7 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 266.7) (xy 271.78 266.7)
+			(xy 181.61 245.11) (xy 185.42 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3322,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 269.24) (xy 271.78 269.24)
+			(xy 181.61 247.65) (xy 185.42 247.65)
 		)
 		(stroke
 			(width 0)
@@ -3332,13 +3231,59 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 274.32) (xy 255.27 274.32)
+			(xy 165.1 252.73) (xy 168.91 252.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff53bf5d-df99-41ba-849b-3df0d91ba5cb")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 13.97 16.51) (xy 406.4 16.51) (xy 406.4 251.46) (xy 298.45 251.46) (xy 298.45 251.46) (xy 298.45 283.21)
+				(xy 13.97 283.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid f66f7d27-b385-4aa9-a78d-54f2811739ae)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 13.97 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87ca7e23-9258-4461-a39d-2dfd54087060")
+		(property "Netclass" "ISO"
+			(at 15.24 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" "ISO"
+			(at -603.25 -135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3542,7 +3487,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 251.46 271.78 270)
+		(at 165.1 250.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3551,7 +3496,7 @@
 		(fields_autoplaced yes)
 		(uuid "2085e9f8-a9d5-4e93-a42c-3dbe804163e1")
 		(property "Reference" "#PWR067"
-			(at 245.11 271.78 0)
+			(at 158.75 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3505,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 247.65 271.7799 90)
+			(at 161.29 250.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 271.78 0)
+			(at 165.1 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 271.78 0)
+			(at 165.1 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 271.78 0)
+			(at 165.1 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +3763,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:-41V_ISO")
-		(at 271.78 274.32 270)
+		(at 185.42 252.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3827,7 +3772,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fb017ee-73b1-4a60-bf9d-40899046f7fa")
 		(property "Reference" "#PWR072"
-			(at 267.97 274.32 0)
+			(at 181.61 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3781,7 @@
 			)
 		)
 		(property "Value" "-41V_ISO"
-			(at 275.59 274.3199 90)
+			(at 189.23 252.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +3790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 274.32 0)
+			(at 185.42 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +3799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 274.32 0)
+			(at 185.42 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +3808,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 271.78 274.32 0)
+			(at 185.42 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u/50V"
+		(property "Value" "10u/100V"
 			(at 143.51 184.1499 0)
 			(effects
 				(font
@@ -4116,7 +4061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7/50V"
+		(property "Value" "4u7/100V"
 			(at 125.73 74.9299 0)
 			(effects
 				(font
@@ -4322,7 +4267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u/50V"
+		(property "Value" "10u/100V"
 			(at 143.51 74.9299 0)
 			(effects
 				(font
@@ -4471,7 +4416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 209.042 71.12 90)
 			(effects
 				(font
@@ -4790,8 +4735,74 @@
 		)
 	)
 	(symbol
+		(lib_id "ETH1CVOLT_A:GND_ISO")
+		(at 190.5 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b86358b-8cbc-4801-ae9a-050c5d92d468")
+		(property "Reference" "#PWR060"
+			(at 190.5 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e8c4f56-50ef-4287-b0ce-1a00e5a2f16f")
+		)
+		(instances
+			(project "ETH1CVOLT_A"
+				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/6d967ebd-a46f-4449-b98b-985b0576b4a9"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 260.35 269.24 0)
+		(at 173.99 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4800,7 +4811,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f84c573-6b1b-438a-8d4b-758dde9746d9")
 		(property "Reference" "J4"
-			(at 261.62 260.35 0)
+			(at 175.26 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +4819,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Odd_Even"
-			(at 261.62 262.89 0)
+			(at 175.26 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,7 +4827,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical_SMD"
-			(at 260.35 269.24 0)
+			(at 173.99 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4836,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 269.24 0)
+			(at 173.99 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,7 +4845,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 260.35 269.24 0)
+			(at 173.99 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +4888,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:-41V_ISO")
-		(at 251.46 274.32 90)
+		(at 165.1 252.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4886,7 +4897,7 @@
 		(fields_autoplaced yes)
 		(uuid "70ca313e-3b3c-4204-9352-ff647970a913")
 		(property "Reference" "#PWR068"
-			(at 255.27 274.32 0)
+			(at 168.91 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,7 +4906,7 @@
 			)
 		)
 		(property "Value" "-41V_ISO"
-			(at 247.65 274.3199 90)
+			(at 161.29 252.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 274.32 0)
+			(at 165.1 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 274.32 0)
+			(at 165.1 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +4933,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 251.46 274.32 0)
+			(at 165.1 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5102,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:+44V_ISO")
-		(at 271.78 266.7 270)
+		(at 185.42 245.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5100,7 +5111,7 @@
 		(fields_autoplaced yes)
 		(uuid "72b2beb8-7104-4c30-8e11-f813c8383678")
 		(property "Reference" "#PWR069"
-			(at 267.97 266.7 0)
+			(at 181.61 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5120,7 @@
 			)
 		)
 		(property "Value" "+44V_ISO"
-			(at 275.59 266.6999 90)
+			(at 189.23 245.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 266.7 0)
+			(at 185.42 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 266.7 0)
+			(at 185.42 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +5147,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 271.78 266.7 0)
+			(at 185.42 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +5607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 209.042 180.34 90)
 			(effects
 				(font
@@ -5640,7 +5651,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 271.78 269.24 90)
+		(at 185.42 247.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5649,7 +5660,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d01b7de-d31b-40e5-8d5c-6e49a534abe1")
 		(property "Reference" "#PWR070"
-			(at 278.13 269.24 0)
+			(at 191.77 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5669,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 275.59 269.2399 90)
+			(at 189.23 247.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 269.24 0)
+			(at 185.42 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +5687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 269.24 0)
+			(at 185.42 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +5696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 269.24 0)
+			(at 185.42 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,7 +5923,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 251.46 269.24 270)
+		(at 165.1 247.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5921,7 +5932,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab7090e8-2868-429b-b7da-7f672460d0a0")
 		(property "Reference" "#PWR066"
-			(at 245.11 269.24 0)
+			(at 158.75 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +5941,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 247.65 269.2399 90)
+			(at 161.29 247.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 269.24 0)
+			(at 165.1 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +5959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 269.24 0)
+			(at 165.1 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +5968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 269.24 0)
+			(at 165.1 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,72 +6276,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb6f022d-1761-4f16-b0ac-b47a69b5ae31")
-		(property "Reference" "#PWR060"
-			(at 190.5 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9203f433-e213-4aed-a3d2-a268da8b078f")
-		)
-		(instances
-			(project "ETH1CVOLT_A"
-				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044/6d967ebd-a46f-4449-b98b-985b0576b4a9"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 154.94 67.31 0)
 		(unit 1)
@@ -6426,7 +6371,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1CVOLT_A:74438335068"
 			(at 173.99 59.69 0)
 			(effects
 				(font
@@ -6487,7 +6432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7/50V"
+		(property "Value" "4u7/100V"
 			(at 125.73 184.1499 0)
 			(effects
 				(font
@@ -6607,7 +6552,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 271.78 271.78 90)
+		(at 185.42 250.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6616,7 +6561,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef99e343-1fd8-413a-bd0b-ad0c221baa3a")
 		(property "Reference" "#PWR071"
-			(at 278.13 271.78 0)
+			(at 191.77 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,7 +6570,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 275.59 271.7799 90)
+			(at 189.23 250.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6634,7 +6579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 271.78 0)
+			(at 185.42 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +6588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 271.78 0)
+			(at 185.42 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +6597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 271.78 0)
+			(at 185.42 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +6619,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:+44V_ISO")
-		(at 251.46 266.7 90)
+		(at 165.1 245.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6683,7 +6628,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3eb1f0b-0989-4b1e-a726-fa83adba2166")
 		(property "Reference" "#PWR065"
-			(at 255.27 266.7 0)
+			(at 168.91 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,7 +6637,7 @@
 			)
 		)
 		(property "Value" "+44V_ISO"
-			(at 247.65 266.6999 90)
+			(at 161.29 245.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,7 +6646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 266.7 0)
+			(at 165.1 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +6655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 266.7 0)
+			(at 165.1 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6719,7 +6664,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 251.46 266.7 0)
+			(at 165.1 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,128 @@
+(footprint "MF-GSMF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MF-GSMF Series – PTC Resettable Fuses")
+	(tags "fuse smd")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9c7e9507-2da3-480f-b1f2-0ef4067dd2a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MF-GSMF"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e709214e-1438-4b7c-9f13-aa989b2b6643")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/MF-GSMF.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4f88ca0-240b-4774-9de0-a654f25aecb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MF-GSMF Series – PTC Resettable Fuses"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7cecda3-eea8-407a-8e24-b1153d5c6ccc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.65 -3.45)
+		(end 2.65 -3.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9985e7f5-26ac-4e96-abab-59276dfc3845")
+	)
+	(fp_line
+		(start -2.65 3.475)
+		(end 2.65 3.475)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "49c97732-de8a-4ea1-a8f0-368860c5af85")
+	)
+	(fp_rect
+		(start -5.4 -3.525)
+		(end 5.4 3.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fbefe175-d01e-451f-b424-2f95e72fbbf7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d4bf5f36-83ee-4973-a85b-746414da1fcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.9 0.025 90)
+		(size 6.6 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "d762e4c8-2822-49eb-bd99-8897678e4cba")
+	)
+	(pad "2" smd roundrect
+		(at 3.9 0 90)
+		(size 6.6 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "2de1eb77-d655-4b87-b615-3b326f22a018")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d/MF-GSMF300_36X-2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

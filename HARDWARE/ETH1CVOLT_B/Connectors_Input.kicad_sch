@@ -782,6 +782,55 @@
 		)
 		(uuid "f839516a-01ec-4e2a-9a2e-0950903dfd8f")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 13.97 16.51) (xy 405.13 16.51) (xy 406.4 17.78) (xy 406.4 251.46) (xy 298.45 251.46) (xy 298.45 283.21)
+				(xy 13.97 283.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid c9b36c2d-d889-45a7-98cf-c726fde57269)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 13.97 16.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79d4dd2d-6bbe-4a5d-ba19-a2f9329e3dee")
+		(property "Netclass" "ISO"
+			(at 14.6685 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" "ISO"
+			(at 14.6685 15.4305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
 		(at 210.82 132.08 0)
@@ -792,7 +841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7ada1a2-61ec-44dc-8d64-b492bec831fb")
-		(property "Reference" "J14"
+		(property "Reference" "J4"
 			(at 212.09 123.19 0)
 			(effects
 				(font
@@ -862,7 +911,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/fc485c76-3c3b-4e17-9525-ece6a0f7038f"
-					(reference "J14")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -878,7 +927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad1c0205-2516-4b19-a0cd-dc93222c9987")
-		(property "Reference" "J13"
+		(property "Reference" "J5"
 			(at 212.09 142.24 0)
 			(effects
 				(font
@@ -948,7 +997,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/fc485c76-3c3b-4e17-9525-ece6a0f7038f"
-					(reference "J13")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -964,7 +1013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cffe0b02-a635-49d4-90dd-cb02d9a79ee7")
-		(property "Reference" "J12"
+		(property "Reference" "J3"
 			(at 212.09 104.14 0)
 			(effects
 				(font
@@ -1034,7 +1083,7 @@
 		(instances
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/fc485c76-3c3b-4e17-9525-ece6a0f7038f"
-					(reference "J12")
+					(reference "J3")
 					(unit 1)
 				)
 			)

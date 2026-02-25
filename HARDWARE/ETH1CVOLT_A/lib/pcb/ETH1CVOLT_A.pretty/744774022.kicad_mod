@@ -1,0 +1,128 @@
+(footprint "744774022"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WE-PD2 SMT Power Inductor")
+	(tags "inductor")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "31d5af72-20b9-4a6d-9560-f5fa539ed878")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "744774022"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "06b6d7f0-afbf-4333-926f-25283c9b75fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744774022.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a64fd930-3985-43a4-91c7-279c2c4e48e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "WE-PD2 SMT Power Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39edb440-10bf-4b07-bd4f-0e1f1f14d5a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.85 -2.925)
+		(end 0.85 -2.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbf8a1ac-693f-4a54-ad29-27c789e40280")
+	)
+	(fp_line
+		(start -0.85 2.925)
+		(end 0.85 2.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ccdc5d7-5766-4cc0-bf09-f1417ed952f2")
+	)
+	(fp_rect
+		(start -3.25 -3)
+		(end 3.25 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ff7c5287-cbd5-4a16-9877-1d49e019ca66")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6d82ed41-5648-4509-804a-cf292bacd66f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.925 0 90)
+		(size 5.5 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e32bbf09-893b-4942-a805-894460b2ef6d")
+	)
+	(pad "2" smd roundrect
+		(at 1.925 0 90)
+		(size 5.5 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "f20faa57-073b-436f-9a9e-79fb70176f81")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d/WE-PD2_5848.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
