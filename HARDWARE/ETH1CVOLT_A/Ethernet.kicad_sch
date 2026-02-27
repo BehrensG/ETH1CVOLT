@@ -203,7 +203,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.399 6.985) (xy 17.399 7.62) (xy 20.32 7.62)
+						(xy 17.399 7.112) (xy 17.399 7.62) (xy 20.32 7.62)
 					)
 					(stroke
 						(width 0)
@@ -215,7 +215,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.399 -3.175) (xy 17.399 -2.54) (xy 20.32 -2.54)
+						(xy 17.399 -3.048) (xy 17.399 -2.54) (xy 20.32 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -582,7 +582,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.4295 3.1115) (xy 8.6995 3.1115)
+						(xy 7.366 3.175) (xy 8.636 3.175)
 					)
 					(stroke
 						(width 0)
@@ -594,7 +594,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.4295 1.8415) (xy 8.6995 1.8415)
+						(xy 7.366 1.905) (xy 8.636 1.905)
 					)
 					(stroke
 						(width 0)
@@ -606,7 +606,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.4295 0.5715) (xy 8.6995 0.5715)
+						(xy 7.366 0.635) (xy 8.636 0.635)
 					)
 					(stroke
 						(width 0)
@@ -618,7 +618,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.4295 -0.6985) (xy 8.6995 -0.6985)
+						(xy 7.366 -0.762) (xy 8.636 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -630,7 +630,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.4295 -1.9685) (xy 8.6995 -1.9685)
+						(xy 7.366 -2.032) (xy 8.636 -2.032)
 					)
 					(stroke
 						(width 0)
@@ -642,7 +642,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.6995 5.6515) (xy 7.4295 5.6515)
+						(xy 8.636 5.715) (xy 7.366 5.715)
 					)
 					(stroke
 						(width 0)
@@ -654,7 +654,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.6995 4.3815) (xy 7.4295 4.3815)
+						(xy 8.636 4.445) (xy 7.366 4.445)
 					)
 					(stroke
 						(width 0)
@@ -666,7 +666,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.6995 -3.2385) (xy 7.4295 -3.2385)
+						(xy 8.636 -3.302) (xy 7.366 -3.302)
 					)
 					(stroke
 						(width 0)
@@ -1046,9 +1046,9 @@
 				)
 				(polyline
 					(pts
-						(xy 7.3025 -4.5085) (xy 7.3025 6.9215) (xy 15.0495 6.9215) (xy 15.0495 4.3815) (xy 16.3195 4.3815)
-						(xy 16.3195 3.1115) (xy 17.5895 3.1115) (xy 17.5895 -0.6985) (xy 16.3195 -0.6985) (xy 16.3195 -1.9685)
-						(xy 15.0495 -1.9685) (xy 15.0495 -4.5085) (xy 7.3025 -4.5085)
+						(xy 7.366 -4.572) (xy 7.366 6.985) (xy 15.24 6.985) (xy 15.24 4.445) (xy 16.256 4.445) (xy 16.256 3.048)
+						(xy 17.526 3.048) (xy 17.526 -0.635) (xy 16.256 -0.635) (xy 16.256 -2.032) (xy 15.24 -2.032) (xy 15.24 -4.572)
+						(xy 7.366 -4.572)
 					)
 					(stroke
 						(width 0.254)
@@ -1072,7 +1072,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.161 5.461) (xy 16.637 5.461)
+						(xy 18.161 5.588) (xy 16.637 5.588)
 					)
 					(stroke
 						(width 0.254)
@@ -1084,7 +1084,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.161 -4.699) (xy 16.637 -4.699)
+						(xy 18.161 -4.572) (xy 16.637 -4.572)
 					)
 					(stroke
 						(width 0.254)
@@ -1096,7 +1096,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.288 6.985) (xy 16.383 6.985) (xy 17.399 5.461) (xy 18.288 6.985)
+						(xy 18.288 7.112) (xy 16.383 7.112) (xy 17.399 5.588) (xy 18.288 7.112)
 					)
 					(stroke
 						(width 0.254)
@@ -1120,7 +1120,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.288 -3.175) (xy 16.383 -3.175) (xy 17.399 -4.699) (xy 18.288 -3.175)
+						(xy 18.288 -3.048) (xy 16.383 -3.048) (xy 17.399 -4.572) (xy 18.288 -3.048)
 					)
 					(stroke
 						(width 0.254)
@@ -1240,6 +1240,22 @@
 				)
 				(text "75"
 					(at 1.016 -2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "Y"
+					(at 19.558 6.35 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "G"
+					(at 19.685 -3.81 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -2129,7 +2145,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5532,7 +5548,7 @@
 				(justify left)
 			)
 		)
-		(property "Component Class" "DIR"
+		(property "Component Class" ""
 			(at -603.25 -135.89 0)
 			(effects
 				(font
@@ -5551,7 +5567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04069078-cb30-41d2-8483-85bf844ab1f5")
-		(property "Reference" "C19"
+		(property "Reference" "C28"
 			(at 159.131 180.4416 0)
 			(effects
 				(font
@@ -5611,7 +5627,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C19")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5632,7 +5648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "196f94d8-cdf2-431f-9eaf-33eb769a8cb4")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 187.198 218.5416 0)
 			(effects
 				(font
@@ -5692,7 +5708,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5713,7 +5729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e093f6e-7d12-4f53-a886-842a76373bd6")
-		(property "Reference" "C23"
+		(property "Reference" "C20"
 			(at 199.771 67.4116 0)
 			(effects
 				(font
@@ -5773,7 +5789,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C23")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5795,7 +5811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e9331fb-c5b4-49ff-8c61-43ef74fbc971")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG05"
 			(at 312.42 158.115 0)
 			(effects
 				(font
@@ -5851,7 +5867,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#FLG04")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -5872,7 +5888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f83b9ab-d87b-4208-8850-9561db8a8630")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 327.66 127.635 90)
 			(effects
 				(font
@@ -5930,7 +5946,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5951,7 +5967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24ecd23c-b2d6-48eb-a153-316fce3d73ef")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR037"
 			(at 265.43 80.01 0)
 			(effects
 				(font
@@ -6007,7 +6023,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR045")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6029,7 +6045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3075613f-f072-4d4d-a426-3273bbeb1969")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 146.05 66.04 0)
 			(effects
 				(font
@@ -6085,7 +6101,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6106,7 +6122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30fd4ff6-529a-4bba-90fa-cbf9e8f88bfc")
-		(property "Reference" "C21"
+		(property "Reference" "C19"
 			(at 188.341 67.4116 0)
 			(effects
 				(font
@@ -6166,7 +6182,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C21")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6188,7 +6204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38d9d008-76e2-4205-94c9-7bfe459fa3c9")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR050"
 			(at 161.29 217.17 0)
 			(effects
 				(font
@@ -6244,7 +6260,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR035")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6265,7 +6281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bc6b870-d64b-4460-8527-375c97853996")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 199.771 90.2716 0)
 			(effects
 				(font
@@ -6325,7 +6341,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6346,7 +6362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f307da9-61dd-4676-aa94-c22b8c315cc3")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR047"
 			(at 179.07 177.8 0)
 			(effects
 				(font
@@ -6402,7 +6418,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR036")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6423,7 +6439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44a6d009-cdf9-4391-8c3e-72d13dd18b39")
-		(property "Reference" "C17"
+		(property "Reference" "C27"
 			(at 137.541 180.4416 0)
 			(effects
 				(font
@@ -6483,7 +6499,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C17")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6505,7 +6521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4579f376-e7f9-4222-a575-1017d9b3e4f0")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR051"
 			(at 185.42 217.17 0)
 			(effects
 				(font
@@ -6561,7 +6577,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR038")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6582,7 +6598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "550cef97-4e68-45ae-86d7-798a84adcb34")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR036"
 			(at 223.52 80.01 0)
 			(effects
 				(font
@@ -6638,7 +6654,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR044")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6659,7 +6675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "692a9dbf-9ebd-43f2-9cb9-82343cad2b0c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR049"
 			(at 156.21 193.04 0)
 			(effects
 				(font
@@ -6715,7 +6731,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR033")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6818,7 +6834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73e2b5d2-976b-4f06-8512-7207ea7cedec")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR045"
 			(at 312.42 166.37 0)
 			(effects
 				(font
@@ -6875,7 +6891,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR049")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6897,8 +6913,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77012546-ad5f-41ab-ba78-9ace23372332")
-		(property "Reference" "RN3"
-			(at 247.015 71.755 0)
+		(property "Reference" "RN1"
+			(at 246.38 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,8 +6922,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EXB-38V510JV"
-			(at 247.015 74.295 0)
+		(property "Value" "R_Pack04"
+			(at 246.38 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +6931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" ""
 			(at 248.285 72.39 90)
 			(effects
 				(font
@@ -6933,7 +6949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 resistor network, parallel topology"
 			(at 241.3 72.39 0)
 			(effects
 				(font
@@ -6975,7 +6991,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "RN3")
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -6990,23 +7006,23 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b894774-df23-4974-a8ec-4cbe98ee6d1d")
-		(property "Reference" "RN1"
-			(at 130.556 133.35 90)
+		(property "Reference" "RN2"
+			(at 138.43 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "EXB-V8V330JV"
-			(at 136.525 145.415 90)
+		(property "Value" "R_Pack04"
+			(at 138.43 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" ""
 			(at 138.43 146.685 90)
 			(effects
 				(font
@@ -7024,7 +7040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 resistor network, parallel topology"
 			(at 138.43 139.7 0)
 			(effects
 				(font
@@ -7066,7 +7082,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "RN1")
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -7158,7 +7174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88f84521-f9a4-471d-8990-9a56c9165b78")
-		(property "Reference" "C28"
+		(property "Reference" "C26"
 			(at 279.781 152.5016 0)
 			(effects
 				(font
@@ -7218,7 +7234,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C28")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -7240,7 +7256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89d79035-f000-4659-ab55-63cc7226b011")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR041"
 			(at 337.82 142.24 0)
 			(effects
 				(font
@@ -7297,7 +7313,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR051")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7396,7 +7412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ef4890f-c30c-4f35-bf4f-ac8c954b0fca")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR048"
 			(at 134.62 193.04 0)
 			(effects
 				(font
@@ -7452,7 +7468,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR029")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7473,7 +7489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "905dfce5-7e42-436d-a945-f6b483977b2f")
-		(property "Reference" "C25"
+		(property "Reference" "C21"
 			(at 211.201 67.4116 0)
 			(effects
 				(font
@@ -7533,7 +7549,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C25")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -7555,7 +7571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90d5ebd0-7078-4641-84b0-b08e77195b7b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR030"
 			(at 276.86 66.04 0)
 			(effects
 				(font
@@ -7611,7 +7627,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR046")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7632,7 +7648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93491043-c07c-4a34-af12-ef8403aeba2b")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 148.971 67.4116 0)
 			(effects
 				(font
@@ -7692,7 +7708,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7713,7 +7729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95020b2d-fe93-419b-a49d-9a204171e39b")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 327.66 137.795 90)
 			(effects
 				(font
@@ -7771,7 +7787,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7792,7 +7808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "960527fc-6d52-4bbd-a369-aafe4f28e4bd")
-		(property "Reference" "C20"
+		(property "Reference" "C18"
 			(at 160.401 67.4116 0)
 			(effects
 				(font
@@ -7852,7 +7868,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C20")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7873,7 +7889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9832e190-1fa0-4410-92fd-a20d80b56e7b")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 201.168 156.3116 0)
 			(effects
 				(font
@@ -7933,7 +7949,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7954,7 +7970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f1b1c8a-d42d-40fa-a802-d653be22bb28")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -8010,7 +8026,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR037")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8031,7 +8047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a07d4f4a-5d2d-41fc-9606-13bf03f6f96b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 157.48 80.01 0)
 			(effects
 				(font
@@ -8087,7 +8103,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8108,7 +8124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae9af069-11ff-4b2c-bec7-04e8aa741f81")
-		(property "Reference" "C27"
+		(property "Reference" "C23"
 			(at 268.351 67.4116 0)
 			(effects
 				(font
@@ -8168,7 +8184,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C27")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8267,7 +8283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7ffee7a-b461-4446-81ce-963eb8bd2fb0")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR044"
 			(at 276.86 165.1 0)
 			(effects
 				(font
@@ -8323,7 +8339,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR047")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8344,7 +8360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b81422e1-2406-4639-bc69-814fac7a3406")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR046"
 			(at 199.39 168.91 0)
 			(effects
 				(font
@@ -8400,7 +8416,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR041")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8421,7 +8437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb83872a-4ab3-41c5-ab60-08d1949adfa5")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR039"
 			(at 147.32 111.76 0)
 			(effects
 				(font
@@ -8477,7 +8493,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR032")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8498,7 +8514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbc9c726-404c-4d6c-a26a-c7f28a949bad")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR034"
 			(at 196.85 80.01 0)
 			(effects
 				(font
@@ -8554,7 +8570,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR040")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8576,7 +8592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc9bb0a9-a357-48f0-9250-a34caba229e2")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR043"
 			(at 312.42 154.94 0)
 			(effects
 				(font
@@ -8633,7 +8649,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR048")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8656,7 +8672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c46eb347-e906-4f23-a2b2-c7a846e87e96")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG04"
 			(at 202.565 86.36 0)
 			(effects
 				(font
@@ -8713,7 +8729,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#FLG02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -8736,7 +8752,7 @@
 		(fields_autoplaced yes)
 		(uuid "c64dc27c-68ba-4027-b171-fd6e5f06773b")
 		(property "Reference" "J2"
-			(at 300.99 123.825 0)
+			(at 300.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8744,7 +8760,7 @@
 			)
 		)
 		(property "Value" "RJ45_Wuerth_7499010121A"
-			(at 300.99 126.365 0)
+			(at 300.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,7 +8943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7a6ef83-5e49-4c96-bb6e-bdf6742b4576")
-		(property "Reference" "C22"
+		(property "Reference" "C24"
 			(at 188.341 90.2716 0)
 			(effects
 				(font
@@ -8987,7 +9003,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -9158,7 +9174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2a75103-980e-41da-9876-bcd6cc5e80fd")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR035"
 			(at 208.28 80.01 0)
 			(effects
 				(font
@@ -9214,7 +9230,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR043")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9236,7 +9252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e47c6d4c-82a8-4eb8-ae7b-5d0c6b86ef3d")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 190.5 104.14 0)
 			(effects
 				(font
@@ -9292,7 +9308,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9314,7 +9330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8961f89-3509-4aee-932a-e0eb0867e544")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR040"
 			(at 337.82 132.08 0)
 			(effects
 				(font
@@ -9371,7 +9387,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "#PWR050")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9393,8 +9409,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea65c8ea-a268-49a9-b165-52521bfad302")
-		(property "Reference" "RN2"
-			(at 167.64 219.075 0)
+		(property "Reference" "RN3"
+			(at 167.64 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,8 +9418,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EXB-V8V103JV"
-			(at 167.64 221.615 0)
+		(property "Value" "R_Pack04"
+			(at 167.64 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +9427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" ""
 			(at 169.545 219.71 90)
 			(effects
 				(font
@@ -9429,7 +9445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 resistor network, parallel topology"
 			(at 162.56 219.71 0)
 			(effects
 				(font
@@ -9471,7 +9487,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "RN2")
+					(reference "RN3")
 					(unit 1)
 				)
 			)
@@ -9565,7 +9581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "faed65b3-e13b-419d-9490-60bc1ad06b4e")
-		(property "Reference" "C26"
+		(property "Reference" "C22"
 			(at 226.441 67.4116 0)
 			(effects
 				(font
@@ -9625,7 +9641,7 @@
 			)
 			(project "ETH1HMSR-SMS"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8418af92-873a-4080-ac55-b7f0e108f36d"
-					(reference "C26")
+					(reference "C22")
 					(unit 1)
 				)
 			)

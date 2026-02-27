@@ -789,13 +789,25 @@
       "GND_ISO": [
         "ISO"
       ],
+      "Net-(C102-Pad1)": [
+        "ISO"
+      ],
       "Net-(C114-Pad1)": [
-        "DIR"
+        "ISO"
       ],
       "Net-(C13-Pad1)": [
         "DIR"
       ],
       "Net-(C15-Pad1)": [
+        "DIR"
+      ],
+      "Net-(C5-Pad1)": [
+        "DIR"
+      ],
+      "Net-(C6-Pad1)": [
+        "DIR"
+      ],
+      "Net-(C64-Pad1)": [
         "DIR"
       ],
       "Net-(C96-Pad1)": [
@@ -807,20 +819,38 @@
       "Net-(D1-A)": [
         "DIR"
       ],
+      "Net-(D1-K)": [
+        "DIR"
+      ],
       "Net-(D10-A)": [
+        "ISO"
+      ],
+      "Net-(D10-K)": [
         "ISO"
       ],
       "Net-(D11-A)": [
         "ISO"
       ],
+      "Net-(D12-A)": [
+        "ISO"
+      ],
       "Net-(D12-K)": [
+        "ISO"
+      ],
+      "Net-(D13-A)": [
         "ISO"
       ],
       "Net-(D14-A)": [
         "ISO"
       ],
+      "Net-(D14-K)": [
+        "ISO"
+      ],
       "Net-(D15-A)": [
         "ISO"
+      ],
+      "Net-(D2-A)": [
+        "DIR"
       ],
       "Net-(D2-K)": [
         "DIR"
@@ -834,6 +864,9 @@
       "Net-(D5-A)": [
         "ISO"
       ],
+      "Net-(D5-K)": [
+        "ISO"
+      ],
       "Net-(D6-A)": [
         "ISO"
       ],
@@ -841,6 +874,9 @@
         "ISO"
       ],
       "Net-(D7-A)": [
+        "ISO"
+      ],
+      "Net-(D8-A)": [
         "ISO"
       ],
       "Net-(D9-K)": [
@@ -855,10 +891,19 @@
       "Net-(J3-Pin_1)": [
         "DIR"
       ],
+      "Net-(J6-Pin_1)": [
+        "ISO"
+      ],
       "Net-(J7-Pin_1)": [
         "ISO"
       ],
       "Net-(J8-Pin_1)": [
+        "ISO"
+      ],
+      "Net-(K1-Pad10)": [
+        "ISO"
+      ],
+      "Net-(K1-Pad3)": [
         "ISO"
       ],
       "Net-(K3-Pad10)": [
@@ -870,10 +915,22 @@
       "Net-(Q1-D)": [
         "DIR"
       ],
+      "Net-(R17-Pad2)": [
+        "ISO"
+      ],
       "Net-(R19-Pad2)": [
         "ISO"
       ],
+      "Net-(R27-Pad2)": [
+        "ISO"
+      ],
+      "Net-(R30-Pad2)": [
+        "ISO"
+      ],
       "Net-(R34-Pad2)": [
+        "ISO"
+      ],
+      "Net-(R36-Pad2)": [
         "ISO"
       ],
       "Net-(R37-Pad2)": [
@@ -881,6 +938,12 @@
       ],
       "Net-(R41-Pad2)": [
         "ISO"
+      ],
+      "Net-(R49-Pad2)": [
+        "ISO"
+      ],
+      "Net-(R58-Pad2)": [
+        "DIR"
       ],
       "Net-(R61-Pad2)": [
         "DIR"
@@ -890,6 +953,9 @@
       ],
       "Net-(R65-Pad2)": [
         "ISO"
+      ],
+      "Net-(R69-Pad2)": [
+        "DIR"
       ],
       "Net-(R70-Pad2)": [
         "DIR"
@@ -909,6 +975,12 @@
       "Net-(U1-PH1)": [
         "DIR"
       ],
+      "Net-(U10-+Vin)": [
+        "DIR"
+      ],
+      "Net-(U10--Vin)": [
+        "DIR"
+      ],
       "Net-(U10-EN{slash}UVLO)": [
         "ISO"
       ],
@@ -924,6 +996,12 @@
       "Net-(U11-+Vin)": [
         "DIR"
       ],
+      "Net-(U11-SENSE{slash}ADJ)": [
+        "ISO"
+      ],
+      "Net-(U11-SS)": [
+        "ISO"
+      ],
       "Net-(U12-BUF)": [
         "ISO"
       ],
@@ -933,10 +1011,19 @@
       "Net-(U12-FBP)": [
         "ISO"
       ],
+      "Net-(U12-FB{slash}Vout)": [
+        "ISO"
+      ],
       "Net-(U12-INN)": [
         "ISO"
       ],
+      "Net-(U12-LX)": [
+        "ISO"
+      ],
       "Net-(U12-NR{slash}SS)": [
+        "ISO"
+      ],
+      "Net-(U12-VCC)": [
         "ISO"
       ],
       "Net-(U13-SENSE{slash}ADJ)": [
@@ -945,10 +1032,19 @@
       "Net-(U13-SS)": [
         "ISO"
       ],
+      "Net-(U14-FB{slash}Vout)": [
+        "ISO"
+      ],
+      "Net-(U14-LX)": [
+        "ISO"
+      ],
       "Net-(U14-SENSE{slash}ADJ)": [
         "ISO"
       ],
       "Net-(U14-SS)": [
+        "ISO"
+      ],
+      "Net-(U14-VCC)": [
         "ISO"
       ],
       "Net-(U15-EN{slash}UVLO)": [
@@ -987,6 +1083,24 @@
       "Net-(U16-VC)": [
         "ISO"
       ],
+      "Net-(U17-EN{slash}UVLO)": [
+        "ISO"
+      ],
+      "Net-(U17-FBX)": [
+        "ISO"
+      ],
+      "Net-(U17-INVTCC)": [
+        "ISO"
+      ],
+      "Net-(U17-RT)": [
+        "ISO"
+      ],
+      "Net-(U17-SS)": [
+        "ISO"
+      ],
+      "Net-(U17-VC)": [
+        "ISO"
+      ],
       "Net-(U3-RBIAS)": [
         "DIR"
       ],
@@ -1023,19 +1137,46 @@
       "Net-(U6-SW)": [
         "ISO"
       ],
+      "Net-(U7-EN{slash}UVLO)": [
+        "ISO"
+      ],
+      "Net-(U7-FBX)": [
+        "ISO"
+      ],
       "Net-(U7-FB{slash}Vout)": [
+        "ISO"
+      ],
+      "Net-(U7-INTVCC)": [
         "ISO"
       ],
       "Net-(U7-LX)": [
         "ISO"
       ],
+      "Net-(U7-SW)": [
+        "ISO"
+      ],
       "Net-(U7-VCC)": [
+        "ISO"
+      ],
+      "Net-(U8-BUF)": [
+        "ISO"
+      ],
+      "Net-(U8-FBN)": [
+        "ISO"
+      ],
+      "Net-(U8-FBP)": [
         "ISO"
       ],
       "Net-(U8-FB{slash}Vout)": [
         "ISO"
       ],
+      "Net-(U8-INN)": [
+        "ISO"
+      ],
       "Net-(U8-LX)": [
+        "ISO"
+      ],
+      "Net-(U8-NR{slash}SS)": [
         "ISO"
       ],
       "Net-(U8-VCC)": [
@@ -1065,6 +1206,9 @@
       "unconnected-(D1-NC-Pad2)": [
         "DIR"
       ],
+      "unconnected-(D2-NC-Pad2)": [
+        "DIR"
+      ],
       "unconnected-(J1-Pin_6-Pad6)": [
         "DIR"
       ],
@@ -1089,6 +1233,18 @@
       "unconnected-(J11-Pin_8-Pad8)": [
         "ISO"
       ],
+      "unconnected-(J12-Pin_2-Pad2)": [
+        "ISO"
+      ],
+      "unconnected-(J12-Pin_4-Pad4)": [
+        "ISO"
+      ],
+      "unconnected-(J12-Pin_6-Pad6)": [
+        "ISO"
+      ],
+      "unconnected-(J12-Pin_8-Pad8)": [
+        "ISO"
+      ],
       "unconnected-(J13-Pin_2-Pad2)": [
         "ISO"
       ],
@@ -1104,6 +1260,18 @@
       "unconnected-(J2-NC-Pad7)": [
         "DIR"
       ],
+      "unconnected-(J7-Pin_3-Pad3)": [
+        "ISO"
+      ],
+      "unconnected-(J7-Pin_4-Pad4)": [
+        "ISO"
+      ],
+      "unconnected-(J7-Pin_5-Pad5)": [
+        "ISO"
+      ],
+      "unconnected-(J7-Pin_6-Pad6)": [
+        "ISO"
+      ],
       "unconnected-(J9-Pin_3-Pad3)": [
         "ISO"
       ],
@@ -1114,6 +1282,18 @@
         "ISO"
       ],
       "unconnected-(J9-Pin_6-Pad6)": [
+        "ISO"
+      ],
+      "unconnected-(J9-Pin_7-Pad7)": [
+        "ISO"
+      ],
+      "unconnected-(J9-Pin_8-Pad8)": [
+        "ISO"
+      ],
+      "unconnected-(K1-Pad5)": [
+        "ISO"
+      ],
+      "unconnected-(K1-Pad8)": [
         "ISO"
       ],
       "unconnected-(K2-Pad10)": [
@@ -1260,10 +1440,28 @@
       "unconnected-(U1-PE9-Pad39)": [
         "DIR"
       ],
+      "unconnected-(U10-Remote-Pad6)": [
+        "DIR"
+      ],
+      "unconnected-(U10-Trim-Pad4)": [
+        "ISO"
+      ],
       "unconnected-(U11-Remote-Pad6)": [
         "DIR"
       ],
       "unconnected-(U11-Trim-Pad4)": [
+        "ISO"
+      ],
+      "unconnected-(U12-MODE-Pad5)": [
+        "ISO"
+      ],
+      "unconnected-(U12-~{RESET}-Pad6)": [
+        "ISO"
+      ],
+      "unconnected-(U14-MODE-Pad5)": [
+        "ISO"
+      ],
+      "unconnected-(U14-~{RESET}-Pad6)": [
         "ISO"
       ],
       "unconnected-(U15-NC-Pad6)": [
@@ -1275,7 +1473,16 @@
       "unconnected-(U17-INA-Pad2)": [
         "DIR"
       ],
+      "unconnected-(U17-NC-Pad6)": [
+        "ISO"
+      ],
       "unconnected-(U17-OUTA-Pad15)": [
+        "ISO"
+      ],
+      "unconnected-(U22-INA-Pad2)": [
+        "DIR"
+      ],
+      "unconnected-(U22-OUTA-Pad15)": [
         "ISO"
       ],
       "unconnected-(U7-MODE-Pad5)": [

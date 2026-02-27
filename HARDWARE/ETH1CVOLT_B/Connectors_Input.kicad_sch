@@ -849,7 +849,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Odd_Even"
+		(property "Value" "61000821121"
 			(at 212.09 125.73 0)
 			(effects
 				(font
@@ -919,6 +919,92 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 133.35 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a82f1fd9-e663-4efc-85f9-30d9170a1dc9")
+		(property "Reference" "J7"
+			(at 134.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "61000821121"
+			(at 134.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical_SMD"
+			(at 133.35 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67b78e4a-9e22-490b-be81-08c436f5e920")
+		)
+		(pin "4"
+			(uuid "e274a2c2-ab5d-44ea-ac71-54a472aed85d")
+		)
+		(pin "2"
+			(uuid "16600859-6ea4-432c-886b-75aceac7fb03")
+		)
+		(pin "6"
+			(uuid "e36fef2e-45ad-4d64-a3da-201cb9d3be1f")
+		)
+		(pin "5"
+			(uuid "8d4eb540-a289-4661-b97e-97aea693eba3")
+		)
+		(pin "8"
+			(uuid "78e61a35-3a89-40aa-b74d-0ea3fe3f5103")
+		)
+		(pin "7"
+			(uuid "6fac402f-e002-4b70-977c-f8e0f10ed457")
+		)
+		(pin "3"
+			(uuid "4204c6fd-8718-4c98-b200-07f7d7771c61")
+		)
+		(instances
+			(project "ETH1CVOLT_B"
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/fc485c76-3c3b-4e17-9525-ece6a0f7038f"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
 		(at 210.82 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -935,7 +1021,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Odd_Even"
+		(property "Value" "61000821121"
 			(at 212.09 144.78 0)
 			(effects
 				(font
@@ -1021,7 +1107,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Odd_Even"
+		(property "Value" "61000821121"
 			(at 212.09 106.68 0)
 			(effects
 				(font
@@ -1084,6 +1170,178 @@
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/fc485c76-3c3b-4e17-9525-ece6a0f7038f"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 133.35 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d72edd11-794b-4074-a716-57ad278a3036")
+		(property "Reference" "J6"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "61000821121"
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical_SMD"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8ef3a12-8bac-4919-8b77-cdb75bad125c")
+		)
+		(pin "4"
+			(uuid "ec592ce1-7bc8-43bd-aae4-23fe3af4472b")
+		)
+		(pin "2"
+			(uuid "7d4873ce-2272-4248-8630-f35322fe6366")
+		)
+		(pin "6"
+			(uuid "f0e2cbf3-7b12-4719-abbb-8fddc9931e44")
+		)
+		(pin "5"
+			(uuid "33546507-e556-42b7-bea4-2222562fe9e2")
+		)
+		(pin "8"
+			(uuid "170fdea1-2adc-4af5-bb97-622b2918ee5c")
+		)
+		(pin "7"
+			(uuid "937c7c2c-0bc5-4199-bddf-b6622ca20175")
+		)
+		(pin "3"
+			(uuid "0eea1f5a-87a3-43bd-8b14-0a82bfc199bd")
+		)
+		(instances
+			(project "ETH1CVOLT_B"
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/fc485c76-3c3b-4e17-9525-ece6a0f7038f"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 133.35 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef267796-2551-4d53-ba70-16ac047599e9")
+		(property "Reference" "J8"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "61000821121"
+			(at 134.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical_SMD"
+			(at 133.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcd02505-4fcc-4c51-a580-0abb5374b41e")
+		)
+		(pin "4"
+			(uuid "00ef4f61-5f9a-46fe-a20f-223931a62b09")
+		)
+		(pin "2"
+			(uuid "3452f8a7-7df0-416e-92d4-c7ec52362be4")
+		)
+		(pin "6"
+			(uuid "7b73e159-6e62-44b3-adc0-95fb081aa63b")
+		)
+		(pin "5"
+			(uuid "7f7d013b-8fa7-4a19-ac0d-c181c7998179")
+		)
+		(pin "8"
+			(uuid "7aa1badd-fcc5-4594-b4a5-e95c537d42aa")
+		)
+		(pin "7"
+			(uuid "9497bbdd-f749-415c-8beb-ae4049f2e1b7")
+		)
+		(pin "3"
+			(uuid "ab8d5c43-3db5-44d6-a4cf-15ff17718032")
+		)
+		(instances
+			(project "ETH1CVOLT_B"
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/fc485c76-3c3b-4e17-9525-ece6a0f7038f"
+					(reference "J8")
 					(unit 1)
 				)
 			)

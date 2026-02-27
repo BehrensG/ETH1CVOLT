@@ -1886,7 +1886,7 @@
 	)
 	(text "OUTPUT+"
 		(exclude_from_sim no)
-		(at 255.27 133.35 0)
+		(at 236.22 133.35 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -1899,7 +1899,7 @@
 	)
 	(text "OUTPUT-"
 		(exclude_from_sim no)
-		(at 255.27 152.4 0)
+		(at 236.22 152.4 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -1912,7 +1912,7 @@
 	)
 	(text_box "Banana connector distances need to be 3/4 inch (19.05 mm)"
 		(exclude_from_sim no)
-		(at 281.94 137.16 0)
+		(at 262.89 137.16 0)
 		(size 64.77 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1932,39 +1932,39 @@
 		(uuid "04b63318-24f4-498b-a637-cca9bd7191a8")
 	)
 	(junction
-		(at 226.06 124.46)
+		(at 207.01 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ffcbeac-7a50-427c-b077-a599b097be25")
 	)
 	(junction
-		(at 243.84 124.46)
+		(at 224.79 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad9aea27-940e-4509-af5b-d8757a7bb7e8")
 	)
 	(no_connect
-		(at 242.57 132.08)
+		(at 223.52 132.08)
 		(uuid "22d640bc-d4e2-4d3c-9974-babdcf51b82a")
 	)
 	(no_connect
-		(at 242.57 142.24)
+		(at 223.52 142.24)
 		(uuid "509b600b-38ce-4bf7-988f-54ed40d57e07")
 	)
 	(no_connect
-		(at 185.42 138.43)
+		(at 180.34 138.43)
 		(uuid "581b916e-cb5a-4c48-98bd-2a2dc1c47f4b")
 	)
 	(no_connect
-		(at 172.72 140.97)
+		(at 167.64 140.97)
 		(uuid "8098173b-80b4-462e-afee-cd29b9f62622")
 	)
 	(no_connect
-		(at 185.42 140.97)
+		(at 180.34 140.97)
 		(uuid "a256bd48-478d-4957-8ac3-8e6c94188351")
 	)
 	(no_connect
-		(at 172.72 138.43)
+		(at 167.64 138.43)
 		(uuid "fc477905-7bdd-4ff5-bc58-0416f7d69241")
 	)
 	(wire
@@ -1989,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 124.46) (xy 227.33 124.46)
+			(xy 207.01 124.46) (xy 208.28 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1999,7 +1999,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 134.62) (xy 227.33 134.62)
+			(xy 198.12 134.62) (xy 208.28 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2029,7 +2029,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 124.46) (xy 243.84 124.46)
+			(xy 226.06 124.46) (xy 224.79 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2039,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 144.78) (xy 227.33 144.78)
+			(xy 198.12 144.78) (xy 208.28 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2049,7 +2049,7 @@
 	)
 	(polyline
 		(pts
-			(xy 275.59 147.32) (xy 269.24 147.32)
+			(xy 256.54 147.32) (xy 250.19 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2080,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 109.22) (xy 226.06 124.46)
+			(xy 207.01 109.22) (xy 207.01 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +2090,7 @@
 	)
 	(polyline
 		(pts
-			(xy 276.86 137.16) (xy 278.13 138.43)
+			(xy 257.81 137.16) (xy 259.08 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2101,7 +2101,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 147.32) (xy 250.19 147.32)
+			(xy 223.52 147.32) (xy 231.14 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2111,7 @@
 	)
 	(polyline
 		(pts
-			(xy 278.13 146.05) (xy 276.86 147.32)
+			(xy 259.08 146.05) (xy 257.81 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2122,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 124.46) (xy 226.06 124.46)
+			(xy 138.43 124.46) (xy 207.01 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2132,7 +2132,7 @@
 	)
 	(polyline
 		(pts
-			(xy 276.86 147.32) (xy 275.59 146.05)
+			(xy 257.81 147.32) (xy 256.54 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2143,7 +2143,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 137.16) (xy 250.19 137.16)
+			(xy 223.52 137.16) (xy 231.14 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2163,7 +2163,7 @@
 	)
 	(polyline
 		(pts
-			(xy 275.59 137.16) (xy 269.24 137.16)
+			(xy 256.54 137.16) (xy 250.19 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2174,7 +2174,7 @@
 	)
 	(polyline
 		(pts
-			(xy 275.59 138.43) (xy 276.86 137.16)
+			(xy 256.54 138.43) (xy 257.81 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2185,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 135.89) (xy 196.85 135.89)
+			(xy 180.34 135.89) (xy 191.77 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2195,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 143.51) (xy 196.85 143.51)
+			(xy 180.34 143.51) (xy 191.77 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2205,7 +2205,7 @@
 	)
 	(polyline
 		(pts
-			(xy 276.86 147.32) (xy 276.86 137.16)
+			(xy 257.81 147.32) (xy 257.81 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2226,7 +2226,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 135.89) (xy 172.72 135.89)
+			(xy 156.21 135.89) (xy 167.64 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2236,7 +2236,7 @@
 	)
 	(polyline
 		(pts
-			(xy 276.86 137.16) (xy 276.86 147.32)
+			(xy 257.81 137.16) (xy 257.81 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2247,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 109.22) (xy 243.84 109.22)
+			(xy 219.71 109.22) (xy 224.79 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2257,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 109.22) (xy 243.84 124.46)
+			(xy 224.79 109.22) (xy 224.79 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2267,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 109.22) (xy 226.06 109.22)
+			(xy 212.09 109.22) (xy 207.01 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2277,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 124.46) (xy 242.57 124.46)
+			(xy 224.79 124.46) (xy 223.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 143.51) (xy 172.72 143.51)
+			(xy 156.21 143.51) (xy 167.64 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2296,7 +2296,7 @@
 		(uuid "fe56d3a2-f67a-45a2-85a9-566e823ec2b1")
 	)
 	(label "OUTPUT+"
-		(at 161.29 135.89 0)
+		(at 156.21 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2306,7 +2306,7 @@
 		(uuid "194a7682-d53b-4c8d-b28d-fb3669ad7554")
 	)
 	(label "OUTPUT+"
-		(at 201.93 134.62 0)
+		(at 198.12 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2316,7 +2316,7 @@
 		(uuid "3712da1a-b5b5-483c-8e2e-90e170c0786e")
 	)
 	(label "OUTPUT+"
-		(at 196.85 135.89 180)
+		(at 191.77 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2326,7 +2326,7 @@
 		(uuid "6a180242-dc86-4e3e-b43c-f7473593d65f")
 	)
 	(label "OUTPUT-"
-		(at 201.93 144.78 0)
+		(at 198.12 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2336,7 +2336,7 @@
 		(uuid "7c12d190-a4d9-44fd-90dd-5e286aefb3d0")
 	)
 	(label "OUTPUT-"
-		(at 196.85 143.51 180)
+		(at 191.77 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2346,7 +2346,7 @@
 		(uuid "93406819-a35c-46dd-a7d4-49984267feab")
 	)
 	(label "OUTPUT-"
-		(at 161.29 143.51 0)
+		(at 156.21 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2416,7 +2416,7 @@
 				(justify left)
 			)
 		)
-		(property "Component Class" "DIR"
+		(property "Component Class" ""
 			(at -603.25 -133.35 0)
 			(effects
 				(font
@@ -2446,7 +2446,7 @@
 				(justify left)
 			)
 		)
-		(property "Component Class" "ISO"
+		(property "Component Class" ""
 			(at -482.6 -133.35 0)
 			(effects
 				(font
@@ -2458,7 +2458,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 255.27 137.16 0)
+		(at 236.22 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2466,8 +2466,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a5fce10-8f85-4226-961a-93d28e64bede")
-		(property "Reference" "J7"
-			(at 257.81 135.8899 0)
+		(property "Reference" "J6"
+			(at 238.76 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2476,7 @@
 			)
 		)
 		(property "Value" "FCR7350R"
-			(at 257.81 138.4299 0)
+			(at 238.76 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2485,7 @@
 			)
 		)
 		(property "Footprint" "ETH1CVOLT_A:S16N-PC"
-			(at 255.27 137.16 0)
+			(at 236.22 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 137.16 0)
+			(at 236.22 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2503,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 137.16 0)
+			(at 236.22 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2517,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8417bd5c-73ec-4e98-b7c0-b091fea457ee"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2533,7 +2533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44542b49-cf82-4e3e-9c9d-3db725bf1abc")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0136"
 			(at 121.92 137.16 0)
 			(effects
 				(font
@@ -2583,7 +2583,7 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8417bd5c-73ec-4e98-b7c0-b091fea457ee"
-					(reference "#PWR0170")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2591,7 @@
 	)
 	(symbol
 		(lib_id "Relay:EE2-5NU")
-		(at 234.95 134.62 270)
+		(at 215.9 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2600,7 +2600,7 @@
 		(fields_autoplaced yes)
 		(uuid "5166bd66-c295-4eb4-963c-e955da35fca7")
 		(property "Reference" "K2"
-			(at 234.95 114.3 90)
+			(at 215.9 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2608,7 @@
 			)
 		)
 		(property "Value" "EE2-5NU"
-			(at 234.95 116.84 90)
+			(at 215.9 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2616,7 @@
 			)
 		)
 		(property "Footprint" "Relay_SMD:Relay_DPDT_Kemet_EE2_NU"
-			(at 234.95 134.62 0)
+			(at 215.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2625,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
-			(at 234.95 134.62 0)
+			(at 215.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2634,7 @@
 			)
 		)
 		(property "Description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
-			(at 234.95 134.62 0)
+			(at 215.9 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "626833ed-9fa5-4fb2-8b34-4c0935740420")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0137"
 			(at 139.7 137.16 0)
 			(effects
 				(font
@@ -2735,7 +2735,7 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8417bd5c-73ec-4e98-b7c0-b091fea457ee"
-					(reference "#PWR0142")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -2743,7 +2743,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 234.95 109.22 180)
+		(at 215.9 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2751,8 +2751,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9399483d-7210-42aa-bf3d-1c366c6ef90f")
-		(property "Reference" "D15"
-			(at 234.95 102.87 0)
+		(property "Reference" "D12"
+			(at 215.9 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2760,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 234.95 105.41 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2768,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 234.95 104.775 0)
+			(at 215.9 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2777,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 234.95 109.22 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2786,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 234.95 109.22 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2795,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 234.95 109.22 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2804,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 234.95 109.22 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +2821,7 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8417bd5c-73ec-4e98-b7c0-b091fea457ee"
-					(reference "D15")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2829,7 +2829,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 177.8 138.43 0)
+		(at 172.72 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2837,16 +2837,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a504506-7735-47fb-ac9f-20bcf5f4ada2")
-		(property "Reference" "J9"
-			(at 179.07 129.54 0)
+		(property "Reference" "J7"
+			(at 173.99 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Odd_Even"
-			(at 179.07 132.08 0)
+		(property "Value" "61030821821"
+			(at 173.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2854,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical_SMD"
-			(at 177.8 138.43 0)
+			(at 172.72 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 138.43 0)
+			(at 172.72 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2872,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 177.8 138.43 0)
+			(at 172.72 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +2907,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8417bd5c-73ec-4e98-b7c0-b091fea457ee"
-					(reference "J9")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2923,7 +2923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad06c757-6eba-4ed3-8f52-3bbe5b32dc04")
-		(property "Reference" "U19"
+		(property "Reference" "U16"
 			(at 130.81 118.11 0)
 			(effects
 				(font
@@ -2982,7 +2982,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8417bd5c-73ec-4e98-b7c0-b091fea457ee"
-					(reference "U19")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -2990,7 +2990,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:+5VD_ISO")
-		(at 245.11 124.46 270)
+		(at 226.06 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2998,8 +2998,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfc3478f-f25d-4124-9a03-c0996948bdff")
-		(property "Reference" "#PWR0136"
-			(at 241.3 124.46 0)
+		(property "Reference" "#PWR0133"
+			(at 222.25 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3008,7 @@
 			)
 		)
 		(property "Value" "+5VD_ISO"
-			(at 248.92 124.4599 90)
+			(at 229.87 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 124.46 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 124.46 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3035,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 245.11 124.46 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3049,7 @@
 		(instances
 			(project ""
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8417bd5c-73ec-4e98-b7c0-b091fea457ee"
-					(reference "#PWR0136")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -3057,7 +3057,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 255.27 147.32 0)
+		(at 236.22 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3066,7 +3066,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9f80aa1-a4e0-4fbf-80b7-a34bbd13ae3f")
 		(property "Reference" "J8"
-			(at 257.81 146.0499 0)
+			(at 238.76 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3075,7 @@
 			)
 		)
 		(property "Value" "FCR7350B"
-			(at 257.81 148.5899 0)
+			(at 238.76 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3084,7 @@
 			)
 		)
 		(property "Footprint" "ETH1CVOLT_A:S16N-PC"
-			(at 255.27 147.32 0)
+			(at 236.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 147.32 0)
+			(at 236.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3102,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 147.32 0)
+			(at 236.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eccd6b42-92c1-461f-a09e-5f8b232e2f37")
-		(property "Reference" "R72"
+		(property "Reference" "R58"
 			(at 118.11 118.11 90)
 			(effects
 				(font
@@ -3184,7 +3184,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/8417bd5c-73ec-4e98-b7c0-b091fea457ee"
-					(reference "R72")
+					(reference "R58")
 					(unit 1)
 				)
 			)
