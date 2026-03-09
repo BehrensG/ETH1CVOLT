@@ -1695,7 +1695,7 @@
 				(justify left)
 			)
 		)
-		(property "Component Class" "ISO"
+		(property "Component Class" ""
 			(at 14.6685 15.4305 0)
 			(effects
 				(font

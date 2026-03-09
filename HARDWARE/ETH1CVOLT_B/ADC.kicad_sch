@@ -4206,6 +4206,12 @@
 		(uuid "2398b395-ab9f-4cd1-95b6-8fcdced9480f")
 	)
 	(junction
+		(at 331.47 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a349e28-c287-412d-835f-632b7f9ea99a")
+	)
+	(junction
 		(at 175.26 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4230,6 +4236,12 @@
 		(uuid "5f8c8cba-2f4d-4946-9ead-0b2708a58c6c")
 	)
 	(junction
+		(at 238.76 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60a242b0-13f9-435f-8f4c-467ccf688ef9")
+	)
+	(junction
 		(at 194.31 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4246,6 +4258,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "814558dd-1c5c-4a27-b738-7b3916d3722a")
+	)
+	(junction
+		(at 148.59 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89854a6c-1acd-440b-ba02-ee07718208e4")
 	)
 	(junction
 		(at 185.42 248.92)
@@ -4282,12 +4300,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1687471-dc52-4231-b479-78ea6946a2fd")
-	)
-	(junction
-		(at 330.2 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d77a97bb-55fc-4f73-ada2-0d375fb90711")
 	)
 	(junction
 		(at 170.18 133.35)
@@ -4384,16 +4396,6 @@
 			(type default)
 		)
 		(uuid "0bc34c29-4595-4fce-9f1f-3739099d0454")
-	)
-	(wire
-		(pts
-			(xy 330.2 93.98) (xy 345.44 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ce17402-1974-4c2e-ba37-b7bbf5b4c354")
 	)
 	(wire
 		(pts
@@ -4717,6 +4719,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 104.14) (xy 238.76 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d43a9a6-52d2-4c24-8a39-e9e5b45e8804")
+	)
+	(wire
+		(pts
 			(xy 181.61 139.7) (xy 182.88 139.7)
 		)
 		(stroke
@@ -4734,6 +4746,16 @@
 			(type default)
 		)
 		(uuid "510a80fd-80b2-45dc-862b-3811dfc54b49")
+	)
+	(wire
+		(pts
+			(xy 238.76 104.14) (xy 255.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f914a0-8379-4063-b6a0-b51e05073864")
 	)
 	(wire
 		(pts
@@ -4757,7 +4779,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 106.68) (xy 170.18 106.68)
+			(xy 132.08 106.68) (xy 148.59 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4794,6 +4816,16 @@
 			(type default)
 		)
 		(uuid "62891c8d-746a-4315-b897-95282f0337b2")
+	)
+	(wire
+		(pts
+			(xy 148.59 106.68) (xy 170.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a77a32-1236-4d1c-87b2-1dcbda623866")
 	)
 	(wire
 		(pts
@@ -4987,7 +5019,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 93.98) (xy 330.2 93.98)
+			(xy 328.93 93.98) (xy 331.47 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4997,7 +5029,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 104.14) (xy 255.27 104.14)
+			(xy 189.23 104.14) (xy 238.76 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5267,7 +5299,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 92.71) (xy 330.2 93.98)
+			(xy 331.47 92.71) (xy 331.47 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5344,6 +5376,16 @@
 			(type default)
 		)
 		(uuid "d0fe92a3-2b30-4104-8b92-0022e149988d")
+	)
+	(wire
+		(pts
+			(xy 331.47 93.98) (xy 345.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27d9451-6b63-4ed4-9cf5-a97ba9a57b74")
 	)
 	(wire
 		(pts
@@ -5507,6 +5549,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 106.68) (xy 148.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9aed016-c9b0-4a2d-aac3-39e8c474feda")
+	)
+	(wire
+		(pts
 			(xy 270.51 257.81) (xy 270.51 260.35)
 		)
 		(stroke
@@ -5640,7 +5692,7 @@
 				(justify left)
 			)
 		)
-		(property "Component Class" "ISO"
+		(property "Component Class" ""
 			(at 14.6685 15.4305 0)
 			(effects
 				(font
@@ -5934,6 +5986,73 @@
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/491d5013-f6ed-4b41-b769-ee3854033f07"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1183424c-1239-4f3d-a46c-fef917a7c3a4")
+		(property "Reference" "TP10"
+			(at 151.13 111.2519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 151.13 113.7919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 143.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fca49d14-0d22-40f5-b1e5-40cf1c354873")
+		)
+		(instances
+			(project ""
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/491d5013-f6ed-4b41-b769-ee3854033f07"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -7620,7 +7739,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 330.2 92.71 0)
+		(at 331.47 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7629,7 +7748,7 @@
 		(fields_autoplaced yes)
 		(uuid "61843bc8-befa-481a-bec1-5fc13a1c9e86")
 		(property "Reference" "TP6"
-			(at 332.74 88.1379 0)
+			(at 334.01 88.1379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7757,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 332.74 90.6779 0)
+			(at 334.01 90.6779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7766,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 335.28 92.71 0)
+			(at 336.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,7 +7775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 335.28 92.71 0)
+			(at 336.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7784,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 330.2 92.71 0)
+			(at 331.47 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,6 +7888,73 @@
 			(project "ETH1CVOLT_B"
 				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/491d5013-f6ed-4b41-b769-ee3854033f07"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "700c21e5-cba6-4f77-a03c-aced64d07f2a")
+		(property "Reference" "TP11"
+			(at 241.3 107.4419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 241.3 109.9819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "097a6664-f967-4a3d-9205-ae501b91c310")
+		)
+		(instances
+			(project "ETH1CVOLT_B"
+				(path "/18612734-e331-4379-b1d3-176cfdcf99d5/b64e35a5-c86f-43a6-acb5-469d75a46b72/491d5013-f6ed-4b41-b769-ee3854033f07"
+					(reference "TP11")
 					(unit 1)
 				)
 			)

@@ -5,6 +5,18 @@
 	(uuid "18612734-e331-4379-b1d3-176cfdcf99d5")
 	(paper "A3")
 	(lib_symbols)
+	(text "ETH1CVOLT_B"
+		(exclude_from_sim no)
+		(at 209.55 31.75 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "1b18a615-b89e-4bf4-b5d5-4e78a2a1358f")
+	)
 	(sheet
 		(at 299.72 214.63)
 		(size 101.6 31.75)
