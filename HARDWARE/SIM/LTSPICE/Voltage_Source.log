@@ -1,0 +1,17 @@
+LTspice 24.1.9 for Windows
+Circuit: Z:\home\grzegorz\git\ETH1CVOLT\HARDWARE\SIM\LTSPICE\Voltage_Source.net
+Start Time: Fri Sep 11 19:39:43 2026
+solver = Alternate
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 13.515 seconds.
+
+Files loaded:
+Z:\home\grzegorz\git\ETH1CVOLT\HARDWARE\SIM\LTSPICE\Voltage_Source.net
+C:\users\grzegorz\AppData\Local\LTspice\lib\sub\ADA4522-2.sub
+C:\users\grzegorz\AppData\Local\LTspice\lib\sub\MAX44241.lib
+Z:\home\grzegorz\Downloads\OPAx192.LIB
+

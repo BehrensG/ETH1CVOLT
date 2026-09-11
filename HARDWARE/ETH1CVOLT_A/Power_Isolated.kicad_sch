@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "c7ad436e-1c7d-43f1-821e-d5ce146c7a04")
 	(paper "A3")
 	(lib_symbols)
@@ -38,11 +38,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "2ca714ab-eaa4-47e2-8e62-bcadfa00e38a")
 		(property "Sheetname" "DC-DC Isolated"
 			(at 106.68 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,6 +54,8 @@
 		)
 		(property "Sheetfile" "DC_DC_Isolated.kicad_sch"
 			(at 106.68 199.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,11 +84,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "6d967ebd-a46f-4449-b98b-985b0576b4a9")
 		(property "Sheetname" "Medium Voltage"
 			(at 217.17 121.2084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,6 +100,8 @@
 		)
 		(property "Sheetfile" "Medium_Voltage.kicad_sch"
 			(at 217.17 158.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,11 +130,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "7836756d-300e-4359-bd0e-a42b608a3735")
 		(property "Sheetname" "Low Voltage"
 			(at 217.17 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,6 +146,8 @@
 		)
 		(property "Sheetfile" "Low_Voltage.kicad_sch"
 			(at 217.17 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +158,7 @@
 		(instances
 			(project "ETH1CVOLT_A"
 				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/18da2cad-962d-47df-95e7-fd94fee0a7d8/ff9439b0-b623-4d10-a906-fb4e3cb6e044"
-					(page "13")
+					(page "8")
 				)
 			)
 		)
@@ -164,11 +176,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "af66c62a-bba3-4457-94b1-d4b2bf9780de")
 		(property "Sheetname" "High Voltage"
 			(at 217.17 163.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -178,6 +192,8 @@
 		)
 		(property "Sheetfile" "High_Voltage.kicad_sch"
 			(at 217.17 199.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,150 @@
+LTspice 24.1.9 for Windows
+Circuit: Z:\home\grzegorz\git\ETH1CVOLT\HARDWARE\SIM\LTSPICE\ADR1399_Voltage_Reference.net
+Start Time: Thu Sep 10 20:17:23 2026
+solver = Alternate
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 0.000733268
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 0.000726166
+vernier = 0.00390625
+vernier = 0.00520833
+Gmin = 0.000720283
+vernier = 0.00694444
+vernier = 0.00925925
+Gmin = 0.000707693
+vernier = 0.0123457
+Gmin = 0.000688332
+vernier = 0.0164609
+vernier = 0.0219478
+Gmin = 0.000657039
+vernier = 0.0292638
+vernier = 0.0390184
+Gmin = 0.000610116
+vernier = 0.0520245
+Gmin = 0.000543096
+vernier = 0.0693659
+vernier = 0.0924879
+Gmin = 0.00044706
+vernier = 0.123317
+vernier = 0.164423
+Gmin = 0.000328399
+vernier = 0.21923
+Gmin = 0.000202947
+vernier = 0.292307
+vernier = 0.389743
+Gmin = 9.16392e-05
+vernier = 0.519657
+vernier = 0.692876
+Gmin = 2.65639e-05
+vernier = 0.923834
+vernier = 0.461917
+vernier = 0.230959
+Gmin = 1.07685e-05
+vernier = 0.115479
+vernier = 0.0577396
+vernier = 0.0288698
+vernier = 0.0144349
+Gmin = 1.11076e-05
+vernier = 0.0192465
+Gmin = 1.06379e-05
+vernier = 0.025662
+vernier = 0.0342161
+Gmin = 9.89451e-06
+vernier = 0.0456214
+vernier = 0.0608285
+Gmin = 8.81729e-06
+vernier = 0.0811047
+Gmin = 7.35885e-06
+vernier = 0.10814
+vernier = 0.144186
+Gmin = 5.44229e-06
+vernier = 0.192248
+vernier = 0.096124
+vernier = 0.048062
+vernier = 0.024031
+Gmin = 4.80878e-06
+vernier = 0.0320413
+Gmin = 4.47548e-06
+vernier = 0.0427217
+vernier = 0.0569623
+Gmin = 3.96819e-06
+vernier = 0.0759497
+vernier = 0.101266
+vernier = 0.0506331
+Gmin = 3.44586e-06
+vernier = 0.0253166
+vernier = 0.0126583
+vernier = 0.00632914
+vernier = 0.00316457
+Gmin = 3.39741e-06
+vernier = 0.00158229
+vernier = 0.000791143
+vernier = 0.000593357
+vernier = 0.000445018
+Gmin = 0
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 2.27273%
+Source Step = 4.16667%
+Source Step = 6.06061%
+Source Step = 7.95455%
+Source Step = 9.84848%
+vernier = 0.09375
+Source Step = 12.4053%
+Source Step = 15.2462%
+Source Step = 18.0871%
+Source Step = 20.928%
+Source Step = 23.7689%
+vernier = 0.140625
+Source Step = 27.4621%
+Source Step = 31.7235%
+Source Step = 35.9848%
+Source Step = 40.2462%
+Source Step = 44.5076%
+vernier = 0.210938
+Source Step = 49.8343%
+Source Step = 56.2263%
+Source Step = 62.6184%
+Source Step = 69.0104%
+Source Step = 75.4025%
+vernier = 0.316406
+Source Step = 83.0729%
+Source Step = 84.0505%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+Total elapsed time: 2.124 seconds.
+
+Files loaded:
+Z:\home\grzegorz\git\ETH1CVOLT\HARDWARE\SIM\LTSPICE\ADR1399_Voltage_Reference.net
+C:\users\grzegorz\AppData\Local\LTspice\lib\sub\ADR1399H.sub
+Z:\home\grzegorz\Downloads\OPAx192.LIB
+

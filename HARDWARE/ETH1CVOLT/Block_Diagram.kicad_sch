@@ -1,0 +1,1694 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0f5dc7f7-e244-4929-be02-ac87d971c16f")
+	(paper "A3")
+	(lib_symbols)
+	(junction
+		(at 256.54 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29230672-cdf6-424b-b9cb-f8ebe119f113")
+	)
+	(wire
+		(pts
+			(xy 297.18 80.01) (xy 306.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ba34af-4435-456b-9b21-b8d7213cab3d")
+	)
+	(wire
+		(pts
+			(xy 198.12 116.84) (xy 207.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bbc24a-ca8e-4a37-bd32-3cf22f365bf0")
+	)
+	(wire
+		(pts
+			(xy 146.05 101.6) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2238aff8-f50d-42d9-8d32-2b67b2e5e412")
+	)
+	(wire
+		(pts
+			(xy 198.12 80.01) (xy 207.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23aef816-06a1-4e3c-9ba5-17342293e7e8")
+	)
+	(wire
+		(pts
+			(xy 93.98 105.41) (xy 102.87 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dae9f00-b6e7-4dfa-8b9f-86fb1cd20e45")
+	)
+	(wire
+		(pts
+			(xy 198.12 119.38) (xy 207.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36bb9429-73db-4a37-8082-84f9e3a4fe8b")
+	)
+	(wire
+		(pts
+			(xy 198.12 114.3) (xy 207.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f53c559-430d-47fd-9ecd-8aad91515fc4")
+	)
+	(wire
+		(pts
+			(xy 256.54 80.01) (xy 256.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b698c8-3d52-48f0-b6bc-08dcbd8332d2")
+	)
+	(wire
+		(pts
+			(xy 146.05 116.84) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44686d3f-d5cd-46db-944b-cd6da675bdda")
+	)
+	(wire
+		(pts
+			(xy 259.08 102.87) (xy 256.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e56b63-503e-4fc5-8563-056e6bbe2be6")
+	)
+	(wire
+		(pts
+			(xy 146.05 82.55) (xy 154.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c35374-a983-43f2-a532-36636d9510a9")
+	)
+	(wire
+		(pts
+			(xy 198.12 82.55) (xy 207.01 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583dbfa4-9cb3-448b-9f19-3509e7db5183")
+	)
+	(wire
+		(pts
+			(xy 198.12 85.09) (xy 207.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61fe1cbf-155e-48f4-be86-7c0c023a40a9")
+	)
+	(wire
+		(pts
+			(xy 146.05 80.01) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b7ba28-4616-4672-948e-d5cd988cbb1c")
+	)
+	(wire
+		(pts
+			(xy 250.19 80.01) (xy 259.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6720a3a0-a4c3-4cfb-ad74-d1391f1de7c5")
+	)
+	(wire
+		(pts
+			(xy 93.98 92.71) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1786db-9734-4f97-a9e3-21982872b8c1")
+	)
+	(wire
+		(pts
+			(xy 146.05 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71821896-7ad4-442c-a0bf-7b0dfd318d4e")
+	)
+	(wire
+		(pts
+			(xy 93.98 82.55) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79480eb9-3d46-4eab-90e2-153377642e9b")
+	)
+	(wire
+		(pts
+			(xy 198.12 106.68) (xy 207.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9d7cc8-9521-4626-bd47-6fb3e00a21d0")
+	)
+	(wire
+		(pts
+			(xy 146.05 85.09) (xy 154.94 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "881b3eda-3d5b-4e5b-818f-8edb295e676e")
+	)
+	(wire
+		(pts
+			(xy 146.05 114.3) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889ccbf8-b040-40d1-b4e2-f80ac7f82e50")
+	)
+	(wire
+		(pts
+			(xy 146.05 130.81) (xy 154.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6ae47f-c222-4c79-9ab3-dd1759ed5822")
+	)
+	(wire
+		(pts
+			(xy 198.12 111.76) (xy 207.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d75e4a-4b1c-4919-8cc2-12dad4c0b702")
+	)
+	(wire
+		(pts
+			(xy 250.19 107.95) (xy 259.08 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3149fff-9b22-4867-872d-b80b31e93ba9")
+	)
+	(wire
+		(pts
+			(xy 198.12 101.6) (xy 207.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff5e029-2cd6-49b6-a45e-487f5ba5e52d")
+	)
+	(wire
+		(pts
+			(xy 146.05 104.14) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf053e05-37bf-4a61-87b5-296dfc3455a0")
+	)
+	(wire
+		(pts
+			(xy 93.98 97.79) (xy 102.87 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf82c752-ff23-4e36-8881-197a955e7f00")
+	)
+	(wire
+		(pts
+			(xy 297.18 102.87) (xy 306.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0178357-596b-4946-a5b7-7efbb0667133")
+	)
+	(wire
+		(pts
+			(xy 93.98 100.33) (xy 102.87 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bd8e49-2371-4dfa-9962-a4148faba58e")
+	)
+	(wire
+		(pts
+			(xy 146.05 87.63) (xy 154.94 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7642851-63c2-421b-98c7-961a754bc95e")
+	)
+	(wire
+		(pts
+			(xy 93.98 80.01) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c837f4c6-ad9a-440b-97ac-081520eb76fa")
+	)
+	(wire
+		(pts
+			(xy 93.98 95.25) (xy 102.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83f745d-cfea-42fd-8c09-f2b5b202114f")
+	)
+	(wire
+		(pts
+			(xy 93.98 86.36) (xy 102.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c920231e-b2d3-4068-b51d-0129bc7dcaae")
+	)
+	(wire
+		(pts
+			(xy 198.12 104.14) (xy 207.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb48ef62-22fd-41d6-a44e-4bc08264fbd6")
+	)
+	(wire
+		(pts
+			(xy 259.08 85.09) (xy 252.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6f6906-9058-4d71-b355-3ee585acce8e")
+	)
+	(wire
+		(pts
+			(xy 146.05 111.76) (xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56e51c6-1efc-49d9-8048-84826d1717be")
+	)
+	(wire
+		(pts
+			(xy 198.12 87.63) (xy 207.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dccd2052-de52-483c-8fb5-5ac04a3e592b")
+	)
+	(wire
+		(pts
+			(xy 252.73 85.09) (xy 252.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea08dff-6fab-478a-9fde-a4105d079098")
+	)
+	(wire
+		(pts
+			(xy 93.98 88.9) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2243d82-3964-4ed1-b3b5-f68a91026f36")
+	)
+	(wire
+		(pts
+			(xy 252.73 102.87) (xy 250.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f0e946-17b6-4e73-a49d-690f6032f544")
+	)
+	(wire
+		(pts
+			(xy 198.12 130.81) (xy 306.07 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3508ee-812b-41ae-89b6-96c433332df8")
+	)
+	(wire
+		(pts
+			(xy 146.05 119.38) (xy 154.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8d7c9f-eab7-4d6f-b3c5-efe203cf753c")
+	)
+	(wire
+		(pts
+			(xy 93.98 102.87) (xy 102.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdcb10cd-9383-4b59-97e0-4541d095629e")
+	)
+	(sheet
+		(at 207.01 97.79)
+		(size 43.18 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "1e1986d0-5f57-471e-8eff-5dbba5b60ba1")
+		(property "Sheetname" "ADC"
+			(at 207.01 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 207.01 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_VOLT_SCLK" input
+			(at 207.01 101.6 180)
+			(uuid "8f47346c-4902-42e4-a6cc-24d49656e5a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_VOLT_SDO" output
+			(at 207.01 104.14 180)
+			(uuid "b0833ad8-971c-41c8-8372-36670180fd46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_VOLT_~{CS}" input
+			(at 207.01 106.68 180)
+			(uuid "5e11e804-ffbd-41c4-997b-27f6c57e7092")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_SW1" input
+			(at 207.01 114.3 180)
+			(uuid "295cf6ec-80fb-4194-8042-181bb6636424")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_SW2" input
+			(at 207.01 116.84 180)
+			(uuid "6a86c1cb-d394-4416-a543-e85cebaf7483")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEAS_R20V" input
+			(at 250.19 107.95 0)
+			(uuid "3710d4df-782f-4669-9f4e-8e2d6e16f0d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SW3" input
+			(at 207.01 119.38 180)
+			(uuid "c5f9e896-4b0b-41d5-a3c2-1d9f59671f79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RANGE_SEL" input
+			(at 207.01 111.76 180)
+			(uuid "8d9518e4-af42-4e26-8ecb-b606cd5ae158")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEAS_R10V" input
+			(at 250.19 102.87 0)
+			(uuid "756c96e2-7c11-4cb9-a91b-49756f29e809")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 76.2)
+		(size 43.18 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "2cbb7ee0-d677-45ec-ab6c-39870dae0fe6")
+		(property "Sheetname" "ISO DIG"
+			(at 154.94 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Isolation_Digital.kicad_sch"
+			(at 154.94 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_VOLT_SDO" input
+			(at 198.12 104.14 0)
+			(uuid "1a3610a0-239c-430b-8414-f64eb3a82a37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RANGE_SEL" output
+			(at 198.12 111.76 0)
+			(uuid "fc6d78d1-f9c4-46ad-8688-3c4b86457384")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_~{CS}" output
+			(at 198.12 80.01 0)
+			(uuid "cc621fc0-7a36-4f50-8b50-4e90c5b095fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_~{LDAC}" output
+			(at 198.12 87.63 0)
+			(uuid "4e56112a-d2bf-4acf-a581-a6bdc50e6b18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_SCLK" output
+			(at 198.12 85.09 0)
+			(uuid "96cedb4d-7573-4fae-ab0a-8b6f48945a11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_DIN" output
+			(at 198.12 82.55 0)
+			(uuid "95e45642-9495-41aa-93e1-f6b53567cb28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_VOLT_~{CS}" output
+			(at 198.12 106.68 0)
+			(uuid "431cf4df-0d21-4de7-9a2c-c22ee396e15c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REL_RANGE_SEL" output
+			(at 198.12 130.81 0)
+			(uuid "02de5f42-bbc5-4328-b919-86ac3a6f58ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_VOLT_SCLK" output
+			(at 198.12 101.6 0)
+			(uuid "797a2d42-4414-470b-ae6c-bd8a74b024a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SW3" output
+			(at 198.12 119.38 0)
+			(uuid "c1bd4bda-5cbb-4551-a3ae-b1d32ec20e6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SW1" output
+			(at 198.12 114.3 0)
+			(uuid "06ec871a-b3e2-4873-a7d3-8424d4add416")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SW2" output
+			(at 198.12 116.84 0)
+			(uuid "48276eda-4855-41cc-80e9-b1b6bc56673e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_RANGE_SEL" input
+			(at 154.94 111.76 180)
+			(uuid "e24799a1-c5d4-4408-9dac-67efa01840a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_ADC_SW2" input
+			(at 154.94 116.84 180)
+			(uuid "70460ece-8067-4830-812e-78083728f369")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_DAC_~{LDAC}" input
+			(at 154.94 87.63 180)
+			(uuid "10f4ff68-afe4-42bf-8af7-2fccb2e6c662")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_ADC_VOLT_SDO" output
+			(at 154.94 104.14 180)
+			(uuid "dc1f75b7-6418-43a1-96df-a67ac6cdf5ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_DAC_SCLK" input
+			(at 154.94 85.09 180)
+			(uuid "70eac81f-b96c-416a-96d0-e7bcfd18a28d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_DAC_~{CS}" input
+			(at 154.94 80.01 180)
+			(uuid "edbf12c6-7704-4f1e-84f9-c26d2821afbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_ADC_VOLT_~{CS}" input
+			(at 154.94 106.68 180)
+			(uuid "af8cfc4d-749b-4e17-91e6-a7a24daa5850")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_REL_RANGE_SEL" input
+			(at 154.94 130.81 180)
+			(uuid "33d04332-54c8-42a4-a5fd-cd3c5a3f2b2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_DAC_DIN" input
+			(at 154.94 82.55 180)
+			(uuid "365394d7-841b-4127-93c6-59b461b46d67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_ADC_SW3" input
+			(at 154.94 119.38 180)
+			(uuid "35edf782-ded1-45cc-8b28-ce9a4e15883e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_ADC_SW1" input
+			(at 154.94 114.3 180)
+			(uuid "547b787f-5b2f-42a7-afe8-7c7bc889bd88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_ADC_VOLT_SCLK" input
+			(at 154.94 101.6 180)
+			(uuid "7911136b-b5e2-428d-aff6-da9a2411d954")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 76.2)
+		(size 25.4 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "44f1e79e-262f-4f92-93c9-6823d9b8c38e")
+		(property "Sheetname" "ETHERNET"
+			(at 68.58 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 68.58 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RMII_TXD1" bidirectional
+			(at 93.98 82.55 0)
+			(uuid "c1d60e92-4029-4776-8692-5c9814ac1876")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REF_CLK" bidirectional
+			(at 93.98 95.25 0)
+			(uuid "4ef37627-de2c-4dfc-a2c4-3ca51c3355c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_MDIO" bidirectional
+			(at 93.98 97.79 0)
+			(uuid "9d4e544c-8746-4457-8096-d6cc4239f646")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_CRS_DV" bidirectional
+			(at 93.98 105.41 0)
+			(uuid "74e86510-1c36-46a8-91a6-03da8c7687f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_RXD1" bidirectional
+			(at 93.98 88.9 0)
+			(uuid "e93a55c5-5a09-4832-bb4b-d3b838d7cb58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_MDC" bidirectional
+			(at 93.98 100.33 0)
+			(uuid "cac46c6d-2c79-447c-8ff4-c8ac0e324c3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_TXD0" bidirectional
+			(at 93.98 80.01 0)
+			(uuid "607fd8cb-9965-4482-b0d3-4321bc20d816")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_TXEN" bidirectional
+			(at 93.98 92.71 0)
+			(uuid "3154d658-274b-442d-8686-dbd3626a7623")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 93.98 102.87 0)
+			(uuid "043165c0-4895-49f6-9e58-5d2d5bfb5212")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII_RXD0" bidirectional
+			(at 93.98 86.36 0)
+			(uuid "4493c8d8-5e2a-4ecf-a864-023eeab41756")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 259.08 99.06)
+		(size 38.1 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "4998f130-2e13-4499-8fd8-1540d762c3af")
+		(property "Sheetname" "RANGE 20V"
+			(at 259.08 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Range_20V.kicad_sch"
+			(at 259.08 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "R20V_SIG" output
+			(at 297.18 102.87 0)
+			(uuid "a702fffe-dedc-425a-9651-f504b97f8330")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_SIG" input
+			(at 259.08 102.87 180)
+			(uuid "a8dea2fa-8ac8-46ff-9049-37bf2a883477")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEAS_R20V" output
+			(at 259.08 107.95 180)
+			(uuid "f1660a6d-fc93-4866-bf7e-8b8025fa56d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 306.07 76.2)
+		(size 38.1 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "51151f13-84b6-4056-8667-683686f42d79")
+		(property "Sheetname" "OUTPUT"
+			(at 306.07 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Output.kicad_sch"
+			(at 306.07 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "R10V_SIG" input
+			(at 306.07 80.01 180)
+			(uuid "2a9303e1-e4cb-449e-8638-6e87e33b9f2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL_RANGE_SEL" input
+			(at 306.07 130.81 180)
+			(uuid "5da8f282-53c3-4efe-85cf-3e417a627dfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R20V_SIG" input
+			(at 306.07 102.87 180)
+			(uuid "c6815de1-b383-4fc6-a945-b13d2cc74637")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 153.67)
+		(size 228.6 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "85462291-6d94-451a-96ab-b2477caf0aa9")
+		(property "Sheetname" "POWER"
+			(at 68.58 152.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 68.58 192.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 76.2)
+		(size 43.18 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "9ecb7694-9b5a-4e75-86d6-fbc3af4f394e")
+		(property "Sheetname" "MCU"
+			(at 102.87 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 102.87 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RMII_MDC" bidirectional
+			(at 102.87 100.33 180)
+			(uuid "34355fae-5306-4e91-b2ed-d8999f723f04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_MDIO" bidirectional
+			(at 102.87 97.79 180)
+			(uuid "2bdbca8b-1a6e-4802-b201-70844e77f0ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_TXD1" bidirectional
+			(at 102.87 82.55 180)
+			(uuid "cc4dd8f6-b61c-4b9d-9e2f-de070e8488c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REF_CLK" bidirectional
+			(at 102.87 95.25 180)
+			(uuid "2679bd77-6393-4d7b-bf6d-d2287804e10a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_TXEN" bidirectional
+			(at 102.87 92.71 180)
+			(uuid "44ca88e9-752f-4726-be64-97992def0d3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_TXD0" bidirectional
+			(at 102.87 80.01 180)
+			(uuid "92e553c3-fd13-4faf-9532-091b5697d5d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 102.87 102.87 180)
+			(uuid "287c2002-7110-4bbb-a81d-28c3a639e1f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_CRS_DV" bidirectional
+			(at 102.87 105.41 180)
+			(uuid "5a701ba5-e06b-44c3-a27d-83716d6642f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_RXD0" bidirectional
+			(at 102.87 86.36 180)
+			(uuid "0d45cd7e-9bde-4bae-b012-db8068200e49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RMII_RXD1" bidirectional
+			(at 102.87 88.9 180)
+			(uuid "58942be1-b603-4303-acb5-bf40b57c268c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_DAC_DIN" output
+			(at 146.05 82.55 0)
+			(uuid "b90b889f-7c02-486f-aa8d-52cdaa99efe4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_ADC_SW1" output
+			(at 146.05 114.3 0)
+			(uuid "0311969d-222c-4383-805e-be1091048ebb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_ADC_SW2" output
+			(at 146.05 116.84 0)
+			(uuid "799094c6-9234-4439-895b-f77e31eb7227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_ADC_SW3" output
+			(at 146.05 119.38 0)
+			(uuid "e538d8fc-82ec-4dae-b3ce-04a91ae2aa18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_REL_RANGE_SEL" output
+			(at 146.05 130.81 0)
+			(uuid "0dbd6d48-5d1a-4f9a-aacd-0a718a7e96bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_DAC_~{CS}" output
+			(at 146.05 80.01 0)
+			(uuid "3e00aa8e-6f3b-4d57-9e12-c6202def4f9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_DAC_~{LDAC}" output
+			(at 146.05 87.63 0)
+			(uuid "dd7f96a6-5bc9-4cdc-87cb-9dcf53edaf01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_RANGE_SEL" output
+			(at 146.05 111.76 0)
+			(uuid "aa2f8f95-cb36-4a00-abeb-631803ca5e2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_DAC_SCLK" output
+			(at 146.05 85.09 0)
+			(uuid "d5a72211-df5e-4f50-87b6-e2756dc854b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_ADC_VOLT_~{CS}" output
+			(at 146.05 106.68 0)
+			(uuid "1a6f463f-b4cb-475a-96e0-5ab62f87c03d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_ADC_VOLT_SDO" input
+			(at 146.05 104.14 0)
+			(uuid "5172b97a-78cc-4d00-821d-f965dd231ccf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_ADC_VOLT_SCLK" output
+			(at 146.05 101.6 0)
+			(uuid "8ba0548e-d734-421e-9caf-3c7ace4ad3e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 307.34 153.67)
+		(size 36.83 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "cbabe7d7-3fc9-4cd0-85d7-1479ded60de8")
+		(property "Sheetname" "VOLTAGE REFERENCE"
+			(at 307.34 152.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Voltage_Reference.kicad_sch"
+			(at 307.34 192.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 259.08 76.2)
+		(size 38.1 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b")
+		(property "Sheetname" "RANGE 10V"
+			(at 259.08 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Range_10V.kicad_sch"
+			(at 259.08 90.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MEAS_R10V" output
+			(at 259.08 85.09 180)
+			(uuid "8bdf2cc8-12a9-48b2-ac44-d00694418d2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_SIG" input
+			(at 259.08 80.01 180)
+			(uuid "92b577a3-e546-43b1-91ef-dabdda4e4b97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R10V_SIG" output
+			(at 297.18 80.01 0)
+			(uuid "d6ea3f4e-052c-4961-8480-7798f23e92a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 76.2)
+		(size 43.18 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "e2cff0f2-156b-4ebd-b442-dc8733a740cb")
+		(property "Sheetname" "DAC"
+			(at 207.01 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC.kicad_sch"
+			(at 207.01 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DAC_~{CS}" input
+			(at 207.01 80.01 180)
+			(uuid "498aba71-0d65-4964-80da-d993be364bc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_DIN" input
+			(at 207.01 82.55 180)
+			(uuid "50667cb2-e508-43c7-ac2e-fd0e0ed95963")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_SCLK" input
+			(at 207.01 85.09 180)
+			(uuid "083ebf99-2c54-4587-abbb-bfc0624f7c54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_~{LDAC}" input
+			(at 207.01 87.63 180)
+			(uuid "139c6192-5b3f-4f28-9a82-4b28f37cb3f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_SIG" output
+			(at 250.19 80.01 0)
+			(uuid "deb58dfe-9924-40d8-ba95-693726936fad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929"
+					(page "7")
+				)
+			)
+		)
+	)
+)
