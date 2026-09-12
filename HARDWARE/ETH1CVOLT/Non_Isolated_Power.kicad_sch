@@ -1294,20 +1294,39 @@
 		)
 		(uuid "f50d63b0-6cd6-4274-afa1-51b5c6564949")
 	)
-	(symbol
-		(lib_id "Device:C")
-		(at 241.3 134.62 0)
-		(unit 1)
-		(body_style 1)
+	(rule_area
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2134b111-fef9-4b70-8475-2dc0045c6395")
-		(property "Reference" "C41"
-			(at 245.11 133.3499 0)
+		(polyline
+			(pts
+				(xy 13.97 16.51) (xy 406.4 16.51) (xy 406.4 251.46) (xy 298.45 251.46) (xy 298.45 251.46) (xy 298.45 283.21)
+				(xy 13.97 283.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "1a7ac1a2-e82c-4551-a29c-254ae2add129")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 13.97 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2861149c-5b7c-4fa1-8ac8-71f2267aaa1a")
+		(property "Netclass" "DIR"
+			(at 15.24 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1317,68 +1336,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/16V"
-			(at 245.11 135.8899 0)
+		(property "Component Class" ""
+			(at -603.25 -135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 242.2652 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 241.3 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "374086fd-adc3-4ede-ad12-e067371f6a14")
-		)
-		(pin "1"
-			(uuid "b84e6ad1-d5a6-4753-b639-998952fb343a")
-		)
-		(instances
-			(project "ETH1CVOLT"
-				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "C41")
-					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "22u/16V/X7R")
-						)
-					)
+					(italic yes)
 				)
 			)
 		)
@@ -1395,7 +1360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "274eb9ac-8a17-4916-868d-dcc97a581f9b")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG08"
 			(at 204.47 123.825 0)
 			(hide yes)
 			(show_name no)
@@ -1455,7 +1420,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "#FLG06")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -1473,7 +1438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40dec492-b431-4ab7-80bd-5bae0f5ad91c")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0197"
 			(at 241.3 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -1533,7 +1498,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "#PWR072")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -1551,7 +1516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "457e5e68-1175-4a3f-b1c8-59cd59a886b3")
-		(property "Reference" "C39"
+		(property "Reference" "C103"
 			(at 208.28 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1562,7 +1527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7/100V"
+		(property "Value" "4u7/50V/X7R"
 			(at 208.28 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1615,7 +1580,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "C39")
+					(reference "C103")
 					(unit 1)
 					(variant
 						(name "A")
@@ -1640,7 +1605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "598c6634-6a24-4f69-b0fc-abcd0e642f17")
-		(property "Reference" "L1"
+		(property "Reference" "L4"
 			(at 194.31 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1650,7 +1615,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "744774033"
 			(at 194.31 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1702,7 +1667,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "L1")
+					(reference "L4")
 					(unit 1)
 					(variant
 						(name "A")
@@ -1727,7 +1692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b942624-1929-42bf-b61b-46388a2bb0e2")
-		(property "Reference" "U15"
+		(property "Reference" "U24"
 			(at 226.06 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1793,7 +1758,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "U15")
+					(reference "U24")
 					(unit 1)
 				)
 			)
@@ -1811,7 +1776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85fbf02e-ff04-43a0-a15e-d8f83b627cbe")
-		(property "Reference" "C43"
+		(property "Reference" "C101"
 			(at 165.1 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1822,7 +1787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7/100V"
+		(property "Value" "10u/50V/X7R"
 			(at 165.1 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1875,7 +1840,96 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "C43")
+					(reference "C101")
+					(unit 1)
+					(variant
+						(name "A")
+						(field
+							(name "Value")
+							(value "4u7/50V/X7R")
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 241.3 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8631d3c0-5f4a-41ea-aae2-13bcd585df81")
+		(property "Reference" "C104"
+			(at 245.11 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u/50V/X7R"
+			(at 245.11 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 242.2652 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c397482-5ad3-41b0-aaa5-c2303334cc07")
+		)
+		(pin "2"
+			(uuid "d528b53c-1c4d-494d-88f4-c35ca49a58d5")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
+					(reference "C104")
 					(unit 1)
 					(variant
 						(name "A")
@@ -1900,7 +1954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cdc64df-0705-4908-8181-7cee6a4f9c4e")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0196"
 			(at 241.3 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -1960,7 +2014,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "#PWR066")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -1978,7 +2032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a32824cf-7c5b-4a15-a270-e37e61fc4cf9")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0195"
 			(at 161.29 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -2038,7 +2092,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "#PWR073")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -2056,7 +2110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaf8f41b-064c-4a6b-8e34-5cac67082383")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0194"
 			(at 161.29 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2116,7 +2170,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "#PWR052")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -2134,7 +2188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0583b36-cf27-4f52-a975-43124645f767")
-		(property "Reference" "C42"
+		(property "Reference" "C102"
 			(at 186.69 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2145,7 +2199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7/100V"
+		(property "Value" "4u7/50V/X7R"
 			(at 186.69 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2198,7 +2252,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "C42")
+					(reference "C102")
 					(unit 1)
 					(variant
 						(name "A")
@@ -2223,7 +2277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1b7e29c-fa6a-4e05-9701-ff756508942e")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG09"
 			(at 204.47 154.305 0)
 			(hide yes)
 			(show_name no)
@@ -2283,7 +2337,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "#FLG08")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)

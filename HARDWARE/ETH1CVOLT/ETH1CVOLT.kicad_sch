@@ -6,8 +6,8 @@
 	(paper "A3")
 	(lib_symbols)
 	(sheet
-		(at 203.2 127)
-		(size 25.4 17.78)
+		(at 328.93 212.09)
+		(size 48.26 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "ea97f94c-dee1-4702-bb32-5cb010d15929")
 		(property "Sheetname" "BLOCK DIAGRAM"
-			(at 203.2 126.2884 0)
+			(at 328.93 211.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "Block_Diagram.kicad_sch"
-			(at 203.2 145.3646 0)
+			(at 328.93 243.1546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

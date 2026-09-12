@@ -1044,205 +1044,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_ST_STM32H7:STM32H743VITx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4200,6 +4001,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SolderJumper_2_Open_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -4850,7 +4829,7 @@
 	)
 	(text "Connect to VBAT"
 		(exclude_from_sim no)
-		(at 173.99 268.986 0)
+		(at 168.91 256.794 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4884,7 +4863,7 @@
 		(uuid "27eda275-a3de-4870-8ba0-0d34d4f75d06")
 	)
 	(junction
-		(at 151.13 76.2)
+		(at 147.32 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e40a62b-57a6-4798-abd4-49744a3d1067")
@@ -4894,12 +4873,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3145836a-22a5-424c-a521-692639a6c127")
-	)
-	(junction
-		(at 227.33 262.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4623d963-4434-42b4-b836-6bd88edf4a7b")
 	)
 	(junction
 		(at 210.82 49.53)
@@ -4932,31 +4905,37 @@
 		(uuid "5ec2a3d3-311f-456f-8990-c5d6af785510")
 	)
 	(junction
+		(at 266.7 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62dcd095-a868-4d78-bb91-ebeca0ff4861")
+	)
+	(junction
 		(at 39.37 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76668bf1-5068-470f-aa70-c5483b94458c")
 	)
 	(junction
-		(at 180.34 185.42)
+		(at 166.37 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b8ee696-0a68-4a13-b865-99f474d3e241")
 	)
 	(junction
-		(at 229.87 262.89)
+		(at 236.22 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80b52425-ac4e-4ff4-a212-45537a103ea8")
 	)
 	(junction
-		(at 144.78 96.52)
+		(at 135.89 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "832763a5-b0f6-46ae-892c-6c7eaf149312")
 	)
 	(junction
-		(at 332.74 140.97)
+		(at 342.9 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91eee7c4-a327-430e-b18f-d1c5372e27a6")
@@ -4968,7 +4947,7 @@
 		(uuid "92309f1b-b71f-4e08-ae70-423f74468449")
 	)
 	(junction
-		(at 151.13 86.36)
+		(at 147.32 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "925bcde6-38ea-4603-a58d-0c23f897444b")
@@ -5022,12 +5001,6 @@
 		(uuid "b2b6cca0-a046-4e26-afdd-54b535035967")
 	)
 	(junction
-		(at 274.32 266.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d09b7d14-51b3-4d5f-8e20-2ed3f2036de5")
-	)
-	(junction
 		(at 153.67 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5054,12 +5027,24 @@
 		(uuid "1364248e-e792-4172-8af7-1ff0940e7528")
 	)
 	(no_connect
+		(at 236.22 81.28)
+		(uuid "180f76eb-78ba-485e-b231-a6e52f76351f")
+	)
+	(no_connect
 		(at 190.5 132.08)
 		(uuid "1a030546-fb3e-42cc-9fba-d0f3f8d02df6")
 	)
 	(no_connect
+		(at 236.22 175.26)
+		(uuid "1ec26ed4-390a-42eb-a2bd-bcd94d6414e8")
+	)
+	(no_connect
 		(at 303.53 187.96)
 		(uuid "1f6813a7-f353-4e0b-9184-daf6f56e07a1")
+	)
+	(no_connect
+		(at 236.22 165.1)
+		(uuid "1fcb618a-59e7-40a2-9b26-7a35e295e83a")
 	)
 	(no_connect
 		(at 190.5 121.92)
@@ -5068,6 +5053,10 @@
 	(no_connect
 		(at 236.22 139.7)
 		(uuid "2a6e9756-2e1a-4352-b32b-d659a5eb7aa2")
+	)
+	(no_connect
+		(at 236.22 86.36)
+		(uuid "2c536197-0805-4916-8172-f55a1ade529b")
 	)
 	(no_connect
 		(at 190.5 149.86)
@@ -5092,6 +5081,10 @@
 	(no_connect
 		(at 190.5 91.44)
 		(uuid "3cfbd0cf-2378-4ec6-ae79-b276984b1f50")
+	)
+	(no_connect
+		(at 236.22 88.9)
+		(uuid "426d1ce5-7c28-462a-8c03-a0985eb38fab")
 	)
 	(no_connect
 		(at 236.22 111.76)
@@ -5134,6 +5127,10 @@
 		(uuid "76c3b1c4-9f14-4ff8-9a1b-ebbb8e2cc0cd")
 	)
 	(no_connect
+		(at 236.22 162.56)
+		(uuid "7ac64112-b750-4889-9708-3fad802a7f16")
+	)
+	(no_connect
 		(at 236.22 180.34)
 		(uuid "7d58ecaf-6a56-4c55-8178-df2f53f2f02b")
 	)
@@ -5158,8 +5155,20 @@
 		(uuid "902d1d94-5d31-42ba-9344-ce192482bf77")
 	)
 	(no_connect
+		(at 190.5 165.1)
+		(uuid "96165c41-7c79-4a33-95c3-a55d13db9fb7")
+	)
+	(no_connect
 		(at 236.22 182.88)
 		(uuid "9a54b13d-a904-4ed2-b05e-17802f7196fa")
+	)
+	(no_connect
+		(at 236.22 172.72)
+		(uuid "9a74d9cf-860a-4cae-9167-f3a17c849c99")
+	)
+	(no_connect
+		(at 236.22 83.82)
+		(uuid "9a8f4645-c33c-47b0-ade9-c38fd8dd90ca")
 	)
 	(no_connect
 		(at 303.53 185.42)
@@ -5182,12 +5191,28 @@
 		(uuid "a56db32b-1a0d-4638-b3b5-7f52f4ae41c8")
 	)
 	(no_connect
+		(at 236.22 167.64)
+		(uuid "af4a2d91-0d78-4e1e-8a72-6fb6e0e15589")
+	)
+	(no_connect
 		(at 236.22 127)
 		(uuid "afa133e1-7fc5-4d76-b6f7-d586236ee409")
 	)
 	(no_connect
+		(at 236.22 129.54)
+		(uuid "b30d6f41-3ff0-4a92-b7f1-4bdd4830c9af")
+	)
+	(no_connect
 		(at 190.5 160.02)
 		(uuid "b5a21847-e039-4963-8746-ed4cbb60535a")
+	)
+	(no_connect
+		(at 190.5 88.9)
+		(uuid "bb48b07e-9df2-4e7a-a809-799e1ca6ff4c")
+	)
+	(no_connect
+		(at 236.22 177.8)
+		(uuid "bc94df5d-2c6c-47d9-995e-22972d8a6048")
 	)
 	(no_connect
 		(at 236.22 109.22)
@@ -5200,6 +5225,10 @@
 	(no_connect
 		(at 190.5 109.22)
 		(uuid "ce0424d4-1650-4004-87a7-7924d72a296c")
+	)
+	(no_connect
+		(at 236.22 99.06)
+		(uuid "d0a0e00f-1934-49d7-bfa1-34fad46520ed")
 	)
 	(no_connect
 		(at 190.5 101.6)
@@ -5216,6 +5245,10 @@
 	(no_connect
 		(at 236.22 106.68)
 		(uuid "f21026c1-d693-437f-af6d-d7019c830b29")
+	)
+	(no_connect
+		(at 236.22 170.18)
+		(uuid "f39e68c0-e3a2-42ea-a370-7feed2e3df6b")
 	)
 	(no_connect
 		(at 190.5 154.94)
@@ -5247,7 +5280,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 172.72) (xy 190.5 172.72)
+			(xy 176.53 172.72) (xy 190.5 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5344,16 +5377,6 @@
 			(type default)
 		)
 		(uuid "12176b8d-6044-4390-9a2e-b325b8081528")
-	)
-	(wire
-		(pts
-			(xy 274.32 267.97) (xy 274.32 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "124e4980-3d12-4420-ae3b-afa26ebae0ba")
 	)
 	(wire
 		(pts
@@ -5467,7 +5490,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 262.89) (xy 166.37 264.16)
+			(xy 176.53 262.89) (xy 176.53 264.16)
 		)
 		(stroke
 			(width 0)
@@ -5487,7 +5510,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 170.18) (xy 190.5 170.18)
+			(xy 153.67 170.18) (xy 190.5 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5517,7 +5540,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 262.89) (xy 227.33 264.16)
+			(xy 236.22 262.89) (xy 236.22 264.16)
 		)
 		(stroke
 			(width 0)
@@ -5537,16 +5560,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 185.42) (xy 185.42 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38d132be-df18-49e8-a108-9aa4a9057b62")
-	)
-	(wire
-		(pts
 			(xy 307.34 156.21) (xy 320.04 156.21)
 		)
 		(stroke
@@ -5557,7 +5570,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 151.13 95.25)
+			(xy 147.32 96.52) (xy 147.32 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5567,23 +5580,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 139.7) (xy 332.74 140.97)
+			(xy 342.9 139.7) (xy 342.9 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b6bb769-a2e0-42a2-8bf8-2b9ae3416326")
-	)
-	(wire
-		(pts
-			(xy 144.78 96.52) (xy 151.13 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3be5b9a9-807f-4d2c-b0c8-493d06df254d")
 	)
 	(wire
 		(pts
@@ -5607,7 +5610,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 143.51) (xy 297.18 143.51)
+			(xy 287.02 143.51) (xy 297.18 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5637,7 +5640,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 76.2) (xy 138.43 76.2)
+			(xy 147.32 76.2) (xy 125.73 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5687,16 +5690,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 262.89) (xy 229.87 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae63cfb-9637-44dd-83c8-a7a8c4659932")
-	)
-	(wire
-		(pts
 			(xy 130.81 273.05) (xy 147.32 273.05)
 		)
 		(stroke
@@ -5707,7 +5700,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 172.72) (xy 185.42 176.53)
+			(xy 176.53 172.72) (xy 176.53 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5907,7 +5900,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 95.25) (xy 138.43 96.52)
+			(xy 125.73 95.25) (xy 125.73 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5917,7 +5910,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 266.7) (xy 274.32 266.7)
+			(xy 278.13 264.16) (xy 266.7 264.16)
 		)
 		(stroke
 			(width 0)
@@ -5957,16 +5950,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 275.59) (xy 274.32 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f4b838f-aeb7-45b5-a2b2-6942475079ac")
-	)
-	(wire
-		(pts
 			(xy 322.58 151.13) (xy 322.58 149.86)
 		)
 		(stroke
@@ -5977,7 +5960,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 85.09) (xy 151.13 86.36)
+			(xy 147.32 85.09) (xy 147.32 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5987,7 +5970,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 273.05) (xy 227.33 271.78)
+			(xy 236.22 273.05) (xy 236.22 271.78)
 		)
 		(stroke
 			(width 0)
@@ -6007,7 +5990,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 186.69) (xy 180.34 185.42)
+			(xy 166.37 186.69) (xy 166.37 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6017,7 +6000,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 185.42) (xy 180.34 185.42)
+			(xy 153.67 185.42) (xy 176.53 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6047,7 +6030,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 184.15) (xy 173.99 185.42)
+			(xy 153.67 184.15) (xy 153.67 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6057,7 +6040,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 153.67) (xy 332.74 149.86)
+			(xy 342.9 153.67) (xy 342.9 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6117,7 +6100,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 140.97) (xy 332.74 142.24)
+			(xy 342.9 140.97) (xy 342.9 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6127,7 +6110,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 144.78 96.52)
+			(xy 125.73 96.52) (xy 147.32 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6197,16 +6180,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 88.9) (xy 190.5 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2cab7d0-4474-4d3c-ae73-4964d56b08a8")
-	)
-	(wire
-		(pts
 			(xy 107.95 262.89) (xy 85.09 262.89)
 		)
 		(stroke
@@ -6217,7 +6190,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 151.13 86.36)
+			(xy 170.18 86.36) (xy 147.32 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6267,7 +6240,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 262.89) (xy 227.33 262.89)
+			(xy 214.63 262.89) (xy 236.22 262.89)
 		)
 		(stroke
 			(width 0)
@@ -6287,7 +6260,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 143.51) (xy 285.75 143.51)
+			(xy 278.13 143.51) (xy 279.4 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6307,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 77.47) (xy 151.13 76.2)
+			(xy 147.32 77.47) (xy 147.32 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6327,7 +6300,17 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 140.97) (xy 332.74 140.97)
+			(xy 179.07 66.04) (xy 190.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2baf7c5-7dc0-4b10-b95d-219a10fc46de")
+	)
+	(wire
+		(pts
+			(xy 322.58 140.97) (xy 342.9 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6347,7 +6330,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 266.7) (xy 274.32 265.43)
+			(xy 266.7 264.16) (xy 266.7 262.89)
 		)
 		(stroke
 			(width 0)
@@ -6407,7 +6390,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 153.67) (xy 332.74 153.67)
+			(xy 307.34 153.67) (xy 342.9 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6427,7 +6410,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 76.2) (xy 138.43 87.63)
+			(xy 125.73 76.2) (xy 125.73 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6457,7 +6440,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 185.42) (xy 185.42 184.15)
+			(xy 176.53 185.42) (xy 176.53 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6487,7 +6470,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 271.78) (xy 166.37 273.05)
+			(xy 176.53 271.78) (xy 176.53 273.05)
 		)
 		(stroke
 			(width 0)
@@ -6507,7 +6490,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 170.18) (xy 173.99 176.53)
+			(xy 153.67 170.18) (xy 153.67 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6527,7 +6510,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 76.2) (xy 190.5 76.2)
+			(xy 147.32 76.2) (xy 190.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6537,7 +6520,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 86.36) (xy 151.13 87.63)
+			(xy 147.32 86.36) (xy 147.32 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6567,7 +6550,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 97.79) (xy 144.78 96.52)
+			(xy 135.89 97.79) (xy 135.89 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6587,7 +6570,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 262.89) (xy 238.76 262.89)
+			(xy 236.22 262.89) (xy 245.11 262.89)
 		)
 		(stroke
 			(width 0)
@@ -6626,7 +6609,7 @@
 		(uuid "01d029f1-e123-4ad2-87fd-8475bd78430d")
 	)
 	(label "MCU_DEF"
-		(at 285.75 266.7 180)
+		(at 278.13 264.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6787,17 +6770,6 @@
 			(justify right)
 		)
 		(uuid "1ed56a52-f7dd-45a7-8b2a-c2f7ee24d583")
-	)
-	(hierarchical_label "MCU_ADC_CURR_SCLK"
-		(shape output)
-		(at 189.23 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2614e4cc-a378-495f-8fcc-024b5598cb4f")
 	)
 	(hierarchical_label "MCU_ADC_SW3"
 		(shape output)
@@ -6964,17 +6936,6 @@
 		)
 		(uuid "b407590e-73ef-4f9c-82bc-a2f895a10cb2")
 	)
-	(hierarchical_label "MCU_RANGE_SEL"
-		(shape output)
-		(at 326.39 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0cfad0c-923c-45c9-8245-9fd4ee1fb26c")
-	)
 	(hierarchical_label "MCU_ADC_VOLT_SCLK"
 		(shape output)
 		(at 326.39 50.8 180)
@@ -7139,7 +7100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "005e4158-be1d-40b1-8041-fb22760802c5")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR012"
 			(at 193.04 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7199,7 +7160,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR06")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7223,7 +7184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "005e4158-be1d-40b1-8041-fb22760802c6")
-		(property "Reference" "#PWR0431"
+		(property "Reference" "#PWR017"
 			(at 220.98 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7283,7 +7244,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0431")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7329,7 +7290,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u/100V/X7R"
 			(at 20.701 269.113 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7425,7 +7386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29909638-9bed-42df-b708-43dc249404fd")
-		(property "Reference" "#PWR0435"
+		(property "Reference" "#PWR025"
 			(at 285.75 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7485,7 +7446,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0435")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7511,7 +7472,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 273.05 0)
+		(at 236.22 273.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7521,8 +7482,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3507f951-9178-46ac-9313-a06909874429")
-		(property "Reference" "#PWR0426"
-			(at 227.33 279.4 0)
+		(property "Reference" "#PWR019"
+			(at 236.22 279.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7533,7 +7494,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 277.495 0)
+			(at 236.22 277.495 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7543,7 +7504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 273.05 0)
+			(at 236.22 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7554,7 +7515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 273.05 0)
+			(at 236.22 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7565,7 +7526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 273.05 0)
+			(at 236.22 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7581,7 +7542,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0426")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7607,7 +7568,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 151.13 81.28 270)
+		(at 147.32 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7618,7 +7579,7 @@
 		(fields_autoplaced yes)
 		(uuid "35661584-5c60-480d-b3bb-114444bb2985")
 		(property "Reference" "Y1"
-			(at 154.4574 80.1116 90)
+			(at 150.6474 80.1116 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7629,7 +7590,7 @@
 			)
 		)
 		(property "Value" "NX5032GA-16"
-			(at 154.4574 82.423 90)
+			(at 150.6474 82.423 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7640,7 +7601,7 @@
 			)
 		)
 		(property "Footprint" "ETH1CVOLT_A:NX5032GA"
-			(at 151.13 81.28 0)
+			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7651,7 +7612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 81.28 0)
+			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7662,7 +7623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 81.28 0)
+			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7805,7 +7766,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 185.42 180.34 0)
+		(at 176.53 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7815,8 +7776,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40ef0faa-cefa-4122-a50e-29e7c824e1af")
-		(property "Reference" "C15"
-			(at 188.341 179.1716 0)
+		(property "Reference" "C12"
+			(at 180.34 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7826,8 +7787,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
-			(at 188.341 181.483 0)
+		(property "Value" "2u2/16V/X7R"
+			(at 180.34 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7838,7 +7799,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 186.3852 184.15 0)
+			(at 177.4952 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7849,7 +7810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 180.34 0)
+			(at 176.53 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7860,7 +7821,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 180.34 0)
+			(at 176.53 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7879,7 +7840,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "C15")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7905,7 +7866,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 66.04 270)
+		(at 171.45 66.04 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7915,8 +7876,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4114824f-e24d-4e72-b0c9-2509397ed31b")
-		(property "Reference" "#PWR0425"
-			(at 176.53 66.04 0)
+		(property "Reference" "#PWR09"
+			(at 165.1 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7927,7 +7888,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 66.04 90)
+			(at 167.64 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7938,7 +7899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 66.04 0)
+			(at 171.45 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7949,7 +7910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 66.04 0)
+			(at 171.45 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7960,7 +7921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 66.04 0)
+			(at 171.45 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7976,7 +7937,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0425")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8023,7 +7984,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u/100V/X7R"
 			(at 66.04 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8119,7 +8080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44ca0494-8718-4ec3-90d6-2e9ddd5599a1")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR02"
 			(at 62.23 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -8179,7 +8140,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0406")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8205,7 +8166,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 186.69 0)
+		(at 166.37 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8215,8 +8176,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "477b5332-5ee3-4ce5-a575-5730b3847d70")
-		(property "Reference" "#PWR0424"
-			(at 180.34 193.04 0)
+		(property "Reference" "#PWR08"
+			(at 166.37 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8227,7 +8188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 191.135 0)
+			(at 166.37 191.135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8237,7 +8198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 186.69 0)
+			(at 166.37 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8248,7 +8209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 186.69 0)
+			(at 166.37 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8259,7 +8220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 186.69 0)
+			(at 166.37 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8275,7 +8236,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0424")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8301,7 +8262,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 238.76 262.89 0)
+		(at 245.11 262.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8311,8 +8272,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a362ee-ffd7-4e22-a594-02c83372e5e2")
-		(property "Reference" "#FLG0401"
-			(at 238.76 260.985 0)
+		(property "Reference" "#FLG02"
+			(at 245.11 260.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8323,7 +8284,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 238.76 259.08 0)
+			(at 245.11 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8333,7 +8294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 262.89 0)
+			(at 245.11 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8344,7 +8305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 262.89 0)
+			(at 245.11 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8355,7 +8316,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 238.76 262.89 0)
+			(at 245.11 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8371,7 +8332,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#FLG0401")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8407,7 +8368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d68c333-cba2-4b3f-b378-4dd9212cc4f1")
-		(property "Reference" "#PWR0437"
+		(property "Reference" "#PWR027"
 			(at 297.18 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -8467,7 +8428,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0437")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8588,7 +8549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50990d36-cca6-4a2c-94df-a4a7b50b8f93")
-		(property "Reference" "#PWR0419"
+		(property "Reference" "#PWR04"
 			(at 138.43 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8648,7 +8609,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0419")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8684,7 +8645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53140c2c-4424-42cd-8e93-f79317a93a57")
-		(property "Reference" "#PWR0420"
+		(property "Reference" "#PWR05"
 			(at 138.43 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8744,7 +8705,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0420")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8770,7 +8731,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 229.87 262.89 0)
+		(at 236.22 262.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8780,8 +8741,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57365067-48ef-4017-a25c-6eb7acf256f2")
-		(property "Reference" "#PWR0427"
-			(at 229.87 266.7 0)
+		(property "Reference" "#PWR018"
+			(at 236.22 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8792,7 +8753,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 229.87 259.08 0)
+			(at 236.22 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8802,7 +8763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 262.89 0)
+			(at 236.22 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8813,7 +8774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 262.89 0)
+			(at 236.22 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8824,7 +8785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 229.87 262.89 0)
+			(at 236.22 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8840,7 +8801,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0427")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8827,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 186.69 66.04 270)
+		(at 175.26 66.04 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8877,7 +8838,7 @@
 		(dnp no)
 		(uuid "5774c49d-af37-4116-89b2-f010b3824f07")
 		(property "Reference" "R2"
-			(at 186.69 63.5 90)
+			(at 175.26 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8886,8 +8847,8 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 186.69 66.04 90)
+		(property "Value" "0R/5%/100mW"
+			(at 175.26 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8897,7 +8858,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 186.69 67.818 90)
+			(at 175.26 67.818 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8908,7 +8869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 66.04 0)
+			(at 175.26 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8919,7 +8880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 66.04 0)
+			(at 175.26 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8964,7 +8925,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 332.74 139.7 0)
+		(at 342.9 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8974,8 +8935,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6321b831-ba72-42af-bfce-0fa3c25d7dae")
-		(property "Reference" "#PWR0438"
-			(at 332.74 143.51 0)
+		(property "Reference" "#PWR028"
+			(at 342.9 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8986,7 +8947,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 332.74 136.144 0)
+			(at 342.9 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8996,7 +8957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 139.7 0)
+			(at 342.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9007,7 +8968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 139.7 0)
+			(at 342.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9018,7 +8979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 332.74 139.7 0)
+			(at 342.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9034,7 +8995,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0438")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9070,7 +9031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ad5395b-9457-4d5a-8a35-61338cdedf34")
-		(property "Reference" "#PWR0430"
+		(property "Reference" "#PWR015"
 			(at 214.63 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -9130,7 +9091,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0430")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9166,8 +9127,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76693c90-66b6-4ba9-b4ad-d529ea76783c")
-		(property "Reference" "C7"
-			(at 156.591 266.8016 0)
+		(property "Reference" "C11"
+			(at 157.48 266.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9177,8 +9138,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 156.591 269.113 0)
+		(property "Value" "1u/16V/X7R"
+			(at 157.48 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9230,7 +9191,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9261,7 +9222,7 @@
 		(fields_autoplaced yes)
 		(uuid "833a54df-9fdb-4ba8-bb25-dba62cd83eee")
 		(property "Reference" "R4"
-			(at 324.358 144.8816 0)
+			(at 325.12 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9271,8 +9232,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7"
-			(at 324.358 147.193 0)
+		(property "Value" "4k7/1%/100mW"
+			(at 325.12 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9360,7 +9321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85ac784e-9559-41b6-b798-2f156d2bb12a")
-		(property "Reference" "#PWR0429"
+		(property "Reference" "#PWR014"
 			(at 205.74 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9420,7 +9381,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0429")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9455,7 +9416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "865c404e-1537-4033-85a2-c8243684a9c4")
-		(property "Reference" "#PWR0414"
+		(property "Reference" "#PWR06"
 			(at 147.32 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -9515,7 +9476,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0414")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9545,7 +9506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "871fa30f-0595-4738-b4ef-a80f704e7707")
-		(property "Reference" "#PWR0423"
+		(property "Reference" "#PWR016"
 			(at 214.63 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -9605,7 +9566,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0423")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9640,7 +9601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89931fb7-79eb-49e0-a656-f8a9a7e16143")
-		(property "Reference" "#PWR0413"
+		(property "Reference" "#PWR07"
 			(at 153.67 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -9700,7 +9661,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0413")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9730,8 +9691,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e7d8045-1759-4fb0-8f1e-17f8d00e3d3a")
-		(property "Reference" "C9"
-			(at 141.605 64.77 0)
+		(property "Reference" "C8"
+			(at 142.24 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9741,8 +9702,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 141.605 67.31 0)
+		(property "Value" "0.1u/100V/X7R"
+			(at 142.24 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9794,7 +9755,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9831,7 +9792,7 @@
 		(fields_autoplaced yes)
 		(uuid "9194232e-7c7a-449b-90e8-5940fbdd883b")
 		(property "Reference" "R1"
-			(at 140.335 54.61 0)
+			(at 140.97 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9841,8 +9802,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 140.335 57.15 0)
+		(property "Value" "10k/1%/100mW"
+			(at 140.97 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9920,7 +9881,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 97.79 0)
+		(at 135.89 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9930,8 +9891,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92ab145d-e46b-4273-a072-1998e69a9b9c")
-		(property "Reference" "#PWR0421"
-			(at 144.78 104.14 0)
+		(property "Reference" "#PWR03"
+			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9942,7 +9903,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 102.235 0)
+			(at 135.89 102.235 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9952,7 +9913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 97.79 0)
+			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9963,7 +9924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 97.79 0)
+			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9974,7 +9935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 97.79 0)
+			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9990,7 +9951,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0421")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10026,7 +9987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9495b2dc-0236-414e-80f8-27f78727f5f6")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR01"
 			(at 62.23 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -10086,7 +10047,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0405")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10112,7 +10073,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 284.48 143.51 270)
+		(at 278.13 143.51 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10122,8 +10083,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99cc7a00-c53d-4e1d-bab7-991c07aa5d65")
-		(property "Reference" "#PWR0432"
-			(at 278.13 143.51 0)
+		(property "Reference" "#PWR022"
+			(at 271.78 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10134,7 +10095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 281.305 143.51 90)
+			(at 274.955 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10145,7 +10106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 143.51 0)
+			(at 278.13 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10156,7 +10117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 143.51 0)
+			(at 278.13 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10167,7 +10128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 284.48 143.51 0)
+			(at 278.13 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10183,7 +10144,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0432")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10209,7 +10170,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 91.44 0)
+		(at 125.73 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10219,8 +10180,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a26cd2f1-84f8-457a-9376-e458578154a0")
-		(property "Reference" "C10"
-			(at 141.351 90.2716 0)
+		(property "Reference" "C6"
+			(at 129.54 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10230,8 +10191,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8p"
-			(at 141.351 92.583 0)
+		(property "Value" "8p/100V/X7R"
+			(at 129.54 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10242,7 +10203,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 139.3952 95.25 0)
+			(at 126.6952 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10253,7 +10214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 91.44 0)
+			(at 125.73 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10264,7 +10225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 91.44 0)
+			(at 125.73 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10283,7 +10244,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10309,7 +10270,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 273.05 0)
+		(at 176.53 273.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10319,8 +10280,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a386ce02-8bdc-4771-a1fa-b93b138362dc")
-		(property "Reference" "#PWR0418"
-			(at 166.37 279.4 0)
+		(property "Reference" "#PWR011"
+			(at 176.53 279.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10331,7 +10292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 277.495 0)
+			(at 176.53 277.495 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10341,7 +10302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 273.05 0)
+			(at 176.53 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10352,7 +10313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 273.05 0)
+			(at 176.53 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10363,7 +10324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 273.05 0)
+			(at 176.53 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10379,7 +10340,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0418")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10415,7 +10376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6ba93f2-950a-46c6-8a91-59dd7bec51a0")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 134.62 266.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10426,7 +10387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u/100V/X7R"
 			(at 134.62 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,7 +10440,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 					(variant
 						(name "A")
@@ -10516,7 +10477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa694519-c99c-461e-a89f-907e5ae3a08f")
-		(property "Reference" "#PWR0422"
+		(property "Reference" "#PWR013"
 			(at 198.12 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -10576,7 +10537,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0422")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10623,7 +10584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u/100V/X7R"
 			(at 111.76 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10709,7 +10670,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 166.37 262.89 0)
+		(at 176.53 262.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10719,8 +10680,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b27f43b4-76f0-4827-a7bc-a25795ed1469")
-		(property "Reference" "#PWR0417"
-			(at 166.37 266.7 0)
+		(property "Reference" "#PWR010"
+			(at 176.53 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10731,7 +10692,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 166.37 259.08 0)
+			(at 176.53 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10741,7 +10702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 262.89 0)
+			(at 176.53 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10752,7 +10713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 262.89 0)
+			(at 176.53 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10763,7 +10724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 166.37 262.89 0)
+			(at 176.53 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10779,7 +10740,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0417")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10815,7 +10776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b292a7ed-591b-4f1d-9fca-ec199fa307f8")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 218.44 266.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10826,7 +10787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u/16V/X7R"
 			(at 218.44 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10837,7 +10798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 215.5952 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -10879,7 +10840,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10905,7 +10866,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 274.32 257.81 0)
+		(at 266.7 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10915,8 +10876,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2bb0dd7-7311-4b99-baec-680d4d39aaae")
-		(property "Reference" "#PWR0415"
-			(at 274.32 261.62 0)
+		(property "Reference" "#PWR020"
+			(at 266.7 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10927,7 +10888,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 274.32 254.254 0)
+			(at 266.7 251.714 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10937,7 +10898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 257.81 0)
+			(at 266.7 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10948,7 +10909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 257.81 0)
+			(at 266.7 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10959,7 +10920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 274.32 257.81 0)
+			(at 266.7 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10975,7 +10936,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0415")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11000,41 +10961,42 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 173.99 180.34 0)
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 266.7 269.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6b4394e-5c7f-42fc-a4ff-a213350500cf")
-		(property "Reference" "C13"
-			(at 176.911 179.1716 0)
+		(uuid "b43b51bf-464b-4e37-95b1-b4fd8b3d3a99")
+		(property "Reference" "JP8"
+			(at 269.24 267.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "2u2"
-			(at 176.911 181.483 0)
+		(property "Value" "SolderJumper_2_Open"
+			(at 269.24 270.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 174.9552 184.15 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 266.7 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11045,7 +11007,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 180.34 0)
+			(at 274.32 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 271.78 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a94679d8-1856-4334-807c-4a6f0acc8a6c")
+		)
+		(pin "1"
+			(uuid "06fd41c3-ebd5-4cba-b5d0-8e2440ab0c33")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6b4394e-5c7f-42fc-a4ff-a213350500cf")
+		(property "Reference" "C10"
+			(at 157.48 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2/16V/X7R"
+			(at 157.48 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 154.6352 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,7 +11100,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 180.34 0)
+			(at 153.67 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11075,7 +11119,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11101,7 +11145,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 274.32 261.62 180)
+		(at 266.7 259.08 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11111,7 +11155,7 @@
 		(dnp no)
 		(uuid "b9ab736e-445a-4e06-a013-94f70a971a34")
 		(property "Reference" "R3"
-			(at 276.098 260.4516 0)
+			(at 268.478 257.9116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11121,8 +11165,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 276.098 262.763 0)
+		(property "Value" "10k/1%/100mW"
+			(at 268.478 260.223 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11133,7 +11177,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 276.098 261.62 90)
+			(at 268.478 259.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11144,7 +11188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 261.62 0)
+			(at 266.7 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11155,7 +11199,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 261.62 0)
+			(at 266.7 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11210,7 +11254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9883ee-a84f-40a8-9501-5c945f347bf5")
-		(property "Reference" "#PWR0433"
+		(property "Reference" "#PWR023"
 			(at 284.48 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -11270,7 +11314,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0433")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11296,7 +11340,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 289.56 143.51 90)
+		(at 283.21 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11304,10 +11348,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bcda0b29-22bb-4b81-9b22-92daa0ff4cdd")
 		(property "Reference" "C16"
-			(at 289.56 137.16 90)
+			(at 283.21 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11316,8 +11359,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 289.56 139.7 90)
+		(property "Value" "0.1u/100V/X7R"
+			(at 283.21 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11327,7 +11370,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 293.37 142.5448 0)
+			(at 287.02 142.5448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11338,7 +11381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 143.51 0)
+			(at 283.21 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11349,7 +11392,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 289.56 143.51 0)
+			(at 283.21 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11516,7 +11559,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 332.74 146.05 0)
+		(at 342.9 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11527,7 +11570,7 @@
 		(fields_autoplaced yes)
 		(uuid "c86990c9-a13c-4f04-8bbc-2136525f9965")
 		(property "Reference" "R5"
-			(at 334.518 144.8816 0)
+			(at 345.44 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11537,8 +11580,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7"
-			(at 334.518 147.193 0)
+		(property "Value" "4k7/1%/100mW"
+			(at 345.44 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11549,7 +11592,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 330.962 146.05 90)
+			(at 341.122 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11560,7 +11603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 146.05 0)
+			(at 342.9 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11571,7 +11614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 332.74 146.05 0)
+			(at 342.9 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11626,7 +11669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7a41114-f5de-4769-8756-f08cd8a17820")
-		(property "Reference" "#PWR0434"
+		(property "Reference" "#PWR024"
 			(at 284.48 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -11686,7 +11729,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0434")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11712,7 +11755,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 227.33 267.97 0)
+		(at 236.22 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11722,8 +11765,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7edf4fb-b9b8-4328-a874-2563da9981ec")
-		(property "Reference" "C14"
-			(at 230.251 266.8016 0)
+		(property "Reference" "C15"
+			(at 240.03 266.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11733,8 +11776,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 230.251 269.113 0)
+		(property "Value" "0.1u/100V/X7R"
+			(at 240.03 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11745,7 +11788,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 228.2952 271.78 0)
+			(at 237.1852 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11756,7 +11799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 267.97 0)
+			(at 236.22 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11767,7 +11810,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 267.97 0)
+			(at 236.22 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11786,7 +11829,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -11812,7 +11855,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 274.32 276.86 0)
+		(at 266.7 274.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11822,8 +11865,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd2fce0-e985-4013-b152-28d6f9e66773")
-		(property "Reference" "#PWR0416"
-			(at 274.32 283.21 0)
+		(property "Reference" "#PWR021"
+			(at 266.7 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11834,7 +11877,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 281.305 0)
+			(at 266.7 278.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11844,7 +11887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 276.86 0)
+			(at 266.7 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11855,7 +11898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 276.86 0)
+			(at 266.7 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11866,7 +11909,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 274.32 276.86 0)
+			(at 266.7 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11882,7 +11925,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0416")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11901,105 +11944,6 @@
 			(project "ETH1IRCAM1"
 				(path "/f8ed47a9-95cb-42d4-bd7f-c1b2ff57d6fd/02ab86d0-6a73-43f0-a2e2-fa1962166526"
 					(reference "#PWR0420")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 274.32 271.78 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de9547bf-4722-43f0-abf0-2700b893a8e6")
-		(property "Reference" "JP1"
-			(at 276.098 270.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Open"
-			(at 276.098 273.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 274.32 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "19035927-3e8f-45fb-ac6b-153a9fb2098f")
-		)
-		(pin "2"
-			(uuid "a19e16fe-c835-4367-9776-271109798daf")
-		)
-		(instances
-			(project "ETH1CVOLT"
-				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "ETH1HMSR-SMS"
-				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
-					(reference "JP401")
-					(unit 1)
-				)
-			)
-			(project "ETH1CVOLT_A"
-				(path "/ca79f0b4-91f7-4537-917d-68d425c03ca3/485861e8-c90d-4c19-b473-548e94ff000e/f9ee2615-d0e0-4475-99e9-603338445df7"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "ETH1IRCAM1"
-				(path "/f8ed47a9-95cb-42d4-bd7f-c1b2ff57d6fd/02ab86d0-6a73-43f0-a2e2-fa1962166526"
-					(reference "JP401")
 					(unit 1)
 				)
 			)
@@ -12028,7 +11972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u/100V/X7R"
 			(at 43.18 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12524,7 +12468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u/100V/X7R"
 			(at 88.9 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12726,7 +12670,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 267.97 0)
+		(at 176.53 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12736,8 +12680,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9b33feb-bf3f-471e-95e3-c691671fae83")
-		(property "Reference" "C8"
-			(at 169.291 266.8016 0)
+		(property "Reference" "C13"
+			(at 180.34 266.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12747,8 +12691,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 169.291 269.113 0)
+		(property "Value" "1u/16V/X7R"
+			(at 180.34 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12759,7 +12703,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 167.3352 271.78 0)
+			(at 177.4952 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12770,7 +12714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 267.97 0)
+			(at 176.53 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12781,7 +12725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 267.97 0)
+			(at 176.53 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12800,7 +12744,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "C8")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -12836,7 +12780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fae41872-5f59-4f95-95e0-5af300c9a021")
-		(property "Reference" "#PWR0436"
+		(property "Reference" "#PWR026"
 			(at 297.18 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12896,7 +12840,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR0436")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12922,7 +12866,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 91.44 0)
+		(at 147.32 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12932,8 +12876,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffeed309-62fe-46a6-a024-b9ac45bfde1a")
-		(property "Reference" "C11"
-			(at 154.051 90.2716 0)
+		(property "Reference" "C9"
+			(at 151.13 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12943,8 +12887,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8p"
-			(at 154.051 92.583 0)
+		(property "Value" "8p/100V/X7R"
+			(at 151.13 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12955,7 +12899,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 152.0952 95.25 0)
+			(at 148.2852 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12966,7 +12910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 91.44 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12977,7 +12921,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 91.44 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12996,7 +12940,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
