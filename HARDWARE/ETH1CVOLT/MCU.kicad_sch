@@ -6740,23 +6740,23 @@
 	)
 	(hierarchical_label "MCU_ADC_SW2"
 		(shape output)
-		(at 326.39 45.72 180)
+		(at 323.85 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0941fc07-5f76-4c2b-a87b-22e7393654b1")
 	)
 	(hierarchical_label "MCU_ADC_VOLT_~{CS}"
 		(shape output)
-		(at 326.39 53.34 180)
+		(at 323.85 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1b8fae60-a57e-4469-90b2-d922b541f473")
 	)
@@ -6773,12 +6773,12 @@
 	)
 	(hierarchical_label "MCU_ADC_SW3"
 		(shape output)
-		(at 326.39 48.26 180)
+		(at 323.85 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "268b7b1d-176e-4480-8993-be68f42b93be")
 	)
@@ -6795,23 +6795,23 @@
 	)
 	(hierarchical_label "MCU_DAC_SCLK"
 		(shape output)
-		(at 326.39 107.95 180)
+		(at 326.39 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "307521c9-f169-4e58-8388-2cd6e75e3f8f")
 	)
 	(hierarchical_label "MCU_ADC_VOLT_SDO"
 		(shape input)
-		(at 326.39 55.88 180)
+		(at 323.85 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3faebdc6-4650-4876-9cb3-90a8a7920768")
 	)
@@ -6847,6 +6847,17 @@
 			(justify left)
 		)
 		(uuid "5396b59c-8d23-4404-bb52-0d8124c1a388")
+	)
+	(hierarchical_label "MCU_REL_SET"
+		(shape output)
+		(at 325.12 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53f9bfae-ea2a-46f8-965b-39838136e7bb")
 	)
 	(hierarchical_label "RMII_TXEN"
 		(shape bidirectional)
@@ -6905,12 +6916,12 @@
 	)
 	(hierarchical_label "MCU_ADC_SW1"
 		(shape output)
-		(at 326.39 43.18 180)
+		(at 323.85 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a5f92e1d-85f8-48d2-b7a6-30c8e9210b2b")
 	)
@@ -6936,25 +6947,36 @@
 		)
 		(uuid "b407590e-73ef-4f9c-82bc-a2f895a10cb2")
 	)
-	(hierarchical_label "MCU_ADC_VOLT_SCLK"
+	(hierarchical_label "MCU_REL_RESET"
 		(shape output)
-		(at 326.39 50.8 180)
+		(at 325.12 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "bc02dccd-cb53-4a8c-9b8d-dfdf391c578b")
+	)
+	(hierarchical_label "MCU_ADC_VOLT_SCLK"
+		(shape output)
+		(at 323.85 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "c5e0e764-0570-4377-8639-52a8acdd55a1")
 	)
 	(hierarchical_label "MCU_DAC_DIN"
 		(shape output)
-		(at 326.39 105.41 180)
+		(at 326.39 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d174a343-ae5f-4257-9c30-e7ca434d0f5e")
 	)
@@ -6968,17 +6990,6 @@
 			(justify left)
 		)
 		(uuid "d96b1ada-27a9-45dd-87d2-85e8cfd32135")
-	)
-	(hierarchical_label "MCU_REL_RANGE_SEL"
-		(shape output)
-		(at 326.39 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ddef8e43-3eec-4c22-b47b-eb1691821766")
 	)
 	(hierarchical_label "MCU_ADC_CURR_~{CS}"
 		(shape output)
@@ -7004,23 +7015,23 @@
 	)
 	(hierarchical_label "MCU_DAC_~{CS}"
 		(shape output)
-		(at 326.39 102.87 180)
+		(at 326.39 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "eb5c9658-b52f-4b3c-8a3c-21835cd47c3f")
 	)
 	(hierarchical_label "MCU_DAC_~{LDAC}"
 		(shape output)
-		(at 326.39 110.49 180)
+		(at 326.39 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ee673caf-54f6-448a-bd69-c9b52f53aae2")
 	)
@@ -7600,7 +7611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ETH1CVOLT_A:NX5032GA"
+		(property "Footprint" "ETH1CVOLT:NX5032GA"
 			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)

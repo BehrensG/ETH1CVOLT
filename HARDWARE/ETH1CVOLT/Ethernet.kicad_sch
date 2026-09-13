@@ -10769,7 +10769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ETH1CVOLT_A:NX5032GA"
+		(property "Footprint" "ETH1CVOLT:NX5032GA"
 			(at 142.24 176.53 0)
 			(hide yes)
 			(show_name no)

@@ -1349,6 +1349,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 194.31 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24c32eea-15b0-432b-ab7f-4a371dfc25af")
+		(property "Reference" "L4"
+			(at 194.31 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "78438366047"
+			(at 194.31 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ETH1CVOLT:78438366047"
+			(at 194.31 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/78438366047.pdf"
+			(at 194.31 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 194.31 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c9bd8528-eadd-45cc-9165-81d836cee5cc")
+		)
+		(pin "1"
+			(uuid "5a5e67a2-b359-44fd-8c62-cd1b7e6aa70a")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 204.47 125.73 0)
 		(unit 1)
@@ -1587,93 +1667,6 @@
 						(field
 							(name "Value")
 							(value "4u7/50V/X7R")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 194.31 127 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "598c6634-6a24-4f69-b0fc-abcd0e642f17")
-		(property "Reference" "L4"
-			(at 194.31 121.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "744774033"
-			(at 194.31 124.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 194.31 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "09e24677-720b-41dd-8734-1d80386a2b88")
-		)
-		(pin "2"
-			(uuid "88a10fdd-95fe-4fe7-90fb-c0f42fb00c01")
-		)
-		(instances
-			(project "ETH1CVOLT"
-				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "L4")
-					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "74477410")
 						)
 					)
 				)

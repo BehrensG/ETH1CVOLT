@@ -556,6 +556,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 128.27) (xy 306.07 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b131cdd-1152-4d28-bec0-be221700c6a9")
+	)
+	(wire
+		(pts
 			(xy 198.12 85.09) (xy 207.01 85.09)
 		)
 		(stroke
@@ -573,6 +583,16 @@
 			(type default)
 		)
 		(uuid "62b7ba28-4616-4672-948e-d5cd988cbb1c")
+	)
+	(wire
+		(pts
+			(xy 146.05 128.27) (xy 154.94 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6471c42d-0881-42bd-9157-3f6f3d95256e")
 	)
 	(wire
 		(pts
@@ -1094,7 +1114,7 @@
 				(justify right)
 			)
 		)
-		(pin "REL_RANGE_SEL" output
+		(pin "REL_SET" output
 			(at 198.12 130.81 0)
 			(uuid "02de5f42-bbc5-4328-b919-86ac3a6f58ab")
 			(effects
@@ -1204,7 +1224,7 @@
 				(justify left)
 			)
 		)
-		(pin "MCU_REL_RANGE_SEL" input
+		(pin "MCU_REL_SET" input
 			(at 154.94 130.81 180)
 			(uuid "33d04332-54c8-42a4-a5fd-cd3c5a3f2b2c")
 			(effects
@@ -1247,6 +1267,26 @@
 		(pin "MCU_ADC_VOLT_SCLK" input
 			(at 154.94 101.6 180)
 			(uuid "7911136b-b5e2-428d-aff6-da9a2411d954")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL_RESET" output
+			(at 198.12 128.27 0)
+			(uuid "2a4986ac-4f7c-4ee5-a91b-2c7769092f03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_REL_RESET" input
+			(at 154.94 128.27 180)
+			(uuid "a33744b5-f5ab-4d8d-ba91-5bc7707085f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,16 +1562,6 @@
 				(justify left)
 			)
 		)
-		(pin "REL_RANGE_SEL" input
-			(at 306.07 130.81 180)
-			(uuid "5da8f282-53c3-4efe-85cf-3e417a627dfb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "R20V_SIG" input
 			(at 306.07 102.87 180)
 			(uuid "c6815de1-b383-4fc6-a945-b13d2cc74637")
@@ -1545,6 +1575,26 @@
 		(pin "MEAS_OUT" output
 			(at 306.07 119.38 180)
 			(uuid "f0e0a12f-72d8-403e-9670-8d3553ebdb1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL_SET" input
+			(at 306.07 130.81 180)
+			(uuid "57128599-bbb9-4e08-8549-ce6e23a0ed07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL_RESET" input
+			(at 306.07 128.27 180)
+			(uuid "5181dafa-0263-4abd-a1e7-16ccb2255c63")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,16 +1834,6 @@
 				(justify right)
 			)
 		)
-		(pin "MCU_REL_RANGE_SEL" output
-			(at 146.05 130.81 0)
-			(uuid "0dbd6d48-5d1a-4f9a-aacd-0a718a7e96bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MCU_DAC_~{CS}" output
 			(at 146.05 80.01 0)
 			(uuid "3e00aa8e-6f3b-4d57-9e12-c6202def4f9b")
@@ -1847,6 +1887,26 @@
 		(pin "MCU_ADC_VOLT_SCLK" output
 			(at 146.05 101.6 0)
 			(uuid "8ba0548e-d734-421e-9caf-3c7ace4ad3e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_REL_SET" output
+			(at 146.05 130.81 0)
+			(uuid "7e2c7383-e3cb-43aa-ba3a-25bcc7a3c62d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_REL_RESET" output
+			(at 146.05 128.27 0)
+			(uuid "42822ba7-29b8-4b74-a49e-a3426aac9cc8")
 			(effects
 				(font
 					(size 1.27 1.27)

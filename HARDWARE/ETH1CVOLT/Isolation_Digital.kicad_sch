@@ -414,6 +414,563 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Isolator:ISO7760DBQ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 8.255 14.605 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ISO7760DBQ"
+				(at 8.255 12.065 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm"
+				(at 5.715 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/iso7763.pdf"
+				(at 10.16 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "6 channel digital isolator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SSOP*3.9x4.9mm*P0.635mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ISO7760DBQ_0_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 8.255) (xy -1.27 7.62) (xy -1.905 6.985) (xy -1.905 8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 15.24) (xy -0.635 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 15.24) (xy 0.635 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 8.255) (xy 1.905 7.62) (xy 1.27 6.985) (xy 1.27 8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ISO7760DBQ_1_1"
+				(polyline
+					(pts
+						(xy -1.905 5.715) (xy -1.27 5.08) (xy -1.905 4.445) (xy -1.905 5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.175) (xy -1.27 2.54) (xy -1.905 1.905) (xy -1.905 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.27 0) (xy -1.905 -0.635) (xy -1.905 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -1.27 -2.54) (xy -1.905 -3.175) (xy -1.905 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.445) (xy -1.27 -5.08) (xy -1.905 -5.715) (xy -1.905 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.715) (xy 1.905 5.08) (xy 1.27 4.445) (xy 1.27 5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.175) (xy 1.905 2.54) (xy 1.27 1.905) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 1.905 0) (xy 1.27 -0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 1.905 -2.54) (xy 1.27 -3.175) (xy 1.27 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.445) (xy 1.905 -5.08) (xy 1.27 -5.715) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -5.08 17.78 270)
+					(length 2.54)
+					(name "Vcc1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "INC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "INE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "INF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -15.24 90)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -15.24 90)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "OUTF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUTE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUTD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 17.78 270)
+					(length 2.54)
+					(name "Vcc2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Isolator:ISO7761FDBQ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1226,14 +1783,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 196.85 177.8)
-		(uuid "612a78be-b805-4093-afb9-5d0ae70f29c3")
-	)
-	(no_connect
-		(at 217.17 177.8)
-		(uuid "c99657c4-040c-4a25-aa93-013b01cebf0a")
-	)
 	(wire
 		(pts
 			(xy 217.17 110.49) (xy 219.71 110.49)
@@ -1253,6 +1802,16 @@
 			(type default)
 		)
 		(uuid "0f7bb0cd-814b-499a-956d-86bbc418bf3a")
+	)
+	(wire
+		(pts
+			(xy 194.31 177.8) (xy 196.85 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc1f027-a155-4f83-a238-507e5e8e0dc7")
 	)
 	(wire
 		(pts
@@ -1556,6 +2115,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 177.8) (xy 219.71 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ef9428-5cb1-40e5-a71b-1e87a22b29dc")
+	)
+	(wire
+		(pts
 			(xy 217.17 105.41) (xy 219.71 105.41)
 		)
 		(stroke
@@ -1756,6 +2325,17 @@
 		)
 		(uuid "107aec9c-d718-440f-805f-2510da8269b1")
 	)
+	(hierarchical_label "MCU_REL_RESET"
+		(shape input)
+		(at 194.31 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15181188-a851-469e-ab1a-19140c43bfb4")
+	)
 	(hierarchical_label "MCU_DAC_~{LDAC}"
 		(shape input)
 		(at 194.31 172.72 180)
@@ -1877,6 +2457,17 @@
 		)
 		(uuid "9cf24414-02c3-4fcb-b5e8-ceea0b0f74f3")
 	)
+	(hierarchical_label "REL_RESET"
+		(shape output)
+		(at 219.71 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab499d36-e500-4ef6-a981-bd183d8a147b")
+	)
 	(hierarchical_label "DAC_DIN"
 		(shape output)
 		(at 219.71 167.64 0)
@@ -1910,7 +2501,7 @@
 		)
 		(uuid "c0efc77f-aa0b-4327-a855-2359bce88b52")
 	)
-	(hierarchical_label "MCU_REL_RANGE_SEL"
+	(hierarchical_label "MCU_REL_SET"
 		(shape input)
 		(at 194.31 175.26 180)
 		(effects
@@ -1932,7 +2523,7 @@
 		)
 		(uuid "d0abf5ac-f786-41eb-a0f7-f3b8a7d583c8")
 	)
-	(hierarchical_label "REL_RANGE_SEL"
+	(hierarchical_label "REL_SET"
 		(shape output)
 		(at 219.71 175.26 0)
 		(effects
@@ -3261,131 +3852,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:ISO7761FDBQ")
-		(at 207.01 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd5e4b4c-4dde-4ebf-b52c-a3d1c4b29037")
-		(property "Reference" "U12"
-			(at 214.2333 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ISO7761FDBQ"
-			(at 214.2333 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm"
-			(at 212.725 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895"
-			(at 217.17 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16"
-			(at 207.01 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b14d4ba2-aa46-412e-96d4-1f4f98ff3b77")
-		)
-		(pin "16"
-			(uuid "236d4ced-fbbe-446a-b907-1ba6ffb7d56a")
-		)
-		(pin "8"
-			(uuid "9c956f66-bb91-431f-b94a-07f6a737e47c")
-		)
-		(pin "15"
-			(uuid "13efb21f-404e-4fb8-9ae2-ff06f4630023")
-		)
-		(pin "2"
-			(uuid "33de7ed4-7d2a-4058-a980-61ce3044d3cb")
-		)
-		(pin "3"
-			(uuid "5f527d40-64b3-409a-b79e-acbeecf2c52c")
-		)
-		(pin "7"
-			(uuid "8aacb09e-ab6f-47f0-a7c7-b228a41d7efc")
-		)
-		(pin "11"
-			(uuid "f7c527c7-75f2-4937-b55b-34435de09286")
-		)
-		(pin "10"
-			(uuid "8d9bacc7-a517-4b47-9a5b-5c41313d869b")
-		)
-		(pin "13"
-			(uuid "3602aef4-1971-458e-9f16-77bddea0e9cf")
-		)
-		(pin "5"
-			(uuid "cb5ae444-00b5-457d-a53e-8b9a7e80c841")
-		)
-		(pin "9"
-			(uuid "08ec31f9-3925-49be-9f3f-4672f5fa21b4")
-		)
-		(pin "12"
-			(uuid "07c98c4b-21b2-43a3-b92e-d0eba246dea2")
-		)
-		(pin "6"
-			(uuid "ff5e0d5f-4d6d-4e4c-83fe-32ce719f651b")
-		)
-		(pin "14"
-			(uuid "bb374220-8db0-4efd-a545-aaf6b1b5ff0d")
-		)
-		(pin "4"
-			(uuid "5e2a1af1-ac98-41c1-a740-00cd7a001157")
-		)
-		(instances
-			(project "ETH1CVOLT"
-				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 25.4 262.89 0)
 		(unit 1)
@@ -3825,6 +4291,131 @@
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
 					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:ISO7760DBQ")
+		(at 207.01 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeedde2a-c3e3-4e18-ba67-384e76581167")
+		(property "Reference" "U28"
+			(at 214.2333 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISO7760DBQ"
+			(at 214.2333 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm"
+			(at 212.725 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/iso7763.pdf"
+			(at 217.17 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16"
+			(at 207.01 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "f2ed8524-677b-4d53-94d5-57d8376d7bbe")
+		)
+		(pin "9"
+			(uuid "1cb1334b-e8aa-4111-ab4a-38d7708085c4")
+		)
+		(pin "1"
+			(uuid "31489cf9-c49f-4769-af95-d33280d18691")
+		)
+		(pin "12"
+			(uuid "534e19cd-7046-47c3-b90e-095cf06edb84")
+		)
+		(pin "15"
+			(uuid "2e25c75f-8d21-431e-875f-39c71b5f705c")
+		)
+		(pin "8"
+			(uuid "3b1be613-1ae7-4aef-8823-51ca7ede971e")
+		)
+		(pin "11"
+			(uuid "4f3f0b52-ef14-413f-a9ca-7105b39f50cc")
+		)
+		(pin "3"
+			(uuid "9cac0434-d1ce-49a0-8d03-79c2777c9511")
+		)
+		(pin "7"
+			(uuid "bb34af48-31ee-4448-b35d-5fad2cbc6c66")
+		)
+		(pin "4"
+			(uuid "2ab5c48d-c4e6-4956-b84d-b623faa4f09a")
+		)
+		(pin "10"
+			(uuid "d27f3bed-11d4-467d-b050-da9503ca7f99")
+		)
+		(pin "13"
+			(uuid "31ea5c5a-84ae-4716-9441-4913d5cd4682")
+		)
+		(pin "2"
+			(uuid "1eb57947-ec2e-4bca-849d-86e6fd92a532")
+		)
+		(pin "14"
+			(uuid "09b6bbc2-e2bd-4cf3-a19b-165995357401")
+		)
+		(pin "16"
+			(uuid "0bc795af-355f-497d-be6a-a6a43e12a168")
+		)
+		(pin "6"
+			(uuid "87da5a8e-6df4-4d06-a895-b53576a06540")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "U28")
 					(unit 1)
 				)
 			)

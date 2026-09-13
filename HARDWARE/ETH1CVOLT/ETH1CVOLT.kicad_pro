@@ -800,7 +800,19 @@
       "/BLOCK DIAGRAM/ISO DIG/MCU_REL_RANGE_SEL": [
         "DIR"
       ],
+      "/BLOCK DIAGRAM/ISO DIG/MCU_REL_RESET": [
+        "DIR"
+      ],
+      "/BLOCK DIAGRAM/ISO DIG/MCU_REL_SET": [
+        "DIR"
+      ],
       "/BLOCK DIAGRAM/ISO DIG/REL_RANGE_SEL": [
+        "ISO"
+      ],
+      "/BLOCK DIAGRAM/ISO DIG/REL_RESET": [
+        "ISO"
+      ],
+      "/BLOCK DIAGRAM/ISO DIG/REL_SET": [
         "ISO"
       ],
       "/BLOCK DIAGRAM/MCU/ADC_VOLT_SCLK": [
@@ -885,6 +897,12 @@
         "ISO"
       ],
       "/BLOCK DIAGRAM/OUTPUT/R20V_SIG": [
+        "ISO"
+      ],
+      "/BLOCK DIAGRAM/OUTPUT/RELAY_RESET": [
+        "ISO"
+      ],
+      "/BLOCK DIAGRAM/OUTPUT/RELAY_SET": [
         "ISO"
       ],
       "/BLOCK DIAGRAM/OUTPUT/REL_RANGE_SEL": [
@@ -1167,6 +1185,12 @@
         "ISO"
       ],
       "Net-(U25B--)": [
+        "ISO"
+      ],
+      "Net-(U26-Y)": [
+        "ISO"
+      ],
+      "Net-(U27-Y)": [
         "ISO"
       ],
       "Net-(U3-RBIAS)": [
@@ -1790,7 +1814,7 @@
         "uuid": "8d3b546e-b30b-49b2-bc59-8e254df4c067"
       }
     ],
-    "used_designators": "RV1,L1-4,FB1-2,RN1-9,C1-117,C401,#FLG1-15,D1-9,U1-28,N1,Q1-4,TP1-20,JP1-13,R1-74,R311,K1-2,J1-18,#PWR1-216,#PWR428,#PWR439,Y1-2",
+    "used_designators": "Y1-2,#PWR1-223,#PWR428,#PWR439,#FLG1-15,JP1-13,FB1-2,L1-4,RV1,J1-18,K1-4,Q1-4,N1,RN1-9,C1-117,C401,U1-28,D1-10,R1-74,R311-313,TP1-20",
     "variants": [
       {
         "description": "Bipolar Mode",
