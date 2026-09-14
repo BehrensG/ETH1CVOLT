@@ -358,6 +358,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1992,7 +2115,7 @@
 		(uuid "82e603d3-7968-4d18-8026-1c545e8f71fe")
 	)
 	(junction
-		(at 196.85 129.54)
+		(at 199.39 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82f71470-cdbf-49d5-b954-1e8eaef73b83")
@@ -2008,6 +2131,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2009ebf-79e2-438a-bcbf-1aefe764e5fb")
+	)
+	(junction
+		(at 280.67 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7c47ad0-464d-45ef-9752-f34f6c20853d")
 	)
 	(junction
 		(at 254 118.11)
@@ -2064,6 +2193,26 @@
 			(type default)
 		)
 		(uuid "208a50c4-d6fb-44d0-b844-98a0f58fe8e0")
+	)
+	(wire
+		(pts
+			(xy 280.67 127) (xy 293.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28604f23-d897-4601-bf3a-b1238d5bf673")
+	)
+	(wire
+		(pts
+			(xy 280.67 125.73) (xy 280.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5c4ef4-cd09-4056-bee8-bdd2bc55dc39")
 	)
 	(wire
 		(pts
@@ -2177,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 161.29) (xy 196.85 161.29)
+			(xy 245.11 161.29) (xy 199.39 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 129.54) (xy 196.85 129.54)
+			(xy 190.5 129.54) (xy 229.87 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2304,16 +2453,6 @@
 			(type default)
 		)
 		(uuid "9d983835-07e9-4592-bb44-e1db28195f58")
-	)
-	(wire
-		(pts
-			(xy 196.85 129.54) (xy 229.87 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e5c18e0-babe-452e-80a7-7e4e2d10fa80")
 	)
 	(wire
 		(pts
@@ -2407,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 127) (xy 293.37 127)
+			(xy 245.11 127) (xy 280.67 127)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 161.29) (xy 196.85 129.54)
+			(xy 199.39 161.29) (xy 199.39 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2637,6 +2776,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 280.67 125.73 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04b5b0d8-2c85-4f25-bcb7-97db126beca9")
+		(property "Reference" "TP9"
+			(at 281.94 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 284.48 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 275.59 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 280.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec7b15a7-2be8-4457-a9fb-0cd29e1a5403")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/e2cff0f2-156b-4ebd-b442-dc8733a740cb"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ETH1CVOLT_A:+5VD_ISO")
 		(at 160.02 110.49 0)
 		(unit 1)
@@ -2805,7 +3023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff46056-7030-4af7-961d-cfe96c39878e")
-		(property "Reference" "#FLG013"
+		(property "Reference" "#FLG08"
 			(at 257.175 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2866,7 +3084,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/e2cff0f2-156b-4ebd-b442-dc8733a740cb"
-					(reference "#FLG013")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -2960,7 +3178,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4c3f3856-9109-4bd3-ba12-c944b0c862c3")
 		(property "Reference" "R38"
 			(at 248.92 164.338 90)
@@ -3433,7 +3651,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8325a537-d395-4cb3-8bab-a41c64f6a1fd")
 		(property "Reference" "R39"
 			(at 262.636 112.014 0)
@@ -3499,10 +3717,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/e2cff0f2-156b-4ebd-b442-dc8733a740cb"
 					(reference "R39")
 					(unit 1)
-					(variant
-						(name "A")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -3770,7 +3984,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9e227122-c0f8-468e-ac2d-ad11383ff477")
 		(property "Reference" "R41"
 			(at 281.686 139.954 0)
@@ -3836,10 +4050,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/e2cff0f2-156b-4ebd-b442-dc8733a740cb"
 					(reference "R41")
 					(unit 1)
-					(variant
-						(name "A")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -4012,7 +4222,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b66cfa09-3f4e-4dd5-a00f-cae19883dba6")
 		(property "Reference" "R40"
 			(at 262.636 139.954 0)
@@ -4078,10 +4288,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/e2cff0f2-156b-4ebd-b442-dc8733a740cb"
 					(reference "R40")
 					(unit 1)
-					(variant
-						(name "A")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -4931,7 +5137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff88391a-178c-4fa0-b306-9cbffd7b52df")
-		(property "Reference" "#FLG014"
+		(property "Reference" "#FLG09"
 			(at 276.225 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4992,7 +5198,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/e2cff0f2-156b-4ebd-b442-dc8733a740cb"
-					(reference "#FLG014")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)

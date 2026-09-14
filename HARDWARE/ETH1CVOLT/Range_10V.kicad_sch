@@ -1298,7 +1298,7 @@
 	)
 	(text "+/- 10V"
 		(exclude_from_sim no)
-		(at 250.698 106.934 0)
+		(at 243.586 106.934 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -1321,6 +1321,12 @@
 		(color 0 0 0 0)
 		(uuid "0bf91768-26d0-42ab-a66b-a35b70992c76")
 	)
+	(junction
+		(at 217.17 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8fbc7a6-b47b-4a67-8a4f-39119b44433a")
+	)
 	(wire
 		(pts
 			(xy 193.04 111.76) (xy 193.04 134.62)
@@ -1330,6 +1336,16 @@
 			(type default)
 		)
 		(uuid "01a487e8-2424-4c54-8579-c0673ec041f9")
+	)
+	(wire
+		(pts
+			(xy 217.17 109.22) (xy 264.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113aa64c-6fd5-4069-a090-140389678007")
 	)
 	(wire
 		(pts
@@ -1363,6 +1379,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 109.22) (xy 217.17 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd94ffd-dc4a-4d34-8b99-956fb342eed9")
+	)
+	(wire
+		(pts
 			(xy 22.86 273.05) (xy 22.86 274.32)
 		)
 		(stroke
@@ -1393,17 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 107.95) (xy 217.17 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6825947e-9b17-4b59-b4ea-5cc2034650f5")
-	)
-	(wire
-		(pts
-			(xy 172.72 134.62) (xy 179.07 134.62)
+			(xy 171.45 134.62) (xy 177.8 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1413,13 +1429,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 134.62) (xy 193.04 134.62)
+			(xy 185.42 134.62) (xy 193.04 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81a33bbf-8a53-46ea-878f-924b1c3aa9d6")
+	)
+	(wire
+		(pts
+			(xy 217.17 107.95) (xy 217.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830301e5-b10e-4e18-8aed-f7c23532db16")
 	)
 	(wire
 		(pts
@@ -1453,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 109.22) (xy 264.16 109.22)
+			(xy 210.82 109.22) (xy 217.17 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +1675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "162574c1-43d1-446a-8652-36727351e590")
-		(property "Reference" "TP7"
+		(property "Reference" "TP22"
 			(at 219.71 103.3779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1710,7 +1736,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "TP7")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -2278,7 +2304,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 182.88 134.62 90)
+		(at 181.61 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2289,7 +2315,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4dd2272-effd-402c-b4cf-cd9b5717972a")
 		(property "Reference" "R42"
-			(at 182.88 128.27 90)
+			(at 181.61 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2299,7 +2325,7 @@
 			)
 		)
 		(property "Value" "10k/0.01%/100mW"
-			(at 182.88 130.81 90)
+			(at 181.61 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2309,7 +2335,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 182.88 136.398 90)
+			(at 181.61 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2320,7 +2346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 134.62 0)
+			(at 181.61 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2331,7 +2357,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 182.88 134.62 0)
+			(at 181.61 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2518,7 +2544,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 172.72 134.62 270)
+		(at 171.45 134.62 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2530,7 +2556,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba9bcbd8-cb8b-4d8c-82cc-e9f71a4dfce6")
 		(property "Reference" "#PWR0137"
-			(at 166.37 134.62 0)
+			(at 165.1 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2541,7 +2567,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 168.91 134.6199 90)
+			(at 167.64 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2552,7 +2578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 134.62 0)
+			(at 171.45 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2563,7 +2589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 134.62 0)
+			(at 171.45 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2574,7 +2600,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 134.62 0)
+			(at 171.45 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

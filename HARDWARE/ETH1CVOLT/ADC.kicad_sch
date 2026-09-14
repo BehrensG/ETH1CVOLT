@@ -3168,10 +3168,22 @@
 		(uuid "8bac4337-936a-4d44-a947-22aca1d89259")
 	)
 	(junction
+		(at 53.34 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26c2833b-ba92-4f81-acae-777a30681a9d")
+	)
+	(junction
 		(at 186.69 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2db07a12-4cc4-4d50-a8d7-c91254d1b5ee")
+	)
+	(junction
+		(at 153.67 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b09d232-d05f-4534-a5b7-3528743ee642")
 	)
 	(junction
 		(at 63.5 138.43)
@@ -3627,6 +3639,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 81.28) (xy 153.67 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a527c3-f8c9-4a9d-8051-ca3409784796")
+	)
+	(wire
+		(pts
 			(xy 204.47 130.81) (xy 215.9 130.81)
 		)
 		(stroke
@@ -3784,6 +3806,16 @@
 			(type default)
 		)
 		(uuid "9a79f79b-99c6-4169-ae44-b5c55a7a48a5")
+	)
+	(wire
+		(pts
+			(xy 53.34 137.16) (xy 53.34 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a95ee2c-1517-434f-af3d-85cfc7d92909")
 	)
 	(wire
 		(pts
@@ -4801,7 +4833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a79187d-4dcb-4dde-af14-a53d4e44d502")
-		(property "Reference" "TP2"
+		(property "Reference" "TP4"
 			(at 302.26 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4868,7 +4900,7 @@
 			)
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/1e1986d0-5f57-471e-8eff-5dbba5b60ba1"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5522,7 +5554,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4c186b11-ab2e-4b12-8bee-1baa875ce665")
 		(property "Reference" "R15"
@@ -5589,14 +5621,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/1e1986d0-5f57-471e-8eff-5dbba5b60ba1"
 					(reference "R15")
 					(unit 1)
-					(variant
-						(name "A")
-						(dnp yes)
-					)
-					(variant
-						(name "B")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -6097,6 +6121,85 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 53.34 137.16 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6789c94d-dc60-48d7-bed1-ae65fb249a0a")
+		(property "Reference" "TP1"
+			(at 54.61 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.15 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 48.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a87a1acd-d7b7-436b-9342-43d9f5530b1e")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/1e1986d0-5f57-471e-8eff-5dbba5b60ba1"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 245.11 129.54 0)
 		(mirror y)
 		(unit 1)
@@ -6107,7 +6210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69a43d9e-7656-411a-8d2c-f16e0acde101")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 246.38 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6168,7 +6271,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/1e1986d0-5f57-471e-8eff-5dbba5b60ba1"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8551,7 +8654,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dbcd884d-bad2-42d9-b566-722757a9e326")
 		(property "Reference" "R17"
 			(at 351.79 138.4299 0)
@@ -8624,6 +8727,85 @@
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/1e1986d0-5f57-471e-8eff-5dbba5b60ba1"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 153.67 81.28 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3af730c-40dd-4433-8cbe-92d96ae70aa6")
+		(property "Reference" "TP2"
+			(at 154.94 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 157.48 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 148.59 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 153.67 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "924350c7-7237-42f7-8e58-0cc58ffcb75f")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/1e1986d0-5f57-471e-8eff-5dbba5b60ba1"
+					(reference "TP2")
 					(unit 1)
 				)
 			)

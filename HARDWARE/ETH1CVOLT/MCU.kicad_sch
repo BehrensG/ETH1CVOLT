@@ -10984,7 +10984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b43b51bf-464b-4e37-95b1-b4fd8b3d3a99")
-		(property "Reference" "JP8"
+		(property "Reference" "JP1"
 			(at 269.24 267.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11048,7 +11048,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "JP8")
+					(reference "JP1")
 					(unit 1)
 				)
 			)

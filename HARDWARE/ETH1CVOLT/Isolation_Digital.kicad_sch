@@ -5,6 +5,129 @@
 	(uuid "5cf42b18-79d2-418c-824e-55e67869a20e")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1783,19 +1906,81 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 217.17 110.49) (xy 219.71 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0770dc51-983e-4ea4-9a01-80f84d0183b3")
+	(junction
+		(at 251.46 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13df06cc-c724-490f-9b64-3010035e1ee6")
+	)
+	(junction
+		(at 240.03 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ba41cd9-0bb9-4d9b-8e1d-d99562693327")
+	)
+	(junction
+		(at 251.46 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1db53377-d2c0-4215-8195-f47ee82c8606")
+	)
+	(junction
+		(at 262.89 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "272b7610-9040-4d34-a204-440b85cb967b")
+	)
+	(junction
+		(at 262.89 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d67f5a8-89cc-47a7-a444-dfc34963122d")
+	)
+	(junction
+		(at 240.03 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58336068-db2a-426a-a986-273f9e895490")
+	)
+	(junction
+		(at 262.89 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a97e91b8-7627-4997-84a9-89614f2df3f7")
+	)
+	(junction
+		(at 262.89 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3debfc4-9e22-4c5c-89bb-e8a361299482")
+	)
+	(junction
+		(at 240.03 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c422bf4f-99f4-4394-b1aa-2844b7ba6c72")
+	)
+	(junction
+		(at 240.03 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0721d74-8109-4e02-96cf-3b634063203c")
+	)
+	(junction
+		(at 251.46 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2fa73a4-2cd2-43d1-b695-24ca95b99940")
+	)
+	(junction
+		(at 251.46 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edee2366-427e-4f20-9b2e-1e821b946e79")
 	)
 	(wire
 		(pts
-			(xy 212.09 95.25) (xy 212.09 90.17)
+			(xy 212.09 69.85) (xy 212.09 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +2010,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 115.57) (xy 196.85 115.57)
+			(xy 194.31 90.17) (xy 196.85 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +2020,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 107.95) (xy 196.85 107.95)
+			(xy 194.31 82.55) (xy 196.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1855,7 +2040,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 129.54) (xy 199.39 129.54)
+			(xy 262.89 177.8) (xy 262.89 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e9f8fb-aa71-428d-9405-72320418035a")
+	)
+	(wire
+		(pts
+			(xy 201.93 104.14) (xy 199.39 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1865,7 +2060,27 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 129.54) (xy 214.63 129.54)
+			(xy 251.46 175.26) (xy 251.46 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bc242a-72f5-4e2c-ba01-35ae47187a2a")
+	)
+	(wire
+		(pts
+			(xy 262.89 85.09) (xy 273.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0ced28-a62c-4543-8fa6-763bb148b3e1")
+	)
+	(wire
+		(pts
+			(xy 212.09 104.14) (xy 214.63 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1885,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 129.54) (xy 199.39 130.81)
+			(xy 199.39 104.14) (xy 199.39 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1895,13 +2110,23 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 107.95) (xy 219.71 107.95)
+			(xy 251.46 82.55) (xy 273.05 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e097d8f-c2f6-4ce4-b535-acaa52bbb5a5")
+		(uuid "4f409066-0a2b-4205-a7e4-e6e9cc820493")
+	)
+	(wire
+		(pts
+			(xy 240.03 87.63) (xy 240.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500519bd-c389-4661-a6e6-3c761537d25e")
 	)
 	(wire
 		(pts
@@ -1915,7 +2140,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 110.49) (xy 196.85 110.49)
+			(xy 251.46 90.17) (xy 273.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e719d6-80cf-42a7-b4c4-4a51070e0cef")
+	)
+	(wire
+		(pts
+			(xy 194.31 85.09) (xy 196.85 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1935,16 +2170,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 115.57) (xy 219.71 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b4eff69-5a52-470e-bf4b-0248ccc23796")
-	)
-	(wire
-		(pts
 			(xy 25.4 257.81) (xy 25.4 259.08)
 		)
 		(stroke
@@ -1952,16 +2177,6 @@
 			(type default)
 		)
 		(uuid "6bc74d67-76f1-430a-ab22-b408fd3c19af")
-	)
-	(wire
-		(pts
-			(xy 217.17 170.18) (xy 219.71 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c440809-6c85-4121-b5ad-0f383b25bbfa")
 	)
 	(wire
 		(pts
@@ -1975,7 +2190,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 165.1) (xy 219.71 165.1)
+			(xy 251.46 163.83) (xy 251.46 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e27cff4-d040-4e5c-abc3-8f5dbbca4040")
+	)
+	(wire
+		(pts
+			(xy 217.17 165.1) (xy 273.05 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +2210,27 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 167.64) (xy 219.71 167.64)
+			(xy 262.89 92.71) (xy 262.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b02768-cb1b-407a-8c32-ff34c5739578")
+	)
+	(wire
+		(pts
+			(xy 217.17 82.55) (xy 251.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731f3969-eb62-4c6b-8de8-d032d363ec19")
+	)
+	(wire
+		(pts
+			(xy 217.17 167.64) (xy 273.05 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2012,6 +2257,16 @@
 			(type default)
 		)
 		(uuid "7ef12902-5410-4221-9e06-6d87341c408c")
+	)
+	(wire
+		(pts
+			(xy 240.03 78.74) (xy 240.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83284abc-c75f-4ecf-a27c-2a0092079ce0")
 	)
 	(wire
 		(pts
@@ -2045,13 +2300,53 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 113.03) (xy 219.71 113.03)
+			(xy 217.17 80.01) (xy 240.03 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9240e81f-b300-48b4-83ba-e4bb2e795bdd")
+		(uuid "8a4c7f24-782b-4513-b658-379becb1d207")
+	)
+	(wire
+		(pts
+			(xy 217.17 170.18) (xy 273.05 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d26ade1-fbe7-48a0-97fc-3dcd35752bb6")
+	)
+	(wire
+		(pts
+			(xy 217.17 92.71) (xy 262.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7c18d5-0aab-49e1-9a3c-1234e4a5050b")
+	)
+	(wire
+		(pts
+			(xy 262.89 163.83) (xy 262.89 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919ca743-22f6-4df9-91f4-07b904d7ccc2")
+	)
+	(wire
+		(pts
+			(xy 240.03 172.72) (xy 240.03 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92133632-e810-4e8e-861b-c78b0e98907c")
 	)
 	(wire
 		(pts
@@ -2085,16 +2380,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 118.11) (xy 219.71 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d31f59f-9f07-4298-9ac4-49d4bb807874")
-	)
-	(wire
-		(pts
 			(xy 194.31 167.64) (xy 196.85 167.64)
 		)
 		(stroke
@@ -2102,6 +2387,16 @@
 			(type default)
 		)
 		(uuid "a8456718-30d3-4d35-9831-ba451e8ff00c")
+	)
+	(wire
+		(pts
+			(xy 217.17 90.17) (xy 251.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad500e5d-897a-47a4-8e40-075600b674ce")
 	)
 	(wire
 		(pts
@@ -2115,7 +2410,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 177.8) (xy 219.71 177.8)
+			(xy 240.03 87.63) (xy 273.05 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2434ac3-c986-418d-b846-0fb790a6558d")
+	)
+	(wire
+		(pts
+			(xy 217.17 177.8) (xy 273.05 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2125,17 +2430,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 105.41) (xy 219.71 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bde4f3cf-3854-4827-a37d-dee790401367")
-	)
-	(wire
-		(pts
-			(xy 212.09 90.17) (xy 214.63 90.17)
+			(xy 212.09 64.77) (xy 214.63 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2155,7 +2450,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 128.27) (xy 212.09 129.54)
+			(xy 212.09 102.87) (xy 212.09 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2175,6 +2470,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 90.17) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c766bcb5-2bb4-481f-b389-c6e31c3d9e59")
+	)
+	(wire
+		(pts
 			(xy 251.46 267.97) (xy 251.46 266.7)
 		)
 		(stroke
@@ -2182,6 +2487,16 @@
 			(type default)
 		)
 		(uuid "c92c953a-5a05-4216-afd2-03af4629b2dd")
+	)
+	(wire
+		(pts
+			(xy 262.89 92.71) (xy 273.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa01788-9be3-461d-a39a-4dcb6db3e2a1")
 	)
 	(wire
 		(pts
@@ -2195,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 172.72) (xy 219.71 172.72)
+			(xy 217.17 172.72) (xy 273.05 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2205,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 118.11) (xy 196.85 118.11)
+			(xy 194.31 92.71) (xy 196.85 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2215,7 +2530,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 113.03) (xy 196.85 113.03)
+			(xy 194.31 87.63) (xy 196.85 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2225,7 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 105.41) (xy 196.85 105.41)
+			(xy 194.31 80.01) (xy 196.85 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2235,7 +2550,67 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 129.54) (xy 214.63 130.81)
+			(xy 217.17 85.09) (xy 262.89 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d897fa36-4ef5-4a17-af27-12339e5cb2cf")
+	)
+	(wire
+		(pts
+			(xy 262.89 78.74) (xy 262.89 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bfd9a8-6ccc-4eea-9e9e-d5d906cfbc1f")
+	)
+	(wire
+		(pts
+			(xy 251.46 78.74) (xy 251.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9dea0b1-a3e8-4dc2-9e2c-c430ed949214")
+	)
+	(wire
+		(pts
+			(xy 240.03 80.01) (xy 273.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbaa9dee-2814-479d-98b8-4af406cf445a")
+	)
+	(wire
+		(pts
+			(xy 240.03 163.83) (xy 240.03 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcadd33a-7b19-494e-bfd3-1a2fe4aa611f")
+	)
+	(wire
+		(pts
+			(xy 217.17 87.63) (xy 240.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf9ec52-165c-465b-864b-5bce3d1c9a50")
+	)
+	(wire
+		(pts
+			(xy 214.63 104.14) (xy 214.63 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2245,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 128.27) (xy 201.93 129.54)
+			(xy 201.93 102.87) (xy 201.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2255,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 95.25) (xy 201.93 90.17)
+			(xy 201.93 69.85) (xy 201.93 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2275,7 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 90.17) (xy 199.39 90.17)
+			(xy 201.93 64.77) (xy 199.39 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2285,7 +2660,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 175.26) (xy 219.71 175.26)
+			(xy 217.17 175.26) (xy 273.05 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2305,7 +2680,7 @@
 	)
 	(hierarchical_label "DAC_~{CS}"
 		(shape output)
-		(at 219.71 165.1 0)
+		(at 273.05 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2349,7 +2724,7 @@
 	)
 	(hierarchical_label "MCU_ADC_SW1"
 		(shape input)
-		(at 194.31 105.41 180)
+		(at 194.31 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2360,7 +2735,7 @@
 	)
 	(hierarchical_label "ADC_SW2"
 		(shape output)
-		(at 219.71 107.95 0)
+		(at 273.05 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2382,7 +2757,7 @@
 	)
 	(hierarchical_label "DAC_~{LDAC}"
 		(shape output)
-		(at 219.71 172.72 0)
+		(at 273.05 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2393,7 +2768,7 @@
 	)
 	(hierarchical_label "MCU_ADC_VOLT_SDO"
 		(shape output)
-		(at 194.31 118.11 180)
+		(at 194.31 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2404,7 +2779,7 @@
 	)
 	(hierarchical_label "MCU_ADC_SW3"
 		(shape input)
-		(at 194.31 110.49 180)
+		(at 194.31 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2415,7 +2790,7 @@
 	)
 	(hierarchical_label "MCU_ADC_VOLT_~{CS}"
 		(shape input)
-		(at 194.31 115.57 180)
+		(at 194.31 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2426,7 +2801,7 @@
 	)
 	(hierarchical_label "ADC_SW1"
 		(shape output)
-		(at 219.71 105.41 0)
+		(at 273.05 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2437,7 +2812,7 @@
 	)
 	(hierarchical_label "ADC_VOLT_~{CS}"
 		(shape output)
-		(at 219.71 115.57 0)
+		(at 273.05 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2448,7 +2823,7 @@
 	)
 	(hierarchical_label "MCU_ADC_VOLT_SCLK"
 		(shape input)
-		(at 194.31 113.03 180)
+		(at 194.31 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2459,7 +2834,7 @@
 	)
 	(hierarchical_label "REL_RESET"
 		(shape output)
-		(at 219.71 177.8 0)
+		(at 273.05 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2470,7 +2845,7 @@
 	)
 	(hierarchical_label "DAC_DIN"
 		(shape output)
-		(at 219.71 167.64 0)
+		(at 273.05 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2481,7 +2856,7 @@
 	)
 	(hierarchical_label "ADC_SW3"
 		(shape output)
-		(at 219.71 110.49 0)
+		(at 273.05 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2514,7 +2889,7 @@
 	)
 	(hierarchical_label "DAC_SCLK"
 		(shape output)
-		(at 219.71 170.18 0)
+		(at 273.05 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2525,7 +2900,7 @@
 	)
 	(hierarchical_label "REL_SET"
 		(shape output)
-		(at 219.71 175.26 0)
+		(at 273.05 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2536,7 +2911,7 @@
 	)
 	(hierarchical_label "MCU_ADC_SW2"
 		(shape input)
-		(at 194.31 107.95 180)
+		(at 194.31 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2547,7 +2922,7 @@
 	)
 	(hierarchical_label "ADC_VOLT_SDO"
 		(shape input)
-		(at 219.71 118.11 0)
+		(at 273.05 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2558,7 +2933,7 @@
 	)
 	(hierarchical_label "ADC_VOLT_SCLK"
 		(shape output)
-		(at 219.71 113.03 0)
+		(at 273.05 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2912,6 +3287,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 78.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "082db2dd-c485-4c7b-a383-c1652d2a7880")
+		(property "Reference" "TP14"
+			(at 252.73 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 255.27 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 246.38 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5a4b7d5-8515-4e74-ad7d-f0dfc0200c3f")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 199.39 149.86 0)
 		(unit 1)
@@ -2990,6 +3444,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 93.98 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13d72486-c98c-4fb4-9870-41ecd9c9230e")
+		(property "Reference" "TP15"
+			(at 250.19 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 247.65 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 256.54 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "058bf147-fccc-458c-b259-b0fb5dfb6fcf")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 163.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2bfb2bc2-6640-4bb0-90fd-484f2cf9a908")
+		(property "Reference" "TP16"
+			(at 252.73 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 255.27 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 246.38 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd0f64ed-9811-4cc9-85d3-b20f2e4f1329")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 199.39 190.5 0)
 		(unit 1)
@@ -3062,6 +3674,243 @@
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 262.89 78.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "426ef7b7-8c83-4f81-a8ea-1b28c0e6edf7")
+		(property "Reference" "TP18"
+			(at 264.16 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 257.81 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 262.89 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "460c61a2-b10c-4d22-a537-4218a7af5a91")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 240.03 163.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "431b4caf-4793-47a0-8f10-5aa922ed8437")
+		(property "Reference" "TP12"
+			(at 241.3 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 243.84 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 234.95 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 240.03 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b703610f-0bc7-4555-a6fa-717678bc268a")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 262.89 179.07 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56842c2b-cb71-4636-928f-df23b55f5ef6")
+		(property "Reference" "TP21"
+			(at 261.62 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 259.08 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 262.89 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fc6aa67-c2bd-4f57-85cc-ce4be43f8ef7")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -3147,7 +3996,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 199.39 90.17 0)
+		(at 199.39 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3158,7 +4007,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a4e13ea-6b66-4827-99f9-30b98c2b5421")
 		(property "Reference" "#PWR0121"
-			(at 199.39 93.98 0)
+			(at 199.39 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3169,7 +4018,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 199.39 85.09 0)
+			(at 199.39 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3179,7 +4028,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 199.39 90.17 0)
+			(at 199.39 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3190,7 +4039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 90.17 0)
+			(at 199.39 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,7 +4050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 199.39 90.17 0)
+			(at 199.39 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3218,6 +4067,85 @@
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
 					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 262.89 93.98 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67046ae3-c05d-413e-bf47-47fdf960f2df")
+		(property "Reference" "TP19"
+			(at 261.62 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 259.08 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 267.97 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 262.89 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e991c39c-3842-49b8-9193-0c9b6bf3f147")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -3306,6 +4234,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 262.89 163.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e77d9d2-5fb9-4d10-842b-84db0c810175")
+		(property "Reference" "TP20"
+			(at 264.16 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 257.81 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 262.89 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "718f2cd1-99b2-4f1a-8d39-19060a717fa8")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 267.97 0)
 		(unit 1)
@@ -3385,7 +4392,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:+5VD_ISO")
-		(at 214.63 90.17 0)
+		(at 214.63 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3396,7 +4403,7 @@
 		(fields_autoplaced yes)
 		(uuid "83e36ea3-e173-41d5-b26f-90c449fec93c")
 		(property "Reference" "#PWR0125"
-			(at 214.63 93.98 0)
+			(at 214.63 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3407,7 +4414,7 @@
 			)
 		)
 		(property "Value" "+5VD_ISO"
-			(at 214.63 85.09 0)
+			(at 214.63 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3417,7 +4424,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 214.63 90.17 0)
+			(at 214.63 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3428,7 +4435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 90.17 0)
+			(at 214.63 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3439,7 +4446,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 214.63 90.17 0)
+			(at 214.63 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3463,7 +4470,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 214.63 130.81 0)
+		(at 214.63 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3474,7 +4481,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d7779cb-e57a-451e-baa9-ea0cfcf6ecd7")
 		(property "Reference" "#PWR0126"
-			(at 214.63 137.16 0)
+			(at 214.63 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +4492,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 214.63 135.89 0)
+			(at 214.63 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3495,7 +4502,7 @@
 			)
 		)
 		(property "Footprint" "Sensor:Winson_GM-402B_5x5mm_P1.27mm"
-			(at 214.63 130.81 0)
+			(at 214.63 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3506,7 +4513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 130.81 0)
+			(at 214.63 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3517,7 +4524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 130.81 0)
+			(at 214.63 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3540,40 +4547,41 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 199.39 130.81 0)
+		(lib_id "Connector:TestPoint")
+		(at 240.03 93.98 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b64fff7-07c9-473b-bffa-538a858cd10d")
-		(property "Reference" "#PWR0122"
-			(at 199.39 137.16 0)
-			(hide yes)
+		(uuid "962bcdde-0deb-4581-8706-ffcb7bf10048")
+		(property "Reference" "TP11"
+			(at 238.76 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 199.39 135.89 0)
+		(property "Value" "TestPoint"
+			(at 236.22 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 199.39 130.81 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 245.11 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3584,7 +4592,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 130.81 0)
+			(at 245.11 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 240.03 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e34d70d-51d5-4cff-99a1-6da563c1eae9")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b64fff7-07c9-473b-bffa-538a858cd10d")
+		(property "Reference" "#PWR0122"
+			(at 199.39 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 199.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3595,7 +4681,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 130.81 0)
+			(at 199.39 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,6 +4698,85 @@
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
 					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 240.03 179.07 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9deb1ac2-8957-4964-bd9a-f548b2540f57")
+		(property "Reference" "TP13"
+			(at 238.76 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 236.22 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 245.11 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 240.03 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5add08a-50b8-426e-9bb8-0b7bedb073cb")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -4012,6 +5177,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 179.07 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8d81461-3bc1-4add-b61c-223f5be3b553")
+		(property "Reference" "TP17"
+			(at 250.19 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 247.65 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 256.54 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc4f7f40-0c62-4511-ae5c-9f1f5c6b96c1")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 49.53 262.89 0)
 		(unit 1)
@@ -4094,8 +5338,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 240.03 78.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0a0e3ac-ba54-4dc2-a5ef-5165c8c9a7ee")
+		(property "Reference" "TP10"
+			(at 241.3 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 243.84 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 234.95 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 240.03 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77f1f992-fbc2-4494-91d3-fb8847760eaa")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:ISO7761FDBQ")
-		(at 207.01 113.03 0)
+		(at 207.01 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4106,7 +5429,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3a36dbc-671e-48bf-bb98-acb058676d54")
 		(property "Reference" "U11"
-			(at 214.2333 92.71 0)
+			(at 214.2333 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4117,7 +5440,7 @@
 			)
 		)
 		(property "Value" "ISO7761FDBQ"
-			(at 214.2333 95.25 0)
+			(at 214.2333 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4128,7 +5451,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm"
-			(at 212.725 127 0)
+			(at 212.725 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,7 +5463,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895"
-			(at 217.17 115.57 0)
+			(at 217.17 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,7 +5474,7 @@
 			)
 		)
 		(property "Description" "Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16"
-			(at 207.01 113.03 0)
+			(at 207.01 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,7 +5631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eeedde2a-c3e3-4e18-ba67-384e76581167")
-		(property "Reference" "U28"
+		(property "Reference" "U12"
 			(at 214.2333 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4415,7 +5738,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/2cbb7ee0-d677-45ec-ab6c-39870dae0fe6"
-					(reference "U28")
+					(reference "U12")
 					(unit 1)
 				)
 			)

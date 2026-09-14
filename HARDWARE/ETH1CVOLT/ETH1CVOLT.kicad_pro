@@ -989,6 +989,9 @@
       "Net-(J5-Pin_1)": [
         "DIR"
       ],
+      "Net-(J6-Pin_1)": [
+        "DIR"
+      ],
       "Net-(JP10-A)": [
         "ISO"
       ],
@@ -1037,6 +1040,12 @@
       "Net-(R14-Pad2)": [
         "ISO"
       ],
+      "Net-(R23-Pad2)": [
+        "ISO"
+      ],
+      "Net-(R24-Pad1)": [
+        "ISO"
+      ],
       "Net-(R24-Pad2)": [
         "DIR"
       ],
@@ -1055,10 +1064,16 @@
       "Net-(R47-Pad2)": [
         "ISO"
       ],
+      "Net-(R48-Pad2)": [
+        "ISO"
+      ],
       "Net-(R49-Pad2)": [
         "DIR"
       ],
       "Net-(R50-Pad2)": [
+        "DIR"
+      ],
+      "Net-(R51-Pad2)": [
         "DIR"
       ],
       "Net-(R61-Pad2)": [
@@ -1326,6 +1341,12 @@
         "ISO"
       ],
       "unconnected-(J2-NC-Pad7)": [
+        "DIR"
+      ],
+      "unconnected-(J5-Pin_1-Pad1)": [
+        "DIR"
+      ],
+      "unconnected-(J5-Pin_2-Pad2)": [
         "DIR"
       ],
       "unconnected-(J8-Pin_1-Pad1)": [
@@ -1781,13 +1802,13 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
-      "junction_size_choice": 3,
+      "junction_size_choice": 2,
       "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
@@ -1814,7 +1835,7 @@
         "uuid": "8d3b546e-b30b-49b2-bc59-8e254df4c067"
       }
     ],
-    "used_designators": "Y1-2,#PWR1-223,#PWR428,#PWR439,#FLG1-15,JP1-13,FB1-2,L1-4,RV1,J1-18,K1-4,Q1-4,N1,RN1-9,C1-117,C401,U1-28,D1-10,R1-74,R311-313,TP1-20",
+    "used_designators": "TP1-44,U1-28,D1-10,Q1-4,#PWR1-223,#PWR428,#PWR439,Y1-2,JP1-13,R1-75,R311-313,#FLG1-15,FB1-2,L1-4,RV1,K1-4,J1-18,C1-117,C401,RN1-9,N1",
     "variants": [
       {
         "description": "Bipolar Mode",
