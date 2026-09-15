@@ -1996,7 +1996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4351f285-31db-4b8e-916b-3bb5c09de4b9")
-		(property "Reference" "R43"
+		(property "Reference" "R44"
 			(at 204.47 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2058,7 +2058,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "R43")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -2314,7 +2314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4dd2272-effd-402c-b4cf-cd9b5717972a")
-		(property "Reference" "R42"
+		(property "Reference" "R43"
 			(at 181.61 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2376,7 +2376,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)

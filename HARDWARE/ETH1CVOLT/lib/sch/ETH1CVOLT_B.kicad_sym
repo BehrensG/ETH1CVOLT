@@ -1752,7 +1752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina159.pdf?ts=1789029296659&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA159"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina159.pdf"
 			(at 0.254 0.254 0)
 			(show_name no)
 			(do_not_autoplace no)

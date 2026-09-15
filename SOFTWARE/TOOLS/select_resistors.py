@@ -60,4 +60,4 @@ def select_resistors(vref : float = 7.068) -> float:
     else:
         print("WARNING: Consider fine-tuning the base list values for this specific chip voltage.")
 
-print(select_resistors(6.9))
+print(select_resistors(7.15))

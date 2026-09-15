@@ -1667,7 +1667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40dec492-b431-4ab7-80bd-5bae0f5ad91c")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR0199"
 			(at 257.81 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -1727,7 +1727,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "#PWR0198")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -1767,7 +1767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 205.4352 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -1940,7 +1940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 162.2552 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -2029,7 +2029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 258.7752 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -2096,7 +2096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cdc64df-0705-4908-8181-7cee6a4f9c4e")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR0198"
 			(at 257.81 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2156,7 +2156,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "#PWR0197")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -2174,7 +2174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a32824cf-7c5b-4a15-a270-e37e61fc4cf9")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0197"
 			(at 161.29 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -2234,7 +2234,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "#PWR0196")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -2252,7 +2252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaf8f41b-064c-4a6b-8e34-5cac67082383")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0196"
 			(at 161.29 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2312,7 +2312,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/6b99850f-0451-494d-93f0-c5b93a8ef636"
-					(reference "#PWR0195")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -2352,7 +2352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 183.8452 138.43 0)
 			(hide yes)
 			(show_name no)

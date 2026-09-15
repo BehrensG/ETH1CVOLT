@@ -858,7 +858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1CVOLT:BOX3-1455N"
 			(at 69.85 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -869,7 +869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.busboard.com/documents/datasheets/BPS-DAT-(BOX3-1455N)-Datasheet.pdf"
 			(at 69.85 262.89 0)
 			(hide yes)
 			(show_name no)

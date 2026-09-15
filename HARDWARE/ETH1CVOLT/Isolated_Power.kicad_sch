@@ -4571,13 +4571,13 @@
 		(uuid "076c5127-0b92-46b2-b948-374416a7024a")
 	)
 	(junction
-		(at 326.39 30.48)
+		(at 309.88 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "083c9ef8-b8ec-41d9-82af-cf850bebf6b5")
 	)
 	(junction
-		(at 303.53 48.26)
+		(at 287.02 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09767e27-bd24-4f0e-9c0c-4fd933b17304")
@@ -4595,7 +4595,7 @@
 		(uuid "0fa1665b-adcc-43f9-bd14-c153957f8e33")
 	)
 	(junction
-		(at 303.53 67.31)
+		(at 287.02 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10964377-3e5a-438e-a929-b955dd990453")
@@ -4757,7 +4757,7 @@
 		(uuid "4da16213-f4ef-44e7-af70-9ece41aacb88")
 	)
 	(junction
-		(at 274.32 30.48)
+		(at 257.81 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60b3fb62-722e-4338-9d4c-1d352059befe")
@@ -4979,12 +4979,6 @@
 		(uuid "ab4250b3-99b6-4467-977e-a8ff17f91f9d")
 	)
 	(junction
-		(at 326.39 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac6e74ba-c3f2-4d1c-92dd-74233118339e")
-	)
-	(junction
 		(at 320.04 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5009,7 +5003,7 @@
 		(uuid "b8a398d0-0b64-461f-a682-99007ad844fa")
 	)
 	(junction
-		(at 326.39 40.64)
+		(at 309.88 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb99d9fc-be23-4d44-a9cb-d7e73d5f8c0e")
@@ -5105,6 +5099,12 @@
 		(uuid "d80eeac9-9bdc-4a24-82bf-86a90cc3a28f")
 	)
 	(junction
+		(at 309.88 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da286b7a-ed01-4801-bc3f-9cd29023ddad")
+	)
+	(junction
 		(at 365.76 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5188,7 +5188,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 67.31) (xy 303.53 68.58)
+			(xy 287.02 67.31) (xy 287.02 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5278,7 +5278,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 67.31) (xy 350.52 67.31)
+			(xy 287.02 67.31) (xy 350.52 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5478,16 +5478,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 50.8) (xy 350.52 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e58730a-e613-4373-9000-431f4d04d882")
-	)
-	(wire
-		(pts
 			(xy 62.23 199.39) (xy 62.23 200.66)
 		)
 		(stroke
@@ -5668,6 +5658,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 50.8) (xy 330.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea3fce9-0cb4-45ed-8a0b-7557b8af822f")
+	)
+	(wire
+		(pts
 			(xy 345.44 100.33) (xy 345.44 101.6)
 		)
 		(stroke
@@ -5808,7 +5808,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 45.72) (xy 297.18 67.31)
+			(xy 280.67 45.72) (xy 280.67 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5828,7 +5828,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 30.48) (xy 350.52 30.48)
+			(xy 309.88 30.48) (xy 350.52 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5848,7 +5848,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 39.37) (xy 326.39 40.64)
+			(xy 309.88 39.37) (xy 309.88 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5898,7 +5898,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 30.48) (xy 275.59 30.48)
+			(xy 257.81 30.48) (xy 259.08 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6009,7 +6009,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 57.15) (xy 303.53 67.31)
+			(xy 287.02 57.15) (xy 287.02 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6029,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 45.72) (xy 295.91 45.72)
+			(xy 280.67 45.72) (xy 279.4 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6119,7 +6119,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 29.21) (xy 326.39 30.48)
+			(xy 309.88 29.21) (xy 309.88 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6369,7 +6369,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 40.64) (xy 326.39 41.91)
+			(xy 309.88 40.64) (xy 309.88 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6379,7 +6379,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 43.18) (xy 299.72 43.18)
+			(xy 279.4 43.18) (xy 283.21 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6439,7 +6439,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 48.26) (xy 303.53 49.53)
+			(xy 287.02 48.26) (xy 287.02 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6519,6 +6519,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 49.53) (xy 330.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707e290a-2650-4675-adb7-cc999c864e34")
+	)
+	(wire
+		(pts
 			(xy 350.52 44.45) (xy 350.52 50.8)
 		)
 		(stroke
@@ -6549,7 +6559,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 48.26) (xy 299.72 43.18)
+			(xy 283.21 48.26) (xy 283.21 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6559,7 +6569,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 30.48) (xy 274.32 35.56)
+			(xy 257.81 30.48) (xy 257.81 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6569,7 +6579,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 30.48) (xy 326.39 31.75)
+			(xy 309.88 30.48) (xy 309.88 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6589,7 +6599,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 40.64) (xy 326.39 40.64)
+			(xy 304.8 40.64) (xy 309.88 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6629,7 +6639,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 46.99) (xy 303.53 48.26)
+			(xy 287.02 46.99) (xy 287.02 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6649,7 +6659,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 67.31) (xy 303.53 67.31)
+			(xy 280.67 67.31) (xy 287.02 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6779,13 +6789,23 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 33.02) (xy 321.31 33.02)
+			(xy 279.4 33.02) (xy 304.8 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8518668d-e4e0-4acf-b3eb-98615b6d6ddb")
+	)
+	(wire
+		(pts
+			(xy 330.2 40.64) (xy 330.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fbfdab-4907-4f60-858a-ec3a216bd87a")
 	)
 	(wire
 		(pts
@@ -6809,7 +6829,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 38.1) (xy 303.53 38.1)
+			(xy 279.4 38.1) (xy 287.02 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7099,7 +7119,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 45.72) (xy 274.32 53.34)
+			(xy 257.81 45.72) (xy 257.81 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7179,6 +7199,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 40.64) (xy 330.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fb9175-0c46-40f5-8c37-f5664fe7348e")
+	)
+	(wire
+		(pts
 			(xy 350.52 240.03) (xy 372.11 240.03)
 		)
 		(stroke
@@ -7209,7 +7239,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 45.72) (xy 274.32 45.72)
+			(xy 259.08 45.72) (xy 257.81 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7269,7 +7299,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 53.34) (xy 257.81 50.8)
+			(xy 241.3 53.34) (xy 241.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7299,7 +7329,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 40.64) (xy 275.59 40.64)
+			(xy 241.3 40.64) (xy 259.08 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7419,7 +7449,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 30.48) (xy 326.39 30.48)
+			(xy 279.4 30.48) (xy 309.88 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7479,7 +7509,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 50.8) (xy 285.75 53.34)
+			(xy 269.24 50.8) (xy 269.24 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7497,16 +7527,6 @@
 			(color 194 194 194 1)
 		)
 		(uuid "baf39d5d-eb0a-4def-8cab-4b016520c209")
-	)
-	(wire
-		(pts
-			(xy 326.39 49.53) (xy 326.39 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baf71f7a-0aa9-471b-aaf0-8ceda57c6ed0")
 	)
 	(wire
 		(pts
@@ -7760,7 +7780,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 48.26) (xy 299.72 48.26)
+			(xy 287.02 48.26) (xy 283.21 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7790,7 +7810,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 33.02) (xy 321.31 40.64)
+			(xy 304.8 33.02) (xy 304.8 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7820,7 +7840,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 27.94) (xy 274.32 30.48)
+			(xy 257.81 27.94) (xy 257.81 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7840,7 +7860,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 35.56) (xy 274.32 35.56)
+			(xy 259.08 35.56) (xy 257.81 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8040,7 +8060,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 43.18) (xy 257.81 40.64)
+			(xy 241.3 43.18) (xy 241.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8140,7 +8160,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 38.1) (xy 303.53 39.37)
+			(xy 287.02 38.1) (xy 287.02 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8167,6 +8187,16 @@
 			(type default)
 		)
 		(uuid "e80d019f-d43d-4e64-840f-a8046fba25cb")
+	)
+	(wire
+		(pts
+			(xy 309.88 50.8) (xy 309.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84b75a7-0255-4d58-a63a-ae55f1650b2b")
 	)
 	(wire
 		(pts
@@ -8360,6 +8390,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 52.07) (xy 309.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8822a0e-9c7d-41a6-a109-a5fd5676c0ce")
+	)
+	(wire
+		(pts
 			(xy 350.52 67.31) (xy 372.11 67.31)
 		)
 		(stroke
@@ -8508,6 +8548,16 @@
 		)
 		(uuid "ff66f6d8-4340-4517-970d-4d55fac5c779")
 	)
+	(wire
+		(pts
+			(xy 372.11 50.8) (xy 373.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc6ac05-838c-4864-9957-705e09993ae8")
+	)
 	(rule_area
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8651,7 +8701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 111.4552 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8717,7 +8767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03466d7d-45eb-4c49-a5ef-2a3d698aa5eb")
-		(property "Reference" "R63"
+		(property "Reference" "R66"
 			(at 336.55 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8779,7 +8829,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R63")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -8797,7 +8847,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "03dcf8b1-200c-44e3-8e5c-8dfbe52fef44")
-		(property "Reference" "R62"
+		(property "Reference" "R65"
 			(at 335.28 226.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8861,7 +8911,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R62")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -8869,7 +8919,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 257.81 46.99 0)
+		(at 241.3 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8879,8 +8929,8 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "03f0bf28-98b4-4e49-934e-66b7e9a563e1")
-		(property "Reference" "C79"
-			(at 261.62 45.7199 0)
+		(property "Reference" "C77"
+			(at 245.11 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8891,7 +8941,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 261.62 48.2599 0)
+			(at 245.11 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8902,7 +8952,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 258.7752 50.8 0)
+			(at 242.2652 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8913,7 +8963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 46.99 0)
+			(at 241.3 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8924,7 +8974,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.81 46.99 0)
+			(at 241.3 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +8993,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "C79")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -8961,7 +9011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "055d8e02-259d-4d7b-b63c-3a6e49cdda07")
-		(property "Reference" "C77"
+		(property "Reference" "C78"
 			(at 243.84 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8983,7 +9033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 240.9952 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9025,7 +9075,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "C77")
+					(reference "C78")
 					(unit 1)
 					(variant
 						(name "A")
@@ -9049,7 +9099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a73e72a-d292-4500-9eca-1017a8f90d8d")
-		(property "Reference" "R65"
+		(property "Reference" "R68"
 			(at 347.218 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9113,7 +9163,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R65")
+					(reference "R68")
 					(unit 1)
 					(variant
 						(name "A")
@@ -9283,6 +9333,85 @@
 		)
 	)
 	(symbol
+		(lib_id "ETH1CVOLT_A:GND_ISO")
+		(at 373.38 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ab584c-838f-42ff-b080-3877b4e72ce5")
+		(property "Reference" "#PWR0193"
+			(at 379.73 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 377.19 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 373.38 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0739202-95d9-45ae-9c48-68d7dd418dd7")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 386.08 127 0)
 		(unit 1)
@@ -9316,7 +9445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 387.0452 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9373,7 +9502,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 326.39 29.21 0)
+		(at 309.88 29.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9383,8 +9512,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14a62c9a-123f-499d-b76f-8663527986de")
-		(property "Reference" "TP35"
-			(at 327.66 21.59 0)
+		(property "Reference" "TP34"
+			(at 311.15 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9395,7 +9524,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 330.2 24.13 0)
+			(at 313.69 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9406,7 +9535,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 321.31 29.21 0)
+			(at 304.8 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9417,7 +9546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 29.21 0)
+			(at 304.8 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9428,7 +9557,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 326.39 29.21 0)
+			(at 309.88 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9444,7 +9573,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "TP35")
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -9462,7 +9591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15127261-119a-4599-a138-20356659774d")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0184"
 			(at 299.72 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9522,7 +9651,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0183")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -9540,7 +9669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16ca5800-c6ba-4e67-8ff8-10252b335541")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR0195"
 			(at 386.08 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9600,7 +9729,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0194")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -9719,7 +9848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 20.0152 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9887,7 +10016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 111.4552 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -9976,7 +10105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 373.0752 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -10043,7 +10172,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2894939e-31b3-4f0c-9deb-191a345f4fc8")
-		(property "Reference" "R61"
+		(property "Reference" "R64"
 			(at 335.28 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10107,7 +10236,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R61")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -10304,7 +10433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 373.0752 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10393,7 +10522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 41.6052 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -10557,7 +10686,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 326.39 52.07 0)
+		(at 309.88 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10567,8 +10696,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3443946d-0881-477e-b6c2-199c972d852c")
-		(property "Reference" "#PWR0185"
-			(at 326.39 58.42 0)
+		(property "Reference" "#PWR0182"
+			(at 309.88 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10579,7 +10708,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 326.39 57.15 0)
+			(at 309.88 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10589,7 +10718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 52.07 0)
+			(at 309.88 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10600,7 +10729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 52.07 0)
+			(at 309.88 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10611,7 +10740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 326.39 52.07 0)
+			(at 309.88 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10627,7 +10756,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0185")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -10723,7 +10852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38f9d6e0-afc7-46cb-9405-a3e432de57ed")
-		(property "Reference" "TP31"
+		(property "Reference" "TP32"
 			(at 285.75 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10784,7 +10913,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "TP31")
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -10824,7 +10953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 266.3952 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -10969,7 +11098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3da6a570-de54-4372-82c9-efb7ebe64473")
-		(property "Reference" "R57"
+		(property "Reference" "R62"
 			(at 326.644 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11033,7 +11162,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R57")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -11050,7 +11179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e27d6b5-acd2-4d37-9276-b537faffffca")
-		(property "Reference" "R51"
+		(property "Reference" "R52"
 			(at 200.914 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11114,7 +11243,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R51")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -11122,7 +11251,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 303.53 68.58 0)
+		(at 287.02 68.58 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11132,8 +11261,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ed5c9c9-5820-480a-8d7f-7e8847c22b83")
-		(property "Reference" "TP33"
-			(at 302.26 76.2 0)
+		(property "Reference" "TP31"
+			(at 285.75 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11144,7 +11273,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 299.72 73.66 0)
+			(at 283.21 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11155,7 +11284,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 308.61 68.58 0)
+			(at 292.1 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11166,7 +11295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 68.58 0)
+			(at 292.1 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11177,7 +11306,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 303.53 68.58 0)
+			(at 287.02 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11193,7 +11322,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "TP33")
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -11201,7 +11330,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:-24V_ISO")
-		(at 274.32 53.34 180)
+		(at 257.81 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11211,8 +11340,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43dd8eed-91da-42ec-8d49-fb993ba32023")
-		(property "Reference" "#PWR0179"
-			(at 274.32 49.53 0)
+		(property "Reference" "#PWR0173"
+			(at 257.81 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11223,7 +11352,7 @@
 			)
 		)
 		(property "Value" "-24V_ISO"
-			(at 274.32 58.42 0)
+			(at 257.81 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11233,7 +11362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 53.34 0)
+			(at 257.81 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11244,7 +11373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 53.34 0)
+			(at 257.81 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11255,7 +11384,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 274.32 53.34 0)
+			(at 257.81 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11271,7 +11400,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0179")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -11279,7 +11408,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 303.53 53.34 0)
+		(at 287.02 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11289,8 +11418,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4503f217-0914-45aa-a12c-5aaa77315405")
-		(property "Reference" "R56"
-			(at 306.07 52.0699 0)
+		(property "Reference" "R57"
+			(at 289.56 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11301,7 +11430,7 @@
 			)
 		)
 		(property "Value" "187k/1%/100mW"
-			(at 306.07 54.6099 0)
+			(at 289.56 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11312,7 +11441,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 301.752 53.34 90)
+			(at 285.242 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11323,7 +11452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 53.34 0)
+			(at 287.02 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11334,7 +11463,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 303.53 53.34 0)
+			(at 287.02 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11353,7 +11482,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R56")
+					(reference "R57")
 					(unit 1)
 					(variant
 						(name "A")
@@ -11456,7 +11585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46c18166-9b68-4994-89b9-9b4425c80454")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0185"
 			(at 311.15 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11516,7 +11645,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0184")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -11556,7 +11685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 366.7252 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11645,7 +11774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 266.3952 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11936,7 +12065,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 326.39 35.56 0)
+		(at 309.88 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11946,8 +12075,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cf731ab-e56f-4668-a3a8-03dfdf2bb664")
-		(property "Reference" "R59"
-			(at 328.93 34.2899 0)
+		(property "Reference" "R58"
+			(at 312.42 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11958,7 +12087,7 @@
 			)
 		)
 		(property "Value" "182k/1%/100mW"
-			(at 328.93 36.8299 0)
+			(at 312.42 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11969,7 +12098,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 324.612 35.56 90)
+			(at 308.102 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11980,7 +12109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 35.56 0)
+			(at 309.88 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11991,7 +12120,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 326.39 35.56 0)
+			(at 309.88 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12010,7 +12139,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R59")
+					(reference "R58")
 					(unit 1)
 					(variant
 						(name "A")
@@ -12215,7 +12344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 133.0452 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12304,7 +12433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 366.7252 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -12393,7 +12522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 41.6052 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12560,7 +12689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 133.0452 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -12783,7 +12912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d0e6b25-a6ef-4ba9-98a6-d05d6471b29d")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0194"
 			(at 386.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12843,7 +12972,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0193")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -13221,7 +13350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 351.4852 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -13277,6 +13406,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 309.88 45.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6554a554-ab6c-4ab1-88d0-642d23915964")
+		(property "Reference" "R59"
+			(at 319.532 45.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "560/1%/100mW"
+			(at 319.532 47.117 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 311.658 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f9843c6-4f2e-4915-b1b2-309c7841013f")
+		)
+		(pin "2"
+			(uuid "afc41641-1e76-450d-90ed-076e04ba314e")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 325.12 138.43 180)
 		(unit 1)
@@ -13288,7 +13496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c668bb2-163c-4699-9689-8c3c6e7cfd82")
-		(property "Reference" "TP34"
+		(property "Reference" "TP35"
 			(at 327.66 140.4619 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13349,7 +13557,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "TP34")
+					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -13367,7 +13575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cabf375-ef5e-4f41-a426-733e80a8556c")
-		(property "Reference" "TP32"
+		(property "Reference" "TP33"
 			(at 285.75 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13428,7 +13636,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "TP32")
+					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -13468,7 +13676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 351.4852 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13525,7 +13733,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 285.75 53.34 0)
+		(at 269.24 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13535,8 +13743,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "718889e8-ffe1-4242-a08c-b71069ca7bf0")
-		(property "Reference" "#PWR0180"
-			(at 285.75 59.69 0)
+		(property "Reference" "#PWR0174"
+			(at 269.24 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13547,7 +13755,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 285.75 58.42 0)
+			(at 269.24 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13557,7 +13765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 285.75 53.34 0)
+			(at 269.24 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13568,7 +13776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 53.34 0)
+			(at 269.24 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13579,7 +13787,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 285.75 53.34 0)
+			(at 269.24 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13595,7 +13803,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0180")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -13713,7 +13921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 373.0752 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -13876,7 +14084,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 326.39 45.72 0)
+		(at 309.88 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13887,7 +14095,7 @@
 		(fields_autoplaced yes)
 		(uuid "80f3e9e3-b03d-4375-866b-95302e7aa320")
 		(property "Reference" "R60"
-			(at 328.93 44.4499 0)
+			(at 312.42 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13897,8 +14105,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k5/1%/100mW"
-			(at 328.93 46.9899 0)
+		(property "Value" "10k/1%/100mW"
+			(at 312.42 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13909,7 +14117,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 324.612 45.72 90)
+			(at 308.102 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13920,7 +14128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 45.72 0)
+			(at 309.88 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13931,7 +14139,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 326.39 45.72 0)
+			(at 309.88 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13990,7 +14198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 41.6052 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -14157,7 +14365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 111.4552 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -14224,7 +14432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8973449d-fa0f-4719-a276-baad158198c0")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0180"
 			(at 265.43 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -14284,7 +14492,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0177")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -14301,7 +14509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d9dc888-19d2-4e9a-accd-f566802cda6f")
-		(property "Reference" "R53"
+		(property "Reference" "R54"
 			(at 221.488 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14365,7 +14573,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R53")
+					(reference "R54")
 					(unit 1)
 					(variant
 						(name "A")
@@ -14412,7 +14620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 287.9852 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -14468,6 +14676,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 330.2 45.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90bb9e94-db66-477a-91be-e934a14d6be0")
+		(property "Reference" "R61"
+			(at 339.852 45.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "560/1%/100mW"
+			(at 339.852 47.117 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 331.978 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a91f8c36-90ed-499a-9eb5-a21b76e922d8")
+		)
+		(pin "2"
+			(uuid "ec38b1e2-4026-4ffb-8383-2b810bb196a7")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ETH1CVOLT_A:+15V_ISO")
 		(at 299.72 97.79 0)
 		(unit 1)
@@ -14479,7 +14766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "943c8ec7-4a20-45f7-98bf-7d0d06e40505")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0183"
 			(at 299.72 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14539,7 +14826,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0182")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -14654,7 +14941,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 303.53 43.18 0)
+		(at 287.02 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14664,8 +14951,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96dc3cde-06c2-40b1-823d-49b020d3ee75")
-		(property "Reference" "R55"
-			(at 306.07 41.9099 0)
+		(property "Reference" "R56"
+			(at 289.56 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14675,8 +14962,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k2/1%/100mW"
-			(at 306.07 44.4499 0)
+		(property "Value" "10k/1%/100mW"
+			(at 289.56 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14687,7 +14974,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 301.752 43.18 90)
+			(at 285.242 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14698,7 +14985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 43.18 0)
+			(at 287.02 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14709,7 +14996,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 303.53 43.18 0)
+			(at 287.02 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14728,7 +15015,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R55")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -14924,7 +15211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 133.0452 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -15013,7 +15300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 261.3152 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -15080,7 +15367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c0bff16-2af0-4569-ae37-ebd9e84434c3")
-		(property "Reference" "C78"
+		(property "Reference" "C79"
 			(at 243.84 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15102,7 +15389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 240.9952 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -15144,7 +15431,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "C78")
+					(reference "C79")
 					(unit 1)
 					(variant
 						(name "A")
@@ -15348,7 +15635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 63.1952 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -15599,7 +15886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa5520cf-4d81-4b15-81cc-2918e8ea3840")
-		(property "Reference" "R52"
+		(property "Reference" "R53"
 			(at 200.914 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15663,7 +15950,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R52")
+					(reference "R53")
 					(unit 1)
 					(variant
 						(name "A")
@@ -15678,7 +15965,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:+24V_ISO")
-		(at 274.32 27.94 0)
+		(at 257.81 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15688,8 +15975,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aad4c1ff-5565-4c50-a422-daffdb02fcc9")
-		(property "Reference" "#PWR0178"
-			(at 274.32 31.75 0)
+		(property "Reference" "#PWR0172"
+			(at 257.81 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15700,7 +15987,7 @@
 			)
 		)
 		(property "Value" "+24V_ISO"
-			(at 274.32 22.86 0)
+			(at 257.81 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15710,7 +15997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 27.94 0)
+			(at 257.81 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15721,7 +16008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 27.94 0)
+			(at 257.81 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15732,7 +16019,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 274.32 27.94 0)
+			(at 257.81 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15748,7 +16035,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0178")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -15788,7 +16075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 20.0152 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -15877,7 +16164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 387.0452 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16146,7 +16433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 261.3152 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -16393,7 +16680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 178.7652 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -16459,7 +16746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf522a08-5a85-4a91-96ca-6ae84c7eb447")
-		(property "Reference" "R58"
+		(property "Reference" "R63"
 			(at 326.644 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16523,7 +16810,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R58")
+					(reference "R63")
 					(unit 1)
 					(variant
 						(name "A")
@@ -16625,7 +16912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0039db6-7dbc-499e-998b-d6c73a8ea093")
-		(property "Reference" "R66"
+		(property "Reference" "R69"
 			(at 347.218 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16689,7 +16976,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R66")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -16729,7 +17016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 133.0452 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16818,7 +17105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 351.4852 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -17067,7 +17354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 63.1952 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17234,7 +17521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 287.9852 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -17716,7 +18003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 351.4852 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -17783,7 +18070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4f5636b-5fa0-4b9e-aa0d-aa26b606c5a3")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0175"
 			(at 260.35 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -17843,7 +18130,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0172")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -17883,7 +18170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 111.4552 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17950,7 +18237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9f235bc-c8c3-446f-8619-af91a1c486b6")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0178"
 			(at 265.43 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -18010,7 +18297,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0175")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -18050,7 +18337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 20.0152 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -18139,7 +18426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 63.1952 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -18228,7 +18515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 111.4552 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -18367,7 +18654,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 257.81 53.34 0)
+		(at 241.3 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18378,7 +18665,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6040894-08df-4907-8c4c-79017652af64")
 		(property "Reference" "#PWR0171"
-			(at 257.81 59.69 0)
+			(at 241.3 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18389,7 +18676,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 257.81 58.42 0)
+			(at 241.3 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18399,7 +18686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 53.34 0)
+			(at 241.3 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18410,7 +18697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 53.34 0)
+			(at 241.3 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18421,7 +18708,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 53.34 0)
+			(at 241.3 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18648,7 +18935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 133.0452 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -18715,7 +19002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f406e8d7-ee95-481a-ab14-5e525c597623")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0176"
 			(at 260.35 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -18775,7 +19062,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0173")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -18871,7 +19158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5cbb0ab-243c-4c43-9644-f4ad32c19ba7")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0179"
 			(at 265.43 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -18931,7 +19218,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0176")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -18948,7 +19235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f71446db-6093-479f-8abc-5f4723e919ba")
-		(property "Reference" "R64"
+		(property "Reference" "R67"
 			(at 336.55 218.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19010,7 +19297,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R64")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -19096,7 +19383,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:TPS7A39")
-		(at 285.75 38.1 0)
+		(at 269.24 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19107,7 +19394,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9173d76-a41f-479e-8d3c-43c86d08ae4b")
 		(property "Reference" "U20"
-			(at 285.75 22.86 0)
+			(at 269.24 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19117,7 +19404,7 @@
 			)
 		)
 		(property "Value" "TPS7A3901DSCR"
-			(at 285.75 25.4 0)
+			(at 269.24 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19127,7 +19414,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_S-PVSON-N10_ThermalVias"
-			(at 285.75 60.96 0)
+			(at 269.24 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19138,7 +19425,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a39.pdf"
-			(at 285.75 63.5 0)
+			(at 269.24 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19149,7 +19436,7 @@
 			)
 		)
 		(property "Description" "Dual, 150-mA, ±3.3V to ±33V Input, +1.2V to +30V and -30V to 0V Output, Wide VIN Positive and Negative LDO Voltage Regulator, 3x3mm WSON-10 package"
-			(at 285.75 38.1 0)
+			(at 269.24 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19212,7 +19499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9fdeba5-9e71-43e6-beff-946bc831b879")
-		(property "Reference" "R54"
+		(property "Reference" "R55"
 			(at 221.488 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19276,7 +19563,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "R54")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -19482,7 +19769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 373.0752 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19627,7 +19914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff831fde-1af1-42b3-9b7f-980fb9e4a1fa")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0177"
 			(at 265.43 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -19687,7 +19974,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452"
-					(reference "#PWR0174")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
