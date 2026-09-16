@@ -2262,7 +2262,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 59.69 114.3 180)
+		(at 59.69 111.76 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2272,7 +2273,7 @@
 		(dnp no)
 		(uuid "13abeacf-2830-4113-a3b5-9a8a6a1d50b2")
 		(property "Reference" "J6"
-			(at 56.642 111.252 0)
+			(at 56.388 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2283,7 +2284,7 @@
 			)
 		)
 		(property "Value" "1827868"
-			(at 56.896 114.3 0)
+			(at 56.642 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2294,7 +2295,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-GF-3.81_1x02_P3.81mm_Horizontal_ThreadedFlange_MountHole"
-			(at 59.69 114.3 0)
+			(at 59.69 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2305,7 +2306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 114.3 0)
+			(at 59.69 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2316,7 +2317,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 59.69 114.3 0)
+			(at 59.69 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
