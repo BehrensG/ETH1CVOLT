@@ -1847,7 +1847,7 @@
         "uuid": "8d3b546e-b30b-49b2-bc59-8e254df4c067"
       }
     ],
-    "used_designators": "Y1-2,#PWR1-223,#PWR428,#PWR439,R1-76,R311-313,R318-319,JP1-13,#FLG1-15,FB1-2,L1-4,RV1,K1-4,J1-18,N1,Q1-4,RN1-9,C1-117,C401,U1-28,D1-10,TP1-44",
+    "used_designators": "#FLG1-15,FB1-2,L1-4,RV1,K1-4,J1-18,RN1-9,Q1-4,N1,TP1-44,R1-76,R311-313,R318-319,JP1-13,C1-117,C401,U1-28,D1-10,Y1-2,#PWR1-224,#PWR428,#PWR439",
     "variants": [
       {
         "description": "Bipolar Mode",
