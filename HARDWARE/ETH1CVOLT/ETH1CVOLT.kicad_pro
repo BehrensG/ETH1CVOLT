@@ -52,24 +52,30 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 1.0,
+          "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.2,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -161,9 +167,9 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpthpad": false,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
+          "td_onsmdpad": false,
           "td_ontrackend": false,
           "td_onvia": true
         }
@@ -203,7 +209,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.4,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,8 +241,17 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
-      "zones_allow_external_fillets": false
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.65,
+          "drill": 0.25
+        }
+      ],
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "bom_rev": "",
@@ -260,7 +280,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|927100|508000|ea81cbc1-7c39-4cb3-b0a7-7e016755856a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "pin_to_pin|1028700|1206500|74883da1-8571-4e79-8c11-c5f77e58633a|62aeef17-7270-404f-9ffd-b5700594e5fa|/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452|/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452|/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/85462291-6d94-451a-96ab-b2477caf0aa9/3792e714-f26f-49b0-bbd4-6be3413e0452",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -508,28 +537,44 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.65,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "DIR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "tuning_profile": "",
+        "via_diameter": 0.65,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "ISO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "tuning_profile": "",
+        "via_diameter": 0.65,
+        "via_drill": 0.25,
         "wire_width": 6
       }
     ],
@@ -601,6 +646,12 @@
       "/BLOCK DIAGRAM/ADC/ADC_MEAS": [
         "ISO"
       ],
+      "/BLOCK DIAGRAM/ADC/ADC_SCLK": [
+        "ISO"
+      ],
+      "/BLOCK DIAGRAM/ADC/ADC_SDO": [
+        "ISO"
+      ],
       "/BLOCK DIAGRAM/ADC/ADC_SW1": [
         "ISO"
       ],
@@ -611,12 +662,18 @@
         "ISO"
       ],
       "/BLOCK DIAGRAM/ADC/ADC_VOLT_SCLK": [
+        "DIR",
         "ISO"
       ],
       "/BLOCK DIAGRAM/ADC/ADC_VOLT_SDO": [
+        "DIR",
         "ISO"
       ],
       "/BLOCK DIAGRAM/ADC/ADC_VOLT_~{CS}": [
+        "DIR",
+        "ISO"
+      ],
+      "/BLOCK DIAGRAM/ADC/ADC_~{CS}": [
         "ISO"
       ],
       "/BLOCK DIAGRAM/ADC/MEAS_OUT": [
@@ -763,6 +820,12 @@
       "/BLOCK DIAGRAM/Ethernet/RMII_TXEN": [
         "DIR"
       ],
+      "/BLOCK DIAGRAM/ISO DIG/MCU_ADC_SCLK": [
+        "DIR"
+      ],
+      "/BLOCK DIAGRAM/ISO DIG/MCU_ADC_SDO": [
+        "DIR"
+      ],
       "/BLOCK DIAGRAM/ISO DIG/MCU_ADC_SW1": [
         "DIR"
       ],
@@ -779,6 +842,9 @@
         "DIR"
       ],
       "/BLOCK DIAGRAM/ISO DIG/MCU_ADC_VOLT_~{CS}": [
+        "DIR"
+      ],
+      "/BLOCK DIAGRAM/ISO DIG/MCU_ADC_~{CS}": [
         "DIR"
       ],
       "/BLOCK DIAGRAM/ISO DIG/MCU_DAC_DIN": [
@@ -944,6 +1010,9 @@
       "Net-(D1-K-Pad3)": [
         "ISO"
       ],
+      "Net-(D10-A2)": [
+        "ISO"
+      ],
       "Net-(D2-K)": [
         "DIR"
       ],
@@ -965,8 +1034,11 @@
       "Net-(D6-A)": [
         "DIR"
       ],
+      "Net-(D6-K)": [
+        "DIR"
+      ],
       "Net-(D7-A)": [
-        "ISO"
+        "DIR"
       ],
       "Net-(D8-A)": [
         "ISO"
@@ -1040,7 +1112,13 @@
       "Net-(Q3-G)": [
         "ISO"
       ],
+      "Net-(R13-Pad2)": [
+        "ISO"
+      ],
       "Net-(R14-Pad2)": [
+        "ISO"
+      ],
+      "Net-(R22-Pad2)": [
         "ISO"
       ],
       "Net-(R23-Pad2)": [
@@ -1078,6 +1156,9 @@
       ],
       "Net-(R51-Pad2)": [
         "DIR"
+      ],
+      "Net-(R58-Pad1)": [
+        "ISO"
       ],
       "Net-(R59-Pad1)": [
         "ISO"
@@ -1370,6 +1451,36 @@
       "unconnected-(R39-Pad1)": [
         "ISO"
       ],
+      "unconnected-(TP10-Pad1)": [
+        "ISO"
+      ],
+      "unconnected-(TP11-Pad1)": [
+        "ISO"
+      ],
+      "unconnected-(TP12-Pad1)": [
+        "ISO"
+      ],
+      "unconnected-(TP13-Pad1)": [
+        "ISO"
+      ],
+      "unconnected-(TP14-Pad1)": [
+        "ISO"
+      ],
+      "unconnected-(TP15-Pad1)": [
+        "ISO"
+      ],
+      "unconnected-(TP16-Pad1)": [
+        "ISO"
+      ],
+      "unconnected-(TP18-Pad1)": [
+        "ISO"
+      ],
+      "unconnected-(TP19-Pad1)": [
+        "ISO"
+      ],
+      "unconnected-(TP20-Pad1)": [
+        "ISO"
+      ],
       "unconnected-(U1-PA0-Pad22)": [
         "DIR"
       ],
@@ -1386,6 +1497,12 @@
         "DIR"
       ],
       "unconnected-(U1-PA3-Pad25)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PA5-Pad29)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PA6-Pad30)": [
         "DIR"
       ],
       "unconnected-(U1-PA8-Pad67)": [
@@ -1416,6 +1533,12 @@
         "DIR"
       ],
       "unconnected-(U1-PB4-Pad90)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PB5-Pad91)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PB6-Pad92)": [
         "DIR"
       ],
       "unconnected-(U1-PB8-Pad95)": [
@@ -1538,6 +1661,15 @@
       "unconnected-(U1-PE3-Pad2)": [
         "DIR"
       ],
+      "unconnected-(U1-PE4-Pad3)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE5-Pad4)": [
+        "DIR"
+      ],
+      "unconnected-(U1-PE6-Pad5)": [
+        "DIR"
+      ],
       "unconnected-(U1-PE7-Pad37)": [
         "DIR"
       ],
@@ -1558,6 +1690,30 @@
       ],
       "unconnected-(U10-V+-Pad7)": [
         "ISO"
+      ],
+      "unconnected-(U11-INC-Pad4)": [
+        "DIR"
+      ],
+      "unconnected-(U11-IND-Pad5)": [
+        "DIR"
+      ],
+      "unconnected-(U11-INE-Pad6)": [
+        "DIR"
+      ],
+      "unconnected-(U11-INF-Pad10)": [
+        "ISO"
+      ],
+      "unconnected-(U11-OUTC-Pad13)": [
+        "ISO"
+      ],
+      "unconnected-(U11-OUTD-Pad12)": [
+        "ISO"
+      ],
+      "unconnected-(U11-OUTE-Pad11)": [
+        "ISO"
+      ],
+      "unconnected-(U11-OUTF-Pad7)": [
+        "DIR"
       ],
       "unconnected-(U12-INF-Pad10)": [
         "ISO"
@@ -1847,7 +2003,7 @@
         "uuid": "8d3b546e-b30b-49b2-bc59-8e254df4c067"
       }
     ],
-    "used_designators": "#FLG1-15,FB1-2,L1-4,RV1,K1-4,J1-18,RN1-9,Q1-4,N1,TP1-44,R1-76,R311-313,R318-319,JP1-13,C1-117,C401,U1-28,D1-10,Y1-2,#PWR1-224,#PWR428,#PWR439",
+    "used_designators": "TP1-46,R1-76,R311-313,R318-319,JP1-13,C1-117,C401,N1,Q1-4,U1-28,D1-10,FID1-6,Y1-2,#PWR1-225,#PWR428,#PWR439,FB1-2,L1-4,RV1,#FLG1-16,RN1-9,K1-4,J1-18",
     "variants": [
       {
         "description": "Bipolar Mode",
