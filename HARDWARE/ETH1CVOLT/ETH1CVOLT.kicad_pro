@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 1.0,
+          "corner_radius": 0.3,
           "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,8 +60,8 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
-          "min_island_area": 10.0,
+          "min_clearance": 0.3,
+          "min_island_area": 0.0013161349,
           "min_thickness": 0.2,
           "pad_connection": 2,
           "remove_islands": 0,
@@ -1075,6 +1075,9 @@
       "Net-(J6-Pin_2)": [
         "DIR"
       ],
+      "Net-(J8-Pin_1)": [
+        "ISO"
+      ],
       "Net-(JP10-A)": [
         "ISO"
       ],
@@ -2059,7 +2062,7 @@
         "uuid": "8d3b546e-b30b-49b2-bc59-8e254df4c067"
       }
     ],
-    "used_designators": "C1-117,C401,C406-408,JP1-13,R1-76,R311-313,R318-319,TP1-46,#FLG1-16,FID1-6,Q1-4,N1,U1-29,D1-10,#PWR1-232,#PWR428,#PWR439,Y1-2,FB1-2,L1-4,RV1,J1-18,K1-4,RN1-9",
+    "used_designators": "#FLG1-16,TP1-46,R1-76,R311-313,R318-319,JP1-13,C1-117,C401,C406-408,N1,Q1-4,U1-29,D1-10,FID1-6,Y1-2,#PWR1-232,#PWR428,#PWR439,FB1-2,L1-4,RV1,RN1-9,K1-4,J1-18",
     "variants": [
       {
         "description": "Bipolar Mode",
