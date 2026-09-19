@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "dc437cdb-41c7-4bdc-85f7-ddbfbca8cfe3")
 	(paper "A3")
+	(title_block
+		(title "ETH1CVOLT")
+		(rev "01")
+	)
 	(lib_symbols
 		(symbol "Connector:RJ45_Wuerth_7499010121A"
 			(exclude_from_sim no)
@@ -3996,6 +4000,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 144.78) (xy 116.84 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0236a1bb-2f68-4691-b122-268e064f2357")
+	)
+	(wire
+		(pts
 			(xy 193.04 137.16) (xy 264.16 137.16)
 		)
 		(stroke
@@ -4006,7 +4020,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 134.62) (xy 116.84 134.62)
+			(xy 99.06 134.62) (xy 93.98 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4066,6 +4080,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 142.24) (xy 154.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eccdabb-ccdb-4976-8f67-b06956411534")
+	)
+	(wire
+		(pts
 			(xy 308.61 139.7) (xy 308.61 132.08)
 		)
 		(stroke
@@ -4096,7 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 137.16) (xy 123.19 137.16)
+			(xy 93.98 137.16) (xy 99.06 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4126,7 +4150,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 127) (xy 154.94 127)
+			(xy 93.98 127) (xy 154.94 127)
 		)
 		(stroke
 			(width 0)
@@ -4156,7 +4180,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 132.08) (xy 154.94 132.08)
+			(xy 93.98 132.08) (xy 154.94 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4196,7 +4220,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 147.32) (xy 137.16 147.32)
+			(xy 93.98 147.32) (xy 142.24 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4226,7 +4250,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 142.24) (xy 123.19 142.24)
+			(xy 93.98 142.24) (xy 99.06 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4316,6 +4340,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 142.24) (xy 139.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500d4d43-1a9d-4726-9e9e-d1a860e4e042")
+	)
+	(wire
+		(pts
 			(xy 181.61 86.36) (xy 172.72 86.36)
 		)
 		(stroke
@@ -4356,7 +4390,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 137.16) (xy 154.94 137.16)
+			(xy 109.22 137.16) (xy 154.94 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4456,7 +4490,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 139.7) (xy 123.19 139.7)
+			(xy 93.98 139.7) (xy 99.06 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4476,17 +4510,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 125.73) (xy 137.16 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70f72032-a1cc-4ed0-bbec-127fc31c29ba")
-	)
-	(wire
-		(pts
-			(xy 116.84 149.86) (xy 138.43 149.86)
+			(xy 93.98 149.86) (xy 144.78 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4526,7 +4550,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 154.94) (xy 154.94 154.94)
+			(xy 114.3 154.94) (xy 154.94 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4566,7 +4590,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 139.7) (xy 137.16 139.7)
+			(xy 154.94 139.7) (xy 133.35 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4586,7 +4610,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 142.24) (xy 134.62 154.94)
+			(xy 114.3 142.24) (xy 114.3 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4666,7 +4690,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 147.32) (xy 154.94 147.32)
+			(xy 144.78 147.32) (xy 154.94 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4716,7 +4740,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 152.4) (xy 154.94 152.4)
+			(xy 93.98 152.4) (xy 154.94 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4746,7 +4770,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 134.62) (xy 154.94 134.62)
+			(xy 109.22 134.62) (xy 154.94 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4756,7 +4780,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 147.32) (xy 137.16 144.78)
+			(xy 142.24 147.32) (xy 142.24 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4796,7 +4820,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 142.24) (xy 134.62 142.24)
+			(xy 109.22 142.24) (xy 114.3 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4946,16 +4970,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 142.24) (xy 154.94 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c68a2f74-eb32-47dd-842d-db3b82308f5b")
-	)
-	(wire
-		(pts
 			(xy 177.8 110.49) (xy 236.22 110.49)
 		)
 		(stroke
@@ -5056,7 +5070,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 139.7) (xy 135.89 139.7)
+			(xy 109.22 139.7) (xy 116.84 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5126,7 +5140,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 144.78) (xy 154.94 144.78)
+			(xy 142.24 144.78) (xy 154.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5226,7 +5240,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 129.54) (xy 154.94 129.54)
+			(xy 93.98 129.54) (xy 154.94 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5286,7 +5300,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 149.86) (xy 138.43 147.32)
+			(xy 144.78 149.86) (xy 144.78 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5336,7 +5350,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 139.7) (xy 135.89 142.24)
+			(xy 116.84 139.7) (xy 116.84 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5526,7 +5540,7 @@
 	)
 	(hierarchical_label "RMII_TXD1"
 		(shape bidirectional)
-		(at 116.84 129.54 180)
+		(at 93.98 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5537,7 +5551,7 @@
 	)
 	(hierarchical_label "REF_CLK"
 		(shape bidirectional)
-		(at 116.84 142.24 180)
+		(at 93.98 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5548,7 +5562,7 @@
 	)
 	(hierarchical_label "RMII_MDIO"
 		(shape bidirectional)
-		(at 116.84 147.32 180)
+		(at 93.98 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5559,7 +5573,7 @@
 	)
 	(hierarchical_label "RMII_CRS_DV"
 		(shape bidirectional)
-		(at 116.84 139.7 180)
+		(at 93.98 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5570,7 +5584,7 @@
 	)
 	(hierarchical_label "RMII_RXD1"
 		(shape bidirectional)
-		(at 116.84 137.16 180)
+		(at 93.98 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5581,7 +5595,7 @@
 	)
 	(hierarchical_label "RMII_MDC"
 		(shape bidirectional)
-		(at 116.84 149.86 180)
+		(at 93.98 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5592,7 +5606,7 @@
 	)
 	(hierarchical_label "RMII_TXD0"
 		(shape bidirectional)
-		(at 116.84 127 180)
+		(at 93.98 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5603,7 +5617,7 @@
 	)
 	(hierarchical_label "RMII_TXEN"
 		(shape bidirectional)
-		(at 116.84 132.08 180)
+		(at 93.98 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5614,7 +5628,7 @@
 	)
 	(hierarchical_label "NRST"
 		(shape bidirectional)
-		(at 116.84 152.4 180)
+		(at 93.98 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5625,7 +5639,7 @@
 	)
 	(hierarchical_label "RMII_RXD0"
 		(shape bidirectional)
-		(at 116.84 134.62 180)
+		(at 93.98 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5754,6 +5768,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 152.4 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 152.4 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7078e51-179e-4a70-a32e-1e140e86c22a")
 		)
@@ -5765,13 +5801,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/44f1e79e-262f-4f92-93c9-6823d9b8c38e"
 					(reference "C18")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "8p/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -5850,6 +5879,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 185.42 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 185.42 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 185.42 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -5959,6 +6010,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 195.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 195.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7027bed4-6f41-454b-afba-6d7f488bb462")
 		)
@@ -5970,13 +6043,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/44f1e79e-262f-4f92-93c9-6823d9b8c38e"
 					(reference "C21")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "0.1u/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -6150,6 +6216,28 @@
 		)
 		(property "Description" ""
 			(at 364.49 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 364.49 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 364.49 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6449,6 +6537,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 176.53 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 176.53 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d8bd437c-0f07-4968-b759-8da53e14e404")
 		)
@@ -6634,6 +6744,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 201.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 201.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 201.93 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6838,6 +6970,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec5e8927-bf90-4842-8ab0-81141b7ccd08")
 		)
@@ -6849,13 +7003,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/44f1e79e-262f-4f92-93c9-6823d9b8c38e"
 					(reference "C16")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "8p/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -7166,7 +7313,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 121.92 0)
+		(at 129.54 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7176,7 +7323,7 @@
 		(dnp no)
 		(uuid "6b7771e0-e5db-4bf7-a757-a83ca7f7f82f")
 		(property "Reference" "R5"
-			(at 138.938 120.7516 0)
+			(at 131.064 141.732 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7187,7 +7334,7 @@
 			)
 		)
 		(property "Value" "10k/1%/100mW"
-			(at 138.938 123.063 0)
+			(at 137.414 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7198,7 +7345,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 135.382 121.92 90)
+			(at 129.54 141.478 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7209,7 +7356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 121.92 0)
+			(at 129.54 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7220,7 +7367,29 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 121.92 0)
+			(at 129.54 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 129.54 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 129.54 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7426,6 +7595,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 269.24 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 269.24 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5512eb3-50af-4612-a9fa-57a619840410")
 		)
@@ -7473,7 +7664,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 128.27 139.7 270)
+		(at 104.14 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7483,7 +7674,7 @@
 		(dnp no)
 		(uuid "7b894774-df23-4974-a8ec-4cbe98ee6d1d")
 		(property "Reference" "RN1"
-			(at 121.158 133.35 90)
+			(at 104.14 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7493,7 +7684,7 @@
 			)
 		)
 		(property "Value" "EXB-V8V330JV"
-			(at 125.984 144.78 90)
+			(at 104.14 146.304 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7503,7 +7694,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 128.27 146.685 90)
+			(at 104.14 146.685 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7514,7 +7705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 139.7 0)
+			(at 104.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7525,7 +7716,29 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 128.27 139.7 0)
+			(at 104.14 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 104.14 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 104.14 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7741,6 +7954,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 308.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 308.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51c7514f-68d5-4146-92c7-9833ce3dcf05")
 		)
@@ -7752,13 +7987,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/44f1e79e-262f-4f92-93c9-6823d9b8c38e"
 					(reference "C26")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "0.1u/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -8135,6 +8363,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 217.17 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 217.17 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "137f0fcb-d2ac-4c8d-98fb-08aafa0534c8")
 		)
@@ -8146,13 +8396,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/44f1e79e-262f-4f92-93c9-6823d9b8c38e"
 					(reference "C23")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "0.1u/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -8337,6 +8580,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 125.73 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 125.73 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87ac5742-80bb-4759-8618-e4f8d5f80c96")
 		)
@@ -8348,13 +8613,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/44f1e79e-262f-4f92-93c9-6823d9b8c38e"
 					(reference "C15")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "0.1u/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -8432,6 +8690,28 @@
 		)
 		(property "Description" ""
 			(at 364.49 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 364.49 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 364.49 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8540,6 +8820,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 148.59 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 148.59 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89b412da-c91d-4603-9dcd-64e4475773f9")
 		)
@@ -8629,6 +8931,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 195.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 195.58 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8928,6 +9252,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 289.56 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 289.56 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5251ec1f-a1c9-48d3-b622-ca9d25f9a87c")
 		)
@@ -8939,13 +9285,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/44f1e79e-262f-4f92-93c9-6823d9b8c38e"
 					(reference "C25")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "0.1u/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -9256,7 +9595,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 118.11 180)
+		(at 125.73 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9266,7 +9605,7 @@
 		(dnp no)
 		(uuid "bb83872a-4ab3-41c5-ab60-08d1949adfa5")
 		(property "Reference" "#PWR030"
-			(at 137.16 111.76 0)
+			(at 119.38 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9277,7 +9616,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 114.3 0)
+			(at 120.65 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9287,7 +9626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 118.11 0)
+			(at 125.73 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9298,7 +9637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 118.11 0)
+			(at 125.73 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9309,7 +9648,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 118.11 0)
+			(at 125.73 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9705,6 +10044,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 331.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 331.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f162901-df8d-4caa-be66-2d325fa5770a")
 		)
@@ -9835,6 +10196,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 170.18 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 170.18 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eba06436-2045-4be2-b40e-f65f0c9cf3c3")
 		)
@@ -9934,6 +10317,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 181.61 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 181.61 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7b8be58-d45e-443d-a319-d4215ccd49a8")
 		)
@@ -10023,6 +10428,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 175.26 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 175.26 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 175.26 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10490,6 +10917,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 162.56 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 162.56 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa52bfa3-6797-4ed2-985c-3abd032dc370")
 		)
@@ -10599,6 +11048,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 201.93 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 201.93 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb8bd1a5-a7b7-4634-97bc-7e64c160f620")
 		)
@@ -10698,6 +11169,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 242.57 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 242.57 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8119efc4-15ae-4851-b81d-9b71cbefe037")
 		)
@@ -10709,13 +11202,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/44f1e79e-262f-4f92-93c9-6823d9b8c38e"
 					(reference "C24")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "0.1u/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -10792,6 +11278,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 142.24 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 142.24 176.53 0)
 			(hide yes)
 			(show_name no)

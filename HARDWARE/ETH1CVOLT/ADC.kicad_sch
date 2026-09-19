@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "cf780c30-62ed-40ba-844f-e7d4298c0345")
 	(paper "A3")
+	(title_block
+		(title "ETH1CVOLT")
+		(rev "01")
+	)
 	(lib_symbols
 		(symbol "Analog_Switch:DG412xUE"
 			(pin_names
@@ -4367,6 +4371,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 124.46 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 124.46 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "34404e45-431f-49b6-8c6f-7382503c5fc0")
 		)
@@ -4538,6 +4564,28 @@
 		)
 		(property "Description" "24-Bit μPower No Latency ∆ΣTM ADC in SO-8"
 			(at 321.056 132.334 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 321.31 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 321.31 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4888,6 +4936,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 300.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 300.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7fb6a77b-89a8-417d-8019-f91172383178")
 		)
@@ -5120,6 +5190,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 116.84 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 116.84 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 116.84 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5450,6 +5542,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 26.67 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 26.67 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a06ece7e-ff4d-4a4a-a8d3-726a0aa831fb")
 		)
@@ -5610,6 +5724,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 196.85 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 196.85 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "865c3bce-a7e0-4284-bb50-a1fa9cc31a0f")
 		)
@@ -5682,6 +5818,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 146.05 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 146.05 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -5852,6 +6010,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 377.19 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 377.19 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "47786abc-6e8a-4215-94ad-e6f39aa24f62")
 		)
@@ -5938,6 +6118,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 116.84 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 116.84 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0c90da0c-a449-4d89-aea2-fb96bc4a9e14")
 		)
@@ -6014,6 +6216,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 52.07 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 52.07 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 52.07 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -6186,6 +6410,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 53.34 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 53.34 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a87a1acd-d7b7-436b-9342-43d9f5530b1e")
 		)
@@ -6255,6 +6501,28 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 245.11 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 245.11 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 245.11 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6423,6 +6691,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 123.19 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 123.19 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b4fbdb92-e36d-40d3-a919-1b7ba9e2535a")
 		)
@@ -6493,6 +6783,28 @@
 			)
 		)
 		(property "Description" "Quad SPST Monolithic CMOS Analog Switches, normally OFF, 17Ohm Ron, TSSOP-16"
+			(at 196.85 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 196.85 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 196.85 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6616,6 +6928,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 182.88 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 182.88 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 182.88 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7189,6 +7523,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 196.85 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 196.85 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "68e35b36-4d8f-473c-8706-e3de3c76c703")
 		)
@@ -7546,6 +7902,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 196.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 196.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "68e35b36-4d8f-473c-8706-e3de3c76c704")
 		)
@@ -7738,6 +8116,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 100.33 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 100.33 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -7995,6 +8395,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 68.58 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 68.58 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c2bbaf27-bdd5-4975-8d51-a41a9ebbc75b")
 		)
@@ -8070,6 +8492,28 @@
 			)
 		)
 		(property "Description" "Quad SPST Monolithic CMOS Analog Switches, normally OFF, 17Ohm Ron, TSSOP-16"
+			(at 176.53 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 176.53 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 176.53 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -8283,6 +8727,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 227.33 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 227.33 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6283a5fa-9d5c-46c9-baa5-461c777a4392")
 		)
@@ -8458,6 +8924,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 265.43 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 265.43 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "05f388e1-0e91-4e38-99f2-64e1f5bd81af")
 		)
@@ -8624,6 +9112,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 273.05 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 273.05 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a13592c1-4ac1-4b93-b152-8f65890a8f33")
 		)
@@ -8641,6 +9151,13 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/1e1986d0-5f57-471e-8eff-5dbba5b60ba1"
 					(reference "C33")
 					(unit 1)
+					(variant
+						(name "A")
+						(field
+							(name "Value")
+							(value "10u/35V/X7R")
+						)
+					)
 				)
 			)
 		)
@@ -8701,6 +9218,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 349.25 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 349.25 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 349.25 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8789,6 +9328,28 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 153.67 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 153.67 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 153.67 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8957,6 +9518,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 76.2 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 76.2 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d74dff6b-1358-4824-87ef-5f235bc4d9fa")
 		)
@@ -9105,6 +9688,28 @@
 			)
 		)
 		(property "Description" "Quad SPST Monolithic CMOS Analog Switches, normally OFF, 17Ohm Ron, TSSOP-16"
+			(at 209.55 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 209.55 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 209.55 255.27 0)
 			(hide yes)
 			(show_name no)

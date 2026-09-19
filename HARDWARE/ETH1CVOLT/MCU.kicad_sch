@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "3ae7c017-a4d3-4c2b-ab98-4ba86500beb5")
 	(paper "A3")
+	(title_block
+		(title "ETH1CVOLT")
+		(rev "01")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
@@ -7058,6 +7062,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 17.78 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 17.78 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52a75714-8caf-451d-91c2-5300d5bdb4af")
 		)
@@ -7069,13 +7095,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
 					(reference "C1")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "0.1u/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -7357,6 +7376,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 138.43 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 138.43 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92c19772-3295-4c36-ab4a-815345bfbaa3")
 		)
@@ -7446,6 +7487,28 @@
 		)
 		(property "Description" ""
 			(at 165.1 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 165.1 262.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 165.1 262.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7545,6 +7608,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 176.53 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 176.53 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 176.53 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7752,6 +7837,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 62.23 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 62.23 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e149e80f-7db7-4d7e-b785-4cd4d72bd832")
 		)
@@ -7763,13 +7870,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
 					(reference "C3")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "0.1u/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -8724,6 +8824,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 322.58 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 322.58 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ad2c3cf-9e15-4768-ab21-c29fb798cdc9")
 		)
@@ -9016,6 +9138,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 138.43 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 138.43 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b07f6b24-394b-4307-8e78-74215c194208")
 		)
@@ -9116,6 +9260,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 138.43 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 138.43 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d26ef32-1c4c-4c43-bffe-8b37065a73e2")
 		)
@@ -9161,7 +9327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92ab145d-e46b-4273-a072-1998e69a9b9c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 127 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9221,7 +9387,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9505,6 +9671,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 116.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 116.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "db200b46-5d32-4f9f-8899-89cfbb3f42da")
 		)
@@ -9550,7 +9738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a386ce02-8bdc-4771-a1fa-b93b138362dc")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 133.35 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -9610,7 +9798,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9797,6 +9985,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 107.95 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 107.95 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "559ef47c-9c81-47f5-a7c1-c7ba1b0382f1")
 		)
@@ -9808,13 +10018,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
 					(reference "C5")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "0.1u/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -9849,7 +10052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b27f43b4-76f0-4827-a7bc-a25795ed1469")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 133.35 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -9909,7 +10112,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9990,6 +10193,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 171.45 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 171.45 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 171.45 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -10197,6 +10422,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 223.52 269.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 223.52 269.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a94679d8-1856-4334-807c-4a6f0acc8a6c")
 		)
@@ -10269,6 +10516,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 153.67 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 153.67 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 153.67 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10368,6 +10637,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.52 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 223.52 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 223.52 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -10571,6 +10862,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 283.21 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 283.21 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ab2d6ee-fc08-4080-a908-2bb28ef3728f")
 		)
@@ -10659,6 +10972,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 295.91 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 295.91 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 295.91 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -10783,6 +11118,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 342.9 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 342.9 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 342.9 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10989,6 +11346,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 193.04 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 193.04 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83af6600-34a5-4a3c-8cb6-20d5e38c76cc")
 		)
@@ -11185,6 +11564,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 39.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 39.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9cae9d6-5ac1-40c8-ba9d-a5d820ace250")
 		)
@@ -11196,13 +11597,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
 					(reference "C2")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "0.1u/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -11283,6 +11677,28 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.71-3.6V, 82 GPIO, LQFP100"
+			(at 213.36 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 213.36 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 213.36 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11681,6 +12097,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 85.09 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 85.09 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d9a3484-5bb6-4149-87d5-948e096b38cd")
 		)
@@ -11692,13 +12130,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/9ecb7694-9b5a-4e75-86d6-fbc3af4f394e"
 					(reference "C4")
 					(unit 1)
-					(variant
-						(name "A")
-						(field
-							(name "Value")
-							(value "0.1u/100V/X7R")
-						)
-					)
 				)
 			)
 			(project "ETH1HMSR-SMS"
@@ -11776,6 +12207,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 297.18 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 297.18 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 297.18 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11894,6 +12347,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 133.35 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 133.35 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 133.35 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -12090,6 +12565,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 138.43 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 138.43 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
 			(at 138.43 91.44 0)
 			(hide yes)
 			(show_name no)

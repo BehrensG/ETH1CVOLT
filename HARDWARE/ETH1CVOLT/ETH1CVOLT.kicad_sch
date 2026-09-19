@@ -4,7 +4,24 @@
 	(generator_version "10.0")
 	(uuid "8d3b546e-b30b-49b2-bc59-8e254df4c067")
 	(paper "A3")
+	(title_block
+		(title "ETH1CVOLT")
+		(date "2026-09-19")
+		(rev "01")
+	)
 	(lib_symbols)
+	(text "${PROJECTNAME}${REVISION}${VARIANT}"
+		(exclude_from_sim no)
+		(at 209.55 44.958 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "837dd3e3-5319-46d9-b074-8b8ffc5a9396")
+	)
 	(sheet
 		(at 328.93 212.09)
 		(size 48.26 30.48)

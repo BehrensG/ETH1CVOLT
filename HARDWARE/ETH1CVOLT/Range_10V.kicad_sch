@@ -4,8 +4,12 @@
 	(generator_version "10.0")
 	(uuid "ab697b77-ba65-4224-8cc9-4ab25c989e0c")
 	(paper "A3")
+	(title_block
+		(title "ETH1CVOLT")
+		(rev "01")
+	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:OPA196xD"
+		(symbol "Amplifier_Operational:ADA4522-1"
 			(pin_names
 				(offset 0.127)
 			)
@@ -25,7 +29,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA196xD"
+			(property "Value" "ADA4522-1"
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -48,7 +52,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
 				(at 3.81 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +63,7 @@
 					)
 				)
 			)
-			(property "Description" "Sing, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-8"
+			(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO single operational amplifier"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -70,7 +74,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "single opamp"
+			(property "ki_keywords" "analog-devices opamp chopper"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -81,7 +85,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -92,7 +96,7 @@
 					)
 				)
 			)
-			(symbol "OPA196xD_0_1"
+			(symbol "ADA4522-1_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -106,7 +110,7 @@
 					)
 				)
 			)
-			(symbol "OPA196xD_1_1"
+			(symbol "ADA4522-1_1_1"
 				(pin no_connect line
 					(at -2.54 2.54 270)
 					(length 2.54)
@@ -1322,10 +1326,10 @@
 		(uuid "0bf91768-26d0-42ab-a66b-a35b70992c76")
 	)
 	(junction
-		(at 217.17 109.22)
+		(at 223.52 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8fbc7a6-b47b-4a67-8a4f-39119b44433a")
+		(uuid "908bb1eb-2130-4749-a258-23f127d689c9")
 	)
 	(wire
 		(pts
@@ -1339,17 +1343,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 109.22) (xy 264.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "113aa64c-6fd5-4069-a090-140389678007")
-	)
-	(wire
-		(pts
-			(xy 217.17 134.62) (xy 208.28 134.62)
+			(xy 223.52 134.62) (xy 208.28 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1369,6 +1363,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 109.22) (xy 264.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35041aee-edef-4487-b197-cdcd3349cfd7")
+	)
+	(wire
+		(pts
 			(xy 22.86 264.16) (xy 22.86 265.43)
 		)
 		(stroke
@@ -1379,7 +1383,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 109.22) (xy 217.17 134.62)
+			(xy 223.52 109.22) (xy 223.52 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +1443,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 107.95) (xy 217.17 109.22)
+			(xy 223.52 107.95) (xy 223.52 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1479,7 +1483,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 109.22) (xy 217.17 109.22)
+			(xy 210.82 109.22) (xy 223.52 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1566,106 +1570,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA196xD")
-		(at 203.2 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15415158-c624-4d95-afc1-52e8b6e9520b")
-		(property "Reference" "U13"
-			(at 208.788 101.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA192IDR"
-			(at 208.28 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 200.66 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa192.pdf"
-			(at 207.01 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Sing, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-8"
-			(at 203.2 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "be8de82f-8690-487e-b2bd-94a671fc829e")
-		)
-		(pin "3"
-			(uuid "2de6c3bb-3251-4f61-ba0f-d88f84be23ef")
-		)
-		(pin "1"
-			(uuid "678cbaee-175c-4ce5-9ca4-0400b30fe527")
-		)
-		(pin "2"
-			(uuid "97215fbc-1b98-4d20-b266-0ab85060e759")
-		)
-		(pin "5"
-			(uuid "88b54315-cafa-4b8c-b8b6-32c7b91cc788")
-		)
-		(pin "6"
-			(uuid "2dec33e4-c890-4b7c-b9c0-d749a7330844")
-		)
-		(pin "7"
-			(uuid "6e0c3990-5449-4888-bd77-72ace41b6145")
-		)
-		(pin "8"
-			(uuid "d1111be1-f9db-4832-9453-f3f69b67d232")
-		)
-		(instances
-			(project "ETH1CVOLT"
-				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 217.17 107.95 0)
+		(at 223.52 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1675,8 +1581,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "162574c1-43d1-446a-8652-36727351e590")
-		(property "Reference" "TP22"
-			(at 219.71 103.3779 0)
+		(property "Reference" "TP19"
+			(at 226.06 103.3779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1687,7 +1593,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 219.71 105.9179 0)
+			(at 226.06 105.9179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1698,7 +1604,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 222.25 107.95 0)
+			(at 228.6 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1709,7 +1615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 107.95 0)
+			(at 228.6 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1720,7 +1626,29 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 217.17 107.95 0)
+			(at 223.52 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 223.52 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 223.52 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1736,7 +1664,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "TP22")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -1810,6 +1738,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 269.24 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 269.24 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4bd2490b-5c9a-45e4-bfef-2013c67d2b79")
 		)
@@ -1840,7 +1790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c81a3c3-5ec5-4fd4-aa6a-02a324ad4e11")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0135"
 			(at 200.66 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1900,7 +1850,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "#PWR0138")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -1918,7 +1868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36f626a0-1cd6-4454-ae1f-a403b0debc43")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0134"
 			(at 200.66 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1978,7 +1928,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "#PWR0137")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -1996,7 +1946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4351f285-31db-4b8e-916b-3bb5c09de4b9")
-		(property "Reference" "R43"
+		(property "Reference" "R29"
 			(at 204.47 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2049,6 +1999,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 204.47 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 204.47 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6e578e6c-b7a4-4f50-9a05-3c7bb8e16adb")
 		)
@@ -2058,7 +2030,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "R43")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2076,7 +2048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f3f9c6d-9918-4eb8-9543-bc8a2c478a2e")
-		(property "Reference" "C49"
+		(property "Reference" "C52"
 			(at 49.53 267.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2131,6 +2103,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 45.72 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 45.72 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "883eb479-04aa-4926-a775-9c2b921601d1")
 		)
@@ -2140,7 +2134,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "C49")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -2158,7 +2152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "577ca5d0-78a1-49cc-bbd3-1a3e885b4032")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0131"
 			(at 45.72 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -2218,7 +2212,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "#PWR0134")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -2236,7 +2230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71ee0a3e-e62c-4d88-a41f-37d79db06de9")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0132"
 			(at 45.72 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -2296,7 +2290,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "#PWR0135")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -2314,7 +2308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4dd2272-effd-402c-b4cf-cd9b5717972a")
-		(property "Reference" "R42"
+		(property "Reference" "R28"
 			(at 181.61 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2367,6 +2361,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 181.61 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 181.61 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4331d0ed-ff81-4050-9dce-cbcb06b1324d")
 		)
@@ -2376,7 +2392,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "R42")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2394,7 +2410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b12c2fd3-c51e-49fb-8088-7b8319a379f5")
-		(property "Reference" "C48"
+		(property "Reference" "C51"
 			(at 26.67 267.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2449,6 +2465,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 22.86 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 22.86 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7854b38-5656-4675-84a7-414e6f450094")
 		)
@@ -2458,7 +2496,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "C48")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -2476,7 +2514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b961831b-27f4-489f-9e2d-ed003d05687b")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0130"
 			(at 22.86 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -2536,7 +2574,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "#PWR0133")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9bcbd8-cb8b-4d8c-82cc-e9f71a4dfce6")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0133"
 			(at 165.1 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2616,7 +2654,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "#PWR0136")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -2634,7 +2672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d506cf4a-354e-4e55-8e97-b20397b879e7")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0129"
 			(at 22.86 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -2694,7 +2732,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "#PWR0132")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -2712,7 +2750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea2cff49-a0af-4506-a9c1-10b295ddd074")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0137"
 			(at 269.24 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2772,7 +2810,127 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "#PWR0140")
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:ADA4522-1")
+		(at 203.2 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f564dae0-29d9-463d-aff4-3e11c9115a70")
+		(property "Reference" "U13"
+			(at 210.82 102.108 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4522-1ARZ"
+			(at 210.566 104.902 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 200.66 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
+			(at 207.01 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO single operational amplifier"
+			(at 203.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 203.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 203.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "339b1c3b-5cde-481e-91fb-dd073420741d")
+		)
+		(pin "6"
+			(uuid "95b79077-e9a6-4072-984f-9f3b3c7df1ce")
+		)
+		(pin "2"
+			(uuid "0176b8fe-c474-4072-be69-2db5a69b2119")
+		)
+		(pin "5"
+			(uuid "efb65aa0-f945-4d4c-b034-6aebeb2e5d51")
+		)
+		(pin "1"
+			(uuid "bad013f2-89e2-4a3c-b22d-29e1795d026e")
+		)
+		(pin "4"
+			(uuid "c8be0f08-a9f3-4add-99f3-7e4481667995")
+		)
+		(pin "7"
+			(uuid "ba5b0bd4-9bd5-4cfa-bcc7-56ef3efd93f6")
+		)
+		(pin "3"
+			(uuid "fd8ad060-3d84-4661-a4fe-c060ae0d5adf")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -2790,7 +2948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe3400bb-57de-4423-88e9-11b054d53077")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0136"
 			(at 269.24 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2850,7 +3008,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/d811bb30-fa6b-4ed4-ae20-cf9a7a5d683b"
-					(reference "#PWR0139")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
