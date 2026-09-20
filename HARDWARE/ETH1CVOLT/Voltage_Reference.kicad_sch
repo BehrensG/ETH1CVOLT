@@ -1736,6 +1736,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Optional MAX6350"
+		(exclude_from_sim no)
+		(at 128.778 110.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cad24153-f1c8-4c52-a9e2-e034a47f6124")
+	)
 	(junction
 		(at 289.56 134.62)
 		(diameter 0)
@@ -3027,7 +3037,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ADR4550"
+		(property "Value" "ADR4550CRZ"
 			(at 124.46 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
