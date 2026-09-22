@@ -8213,7 +8213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ef4890f-c30c-4f35-bf4f-ac8c954b0fca")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 130.81 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -8273,7 +8273,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/44f1e79e-262f-4f92-93c9-6823d9b8c38e"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9604,7 +9604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb83872a-4ab3-41c5-ab60-08d1949adfa5")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 119.38 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9664,7 +9664,7 @@
 		(instances
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/44f1e79e-262f-4f92-93c9-6823d9b8c38e"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
