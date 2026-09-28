@@ -2176,6 +2176,12 @@
 		(color 0 0 0 0)
 		(uuid "cc3a9ade-d412-4066-bb60-45d51f348ce7")
 	)
+	(junction
+		(at 115.57 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e95b4f08-78a4-4677-9846-f5e4262d7341")
+	)
 	(wire
 		(pts
 			(xy 146.05 127) (xy 147.32 127)
@@ -2358,6 +2364,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 151.13) (xy 144.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5622db0b-a7d9-4115-8527-4a3e357f3d86")
+	)
+	(wire
+		(pts
 			(xy 245.11 161.29) (xy 199.39 161.29)
 		)
 		(stroke
@@ -2418,6 +2434,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 149.86) (xy 115.57 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dda59c0-c3cd-4f9c-9651-16e2f8314096")
+	)
+	(wire
+		(pts
 			(xy 215.9 118.11) (xy 219.71 118.11)
 		)
 		(stroke
@@ -2425,6 +2451,16 @@
 			(type default)
 		)
 		(uuid "7a60a32c-66bb-434e-95af-eba67eeb00d0")
+	)
+	(wire
+		(pts
+			(xy 144.78 151.13) (xy 144.78 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ced6866-f488-4e1a-bdc4-3b24d82fc034")
 	)
 	(wire
 		(pts
@@ -2518,13 +2554,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 132.08) (xy 147.32 132.08)
+			(xy 114.3 151.13) (xy 115.57 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ace0ec90-a5f4-4ed1-9f33-90c6276043bd")
+	)
+	(wire
+		(pts
+			(xy 144.78 132.08) (xy 147.32 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae01461d-1f64-4afe-ae08-0d738a52d512")
 	)
 	(wire
 		(pts
@@ -2709,7 +2755,7 @@
 	)
 	(hierarchical_label "DAC_~{LDAC}"
 		(shape input)
-		(at 146.05 132.08 180)
+		(at 114.3 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3145,6 +3191,84 @@
 		)
 	)
 	(symbol
+		(lib_id "ETH1CVOLT_A:+5VD_ISO")
+		(at 115.57 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "300df0e6-251a-4f44-ae62-33f3d9a197bd")
+		(property "Reference" "#PWR0223"
+			(at 115.57 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VD_ISO"
+			(at 115.57 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9acdce62-21f8-441f-aa6e-2417a76f757c")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/e2cff0f2-156b-4ebd-b442-dc8733a740cb"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 223.52 135.89 90)
 		(unit 1)
@@ -3341,6 +3465,88 @@
 			(project "ETH1CVOLT"
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/e2cff0f2-156b-4ebd-b442-dc8733a740cb"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d827622-52d7-4d18-86cd-ff67ef13e409")
+		(property "Reference" "R63"
+			(at 118.11 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7/1%/100mW"
+			(at 118.11 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 113.792 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "277f86ad-b08c-4fe9-b61f-289f41da8c8e")
+		)
+		(pin "1"
+			(uuid "f8de082c-158c-4b67-adcd-220000ded739")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/e2cff0f2-156b-4ebd-b442-dc8733a740cb"
+					(reference "R63")
 					(unit 1)
 				)
 			)

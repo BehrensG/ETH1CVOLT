@@ -5835,7 +5835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ISO7761FDBQ"
+		(property "Value" "ISO7761DBQR"
 			(at 214.2333 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)

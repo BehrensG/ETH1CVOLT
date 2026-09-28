@@ -6401,7 +6401,7 @@
 		)
 		(uuid "124b33cc-72e4-48a7-987e-75ab42b7c7bc")
 	)
-	(label "I2C1_SDA"
+	(label "I2C3_SDA"
 		(at 260.35 170.18 180)
 		(effects
 			(font
@@ -6421,7 +6421,7 @@
 		)
 		(uuid "2c605d24-6583-4c0a-8437-751c7c6bd7e7")
 	)
-	(label "I2C1_SDA"
+	(label "I2C3_SDA"
 		(at 320.04 151.13 180)
 		(effects
 			(font
@@ -6441,7 +6441,7 @@
 		)
 		(uuid "3456994c-a7fc-499d-85c3-d246f9af7dfa")
 	)
-	(label "I2C1_SCL"
+	(label "I2C3_SCL"
 		(at 320.04 153.67 180)
 		(effects
 			(font
@@ -6461,7 +6461,7 @@
 		)
 		(uuid "468c9a26-6a08-4427-bdda-707c55d35732")
 	)
-	(label "I2C1_SCL"
+	(label "I2C3_SCL"
 		(at 260.35 81.28 180)
 		(effects
 			(font

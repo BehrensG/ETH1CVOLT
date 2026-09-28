@@ -754,8 +754,8 @@
 		)
 	)
 	(sheet
-		(at 328.93 212.09)
-		(size 48.26 30.48)
+		(at 330.2 203.2)
+		(size 38.1 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -770,7 +770,7 @@
 		)
 		(uuid "ea97f94c-dee1-4702-bb32-5cb010d15929")
 		(property "Sheetname" "BLOCK DIAGRAM"
-			(at 328.93 211.3784 0)
+			(at 330.2 202.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -781,7 +781,7 @@
 			)
 		)
 		(property "Sheetfile" "Block_Diagram.kicad_sch"
-			(at 328.93 243.1546 0)
+			(at 330.2 241.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
