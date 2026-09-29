@@ -3214,7 +3214,7 @@
 		(uuid "765796ba-e6e1-4b9b-b173-3ee632fed929")
 	)
 	(junction
-		(at 349.25 134.62)
+		(at 335.28 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76ca4fcd-19c4-4df4-9517-d46b37b76949")
@@ -3375,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 143.51) (xy 349.25 144.78)
+			(xy 335.28 143.51) (xy 335.28 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3455,7 +3455,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 148.59) (xy 189.23 148.59)
+			(xy 175.26 148.59) (xy 177.8 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3565,7 +3565,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 166.37) (xy 179.07 166.37)
+			(xy 175.26 166.37) (xy 177.8 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3695,7 +3695,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 166.37) (xy 189.23 166.37)
+			(xy 185.42 166.37) (xy 189.23 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3805,6 +3805,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 148.59) (xy 189.23 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1416a8-c20c-471c-a1f8-ae205c85b51d")
+	)
+	(wire
+		(pts
 			(xy 215.9 116.84) (xy 215.9 130.81)
 		)
 		(stroke
@@ -3855,7 +3865,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 134.62) (xy 381 134.62)
+			(xy 367.03 134.62) (xy 365.76 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3925,7 +3935,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 134.62) (xy 349.25 135.89)
+			(xy 335.28 134.62) (xy 335.28 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4115,7 +4125,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 134.62) (xy 332.74 134.62)
+			(xy 332.74 134.62) (xy 358.14 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6012,7 +6022,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_B:+5VREF_ISO")
-		(at 187.96 148.59 90)
+		(at 175.26 148.59 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6024,7 +6034,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a1a23a0-118c-4707-bd45-31affbea21ed")
 		(property "Reference" "#PWR071"
-			(at 191.77 148.59 0)
+			(at 179.07 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6035,7 +6045,7 @@
 			)
 		)
 		(property "Value" "+5VREF_ISO"
-			(at 184.15 148.5899 90)
+			(at 171.45 148.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6046,7 +6056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 148.59 0)
+			(at 175.26 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6057,7 +6067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 148.59 0)
+			(at 175.26 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6068,7 +6078,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 187.96 148.59 0)
+			(at 175.26 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,7 +6102,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 377.19 134.62 270)
+		(at 361.95 134.62 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6103,7 +6113,7 @@
 		(dnp no)
 		(uuid "5e29c15d-6699-4f33-80bc-6a192c7c8a80")
 		(property "Reference" "R17"
-			(at 377.19 137.16 90)
+			(at 361.95 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6113,7 +6123,7 @@
 			)
 		)
 		(property "Value" "0R/5%/100mW"
-			(at 377.19 139.7 90)
+			(at 361.95 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6123,7 +6133,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 377.19 136.398 90)
+			(at 361.95 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6134,7 +6144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 134.62 0)
+			(at 361.95 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6145,7 +6155,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 377.19 134.62 0)
+			(at 361.95 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6156,7 +6166,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 377.19 134.62 90)
+			(at 361.95 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,7 +6177,7 @@
 			)
 		)
 		(property "KLC_S4.5" ""
-			(at 377.19 134.62 90)
+			(at 361.95 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6410,7 +6420,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 176.53 166.37 270)
+		(at 175.26 166.37 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6422,7 +6432,7 @@
 		(fields_autoplaced yes)
 		(uuid "62877a1c-e47f-4082-8a53-28caed7a7cf6")
 		(property "Reference" "#PWR070"
-			(at 170.18 166.37 0)
+			(at 168.91 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6433,7 +6443,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 172.72 166.3699 90)
+			(at 171.45 166.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6444,7 +6454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 166.37 0)
+			(at 175.26 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6455,7 +6465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 166.37 0)
+			(at 175.26 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6466,7 +6476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 166.37 0)
+			(at 175.26 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7130,7 +7140,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 182.88 166.37 90)
+		(at 181.61 148.59 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7139,9 +7150,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6db9a33e-60a0-43f0-9313-ef719dddd410")
-		(property "Reference" "R13"
-			(at 182.88 160.02 90)
+		(uuid "6d0c039c-e44f-402c-8e7d-e2fc53b7599f")
+		(property "Reference" "R67"
+			(at 181.61 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7151,7 +7162,7 @@
 			)
 		)
 		(property "Value" "1k/1%/100mW"
-			(at 182.88 162.56 90)
+			(at 181.61 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7161,7 +7172,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 182.88 168.148 90)
+			(at 181.61 150.368 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7172,7 +7183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 166.37 0)
+			(at 181.61 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7183,7 +7194,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 182.88 166.37 0)
+			(at 181.61 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7194,7 +7205,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 182.88 166.37 90)
+			(at 181.61 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7205,7 +7216,109 @@
 			)
 		)
 		(property "KLC_S4.5" ""
-			(at 182.88 166.37 90)
+			(at 181.61 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "69364f12-80ad-4103-a972-31ada4384343")
+		)
+		(pin "1"
+			(uuid "16a718a8-aa2a-4f45-89a4-764743400a8f")
+		)
+		(instances
+			(project "ETH1CVOLT"
+				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/1e1986d0-5f57-471e-8eff-5dbba5b60ba1"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 166.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6db9a33e-60a0-43f0-9313-ef719dddd410")
+		(property "Reference" "R13"
+			(at 181.61 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k/1%/100mW"
+			(at 181.61 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 181.61 168.148 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 181.61 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 181.61 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7474,7 +7587,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:GND_ISO")
-		(at 349.25 144.78 0)
+		(at 335.28 144.78 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7486,7 +7599,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cbfbe16-3811-49ad-b01a-e6d679bd0894")
 		(property "Reference" "#PWR083"
-			(at 349.25 151.13 0)
+			(at 335.28 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7497,7 +7610,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 349.25 149.86 0)
+			(at 335.28 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7507,7 +7620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 144.78 0)
+			(at 335.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7518,7 +7631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 144.78 0)
+			(at 335.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7529,7 +7642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 349.25 144.78 0)
+			(at 335.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7938,7 +8051,7 @@
 	)
 	(symbol
 		(lib_id "ETH1CVOLT_A:+5VD_ISO")
-		(at 382.27 134.62 270)
+		(at 367.03 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7949,7 +8062,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c1d3b4d-b009-40fc-a2c8-3299fcff2ce9")
 		(property "Reference" "#PWR084"
-			(at 378.46 134.62 0)
+			(at 363.22 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7960,7 +8073,7 @@
 			)
 		)
 		(property "Value" "+5VD_ISO"
-			(at 386.08 134.6199 90)
+			(at 370.84 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7971,7 +8084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 134.62 0)
+			(at 367.03 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7982,7 +8095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 382.27 134.62 0)
+			(at 367.03 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7993,7 +8106,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 382.27 134.62 0)
+			(at 367.03 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9420,7 +9533,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 349.25 139.7 0)
+		(at 335.28 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9430,7 +9543,7 @@
 		(dnp yes)
 		(uuid "dbcd884d-bad2-42d9-b566-722757a9e326")
 		(property "Reference" "R16"
-			(at 351.79 138.4299 0)
+			(at 337.82 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9441,7 +9554,7 @@
 			)
 		)
 		(property "Value" "0R/5%/100mW"
-			(at 351.79 140.9699 0)
+			(at 337.82 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9452,7 +9565,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 347.472 139.7 90)
+			(at 333.502 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9463,7 +9576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 139.7 0)
+			(at 335.28 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9474,7 +9587,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 349.25 139.7 0)
+			(at 335.28 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9485,7 +9598,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 349.25 139.7 0)
+			(at 335.28 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9496,7 +9609,7 @@
 			)
 		)
 		(property "KLC_S4.5" ""
-			(at 349.25 139.7 0)
+			(at 335.28 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

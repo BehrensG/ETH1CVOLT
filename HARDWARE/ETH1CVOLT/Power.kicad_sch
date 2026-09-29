@@ -1977,7 +1977,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 124.46) (xy 109.22 128.27)
+			(xy 109.22 124.46) (xy 109.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2094,6 +2094,16 @@
 			(type default)
 		)
 		(uuid "7ab07c32-b904-4a8a-a17d-abac63bb1a52")
+	)
+	(wire
+		(pts
+			(xy 109.22 133.35) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edd9322-3436-4ea6-9208-fe488e692b86")
 	)
 	(wire
 		(pts
@@ -2214,6 +2224,16 @@
 			(type default)
 		)
 		(uuid "cf0905b5-789c-4945-8a88-2ca87f7c778b")
+	)
+	(wire
+		(pts
+			(xy 109.22 142.24) (xy 109.22 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1990c54-acf4-466e-9045-76a6fda95ad9")
 	)
 	(wire
 		(pts
@@ -3105,7 +3125,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 139.7 0)
+		(at 109.22 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3116,7 +3136,7 @@
 		(fields_autoplaced yes)
 		(uuid "88b3615c-5ad1-4331-a58a-a0b63311beed")
 		(property "Reference" "R35"
-			(at 111.76 138.4299 0)
+			(at 111.76 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3127,7 +3147,7 @@
 			)
 		)
 		(property "Value" "2k67/1%/250mW"
-			(at 111.76 140.9699 0)
+			(at 111.76 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3138,7 +3158,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 107.442 139.7 90)
+			(at 107.442 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3149,7 +3169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 139.7 0)
+			(at 109.22 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3180,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 109.22 139.7 0)
+			(at 109.22 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3171,7 +3191,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 109.22 139.7 0)
+			(at 109.22 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3182,7 +3202,7 @@
 			)
 		)
 		(property "KLC_S4.5" ""
-			(at 109.22 139.7 0)
+			(at 109.22 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3599,7 +3619,7 @@
 	)
 	(symbol
 		(lib_id "Diode:DZ2S100X0L")
-		(at 109.22 132.08 270)
+		(at 109.22 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3610,7 +3630,7 @@
 		(fields_autoplaced yes)
 		(uuid "bed50d2c-44f3-4f11-afe0-b6fc302ec9c3")
 		(property "Reference" "D7"
-			(at 111.76 130.8099 90)
+			(at 111.76 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3621,7 +3641,7 @@
 			)
 		)
 		(property "Value" "MMSZ5240C-HE3_A-08"
-			(at 111.76 133.3499 90)
+			(at 111.76 130.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3632,7 +3652,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 104.775 132.08 0)
+			(at 104.775 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3643,7 +3663,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/86348/mmsz5225-g_to_mmsz5267-g.pdf"
-			(at 109.22 132.08 0)
+			(at 109.22 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3654,7 +3674,7 @@
 			)
 		)
 		(property "Description" "Small Signal Zener Diodes"
-			(at 109.22 132.08 0)
+			(at 109.22 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3665,7 +3685,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 109.22 132.08 90)
+			(at 109.22 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,7 +3696,7 @@
 			)
 		)
 		(property "KLC_S4.5" ""
-			(at 109.22 132.08 90)
+			(at 109.22 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
