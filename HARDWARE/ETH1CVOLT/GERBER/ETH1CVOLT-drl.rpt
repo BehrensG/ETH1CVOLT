@@ -1,0 +1,37 @@
+Drill report for ETH1CVOLT.kicad_pcb
+Created on 2026-09-30T18:30:03
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'ETH1CVOLT-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.250mm  0.0098"  (522 holes))
+    T2  0.250mm  0.0098"  (24 holes))
+    T3  0.650mm  0.0256"  (10 holes))
+    T4  0.800mm  0.0315"  (5 holes))
+    T5  0.900mm  0.0354"  (8 holes))
+    T6  1.000mm  0.0394"  (18 holes))
+    T7  1.020mm  0.0402"  (4 holes))
+    T8  1.200mm  0.0472"  (8 holes))
+    T9  1.500mm  0.0591"  (8 holes))
+    T10  1.600mm  0.0630"  (2 holes))
+    T11  2.500mm  0.0984"  (2 holes))
+
+    Total plated holes count 611
+
+
+Drill file 'ETH1CVOLT-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+    T1  2.400mm  0.0945"  (2 holes))
+    T2  3.200mm  0.1260"  (4 holes))
+    T3  3.250mm  0.1280"  (2 holes))
+
+    Total unplated holes count 8

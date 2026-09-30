@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.5,
-          "height": 2.5,
-          "width": 2.5
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 1.075
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -1369,6 +1369,9 @@
       "Net-(U27-Y)": [
         "ISO"
       ],
+      "Net-(U29--)": [
+        "ISO"
+      ],
       "Net-(U3-RBIAS)": [
         "DIR"
       ],
@@ -1882,6 +1885,15 @@
       "unconnected-(U26-OUTF-Pad7)": [
         "DIR"
       ],
+      "unconnected-(U29-NC-Pad1)": [
+        "ISO"
+      ],
+      "unconnected-(U29-NC-Pad5)": [
+        "ISO"
+      ],
+      "unconnected-(U29-NC-Pad8)": [
+        "ISO"
+      ],
       "unconnected-(U4-NC-Pad9)": [
         "ISO"
       ],
@@ -1949,7 +1961,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "GERBER/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -2122,7 +2134,7 @@
         "uuid": "8d3b546e-b30b-49b2-bc59-8e254df4c067"
       }
     ],
-    "used_designators": "C1-117,C401,C406-408,JP1-13,R1-76,R311-313,R318-319,R404-406,TP1-46,#FLG1-16,FID1-6,Q1-4,N1,U1-29,D1-11,#PWR1-232,#PWR416-421,#PWR428,#PWR439,Y1-2,FB1-2,L1-4,RV1,J1-18,K1-4,RN1-9",
+    "used_designators": "TP1-46,R1-76,R311-313,R318-319,R404-406,JP1-13,C1-117,C401,C406-408,J1-18,K1-4,N1,Q1-4,U1-29,D1-11,FID1-6,#FLG1-16,H1-4,Y1-2,#PWR1-238,#PWR416-421,#PWR428,#PWR439,FB1-2,L1-4,RV1,RN1-9",
     "variants": [
       {
         "description": "Bipolar Mode",
