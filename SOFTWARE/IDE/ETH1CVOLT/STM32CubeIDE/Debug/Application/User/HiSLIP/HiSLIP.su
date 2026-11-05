@@ -1,0 +1,14 @@
+../Application/User/HiSLIP/HiSLIP.c:50:13:hislip_htonl	16	static
+../Application/User/HiSLIP/HiSLIP.c:59:8:hislip_SumSize	24	static
+../Application/User/HiSLIP/HiSLIP.c:69:6:hislip_CopyMemory	32	static
+../Application/User/HiSLIP/HiSLIP.c:84:6:hislip_DataEnd	16	static
+../Application/User/HiSLIP/HiSLIP.c:125:7:hislip_AsyncMaximumMessageSize	112	dynamic
+../Application/User/HiSLIP/HiSLIP.c:169:7:hislip_AsyncInitialize	72	static
+../Application/User/HiSLIP/HiSLIP.c:207:7:hislip_Initialize	96	static
+../Application/User/HiSLIP/HiSLIP.c:259:21:hislip_MsgParser	48	static
+../Application/User/HiSLIP/HiSLIP.c:271:26:hislip_Recv	40	static
+../Application/User/HiSLIP/HiSLIP.c:300:6:async_thread_entry	1096	static
+../Application/User/HiSLIP/HiSLIP.c:353:6:sync_thread_entry	1096	static
+../Application/User/HiSLIP/HiSLIP.c:412:6:hislip_listen_callback	16	static
+../Application/User/HiSLIP/HiSLIP.c:425:6:server_thread_entry	56	static
+../Application/User/HiSLIP/HiSLIP.c:470:6:hislip_CreateTask	40	static

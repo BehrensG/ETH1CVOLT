@@ -24,11 +24,11 @@
 /* USER CODE END 1 */
 
 /* Includes ------------------------------------------------------------------*/
+#include <hislip.h>
 #include "app_netxduo.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "HiSLIP.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

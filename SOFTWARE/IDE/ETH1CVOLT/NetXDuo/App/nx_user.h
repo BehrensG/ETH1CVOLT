@@ -2341,7 +2341,9 @@
 #endif
 
 /* USER CODE BEGIN 2 */
-
+#ifdef __BSD_VISIBLE
+#undef __BSD_VISIBLE
+#endif
 /* USER CODE END 2 */
 
 #endif /* NX_USER_H */

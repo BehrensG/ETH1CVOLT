@@ -23,10 +23,12 @@ C_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 Application/User/AZURE_RTOS/App \
+Application/User/BSD \
 Application/User/Core \
 Application/User/FileX/App \
 Application/User/HiSLIP \
 Application/User/NetXDuo/App \
+Application/User/SCPI \
 Application/User/Startup \
 Application/User/libscpi/src \
 Drivers/BSP/Components \

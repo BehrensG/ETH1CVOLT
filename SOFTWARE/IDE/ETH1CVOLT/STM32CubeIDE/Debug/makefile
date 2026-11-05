@@ -25,10 +25,12 @@ RM := rm -rf
 -include Drivers/BSP/Components/subdir.mk
 -include Application/User/libscpi/src/subdir.mk
 -include Application/User/Startup/subdir.mk
+-include Application/User/SCPI/subdir.mk
 -include Application/User/NetXDuo/App/subdir.mk
 -include Application/User/HiSLIP/subdir.mk
 -include Application/User/FileX/App/subdir.mk
 -include Application/User/Core/subdir.mk
+-include Application/User/BSD/subdir.mk
 -include Application/User/AZURE_RTOS/App/subdir.mk
 -include objects.mk
 

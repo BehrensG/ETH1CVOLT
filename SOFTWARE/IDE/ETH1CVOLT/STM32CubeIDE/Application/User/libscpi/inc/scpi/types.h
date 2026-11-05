@@ -440,6 +440,7 @@ extern "C" {
         scpi_parser_state_t parser_state;
         const char * idn[4];
         size_t arbitrary_remaining;
+        char end[3];
     };
 
     enum _scpi_array_format_t {
