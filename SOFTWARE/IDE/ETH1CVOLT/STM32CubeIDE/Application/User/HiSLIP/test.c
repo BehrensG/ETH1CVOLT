@@ -5,77 +5,48 @@
  *      Author: grzegorz
  */
 
-
- #include <string.h>
-#include <stdbool.h>
-// #include "stddef.h"
-#include "app_azure_rtos.h"
-#include "app_netxduo.h"
-
 #include "main.h"
-
-#include "HiSLIP.h"
+#include "hislip.h"
+#include "nxd_bsd.h"
 //#include "SCPI_Def.h"
 
 #define HISLIP_THREAD_STACKSIZE		2048
-#define HISLIP_PORT					4880
 
-#define	NETCONN_ACCEPT_ON			(unsigned char)1
-#define	NETCONN_ACCEPT_OFF			(unsigned char)0
+#define MAX_CLIENTS 5
 
+extern NX_IP NetXDuoEthIpInstance;
 
-#define SERVER_PORT 4880
-#define MAX_CLIENTS 2
+NX_PACKET_POOL pool;
+uint8_t pool_buffer[PACKET_POOL_SIZE];
 
-typedef struct
-{
-	char data[HISLIP_MAX_DATA_SIZE + sizeof(hislip_msg_t)];
-	unsigned short len;
-}hislip_netbuf_t;
+hislip_instr_t hislip_instr;
+ULONG client_index = 0;
 
-typedef struct {
-	hislip_msg_t msg;
-	hislip_netbuf_t netbuf;
-	NX_PACKET* packet;
-	NX_TCP_SOCKET* socket;
-	unsigned short session_id;
-}hislip_instr_t;
-
-#define err_t	unsigned int
-
-static	unsigned char thread_count = 0;
-
+static bool sync_conn_state = FALSE;
+static bool async_conn_state = FALSE;
 
 TX_THREAD server_thread;
 TX_THREAD sync_thread;
 TX_THREAD async_thread;
 
-NX_TCP_SOCKET socket_1;
-NX_TCP_SOCKET socket_2;
+NX_TCP_SOCKET sync_socket;
+NX_TCP_SOCKET async_socket;
 UCHAR server_thread_stack[HISLIP_THREAD_STACKSIZE];
 UCHAR sync_thread_stack[HISLIP_THREAD_STACKSIZE];
 UCHAR async_thread_stack[HISLIP_THREAD_STACKSIZE];
-extern NX_IP          NetXDuoEthIpInstance;
 
-#define APP_TCP_INSTANT_ECHO	1
-
-static hislip_msg_t hislip_MsgParser(hislip_instr_t* hislip_instr);
+TX_SEMAPHORE sem_client_conn;
+TX_SEMAPHORE sem_async_thread;
+TX_SEMAPHORE sync_disconn;
+TX_SEMAPHORE async_disconn;
 
 // ----------------------------------------------------------------------------
 
-static void hislip_htonl(hislip_msg_t* hislip_msg)
-{
-    hislip_msg->msg_param = NX_CHANGE_ULONG_ENDIAN(hislip_msg->msg_param);
-    hislip_msg->prologue = NX_CHANGE_USHORT_ENDIAN(hislip_msg->prologue);
-    hislip_msg->payload_len.hi = NX_CHANGE_ULONG_ENDIAN(hislip_msg->payload_len.hi);
-    hislip_msg->payload_len.lo = NX_CHANGE_ULONG_ENDIAN(hislip_msg->payload_len.lo);
-}
-
-size_t hislip_SumSize(size_t* sizes, size_t len)
+size_t hislip_SumSize(size_t *sizes, size_t len)
 {
 	size_t sum = 0;
 
-	for(unsigned char i = 0; i < len; i++)
+	for (unsigned char i = 0; i < len; i++)
 	{
 		sum += sizes[i];
 	}
@@ -83,386 +54,316 @@ size_t hislip_SumSize(size_t* sizes, size_t len)
 	return sum;
 }
 
-void hislip_CopyMemory(char* destination, void** sources, size_t* sizes, unsigned int num_sources)
+void hislip_CopyMemory(char *destination, void **sources, size_t *sizes,
+		unsigned int num_sources)
 {
-    size_t offset = 0;
-    for (unsigned int i = 0; i < num_sources; i++)
-    {
-        memcpy(destination + offset, sources[i], sizes[i]);
-        offset += sizes[i];
-    }
-}
-
-// ----------------------------------------------------------------------------
-
-UCHAR  pool_buffer[1024];
-UCHAR  pool_buffer1[1024];
-UCHAR  pool_buffer2[1024];
-NX_PACKET_POOL pool;
-void hislip_DataEnd(hislip_instr_t* hislip_instr)
-{
-
-}
-
-/*
-err_t hislip_DataEnd(hislip_instr_t* hislip_instr)
-{
-	err_t err = 0;
-
-	hislip_msg_t msg_rx, msg_tx;
-	payload_len_t max_msg_size;
-
-	char data[] = "ABCad,123123,432,123213\n";
-
-	void* sources[] = {&msg_tx, &data};
-	size_t sizes[] = {sizeof(hislip_msg_t), strlen(data)};
-
-	msg_rx = hislip_MsgParser(hislip_instr);
-
-	size_t sum = hislip_SumSize(sizes, 2);
-
-	char payload[sum];
-
-	msg_tx.prologue = HISLIP_PROLOGUE;
-	msg_tx.msg_type = HISLIP_DATAEND;
-	msg_tx.control_code = 0x00;
-	msg_tx.msg_param = msg_rx.msg_param;
-	msg_tx.payload_len.hi = 0;
-	msg_tx.payload_len.lo = strlen(data);
-
-	hislip_htonl(&msg_tx);
-
-	hislip_CopyMemory(payload, sources, sizes, 2);
-
-	vTaskDelay(pdMS_TO_TICKS(1));
-	err = netconn_write(hislip_instr->netconn.newconn, payload, sum, NETCONN_NOFLAG);
-
-	return err;
-}
-*/
-
-
-err_t hislip_AsyncMaximumMessageSize(hislip_instr_t* hislip_instr)
-{
-	err_t err = 0;
-	hislip_msg_t msg_tx;
-	payload_len_t max_msg_size;
-	ULONG status = 0;
-	NX_PACKET* packet;
-	void* sources[] = {&msg_tx, &max_msg_size};
-	size_t sizes[] = {sizeof(hislip_msg_t), sizeof(payload_len_t)};
-
-	size_t sum = hislip_SumSize(sizes, 2);
-
-	char payload[sum];
-
-	msg_tx.prologue = HISLIP_PROLOGUE;
-	msg_tx.msg_type = HISLIP_ASYNCMAXIMUMMESSAGESIZERESPONSE;
-	msg_tx.control_code = 0x00;
-	msg_tx.msg_param = 0x00000000;
-	msg_tx.payload_len.hi = 0;
-	msg_tx.payload_len.lo = 8;
-
-	max_msg_size.hi = 0;
-	max_msg_size.lo = 1024;
-
-	hislip_htonl(&msg_tx);
-
-	hislip_CopyMemory(payload, sources, sizes, 2);
-
-	tx_thread_sleep(1);
-	status = nx_packet_pool_create(&pool, "Test pool",512, pool_buffer2,512  + sizeof(NX_PACKET));
-	status = nx_packet_allocate(&pool, &packet, NX_TCP_PACKET, NX_WAIT_FOREVER);
-
-	status = nx_packet_data_append(packet,&payload,sum,&pool,NX_WAIT_FOREVER);
-
-
-	        /* immediately resend the same packet */
-	status = nx_tcp_socket_send(hislip_instr->socket, packet, NX_WAIT_FOREVER);
-
-	//nx_packet_release(packet);
-	//nx_packet_pool_delete(pool);
-
-	return err;
-}
-
-
-err_t hislip_AsyncInitialize(hislip_instr_t* hislip_instr)
-{
-	err_t err = 0;
-	hislip_msg_t msg_rx, msg_tx;
-
-
-	NX_PACKET* packet;
-	unsigned int status;
-
-	msg_rx = hislip_MsgParser(hislip_instr);
-
-	hislip_instr->session_id = msg_rx.msg_param;
-
-	msg_tx.prologue = HISLIP_PROLOGUE;
-	msg_tx.msg_type = HISLIP_ASYNCINITIALIZERESPONSE;
-	msg_tx.control_code = 0x00;
-	msg_tx.msg_param = HISLIP_VENDOR_ID;
-	msg_tx.payload_len.hi = 0;
-	msg_tx.payload_len.lo = 0;
-
-	hislip_htonl(&msg_tx);
-
-	//vTaskDelay(pdMS_TO_TICKS(1));
-	tx_thread_sleep(1);
-	status = nx_packet_pool_create(&pool, "Test pool",512, pool_buffer1,512  + sizeof(NX_PACKET));
-	status = nx_packet_allocate(&pool, &packet, NX_TCP_PACKET, NX_WAIT_FOREVER);
-
-	status = nx_packet_data_append(packet,&msg_tx,sizeof(hislip_msg_t),&pool,NX_WAIT_FOREVER);
-
-
-	        /* immediately resend the same packet */
-	status = nx_tcp_socket_send(hislip_instr->socket, packet, NX_WAIT_FOREVER);
-
-	//nx_packet_release(packet);
-	//nx_packet_pool_delete(pool);
-
-	return err;
-}
-
-
-
-
-err_t hislip_Initialize(hislip_instr_t* hislip_instr)
-{
-	err_t err = 0;
-	char name_ref[] = "hislip0";
-	char name_rx[12];
-	char* data;
-	hislip_msg_t msg_rx, msg_tx;
-
-	NX_PACKET* packet;
-
-	memset(name_rx, 0, 12);
-
-	msg_rx = hislip_MsgParser(hislip_instr);
-
-	data = &hislip_instr->netbuf.data;
-
-	memcpy(name_rx, data + sizeof(hislip_msg_t), msg_rx.payload_len.lo);
-
-	if(!strcmp(name_ref, name_rx))
+	size_t offset = 0;
+	for (unsigned int i = 0; i < num_sources; i++)
 	{
-		msg_tx.prologue = HISLIP_PROLOGUE;
-		msg_tx.msg_type = HISLIP_INITIALIZERESPONSE;
-		msg_tx.control_code = 0x00;
-		msg_tx.msg_param = 0x01000001;
-		msg_tx.payload_len.hi = 0;
-		msg_tx.payload_len.lo = 0;
-
-		hislip_htonl(&msg_tx);
-
-		unsigned int status;
-		//vTaskDelay(pdMS_TO_TICKS(1));
-		tx_thread_sleep(1);
-		status = nx_packet_pool_create(&pool, "Test pool",512, pool_buffer,512  + sizeof(NX_PACKET));
-		status = nx_packet_allocate(&pool, &packet, NX_TCP_PACKET, NX_WAIT_FOREVER);
-
-		status = nx_packet_data_append(packet,&msg_tx,sizeof(hislip_msg_t),&pool,NX_WAIT_FOREVER);
-
-
-		        /* immediately resend the same packet */
-		status = nx_tcp_socket_send(hislip_instr->socket, packet, NX_WAIT_FOREVER);
-
-		//nx_packet_release(packet);
-		//nx_packet_pool_delete(pool);
-		//err = netconn_write(hislip_instr->netconn.newconn, &msg_tx, sizeof(hislip_msg_t), NETCONN_NOFLAG);
+		memcpy(destination + offset, sources[i], sizes[i]);
+		offset += sizes[i];
 	}
+}
 
-	return err;
+// ----------------------------------------------------------------------------
+void hislip_Init(hislip_instr_t *hislip_instr)
+{
+	memset(hislip_instr->end, 0, sizeof(hislip_instr->end));
 }
 
 // ----------------------------------------------------------------------------
 
+void hislip_htonl(hislip_msg_t *hislip_msg)
+{
+	hislip_msg->msg_param = NX_CHANGE_ULONG_ENDIAN(hislip_msg->msg_param);
+	hislip_msg->prologue = NX_CHANGE_USHORT_ENDIAN(hislip_msg->prologue);
+	hislip_msg->payload_len.hi = NX_CHANGE_ULONG_ENDIAN(
+			hislip_msg->payload_len.hi);
+	hislip_msg->payload_len.lo = NX_CHANGE_ULONG_ENDIAN(
+			hislip_msg->payload_len.lo);
+}
 
-static hislip_msg_t hislip_MsgParser(hislip_instr_t* hislip_instr)
+hislip_msg_t hislip_MsgParser(hislip_instr_t *hislip_instr)
 {
 	hislip_msg_t hislip_msg;
-
 
 	size_t hislip_msg_size = sizeof(hislip_msg_t);
 
 	memcpy(&hislip_msg, hislip_instr->netbuf.data, hislip_msg_size);
-
 
 	hislip_htonl(&hislip_msg);
 
 	return hislip_msg;
 }
 
-static hislip_msg_type_t hislip_Recv(hislip_instr_t* hislip_instr)
+err_t hislip_MsgSend(hislip_instr_t *hislip_instr, hislip_msg_t *msg_tx, size_t msg_size)
+{
+	err_t err;
+
+	NX_PACKET *packet;
+
+	err = nx_packet_allocate(&pool, &packet, NX_TCP_PACKET,
+	NX_WAIT_FOREVER);
+
+	err = nx_packet_data_append(packet, msg_tx, msg_size, &pool,
+	NX_WAIT_FOREVER);
+
+	err = nx_tcp_socket_send(hislip_instr->socket, packet, NX_WAIT_FOREVER);
+
+	return err;
+}
+
+hislip_msg_type_t hislip_Recv(hislip_instr_t *hislip_instr)
 {
 
-	unsigned int status;
+	uint32_t status;
 
 	unsigned short len = 0;
 	unsigned short offset = 0;
 	hislip_msg_t hislip_msg;
 
 	hislip_instr->netbuf.len = 0;
-	status = nx_tcp_socket_receive(hislip_instr->socket, &hislip_instr->packet, NX_WAIT_FOREVER);
+	status = nx_tcp_socket_receive(hislip_instr->socket, &hislip_instr->packet,
+	NX_WAIT_FOREVER);
 
-	if(NX_SUCCESS == status)
+	if (NX_SUCCESS == status)
 	{
-		nx_packet_data_retrieve(hislip_instr->packet, hislip_instr->netbuf.data, &hislip_instr->netbuf.len);
+		nx_packet_data_retrieve(hislip_instr->packet, hislip_instr->netbuf.data,
+				&hislip_instr->netbuf.len);
 
 		hislip_msg = hislip_MsgParser(hislip_instr);
 
-    //   nx_tcp_socket_disconnect(hislip_instr->socket, NX_WAIT_FOREVER);
-     //  nx_tcp_server_socket_unaccept(&hislip_instr->socket);
-     //   nx_tcp_server_socket_relisten(&NetXDuoEthIpInstance, HISLIP_PORT, &hislip_instr->socket);
 	}
-	else
+	else if (NX_NOT_CONNECTED)
 	{
-        if(thread_count)
-        {
-        	//thread_count--;
-        }
 
-		return HISLIP_CONN_ERR;
+		return HISLIP_NOT_CONNECTED;
 	}
 
-	return (hislip_msg_type_t)hislip_msg.msg_type;
+	return (hislip_msg_type_t) hislip_msg.msg_type;
 
 }
 
+void hislip_listen_callback(NX_TCP_SOCKET *socket_ptr, UINT port);
 
 void async_thread_entry(ULONG thread_input)
 {
 	hislip_instr_t hislip_instr;
-	hislip_instr.socket = (NX_TCP_SOCKET *)thread_input;
+	hislip_Init(&hislip_instr);
+	hislip_instr.socket = (NX_TCP_SOCKET*) thread_input;
+	TX_THREAD *current_thread_ptr;
+	current_thread_ptr = tx_thread_identify();
+	uint32_t status = 0;
 
-	ULONG status =0;
-	status = nx_tcp_server_socket_accept(&socket_2, NX_WAIT_FOREVER);
-    while (1)
-    {
-    	switch(hislip_Recv(&hislip_instr))
+	while (1)
+	{
+		if (NX_SUCCESS == nx_tcp_server_socket_accept(hislip_instr.socket,
+		NX_WAIT_FOREVER))
 		{
-		//	case Initialize : hislip_Initialize(&hislip_instr);break;
-			case AsyncInitialize : hislip_AsyncInitialize(&hislip_instr); break;
-			case AsyncMaximumMessageSize : hislip_AsyncMaximumMessageSize(&hislip_instr);break;
-			case DataEnd : hislip_DataEnd(&hislip_instr); break;
+			// Close the listening gate so no other connections hit the port
+			//nx_tcp_server_socket_unlisten(&NetXDuoEthIpInstance, HISLIP_PORT);
+			async_conn_state = TRUE;
+			while (1)
+			{
+				// FIXED: Capture the return status from the receive function
+				status = hislip_Recv(&hislip_instr);
 
-			case HISLIP_CONN_ERR :
+				// FIXED: Explicitly break out of the processing while(1) loop on disconnect
+				if (status == HISLIP_NOT_CONNECTED)
 				{
-			        nx_tcp_socket_disconnect(hislip_instr.socket, NX_WAIT_FOREVER);
-			        nx_tcp_server_socket_unaccept(&hislip_instr.socket);
-			        nx_tcp_server_socket_relisten(&NetXDuoEthIpInstance, HISLIP_PORT, &hislip_instr.socket);
-					//vTaskDelete(NULL);
+					break;
+				}
 
-				}; break;
-
-			default : tx_thread_sleep(2); break;
+				switch (status)
+				{
+				case AsyncInitialize:
+					hislip_AsyncInitialize(&hislip_instr);
+					break;
+				case AsyncMaximumMessageSize:
+					hislip_AsyncMaximumMessageSize(&hislip_instr);
+					break;
+				case AsyncStatusQuery:
+					hislip_AsyncStatusQuery(&hislip_instr);
+					break;
+				case AsyncDeviceClear:
+					hislip_AsyncDeviceClearAcknowledge(&hislip_instr);
+					break;
+				case AsyncLock:
+					hislip_AsyncLockResponse(&hislip_instr);
+					break;
+				case AsyncLockInfo:
+					hislip_AsyncLockInfoResponse(&hislip_instr);
+					break;
+				case AsyncRemoteLocalControl:
+					hislip_AsyncRemoteLocalResponse(&hislip_instr);
+					break;
+				case GetDescriptors:
+					hislip_GetDescriptorsResponse(&hislip_instr);
+					break;
+				default:
+					tx_thread_sleep(2);
+					break;
+				}
+				tx_thread_sleep(2);
+			}
 		}
-    	tx_thread_sleep(2);
-    }
+		if (async_conn_state)
+		{
+			// 4. Teardown and clean up the server socket state safely
+			status = nx_tcp_socket_disconnect(hislip_instr.socket,
+			NX_WAIT_FOREVER);
+			status = nx_tcp_server_socket_unaccept(hislip_instr.socket);
+
+			// FIXED: Removed aggressive relisten. Let the sync thread reset the port.
+
+			// 5. Notify the system that the async connection has completely terminated
+			tx_semaphore_put(&async_disconn);
+			async_conn_state = FALSE;
+		}
+		tx_thread_sleep(2);
+	}
 }
 
-VOID hislip_listen_callback(NX_TCP_SOCKET *socket_ptr, UINT port);
 void sync_thread_entry(ULONG thread_input)
 {
 	hislip_instr_t hislip_instr;
-	hislip_instr.socket = (NX_TCP_SOCKET *)thread_input;
-ULONG status =0;
-	status = nx_tcp_server_socket_accept(&socket_1, NX_WAIT_FOREVER);
-		//status = nx_tcp_server_socket_listen(&NetXDuoEthIpInstance, SERVER_PORT, &socket_2, MAX_CLIENTS, hislip_listen_callback);
-    while (1)
-    {
-    	switch(hislip_Recv(&hislip_instr))
+	hislip_Init(&hislip_instr);
+	hislip_instr.socket = (NX_TCP_SOCKET*) thread_input;
+	TX_THREAD *current_thread_ptr;
+	current_thread_ptr = tx_thread_identify();
+	uint32_t status = 0;
+
+	status = nx_packet_pool_create(&pool, "Test pool", PAYLOAD_SIZE,
+			pool_buffer, PAYLOAD_SIZE + sizeof(NX_PACKET));
+
+	SCPI_Init(&scpi_hislip_context, scpi_commands, &scpi_hislip_interface,
+			scpi_units_def, SCPI_IDN1, SCPI_IDN2, SCPI_IDN3, SCPI_IDN4,
+			scpi_input_buffer, SCPI_INPUT_BUFFER_LENGTH, scpi_error_queue_data,
+			SCPI_ERROR_QUEUE_SIZE);
+
+	scpi_hislip_context.user_context = (void*) &hislip_instr;
+
+	while (1)
+	{
+
+		if (NX_SUCCESS == nx_tcp_server_socket_accept(hislip_instr.socket,
+		NX_WAIT_FOREVER))
 		{
-			case Initialize : hislip_Initialize(&hislip_instr);
-			//status = nx_tcp_socket_disconnect(&socket_1, NX_NO_WAIT);
-			status = nx_tcp_server_socket_unaccept(&socket_1);
-			status = nx_tcp_server_socket_unlisten(&NetXDuoEthIpInstance, SERVER_PORT);
-			status = nx_tcp_server_socket_listen(&NetXDuoEthIpInstance, SERVER_PORT, &socket_2, MAX_CLIENTS, hislip_listen_callback);
-			tx_thread_sleep(2);break;
-			case AsyncInitialize : hislip_AsyncInitialize(&hislip_instr); break;
-			case AsyncMaximumMessageSize : hislip_AsyncMaximumMessageSize(&hislip_instr);break;
-			case DataEnd : hislip_DataEnd(&hislip_instr); break;
+			// Close the listening gate so no other connections hit the port
+			//nx_tcp_server_socket_unlisten(&NetXDuoEthIpInstance, HISLIP_PORT);
+			sync_conn_state = TRUE;
+			while (1)
+			{
+				status = hislip_Recv(&hislip_instr);
 
-			case HISLIP_CONN_ERR :
+				if (status == HISLIP_NOT_CONNECTED)
 				{
-			        nx_tcp_socket_disconnect(hislip_instr.socket, NX_WAIT_FOREVER);
-			        nx_tcp_server_socket_unaccept(&hislip_instr.socket);
-			        nx_tcp_server_socket_relisten(&NetXDuoEthIpInstance, HISLIP_PORT, &hislip_instr.socket);
+					break;
+				}
 
-					//vTaskDelete(NULL);
+				switch (status)
+				{
+				case Initialize:
+					hislip_InitializeResponse(&hislip_instr);
+					break;
+				case DataEnd:
+					hislip_DataEnd(&hislip_instr);
+					break;
+				case Data:
+					hislip_Data(&hislip_instr);
+					break;
+				case Trigger:
+					hislip_Trigger(&hislip_instr);
+					break;
+				case GetDescriptors:
+					hislip_GetDescriptorsResponse(&hislip_instr);
+					break;
+				case DeviceClearComplete:
+					hislip_DeviceClearAcknowledge(&hislip_instr);
+					break;
 
-				}; break;
-
-			default : tx_thread_sleep(2); break;
+				default:
+					break;
+				}
+				tx_thread_sleep(2);
+			}
 		}
-    	tx_thread_sleep(2);
-    }
+		if (sync_conn_state)
+		{
+			status = nx_tcp_socket_disconnect(hislip_instr.socket,
+			NX_WAIT_FOREVER);
+			status = nx_tcp_server_socket_unaccept(hislip_instr.socket);
+			status = nx_tcp_server_socket_relisten(&NetXDuoEthIpInstance,
+			HISLIP_PORT, hislip_instr.socket);
+
+			sync_conn_state = FALSE;
+		}
+
+		tx_thread_sleep(2);
+	}
 }
-#define APP_TCP_SOCKET_NUM 2
 
-static NX_TCP_SOCKET g_tcp_sck[APP_TCP_SOCKET_NUM];
-
-static ULONG g_not_listening = TX_FALSE;
-
-
-
-
-extern NX_IP NetXDuoEthIpInstance;
-NX_PACKET_POOL my_pool;
-TX_THREAD client_threads[MAX_CLIENTS];
-NX_TCP_SOCKET client_sockets[MAX_CLIENTS];
-
-
-
-hislip_instr_t hislip_instr;
-ULONG client_index = 0;
-ULONG status = 0;
 VOID hislip_listen_callback(NX_TCP_SOCKET *socket_ptr, UINT port)
 {
-    // Important: Do NOT use blocking functions or nx_tcp_server_socket_accept inside here!
-
-    if (client_index == 0)
-    {
-        tx_thread_create(&client_threads[client_index], "Sync Thread", sync_thread_entry, (ULONG)&socket_1,
-        		sync_thread_stack, HISLIP_THREAD_STACKSIZE, 10, 1, TX_NO_TIME_SLICE, TX_AUTO_START);
-        client_index++;
-    }
-    else if (client_index == 1)
-    {
-          tx_thread_create(&client_threads[client_index], "ASync Thread", async_thread_entry, (ULONG)&socket_2,
-        		async_thread_stack, HISLIP_THREAD_STACKSIZE, 11, 1, TX_NO_TIME_SLICE, TX_AUTO_START);
-        client_index++;
-    }
-   // client_index = (client_index + 1) % MAX_CLIENTS;
+	nx_tcp_server_socket_unaccept(socket_ptr);
+	nx_tcp_server_socket_unlisten(&NetXDuoEthIpInstance, HISLIP_PORT);
+	tx_semaphore_put(&sem_client_conn);
 }
 
 void server_thread_entry(ULONG thread_input)
 {
-    UINT s1, s2, s3;
-    ULONG client_index = 0;
+	uint32_t status = TX_SUCCESS;
 
-    // Create and bind the server socket
-    nx_tcp_socket_create(&NetXDuoEthIpInstance, &socket_1, "Server Socket 1", NX_IP_NORMAL, NX_FRAGMENT_OKAY, NX_IP_TIME_TO_LIVE, 512, NX_NULL, NX_NULL);
-    nx_tcp_socket_create(&NetXDuoEthIpInstance, &socket_2, "Server Socket 2", NX_IP_NORMAL, NX_FRAGMENT_OKAY, NX_IP_TIME_TO_LIVE, 512, NX_NULL, NX_NULL);
+	tx_semaphore_create(&sem_client_conn, "sem_client_conn", 0);
 
-    nx_tcp_server_socket_listen(&NetXDuoEthIpInstance, SERVER_PORT, &socket_1, MAX_CLIENTS, hislip_listen_callback);
+// Create and bind the server socket
+	nx_tcp_socket_create(&NetXDuoEthIpInstance, // ip_ptr
+			&sync_socket,// socket_ptr
+			"HiSLIP Sync Socket",// name_ptr
+			NX_IP_NORMAL,// type_of_service
+			NX_FRAGMENT_OKAY,// fragment_control
+			NX_IP_TIME_TO_LIVE,// time_to_live
+			HISLIP_TCP_WINDOW_SIZE,// window size
+			NX_NULL,// tcp_disconnect_callback
+			NX_NULL);// tcp_receive_callback
 
-    while (1)
-    {
-        // Accept a client connection
+	nx_tcp_socket_create(&NetXDuoEthIpInstance, &async_socket,
+			"HiSLIP Async Socket", NX_IP_NORMAL, NX_FRAGMENT_OKAY,
+			NX_IP_TIME_TO_LIVE, HISLIP_TCP_WINDOW_SIZE, NX_NULL, NX_NULL);
 
-        tx_thread_sleep(10);
-    }
+	nx_tcp_server_socket_listen(&NetXDuoEthIpInstance, HISLIP_PORT,
+			&sync_socket,
+			MAX_CLIENTS, hislip_listen_callback);
+
+	tx_thread_create(&sync_thread, "HiSLIP Sync Thread", sync_thread_entry,
+			(ULONG )&sync_socket, sync_thread_stack, HISLIP_THREAD_STACKSIZE,
+			10, 1, TX_NO_TIME_SLICE, TX_AUTO_START);
+
+
+	status = tx_semaphore_get(&sem_client_conn, TX_WAIT_FOREVER);
+
+	nx_tcp_server_socket_listen(&NetXDuoEthIpInstance, HISLIP_PORT,
+			&async_socket,
+			MAX_CLIENTS, hislip_listen_callback);
+
+
+	tx_thread_create(&async_thread, "HiSLIP Async Thread", async_thread_entry,
+			(ULONG )&async_socket, async_thread_stack, HISLIP_THREAD_STACKSIZE,
+			11, 1, TX_NO_TIME_SLICE, TX_AUTO_START);
+
+
+	while (1)
+	{
+
+		tx_thread_sleep(10);
+	}
 }
 
 void hislip_CreateTask(void)
 {
 
-	tx_thread_create(&server_thread, "HiSLIP Server Thread", server_thread_entry, 0,
-	                     server_thread_stack, HISLIP_THREAD_STACKSIZE, 2, 1, TX_NO_TIME_SLICE, TX_AUTO_START);
-
+	tx_thread_create(&server_thread, "HiSLIP Server Thread",
+			server_thread_entry, 0, server_thread_stack,
+			HISLIP_THREAD_STACKSIZE, 2, 1, TX_NO_TIME_SLICE, TX_AUTO_START);
 
 }

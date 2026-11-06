@@ -26,14 +26,11 @@
 
 #define HISLIP_MAX_DATA_SIZE							1024
 
-#define HISLIP_TCP_MSS          1536
-#define HISLIP_TCP_WINDOW_SIZE  (5 * HISLIP_TCP_MSS)
-#define PAYLOAD_SIZE          1536
-#define NUM_PACKETS           5
-#define PACKET_POOL_SIZE      ((PAYLOAD_SIZE + sizeof(NX_PACKET)) * NUM_PACKETS)
+#define HISLIP_TCP_BUFFER          1536
+
 
 #define HISLIP_PORT 4880
-#define  err_t uint32_t
+#define  err_t int32_t
 
 #define HISLIP_INITIALIZE									(uint8_t)0
 #define HISLIP_INITIALIZE_RESPONSE							(uint8_t)1
@@ -143,15 +140,14 @@ typedef struct
 typedef struct
 {
 	int8_t data[HISLIP_MAX_DATA_SIZE + sizeof(hislip_msg_t)];
-	uint16_t len;
+	int32_t len;
 } hislip_netbuf_t;
 
 typedef struct
 {
 	hislip_msg_t msg;
 	hislip_netbuf_t netbuf;
-	NX_PACKET *packet;
-	NX_TCP_SOCKET *socket;
+	int32_t socket;
 	uint16_t session_id;
 	int8_t end[2];
 } hislip_instr_t;

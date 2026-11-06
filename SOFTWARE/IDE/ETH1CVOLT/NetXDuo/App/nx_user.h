@@ -2344,6 +2344,10 @@
 #ifdef __BSD_VISIBLE
 #undef __BSD_VISIBLE
 #endif
+
+#define NX_BSD_MAX_SOCKETS 10
+#define NX_TCP_ENABLE_KEEPALIVE
+#define NX_BSD_TIMEOUT  NX_WAIT_FOREVER
 /* USER CODE END 2 */
 
 #endif /* NX_USER_H */
