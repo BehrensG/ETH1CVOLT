@@ -1,5 +1,6 @@
 "./Application/User/AZURE_RTOS/App/app_azure_rtos.o"
 "./Application/User/BSD/nxd_bsd.o"
+"./Application/User/BSP/bsp.o"
 "./Application/User/Core/app_threadx.o"
 "./Application/User/Core/eth.o"
 "./Application/User/Core/gpio.o"

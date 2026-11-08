@@ -34,7 +34,7 @@
  *
  */
 
-// --------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 
 //#include <stdio.h>
 
@@ -45,13 +45,15 @@
 #include "main.h"
 #include "scpi_def.h"
 #include "scpi/scpi.h"
+#include "error.h"
+#include "printf.h"
+#include "bsp.h"
 
+// ----------------------------------------------------------------------------
 
+extern bsp_t bsp;
 
-// --------------------------------------------------------------------------------------------------------------------
-
-
-// --------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 
 scpi_choice_def_t scpi_boolean_select[] =
 {
@@ -62,7 +64,7 @@ scpi_choice_def_t scpi_boolean_select[] =
     SCPI_CHOICE_LIST_END
 };
 
-// --------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 
 static scpi_result_t SCPI_Rst(scpi_t * context)
 {
@@ -71,7 +73,7 @@ static scpi_result_t SCPI_Rst(scpi_t * context)
 }
 
 
-// --------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 
 static scpi_result_t SCPI_IdnQ(scpi_t * context)
 {
@@ -100,7 +102,7 @@ static scpi_result_t SCPI_IdnQ(scpi_t * context)
 }
 
 
-// --------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 
 #define TEX_SIZE	256
 
@@ -113,7 +115,7 @@ scpi_result_t SCPI_SystemErrorQ(scpi_t * context)
 
 	SCPI_ErrorPop(context, &error);
 	data = SCPI_ErrorTranslate(error.error_code);
-	len = snprintf(text, TEX_SIZE,"%d, %s",error.error_code, data);
+	len = snprintf_(text, TEX_SIZE,"%d, %s",error.error_code, data);
 
 	SCPI_ResultCharacters(context, text, len);
 
@@ -121,15 +123,81 @@ scpi_result_t SCPI_SystemErrorQ(scpi_t * context)
 }
 
 
-// --------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 
 scpi_result_t SCPI_TS(scpi_t * context)
 {
     return SCPI_RES_OK;
 }
 
+// ----------------------------------------------------------------------------
 
-// --------------------------------------------------------------------------------------------------------------------
+
+scpi_result_t SCPI_TSQ(scpi_t * context)
+{
+    return SCPI_RES_OK;
+}
+
+// ----------------------------------------------------------------------------
+
+scpi_result_t SCPI_Range(scpi_t * context)
+{
+	int32_t value;
+
+	if(!SCPI_ParamUInt32(context, &value, TRUE))
+	{
+		return SCPI_RES_ERR;
+	}
+
+	bsp.range = value;
+
+	if (10 == bsp.range)
+	{
+		HAL_Delay(20);
+		LL_GPIO_SetOutputPin(MCU_REL_RESET_GPIO_Port, MCU_REL_RESET_Pin);
+		HAL_Delay(20);
+		LL_GPIO_ResetOutputPin(MCU_REL_RESET_GPIO_Port, MCU_REL_RESET_Pin);
+
+	}
+	else if (20 == bsp.range)
+	{
+		HAL_Delay(20);
+		LL_GPIO_SetOutputPin(MCU_REL_SET_GPIO_Port, MCU_REL_SET_Pin);
+		HAL_Delay(20);
+		LL_GPIO_ResetOutputPin(MCU_REL_SET_GPIO_Port, MCU_REL_SET_Pin);
+
+	}
+	else
+	{
+		SCPI_ErrorPush(context, SCPI_ERROR_NUMERIC_DATA_NOT_ALLOWED);
+		return SCPI_RES_ERR;
+	}
+
+	return SCPI_RES_OK;
+}
+
+// ----------------------------------------------------------------------------
+
+scpi_result_t SCPI_RangeQ(scpi_t * context)
+{
+	return SCPI_RES_OK;
+}
+
+// ----------------------------------------------------------------------------
+
+scpi_result_t SCPI_Voltage(scpi_t * context)
+{
+	return SCPI_RES_OK;
+}
+
+// ----------------------------------------------------------------------------
+
+scpi_result_t SCPI_VoltageQ(scpi_t * context)
+{
+	return SCPI_RES_OK;
+}
+
+// ----------------------------------------------------------------------------
 
 const scpi_command_t scpi_commands[] = {
     /* IEEE Mandated Commands (SCPI std V1999.0 4.1.1) */
@@ -228,6 +296,13 @@ const scpi_command_t scpi_commands[] = {
 	{.pattern = "CALCulate:OFFSet", .callback = SCPI_CalculateOffset,},
 	{.pattern = "CALCulate:OFFSet?", .callback = SCPI_CalculateOffsetQ,},
 */
+	{.pattern = "RANGe", .callback = SCPI_Range,},
+	{.pattern = "RANGe?", .callback = SCPI_RangeQ,},
+	{.pattern = "VOLTage", .callback = SCPI_Voltage,},
+	{.pattern = "VOLTage?", .callback = SCPI_VoltageQ,},
+	{.pattern = "TS", .callback = SCPI_TS,},
+	{.pattern = "TS?", .callback = SCPI_TSQ,},
+
 	SCPI_CMD_LIST_END
 };
 

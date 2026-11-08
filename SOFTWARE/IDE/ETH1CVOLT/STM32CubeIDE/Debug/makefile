@@ -30,6 +30,7 @@ RM := rm -rf
 -include Application/User/HiSLIP/subdir.mk
 -include Application/User/FileX/App/subdir.mk
 -include Application/User/Core/subdir.mk
+-include Application/User/BSP/subdir.mk
 -include Application/User/BSD/subdir.mk
 -include Application/User/AZURE_RTOS/App/subdir.mk
 -include objects.mk

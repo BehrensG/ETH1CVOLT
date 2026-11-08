@@ -24,9 +24,10 @@
 #include "spi.h"
 #include "gpio.h"
 
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "bsp.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -107,7 +108,7 @@ int main(void)
   MX_SPI1_Init();
   MX_ETH_Init();
   /* USER CODE BEGIN 2 */
-
+  bsp_init();
   /* USER CODE END 2 */
 
   MX_ThreadX_Init();

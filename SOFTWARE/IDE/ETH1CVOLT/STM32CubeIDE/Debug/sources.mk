@@ -24,6 +24,7 @@ C_DEPS :=
 SUBDIRS := \
 Application/User/AZURE_RTOS/App \
 Application/User/BSD \
+Application/User/BSP \
 Application/User/Core \
 Application/User/FileX/App \
 Application/User/HiSLIP \

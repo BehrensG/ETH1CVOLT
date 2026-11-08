@@ -72,7 +72,7 @@ extern "C" {
 #if defined(_WIN32) || defined(_WIN64) || defined(__unix) || defined(__unix__) || defined(__APPLE__)
 #define SYSTEM_TYPE SYSTEM_FULL_BLOWN
 #else
-#define SYSTEM_TYPE SYSTEM_BARE_METAL
+#define SYSTEM_TYPE SYSTEM_FULL_BLOWN
 #endif
 
 /**
