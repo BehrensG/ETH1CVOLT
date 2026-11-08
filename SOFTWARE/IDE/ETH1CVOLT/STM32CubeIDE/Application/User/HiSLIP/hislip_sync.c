@@ -8,6 +8,8 @@
 #include "hislip.h"
 
 
+// ----------------------------------------------------------------------------
+
 err_t hislip_InitializeResponse(hislip_instr_t *hislip_instr)
 {
 	err_t err = 0;
@@ -43,6 +45,7 @@ err_t hislip_InitializeResponse(hislip_instr_t *hislip_instr)
 	return err;
 }
 
+// ----------------------------------------------------------------------------
 
 err_t hislip_DataEnd(hislip_instr_t *hislip_instr)
 {
@@ -100,16 +103,21 @@ err_t hislip_DataEnd(hislip_instr_t *hislip_instr)
 	return 0;
 }
 
+// ----------------------------------------------------------------------------
+
 err_t hislip_Data(hislip_instr_t *hislip_instr)
 {
 	return 0;
 }
 
+// ----------------------------------------------------------------------------
 
 err_t hislip_GetDescriptorsResponse(hislip_instr_t *hislip_instr)
 {
 	return 0;
 }
+
+// ----------------------------------------------------------------------------
 
 err_t hislip_DeviceClearAcknowledge(hislip_instr_t *hislip_instr)
 {
@@ -136,7 +144,7 @@ err_t hislip_DeviceClearAcknowledge(hislip_instr_t *hislip_instr)
 	return 0;
 }
 
-// --------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 
 err_t hislip_Trigger(hislip_instr_t* hislip_instr)
 {

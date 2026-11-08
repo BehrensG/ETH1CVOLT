@@ -5,7 +5,6 @@
  *      Author: grzegorz
  */
 
-
 /*-
  * Copyright (c) 2012-2013 Jan Breuer,
  *
@@ -43,217 +42,189 @@
  */
 
 // --------------------------------------------------------------------------------------------------------------------
-
 #include <scpi_def.h>
 #include <scpi_server.h>
+
+#include "hislip.h"
+#include "printf.h"
+#include "scpi/scpi.h"
 #include "stdlib.h"
 #include "string.h"
 
-#include "scpi/scpi.h"
-
-
-#include "printf.h"
-#include "hislip.h"
+// --------------------------------------------------------------------------------------------------------------------
 
 // --------------------------------------------------------------------------------------------------------------------
 
+#define SCPI_MSG_TIMEOUT 0
+#define SCPI_MSG_TEST 1
+#define SCPI_MSG_IO_LISTEN 2
+#define SCPI_MSG_CONTROL_IO_LISTEN 3
+#define SCPI_MSG_IO 4
+#define SCPI_MSG_CONTROL_IO 5
+#define SCPI_MSG_SET_ESE_REQ 6
+#define SCPI_MSG_SET_ERROR 7
 
 // --------------------------------------------------------------------------------------------------------------------
-
-#define SCPI_MSG_TIMEOUT                0
-#define SCPI_MSG_TEST                   1
-#define SCPI_MSG_IO_LISTEN              2
-#define SCPI_MSG_CONTROL_IO_LISTEN      3
-#define SCPI_MSG_IO                     4
-#define SCPI_MSG_CONTROL_IO             5
-#define SCPI_MSG_SET_ESE_REQ            6
-#define SCPI_MSG_SET_ERROR              7
-
-// --------------------------------------------------------------------------------------------------------------------
-
 
 // -----------------------------------------------------------------------------------------------------------
 
-#define SCPI_OUT_DATA_SIZE	64000
-__attribute__ ((section(".SCPI_READOUT_BUF"), used)) static char scpi_out[SCPI_OUT_DATA_SIZE];
+#define SCPI_OUT_DATA_SIZE 64000
+__attribute__((aligned(4))) static char scpi_out[SCPI_OUT_DATA_SIZE];
 
 static size_t scpi_out_sum = 0;
 
 // --------------------------------------------------------------------------------------------------------------------
 
-size_t SCPI_WriteHiSLIP(scpi_t * context, const char * data, size_t len) {
-/*
-	hislip_instr_t* hislip_instr = (hislip_instr_t*)context->user_context;
+size_t SCPI_WriteHiSLIP(scpi_t *context, const char *data, size_t len) {
+	hislip_instr_t *hislip_instr = (hislip_instr_t*) context->user_context;
 
-		if(NULL != hislip_instr)
-		{
-			uint16_t hs = 0;
+	if (NULL != hislip_instr) {
+		uint16_t hs = 0;
+		size_t test = 0;
 
-			memcpy(&hs,data,sizeof(hs));
-			hs = htons(hs);
+		test = strlen(&context->end[0]);
 
-			if((len < SCPI_OUT_DATA_SIZE) && (hs != HISLIP_PROLOGUE))
-			{
-				hislip_msg_t msg_tx;
+		memcpy(&hs, data, sizeof(hs));
+		hs = htons(hs);
 
-				bool end = ((len == strlen(&context->end[0])) && (!strcmp(data, &context->end[0])));
+		if ((len < SCPI_OUT_DATA_SIZE) && (HISLIP_PROLOGUE != hs)) {
+			hislip_msg_t msg_tx;
 
-				if(!end)
-				{
-					memcpy(scpi_out + sizeof(hislip_msg_t) + scpi_out_sum, data, len);
-					scpi_out_sum += len;
-				}
+			bool end = ((len == strlen(&context->end[0]))
+					&& (!strcmp(data, &context->end[0])));
 
-
-				if(end)
-				{
-
-					hislip_DataHeader(hislip_instr, &msg_tx, HISLIP_DATAEND, scpi_out_sum + strlen(HISLIP_LINE_ENDING));
-
-					memcpy(scpi_out, &msg_tx, sizeof(hislip_msg_t));
-
-					memcpy(scpi_out + sizeof(hislip_msg_t) + scpi_out_sum, HISLIP_LINE_ENDING, strlen(HISLIP_LINE_ENDING));
-
-					if(ERR_OK != netconn_write(hislip_instr->netconn.newconn, scpi_out,
-							sizeof(hislip_msg_t) + scpi_out_sum + strlen(HISLIP_LINE_ENDING), NETCONN_COPY))
-					{
-						len = 0;
-					}
-
-					scpi_out_sum = 0;
-					memset(scpi_out, 0, SCPI_OUT_DATA_SIZE);
-
-				}
-				else if(SCPI_OUT_DATA_SIZE <= scpi_out_sum) // hislip_out full
-				{
-
-					//Should not enter this
-					Error_Handler();
-
-				}
+			if (!end) {
+				memcpy(scpi_out + sizeof(hislip_msg_t) + scpi_out_sum, data,
+						len);
+				scpi_out_sum += len;
 			}
-			else
-			{
-		   		uint32_t loops = len / SCPI_OUT_DATA_SIZE;
-				uint32_t rest = len % SCPI_OUT_DATA_SIZE;
-				uint32_t index = 0;
 
+			if (end) {
+				hislip_DataHeader(hislip_instr, &msg_tx, HISLIP_DATAEND,
+						scpi_out_sum + strlen(HISLIP_LINE_ENDING));
 
-				for (size_t i = 0; i < loops; i++)
-				{
-					//vTaskDelay(pdMS_TO_TICKS(1));
-					if(ERR_OK != netconn_write(hislip_instr->netconn.newconn, data + index,	SCPI_OUT_DATA_SIZE, NETCONN_NOFLAG))
-					{
-						len = 0;
-					}
-					index += SCPI_OUT_DATA_SIZE;
+				memcpy(scpi_out, &msg_tx, sizeof(hislip_msg_t));
 
+				memcpy(scpi_out + sizeof(hislip_msg_t) + scpi_out_sum,
+				HISLIP_LINE_ENDING, strlen(HISLIP_LINE_ENDING));
+
+				if (NX_SOC_ERROR
+						!= send(hislip_instr->socket, scpi_out,
+								sizeof(hislip_msg_t) + scpi_out_sum
+										+ strlen(HISLIP_LINE_ENDING), 0)) {
+					len = 0;
 				}
-				if(rest)
-				{
-					//vTaskDelay(pdMS_TO_TICKS(1));
-					if(ERR_OK != netconn_write(hislip_instr->netconn.newconn, data + index,	rest, NETCONN_NOFLAG))
+
+				scpi_out_sum = 0;
+				memset(scpi_out, 0, SCPI_OUT_DATA_SIZE);
+
+			} else if (SCPI_OUT_DATA_SIZE <= scpi_out_sum)  // hislip_out full
 					{
-						len = 0;
-					}
+				// Should not enter this
+				Error_Handler();
+			}
+		} else {
+			uint32_t loops = len / SCPI_OUT_DATA_SIZE;
+			uint32_t rest = len % SCPI_OUT_DATA_SIZE;
+			uint32_t index = 0;
+
+			for (size_t i = 0; i < loops; i++) {
+
+				if (NX_SOC_ERROR != send(hislip_instr->socket, data + index,
+				SCPI_OUT_DATA_SIZE, 0)) {
+					len = 0;
+				}
+				index += SCPI_OUT_DATA_SIZE;
+			}
+			if (rest) {
+
+				if (NX_SOC_ERROR
+						!= send(hislip_instr->socket, data + index, rest, 0)) {
+					len = 0;
 				}
 			}
 		}
-*/
-	    return len;
+	}
+	return len;
 }
-
-
 
 // --------------------------------------------------------------------------------------------------------------------
 
-scpi_result_t SCPI_Flush(scpi_t * context) {
-    return SCPI_RES_OK;
+scpi_result_t SCPI_Flush(scpi_t *context) {
+	return SCPI_RES_OK;
 }
-
 
 // -----------------------------------------------------------------------------------------------------------
 
-int SCPI_Error(scpi_t * context, int_fast16_t err) {
-    (void) context;
-    // BEEP
-    iprintf("**ERROR: %ld, \"%s\"\r\n", (int32_t) err, SCPI_ErrorTranslate(err));
-    if (err != 0) {
-        /* New error */
-        /* Beep */
-        /* Error LED ON */
-    } else {
-        /* No more errors in the queue */
-        /* Error LED OFF */
-    }
-    return 0;
+int SCPI_Error(scpi_t *context, int_fast16_t err) {
+	(void) context;
+	// BEEP
+	iprintf("**ERROR: %ld, \"%s\"\r\n", (int32_t) err,
+			SCPI_ErrorTranslate(err));
+	if (err != 0) {
+		/* New error */
+		/* Beep */
+		/* Error LED ON */
+	} else {
+		/* No more errors in the queue */
+		/* Error LED OFF */
+	}
+	return 0;
 }
-
 
 // -----------------------------------------------------------------------------------------------------------
 
-scpi_result_t SCPI_Control(scpi_t * context, scpi_ctrl_name_t ctrl, scpi_reg_val_t val) {
-    char b[16];
+scpi_result_t SCPI_Control(scpi_t *context, scpi_ctrl_name_t ctrl,
+		scpi_reg_val_t val) {
+	char b[16];
 
-    if (SCPI_CTRL_SRQ == ctrl) {
-        iprintf("**SRQ: 0x%X (%d)\r\n", val, val);
-    } else {
-        iprintf("**CTRL %02x: 0x%X (%d)\r\n", ctrl, val, val);
-    }
-
-
-    return SCPI_RES_OK;
+	if (SCPI_CTRL_SRQ == ctrl) {
+		iprintf("**SRQ: 0x%X (%d)\r\n", val, val);
+	} else {
+		iprintf("**CTRL %02x: 0x%X (%d)\r\n", ctrl, val, val);
+	}
+	return SCPI_RES_OK;
 }
-
 
 // -----------------------------------------------------------------------------------------------------------
 
-scpi_result_t SCPI_Reset(scpi_t * context) {
+scpi_result_t SCPI_Reset(scpi_t *context) {
+	(void) context;
 
-    (void) context;
-
-    return SCPI_RES_OK;
+	return SCPI_RES_OK;
 }
-
 
 // --------------------------------------------------------------------------------------------------------------------
 
-scpi_result_t SCPI_SystemCommTcpipControlQ(scpi_t * context) {
-    return SCPI_RES_OK;
+scpi_result_t SCPI_SystemCommTcpipControlQ(scpi_t *context) {
+	return SCPI_RES_OK;
 }
-
 
 // -----------------------------------------------------------------------------------------------------------
 
 static void setEseReq(void) {
-    SCPI_RegSetBits(&scpi_context, SCPI_REG_ESR, ESR_REQ);
+	SCPI_RegSetBits(&scpi_context, SCPI_REG_ESR, ESR_REQ);
 }
-
 
 // -----------------------------------------------------------------------------------------------------------
 
 static void setError(int16_t err) {
-    SCPI_ErrorPush(&scpi_context, err);
+	SCPI_ErrorPush(&scpi_context, err);
 }
-
 
 // -----------------------------------------------------------------------------------------------------------
 
 void SCPI_RequestControl(void) {
+	/* Avoid sending evtQueue message if ESR_REQ is already set
+	 if((SCPI_RegGet(&scpi_context, SCPI_REG_ESR) & ESR_REQ) == 0) {
+	 xQueueSend(user_data.evtQueue, &msg, 1000);
+	 }
+	 */
 
-    /* Avoid sending evtQueue message if ESR_REQ is already set
-    if((SCPI_RegGet(&scpi_context, SCPI_REG_ESR) & ESR_REQ) == 0) {
-        xQueueSend(user_data.evtQueue, &msg, 1000);
-    }
-     */
-
-    //xQueueSend(user_data.evtQueue, &msg, 1000);
+	// xQueueSend(user_data.evtQueue, &msg, 1000);
 }
-
 
 // -----------------------------------------------------------------------------------------------------------
 
 void SCPI_AddError(int16_t err) {
-
 }
-

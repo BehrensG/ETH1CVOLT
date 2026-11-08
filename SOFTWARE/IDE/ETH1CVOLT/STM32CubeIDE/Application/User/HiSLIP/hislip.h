@@ -16,6 +16,7 @@
 #include "app_netxduo.h"
 #include "device_info.h"
 #include "scpi_def.h"
+#include "nxd_bsd.h"
 
 #define HISLIP_LINE_ENDING									"\n"
 
@@ -172,6 +173,8 @@ hislip_msg_t hislip_MsgParser(hislip_instr_t *hislip_instr);
 hislip_msg_type_t hislip_Recv(hislip_instr_t *hislip_instr);
 err_t hislip_MsgSend(hislip_instr_t *hislip_instr, hislip_msg_t *msg_tx, size_t msg_size);
 void hislip_htonl(hislip_msg_t *hislip_msg);
+void hislip_DataHeader(hislip_instr_t *hislip_instr, hislip_msg_t *msg,
+		uint8_t msg_type, uint32_t size);
 
 void hislip_CreateTask(void);
 

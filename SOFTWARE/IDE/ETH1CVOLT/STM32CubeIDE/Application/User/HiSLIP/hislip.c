@@ -7,71 +7,88 @@
 
 #include "main.h"
 #include "hislip.h"
-#include "nxd_bsd.h"
-//#include "SCPI_Def.h"
 
-#define HISLIP_THREAD_STACKSIZE		2*HISLIP_TCP_BUFFER
+// ----------------------------------------------------------------------------
 
+#define HISLIP_THREAD_STACKSIZE 2 * HISLIP_TCP_BUFFER
 #define MAX_CLIENTS 2
 
-hislip_instr_t hislip_instr;
+// ----------------------------------------------------------------------------
 
+hislip_instr_t hislip_instr;
 TX_THREAD server_thread;
 TX_THREAD sync_thread;
 TX_THREAD async_thread;
 uint8_t client_count = 0;
 
+// ----------------------------------------------------------------------------
+
 // __attribute__((aligned(4)))  is critical to get it running
 // also that all arrays have the same size
-__attribute__((aligned(4)))     int8_t server_thread_stack[HISLIP_THREAD_STACKSIZE];
-__attribute__((aligned(4)))     int8_t sync_thread_stack[HISLIP_THREAD_STACKSIZE];
-__attribute__((aligned(4)))     int8_t async_thread_stack[HISLIP_THREAD_STACKSIZE];
+__attribute__((aligned(4)))    int8_t server_thread_stack[HISLIP_THREAD_STACKSIZE];
+__attribute__((aligned(4)))    int8_t sync_thread_stack[HISLIP_THREAD_STACKSIZE];
+__attribute__((aligned(4)))    int8_t async_thread_stack[HISLIP_THREAD_STACKSIZE];
 
 // ----------------------------------------------------------------------------
 
-size_t hislip_SumSize(size_t *sizes, size_t len)
-{
+size_t hislip_SumSize(size_t *sizes, size_t len) {
 	size_t sum = 0;
 
-	for (unsigned char i = 0; i < len; i++)
-	{
+	for (unsigned char i = 0; i < len; i++) {
 		sum += sizes[i];
 	}
 
 	return sum;
 }
 
+// ----------------------------------------------------------------------------
+
 void hislip_CopyMemory(char *destination, void **sources, size_t *sizes,
-		unsigned int num_sources)
-{
+		unsigned int num_sources) {
 	size_t offset = 0;
-	for (unsigned int i = 0; i < num_sources; i++)
-	{
+	for (unsigned int i = 0; i < num_sources; i++) {
 		memcpy(destination + offset, sources[i], sizes[i]);
 		offset += sizes[i];
 	}
 }
 
 // ----------------------------------------------------------------------------
-void hislip_Init(hislip_instr_t *hislip_instr)
-{
+
+void hislip_Init(hislip_instr_t *hislip_instr) {
 	memset(hislip_instr->end, 0, sizeof(hislip_instr->end));
 }
 
 // ----------------------------------------------------------------------------
 
-void hislip_htonl(hislip_msg_t *hislip_msg)
-{
-	hislip_msg->msg_param = NX_CHANGE_ULONG_ENDIAN(hislip_msg->msg_param);
-	hislip_msg->prologue = NX_CHANGE_USHORT_ENDIAN(hislip_msg->prologue);
-	hislip_msg->payload_len.hi = NX_CHANGE_ULONG_ENDIAN(
-			hislip_msg->payload_len.hi);
-	hislip_msg->payload_len.lo = NX_CHANGE_ULONG_ENDIAN(
-			hislip_msg->payload_len.lo);
+void hislip_htonl(hislip_msg_t *hislip_msg) {
+	uint32_t tmp_msg_param = hislip_msg->msg_param;
+	uint16_t tmp_prologue = hislip_msg->prologue;
+	uint32_t tmp_len_hi = hislip_msg->payload_len.hi;
+	uint32_t tmp_len_lo = hislip_msg->payload_len.lo;
+
+	hislip_msg->msg_param = NX_CHANGE_ULONG_ENDIAN(tmp_msg_param);
+	hislip_msg->prologue = NX_CHANGE_USHORT_ENDIAN(tmp_prologue);
+	hislip_msg->payload_len.hi = NX_CHANGE_ULONG_ENDIAN(tmp_len_hi);
+	hislip_msg->payload_len.lo = NX_CHANGE_ULONG_ENDIAN(tmp_len_lo);
 }
 
-hislip_msg_t hislip_MsgParser(hislip_instr_t *hislip_instr)
-{
+// ----------------------------------------------------------------------------
+
+void hislip_DataHeader(hislip_instr_t *hislip_instr, hislip_msg_t *msg,
+		uint8_t msg_type, uint32_t size) {
+	msg->prologue = HISLIP_PROLOGUE;
+	msg->msg_type = msg_type;
+	msg->control_code = hislip_instr->msg.control_code;
+	msg->msg_param = hislip_instr->msg.msg_param;
+	msg->payload_len.hi = 0;
+	msg->payload_len.lo = size;
+
+	hislip_htonl(msg);
+}
+
+// ----------------------------------------------------------------------------
+
+hislip_msg_t hislip_MsgParser(hislip_instr_t *hislip_instr) {
 	hislip_msg_t hislip_msg;
 
 	size_t hislip_msg_size = sizeof(hislip_msg_t);
@@ -83,9 +100,10 @@ hislip_msg_t hislip_MsgParser(hislip_instr_t *hislip_instr)
 	return hislip_msg;
 }
 
+// ----------------------------------------------------------------------------
+
 err_t hislip_MsgSend(hislip_instr_t *hislip_instr, hislip_msg_t *msg_tx,
-		size_t msg_size)
-{
+		size_t msg_size) {
 	err_t status;
 
 	status = send(hislip_instr->socket, msg_tx, msg_size, 0);
@@ -93,8 +111,9 @@ err_t hislip_MsgSend(hislip_instr_t *hislip_instr, hislip_msg_t *msg_tx,
 	return status;
 }
 
-hislip_msg_type_t hislip_Recv(hislip_instr_t *hislip_instr)
-{
+// ----------------------------------------------------------------------------
+
+hislip_msg_type_t hislip_Recv(hislip_instr_t *hislip_instr) {
 	hislip_msg_t hislip_msg;
 	hislip_instr->netbuf.len = 0;
 
@@ -102,29 +121,21 @@ hislip_msg_type_t hislip_Recv(hislip_instr_t *hislip_instr)
 			hislip_instr->netbuf.data, sizeof(hislip_instr->netbuf.data) - 1,
 			0);
 
-	if (0 < hislip_instr->netbuf.len)
-	{
+	if (0 < hislip_instr->netbuf.len) {
 		hislip_msg = hislip_MsgParser(hislip_instr);
 
-	}
-	else if (NX_SOC_ERROR == hislip_instr->netbuf.len)
-	{
-
+	} else if (NX_SOC_ERROR == hislip_instr->netbuf.len) {
 		return HISLIP_NOT_CONNECTED;
-	}
-	else
-	{
+	} else {
 		return HISLIP_NOT_CONNECTED;
 	}
 
 	return (hislip_msg_type_t) hislip_msg.msg_type;
-
 }
 
-void hislip_listen_callback(NX_TCP_SOCKET *socket_ptr, UINT port);
+// ----------------------------------------------------------------------------
 
-void async_thread_entry(ULONG thread_input)
-{
+void async_thread_entry(ULONG thread_input) {
 	hislip_instr_t hislip_instr;
 	hislip_Init(&hislip_instr);
 	hislip_instr.socket = (int32_t) thread_input;
@@ -132,10 +143,8 @@ void async_thread_entry(ULONG thread_input)
 	current_thread_ptr = tx_thread_identify();
 	uint32_t status = 0;
 
-	while (1)
-	{
-		switch (hislip_Recv(&hislip_instr))
-		{
+	while (1) {
+		switch (hislip_Recv(&hislip_instr)) {
 		case AsyncInitialize:
 			hislip_AsyncInitialize(&hislip_instr);
 			break;
@@ -171,11 +180,11 @@ void async_thread_entry(ULONG thread_input)
 		}
 		tx_thread_sleep(2);
 	}
-
 }
 
-void sync_thread_entry(ULONG thread_input)
-{
+// ----------------------------------------------------------------------------
+
+void sync_thread_entry(ULONG thread_input) {
 	hislip_instr_t hislip_instr;
 	hislip_Init(&hislip_instr);
 	hislip_instr.socket = (int32_t) thread_input;
@@ -190,10 +199,8 @@ void sync_thread_entry(ULONG thread_input)
 
 	scpi_hislip_context.user_context = (void*) &hislip_instr;
 
-	while (1)
-	{
-		switch (hislip_Recv(&hislip_instr))
-		{
+	while (1) {
+		switch (hislip_Recv(&hislip_instr)) {
 		case Initialize:
 			hislip_InitializeResponse(&hislip_instr);
 			break;
@@ -223,11 +230,11 @@ void sync_thread_entry(ULONG thread_input)
 		}
 		tx_thread_sleep(2);
 	}
-
 }
 
-void server_thread_entry(ULONG thread_input)
-{
+// ----------------------------------------------------------------------------
+
+void server_thread_entry(ULONG thread_input) {
 	int32_t server_socket;
 	int32_t status;
 	int32_t test;
@@ -246,22 +253,16 @@ void server_thread_entry(ULONG thread_input)
 			sizeof(server_addr));
 	status = listen(server_socket, MAX_CLIENTS + 1);
 
-	while (1)
-	{
-		for (uint8_t i = 0; i < 2; i++)
-		{
-
-			// 3. accept() blocks until client 1, then client 2 arrives
+	while (1) {
+		for (uint8_t i = 0; i < 2; i++) {
 			int32_t client_connection = accept(server_socket,
 					(struct sockaddr*) &client_addr, &addr_len);
 
-			if ( NX_SOC_ERROR != client_connection)
-			{
+			if (NX_SOC_ERROR != client_connection) {
 				setsockopt(client_connection, SOL_SOCKET, SO_KEEPALIVE, &optval,
 						sizeof(optval));
 
-				if (0 == client_count)
-				{
+				if (0 == client_count) {
 					tx_thread_terminate(&sync_thread);
 					tx_thread_delete(&sync_thread);
 
@@ -270,13 +271,10 @@ void server_thread_entry(ULONG thread_input)
 							(ULONG )client_connection, sync_thread_stack,
 							HISLIP_THREAD_STACKSIZE, 10, 1, TX_NO_TIME_SLICE,
 							TX_AUTO_START);
-					if (status == TX_SUCCESS)
-					{
+					if (status == TX_SUCCESS) {
 						client_count++;
 					}
-				}
-				else if (1 == client_count)
-				{
+				} else if (1 == client_count) {
 					tx_thread_terminate(&async_thread);
 					tx_thread_delete(&async_thread);
 
@@ -285,8 +283,7 @@ void server_thread_entry(ULONG thread_input)
 							(ULONG )client_connection, async_thread_stack,
 							HISLIP_THREAD_STACKSIZE, 11, 1, TX_NO_TIME_SLICE,
 							TX_AUTO_START);
-					if (status == TX_SUCCESS)
-					{
+					if (status == TX_SUCCESS) {
 						client_count++;
 					}
 				}
@@ -296,12 +293,10 @@ void server_thread_entry(ULONG thread_input)
 	}
 }
 
-void hislip_CreateTask(void)
-{
+// ----------------------------------------------------------------------------
 
+void hislip_CreateTask(void) {
 	tx_thread_create(&server_thread, "HiSLIP Server Thread",
 			server_thread_entry, 0, server_thread_stack,
 			HISLIP_THREAD_STACKSIZE, 10, 1, TX_NO_TIME_SLICE, TX_AUTO_START);
-
 }
-
