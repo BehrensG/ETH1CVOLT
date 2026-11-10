@@ -81,7 +81,7 @@ typedef union {
 
 		bsp_ip4_lan_t ip4_static;
 		bsp_scpi_info_t info;
-		bsp_calibration_t calib_dac;
+		bsp_calibration_t calib_adc;
 		bsp_calibration_t calib_dac;
 		bsp_setup_t setup;
 		bsp_services_t services;
@@ -139,5 +139,6 @@ typedef struct {
 
 
 void bsp_init();
+HAL_StatusTypeDef bsp_read_voltage(SPI_HandleTypeDef *hspi, double *voltage);
 
 #endif /* APPLICATION_USER_BSP_BSP_H_ */

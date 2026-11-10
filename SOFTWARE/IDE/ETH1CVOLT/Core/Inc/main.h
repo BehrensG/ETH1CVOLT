@@ -38,7 +38,6 @@ extern "C" {
 #include "stm32h7xx_ll_utils.h"
 #include "stm32h7xx_ll_pwr.h"
 #include "stm32h7xx_ll_dma.h"
-#include "stm32h7xx_ll_spi.h"
 #include "stm32h7xx_ll_gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -71,8 +70,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define MCU_DEF_Pin LL_GPIO_PIN_2
 #define MCU_DEF_GPIO_Port GPIOE
-#define MCU_ADC_nCS_Pin LL_GPIO_PIN_4
-#define MCU_ADC_nCS_GPIO_Port GPIOA
+#define MCU_ADC_NSS_Pin LL_GPIO_PIN_4
+#define MCU_ADC_NSS_GPIO_Port GPIOA
 #define EEPROM_nWR_Pin LL_GPIO_PIN_9
 #define EEPROM_nWR_GPIO_Port GPIOA
 #define MCU_DAC_nCS_Pin LL_GPIO_PIN_15

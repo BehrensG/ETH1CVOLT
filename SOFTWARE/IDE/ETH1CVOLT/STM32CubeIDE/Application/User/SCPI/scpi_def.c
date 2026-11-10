@@ -125,8 +125,13 @@ scpi_result_t SCPI_SystemErrorQ(scpi_t * context)
 
 // ----------------------------------------------------------------------------
 
+extern SPI_HandleTypeDef hspi1;
+
 scpi_result_t SCPI_TS(scpi_t * context)
 {
+	HAL_StatusTypeDef status ;
+	double meas = 0.0;
+	status = bsp_read_voltage(&hspi1, &meas);
     return SCPI_RES_OK;
 }
 
@@ -135,6 +140,16 @@ scpi_result_t SCPI_TS(scpi_t * context)
 
 scpi_result_t SCPI_TSQ(scpi_t * context)
 {
+	HAL_StatusTypeDef status ;
+	double meas = 0.0;
+	status = bsp_read_voltage(&hspi1, &meas);
+	if(HAL_OK == status)
+		SCPI_ResultFloat(context, meas);
+	else
+	{
+		SCPI_ErrorPush(context, SCPI_ERROR_HARDWARE_ERROR);
+		return SCPI_RES_ERR;
+	}
     return SCPI_RES_OK;
 }
 
