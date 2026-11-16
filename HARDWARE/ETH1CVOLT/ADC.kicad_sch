@@ -4786,10 +4786,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0125f058-1d59-4698-a145-81f71f993ea5")
 		(property "Reference" "U4"
@@ -4900,7 +4900,7 @@
 					(unit 1)
 					(variant
 						(name "B")
-						(dnp yes)
+						(in_bom yes)
 					)
 				)
 			)
@@ -5985,7 +5985,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2b91de69-4e6a-40d8-915b-a4ed178b0681")
 		(property "Reference" "R12"
 			(at 148.59 86.106 0)
@@ -6073,10 +6073,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/1e1986d0-5f57-471e-8eff-5dbba5b60ba1"
 					(reference "R12")
 					(unit 1)
-					(variant
-						(name "A")
-						(dnp no)
-					)
 				)
 			)
 		)
@@ -7180,7 +7176,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5fc4925e-eb61-4965-8a16-4c91530c9070")
 		(property "Reference" "R11"
 			(at 148.59 76.454 0)
@@ -7268,10 +7264,6 @@
 				(path "/8d3b546e-b30b-49b2-bc59-8e254df4c067/ea97f94c-dee1-4702-bb32-5cb010d15929/1e1986d0-5f57-471e-8eff-5dbba5b60ba1"
 					(reference "R11")
 					(unit 1)
-					(variant
-						(name "A")
-						(dnp no)
-					)
 				)
 			)
 		)

@@ -19,18 +19,9 @@ HAL_StatusTypeDef ltc2400_read_voltage(SPI_HandleTypeDef *hspi, double *voltage)
 
 	LL_GPIO_ResetOutputPin(MCU_ADC_NSS_GPIO_Port, MCU_ADC_NSS_Pin);
 
-	while (1 == LL_GPIO_IsInputPinSet(MCU_ADC_SDO_GPIO_Port, MCU_ADC_SDO_Pin)) {
-		HAL_Delay(1);
-		timeout++;
-		if (timeout > MAX_TIMEOUT) {
-			LL_GPIO_SetOutputPin(MCU_ADC_NSS_GPIO_Port, MCU_ADC_NSS_Pin);
-			return HAL_TIMEOUT;
-		}
-	}
-
-	//HAL_Delay(5);
+	HAL_Delay(1);
 	LL_GPIO_SetOutputPin(MCU_ADC_NSS_GPIO_Port, MCU_ADC_NSS_Pin);
-	//HAL_Delay(200);
+	HAL_Delay(150);
 	LL_GPIO_ResetOutputPin(MCU_ADC_NSS_GPIO_Port, MCU_ADC_NSS_Pin);
 	hal_status = HAL_SPI_Receive(hspi, rx_buf, 4, 2000);
 	LL_GPIO_SetOutputPin(MCU_ADC_NSS_GPIO_Port, MCU_ADC_NSS_Pin);

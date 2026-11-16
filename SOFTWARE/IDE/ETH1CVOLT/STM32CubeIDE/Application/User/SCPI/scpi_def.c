@@ -126,12 +126,20 @@ scpi_result_t SCPI_SystemErrorQ(scpi_t * context)
 // ----------------------------------------------------------------------------
 
 extern SPI_HandleTypeDef hspi1;
+extern SPI_HandleTypeDef hspi3;
 
 scpi_result_t SCPI_TS(scpi_t * context)
 {
 	HAL_StatusTypeDef status ;
-	double meas = 0.0;
-	status = bsp_read_voltage(&hspi1, &meas);
+
+	double value;
+
+	if(!SCPI_ParamDouble(context, &value, TRUE))
+	{
+		return SCPI_RES_ERR;
+	}
+
+	status = bsp_set_voltage(&hspi3, value);
     return SCPI_RES_OK;
 }
 

@@ -140,5 +140,6 @@ typedef struct {
 
 void bsp_init();
 HAL_StatusTypeDef bsp_read_voltage(SPI_HandleTypeDef *hspi, double *voltage);
+HAL_StatusTypeDef bsp_set_voltage(SPI_HandleTypeDef *hspi, double voltage);
 
 #endif /* APPLICATION_USER_BSP_BSP_H_ */

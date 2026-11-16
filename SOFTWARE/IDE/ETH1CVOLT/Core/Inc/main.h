@@ -74,8 +74,8 @@ void Error_Handler(void);
 #define MCU_ADC_NSS_GPIO_Port GPIOA
 #define EEPROM_nWR_Pin LL_GPIO_PIN_9
 #define EEPROM_nWR_GPIO_Port GPIOA
-#define MCU_DAC_nCS_Pin LL_GPIO_PIN_15
-#define MCU_DAC_nCS_GPIO_Port GPIOA
+#define MCU_DAC_NSS_Pin LL_GPIO_PIN_15
+#define MCU_DAC_NSS_GPIO_Port GPIOA
 #define MCU_DAC_SCLK_Pin LL_GPIO_PIN_10
 #define MCU_DAC_SCLK_GPIO_Port GPIOC
 #define MCU_DAC_DIN_Pin LL_GPIO_PIN_12
