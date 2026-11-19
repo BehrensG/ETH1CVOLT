@@ -40,7 +40,15 @@ HAL_StatusTypeDef bsp_read_voltage(SPI_HandleTypeDef *hspi, double *voltage) {
 		v_read = (v_read - INA159A_MID ) * INA159A_GAIN;
 #endif
 
+		if (10 == bsp.range)
+		{
 		*voltage = v_read * (double) 2.0;
+		}
+		else
+		{
+			*voltage = v_read * (double) 4.0;
+		}
+
 		return hal_status;
 	} else
 		return hal_status;
@@ -48,15 +56,8 @@ HAL_StatusTypeDef bsp_read_voltage(SPI_HandleTypeDef *hspi, double *voltage) {
 
 HAL_StatusTypeDef bsp_set_voltage(SPI_HandleTypeDef *hspi, double voltage) {
 	HAL_StatusTypeDef hal_status = HAL_OK;
-	double v_set = 0.0;
 
-	if (20 == bsp.range) {
-		v_set = voltage / (double) 4.0;
-	} else {
-		v_set = voltage / (double) 2.0;
-	}
-
-	hal_status = max5719_set_voltage(hspi, v_set);
+	hal_status = max5719_set_voltage(hspi, voltage / 2);
 
 	return hal_status;
 }

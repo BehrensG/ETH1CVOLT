@@ -35,12 +35,9 @@
  */
 
 // ----------------------------------------------------------------------------
-
 //#include <stdio.h>
-
 #include "stdlib.h"
 #include "string.h"
-
 
 #include "main.h"
 #include "scpi_def.h"
@@ -52,146 +49,119 @@
 // ----------------------------------------------------------------------------
 
 extern bsp_t bsp;
+extern SPI_HandleTypeDef hspi1;
+extern SPI_HandleTypeDef hspi3;
 
 // ----------------------------------------------------------------------------
 
-scpi_choice_def_t scpi_boolean_select[] =
-{
-    {"OFF", 0},
-    {"ON", 1},
-	{"0", 0},
-	{"1", 1},
-    SCPI_CHOICE_LIST_END
-};
+scpi_choice_def_t scpi_boolean_select[] = { { "OFF", 0 }, { "ON", 1 },
+		{ "0", 0 }, { "1", 1 },
+		SCPI_CHOICE_LIST_END };
 
 // ----------------------------------------------------------------------------
 
-static scpi_result_t SCPI_Rst(scpi_t * context)
-{
+static scpi_result_t SCPI_Rst(scpi_t *context) {
 
 	return SCPI_RES_OK;
 }
 
-
 // ----------------------------------------------------------------------------
 
-static scpi_result_t SCPI_IdnQ(scpi_t * context)
-{
+static scpi_result_t SCPI_IdnQ(scpi_t *context) {
 	int32_t ptr = 0;
 	char info[46];
 	memset(info, 0, 46);
 
-    for (uint8_t i = 0; i < 4; i++)
-    {
-        if (context->idn[i])
-        {
-        	if(3 == i)
-        	{
-        		ptr += snprintf(info + ptr, sizeof(info) - ptr, "%s", context->idn[i] );
-        	}
-        	else
-        	{
-        		ptr += snprintf(info + ptr, sizeof(info) - ptr, "%s,", context->idn[i] );
-        	}
+	for (uint8_t i = 0; i < 4; i++) {
+		if (context->idn[i]) {
+			if (3 == i) {
+				ptr += snprintf(info + ptr, sizeof(info) - ptr, "%s",
+						context->idn[i]);
+			} else {
+				ptr += snprintf(info + ptr, sizeof(info) - ptr, "%s,",
+						context->idn[i]);
+			}
 
-        }
-    }
+		}
+	}
 
-    SCPI_ResultCharacters(context, info, strlen(info));
-    return SCPI_RES_OK;
+	SCPI_ResultCharacters(context, info, strlen(info));
+	return SCPI_RES_OK;
 }
-
 
 // ----------------------------------------------------------------------------
 
 #define TEX_SIZE	256
 
-scpi_result_t SCPI_SystemErrorQ(scpi_t * context)
-{
+scpi_result_t SCPI_SystemErrorQ(scpi_t *context) {
 	char text[TEX_SIZE];
-	const char * data;
+	const char *data;
 	scpi_error_t error;
 	int len;
 
 	SCPI_ErrorPop(context, &error);
 	data = SCPI_ErrorTranslate(error.error_code);
-	len = snprintf_(text, TEX_SIZE,"%d, %s",error.error_code, data);
+	len = snprintf_(text, TEX_SIZE, "%d, %s", error.error_code, data);
 
 	SCPI_ResultCharacters(context, text, len);
 
 	return SCPI_RES_OK;
 }
 
-
 // ----------------------------------------------------------------------------
 
-extern SPI_HandleTypeDef hspi1;
-extern SPI_HandleTypeDef hspi3;
+scpi_result_t SCPI_TS(scpi_t *context) {
 
-scpi_result_t SCPI_TS(scpi_t * context)
-{
-	HAL_StatusTypeDef status ;
-
-	double value;
-
-	if(!SCPI_ParamDouble(context, &value, TRUE))
-	{
-		return SCPI_RES_ERR;
-	}
-
-	status = bsp_set_voltage(&hspi3, value);
-    return SCPI_RES_OK;
+	return SCPI_RES_OK;
 }
 
 // ----------------------------------------------------------------------------
 
+scpi_result_t SCPI_TSQ(scpi_t *context) {
 
-scpi_result_t SCPI_TSQ(scpi_t * context)
-{
-	HAL_StatusTypeDef status ;
-	double meas = 0.0;
-	status = bsp_read_voltage(&hspi1, &meas);
-	if(HAL_OK == status)
-		SCPI_ResultFloat(context, meas);
-	else
-	{
-		SCPI_ErrorPush(context, SCPI_ERROR_HARDWARE_ERROR);
-		return SCPI_RES_ERR;
-	}
-    return SCPI_RES_OK;
+	return SCPI_RES_OK;
 }
 
 // ----------------------------------------------------------------------------
 
-scpi_result_t SCPI_Range(scpi_t * context)
-{
+scpi_result_t SCPI_Range(scpi_t *context) {
 	int32_t value;
 
-	if(!SCPI_ParamUInt32(context, &value, TRUE))
-	{
+	if (!SCPI_ParamUInt32(context, &value, TRUE)) {
 		return SCPI_RES_ERR;
 	}
 
-	bsp.range = value;
+	if (10 == value) {
 
-	if (10 == bsp.range)
-	{
-		HAL_Delay(20);
+
+		HAL_Delay(10);
 		LL_GPIO_SetOutputPin(MCU_REL_RESET_GPIO_Port, MCU_REL_RESET_Pin);
-		HAL_Delay(20);
+		HAL_Delay(10);
 		LL_GPIO_ResetOutputPin(MCU_REL_RESET_GPIO_Port, MCU_REL_RESET_Pin);
 
-	}
-	else if (20 == bsp.range)
-	{
-		HAL_Delay(20);
+
+		if (20 == bsp.range) {
+			bsp.voltage = bsp.voltage * 2;
+			bsp_set_voltage(&hspi3, bsp.voltage);
+		}
+
+		bsp.range = value;
+
+	} else if (20 == value) {
+
+		HAL_Delay(10);
 		LL_GPIO_SetOutputPin(MCU_REL_SET_GPIO_Port, MCU_REL_SET_Pin);
-		HAL_Delay(20);
+		HAL_Delay(10);
 		LL_GPIO_ResetOutputPin(MCU_REL_SET_GPIO_Port, MCU_REL_SET_Pin);
 
-	}
-	else
-	{
+		if (10 == bsp.range) {
+			bsp.voltage = bsp.voltage / 2;
+			bsp_set_voltage(&hspi3, bsp.voltage);
+		}
+
+		bsp.range = value;
+
+	} else {
 		SCPI_ErrorPush(context, SCPI_ERROR_NUMERIC_DATA_NOT_ALLOWED);
 		return SCPI_RES_ERR;
 	}
@@ -201,158 +171,186 @@ scpi_result_t SCPI_Range(scpi_t * context)
 
 // ----------------------------------------------------------------------------
 
-scpi_result_t SCPI_RangeQ(scpi_t * context)
-{
+scpi_result_t SCPI_RangeQ(scpi_t *context) {
+	SCPI_ResultUInt32(context, bsp.range);
 	return SCPI_RES_OK;
 }
 
 // ----------------------------------------------------------------------------
 
-scpi_result_t SCPI_Voltage(scpi_t * context)
-{
-	return SCPI_RES_OK;
-}
+scpi_result_t SCPI_Voltage(scpi_t *context) {
+
+	double value;
+
+	if (!SCPI_ParamDouble(context, &value, TRUE)) {
+		return SCPI_RES_ERR;
+	}
+
+	if ((10 == bsp.range) && (value > 10 || value < 0)) {
+		SCPI_ErrorPush(context, SCPI_ERROR_NUMERIC_DATA_NOT_ALLOWED);
+		return SCPI_RES_ERR;
+	} else if ((20 == bsp.range) && (value > 20 || value < 0)) {
+		SCPI_ErrorPush(context, SCPI_ERROR_DATA_OUT_OF_RANGE);
+		return SCPI_RES_ERR;
+	}
+
+		if (20 == bsp.range) {
+			bsp.voltage = value / 2;
+		} else {
+			bsp.voltage = value;
+		}
+		bsp_set_voltage(&hspi3, bsp.voltage);
+
+		return SCPI_RES_OK;
+	}
 
 // ----------------------------------------------------------------------------
 
-scpi_result_t SCPI_VoltageQ(scpi_t * context)
-{
-	return SCPI_RES_OK;
-}
+	scpi_result_t SCPI_VoltageQ(scpi_t *context) {
+		HAL_StatusTypeDef status;
+		double meas = 0.0;
+		status = bsp_read_voltage(&hspi1, &meas);
+		if (HAL_OK == status)
+			SCPI_ResultFloat(context, meas);
+		else {
+			SCPI_ErrorPush(context, SCPI_ERROR_HARDWARE_ERROR);
+			return SCPI_RES_ERR;
+		}
+		return SCPI_RES_OK;
+
+	}
 
 // ----------------------------------------------------------------------------
 
-const scpi_command_t scpi_commands[] = {
-    /* IEEE Mandated Commands (SCPI std V1999.0 4.1.1) */
-    { .pattern = "*CLS", .callback = SCPI_CoreCls,},
-    { .pattern = "*ESE", .callback = SCPI_CoreEse,},
-    { .pattern = "*ESE?", .callback = SCPI_CoreEseQ,},
-    { .pattern = "*ESR?", .callback = SCPI_CoreEsrQ,},
-    { .pattern = "*IDN?", .callback = SCPI_IdnQ,},
-    { .pattern = "*OPC", .callback = SCPI_CoreOpc,},
-    { .pattern = "*OPC?", .callback = SCPI_CoreOpcQ,},
-    { .pattern = "*RST", .callback = SCPI_Rst,},
-    { .pattern = "*SRE", .callback = SCPI_CoreSre,},
-    { .pattern = "*SRE?", .callback = SCPI_CoreSreQ,},
-    { .pattern = "*STB?", .callback = SCPI_CoreStbQ,},
-    { .pattern = "*TST?", .callback = SCPI_CoreTstQ,},
-    { .pattern = "*WAI", .callback = SCPI_CoreWai,},
+	const scpi_command_t scpi_commands[] =
+			{
+			/* IEEE Mandated Commands (SCPI std V1999.0 4.1.1) */
+			{ .pattern = "*CLS", .callback = SCPI_CoreCls, }, { .pattern =
+					"*ESE", .callback = SCPI_CoreEse, }, { .pattern = "*ESE?",
+					.callback = SCPI_CoreEseQ, }, { .pattern = "*ESR?",
+					.callback = SCPI_CoreEsrQ, }, { .pattern = "*IDN?",
+					.callback = SCPI_IdnQ, }, { .pattern = "*OPC", .callback =
+					SCPI_CoreOpc, }, { .pattern = "*OPC?", .callback =
+					SCPI_CoreOpcQ, },
+					{ .pattern = "*RST", .callback = SCPI_Rst, }, { .pattern =
+							"*SRE", .callback = SCPI_CoreSre, }, { .pattern =
+							"*SRE?", .callback = SCPI_CoreSreQ, }, { .pattern =
+							"*STB?", .callback = SCPI_CoreStbQ, }, { .pattern =
+							"*TST?", .callback = SCPI_CoreTstQ, }, { .pattern =
+							"*WAI", .callback = SCPI_CoreWai, },
 
-    {.pattern = "STATus:QUEStionable[:EVENt]?", .callback = SCPI_StatusQuestionableEventQ,},
-    /* {.pattern = "STATus:QUEStionable:CONDition?", .callback = scpi_stub_callback,}, */
-    {.pattern = "STATus:QUEStionable:ENABle", .callback = SCPI_StatusQuestionableEnable,},
-    {.pattern = "STATus:QUEStionable:ENABle?", .callback = SCPI_StatusQuestionableEnableQ,},
+					{ .pattern = "STATus:QUEStionable[:EVENt]?", .callback =
+							SCPI_StatusQuestionableEventQ, },
+					/* {.pattern = "STATus:QUEStionable:CONDition?", .callback = scpi_stub_callback,}, */
+					{ .pattern = "STATus:QUEStionable:ENABle", .callback =
+							SCPI_StatusQuestionableEnable, }, { .pattern =
+							"STATus:QUEStionable:ENABle?", .callback =
+							SCPI_StatusQuestionableEnableQ, },
 
-    {.pattern = "STATus:PRESet", .callback = SCPI_StatusPreset,},
+					{ .pattern = "STATus:PRESet", .callback = SCPI_StatusPreset, },
 
-    /* Required SCPI commands (SCPI std V1999.0 4.2.1) */
-    {.pattern = "SYSTem:ERRor[:NEXT]?", .callback = SCPI_SystemErrorQ,},
-    {.pattern = "SYSTem:ERRor:COUNt?", .callback = SCPI_SystemErrorCountQ,},
-    {.pattern = "SYSTem:VERSion?", .callback = SCPI_SystemVersionQ,},
-/*
-	{.pattern = "SYSTem:COMMunicate:LAN:IPADdress", .callback = SCPI_SystemCommunicateLanIpAddress,},
-	{.pattern = "SYSTem:COMMunicate:LAN:IPADdress?", .callback = SCPI_SystemCommunicateLanIpAddressQ,},
-	{.pattern = "SYSTem:COMMunicate:LAN:SMASk", .callback = SCPI_SystemCommunicateLanIpSmask,},
-	{.pattern = "SYSTem:COMMunicate:LAN:SMASk?", .callback = SCPI_SystemCommunicateLanIpSmaskQ,},
-	{.pattern = "SYSTem:COMMunicate:LAN:GATEway", .callback = SCPI_SystemCommunicateLanGateway,},
-	{.pattern = "SYSTem:COMMunicate:LAN:GATEway?", .callback = SCPI_SystemCommunicateLanGatewayQ,},
-	{.pattern = "SYSTem:COMMunicate:LAN:MAC", .callback = SCPI_SystemCommunicateLanMac,},
-	{.pattern = "SYSTem:COMMunicate:LAN:MAC?", .callback = SCPI_SystemCommunicateLanMacQ,},
-	{.pattern = "SYSTem:COMMunicate:LAN:UPDate", .callback = SCPI_SystemCommunicationLanUpdate,},
-	{.pattern = "SYSTem:SECure:STATe", .callback = SCPI_SystemSecureState,},
-	{.pattern = "SYSTem:SECure:STATe?", .callback = SCPI_SystemSecureStateQ,},
-	{.pattern = "SYSTem:SERVice:MDNS[:ENAble]", .callback = SCPI_SystemServiceMDNSEnable,},
-	{.pattern = "SYSTem:SERVice:MDNS[:ENAble]?", .callback = SCPI_SystemServiceMDNSEnableQ,},
-	{.pattern = "SYSTem:SERVice:HISLIP[:ENAble]", .callback = SCPI_SystemServiceHISLIPEnable,},
-	{.pattern = "SYSTem:SERVice:HISLIP[:ENAble]?", .callback = SCPI_SystemServiceHISLIPEnableQ,},
-	{.pattern = "SYSTem:SERVice:EEPROM", .callback = SCPI_SystemServiceEeprom,},
-	{.pattern = "SYSTem:SERVice:LED[:ENAble]", .callback = SCPI_SystemServiceLEDEnable,},
-	{.pattern = "SYSTem:SERVice:LED[:ENAble]?", .callback = SCPI_SystemServiceLEDEnableQ,},
-	{.pattern = "SYSTem:SERVice:LED:PING", .callback = SCPI_SystemServiceLEDPing,},
-	{.pattern = "SYSTem:SERVice:RESET", .callback = SCPI_SystemServiceReset,},
+					/* Required SCPI commands (SCPI std V1999.0 4.2.1) */
+					{ .pattern = "SYSTem:ERRor[:NEXT]?", .callback =
+							SCPI_SystemErrorQ, }, { .pattern =
+							"SYSTem:ERRor:COUNt?", .callback =
+							SCPI_SystemErrorCountQ, },
+					{ .pattern = "SYSTem:VERSion?", .callback =
+							SCPI_SystemVersionQ, },
+					/*
+					 {.pattern = "SYSTem:COMMunicate:LAN:IPADdress", .callback = SCPI_SystemCommunicateLanIpAddress,},
+					 {.pattern = "SYSTem:COMMunicate:LAN:IPADdress?", .callback = SCPI_SystemCommunicateLanIpAddressQ,},
+					 {.pattern = "SYSTem:COMMunicate:LAN:SMASk", .callback = SCPI_SystemCommunicateLanIpSmask,},
+					 {.pattern = "SYSTem:COMMunicate:LAN:SMASk?", .callback = SCPI_SystemCommunicateLanIpSmaskQ,},
+					 {.pattern = "SYSTem:COMMunicate:LAN:GATEway", .callback = SCPI_SystemCommunicateLanGateway,},
+					 {.pattern = "SYSTem:COMMunicate:LAN:GATEway?", .callback = SCPI_SystemCommunicateLanGatewayQ,},
+					 {.pattern = "SYSTem:COMMunicate:LAN:MAC", .callback = SCPI_SystemCommunicateLanMac,},
+					 {.pattern = "SYSTem:COMMunicate:LAN:MAC?", .callback = SCPI_SystemCommunicateLanMacQ,},
+					 {.pattern = "SYSTem:COMMunicate:LAN:UPDate", .callback = SCPI_SystemCommunicationLanUpdate,},
+					 {.pattern = "SYSTem:SECure:STATe", .callback = SCPI_SystemSecureState,},
+					 {.pattern = "SYSTem:SECure:STATe?", .callback = SCPI_SystemSecureStateQ,},
+					 {.pattern = "SYSTem:SERVice:MDNS[:ENAble]", .callback = SCPI_SystemServiceMDNSEnable,},
+					 {.pattern = "SYSTem:SERVice:MDNS[:ENAble]?", .callback = SCPI_SystemServiceMDNSEnableQ,},
+					 {.pattern = "SYSTem:SERVice:HISLIP[:ENAble]", .callback = SCPI_SystemServiceHISLIPEnable,},
+					 {.pattern = "SYSTem:SERVice:HISLIP[:ENAble]?", .callback = SCPI_SystemServiceHISLIPEnableQ,},
+					 {.pattern = "SYSTem:SERVice:EEPROM", .callback = SCPI_SystemServiceEeprom,},
+					 {.pattern = "SYSTem:SERVice:LED[:ENAble]", .callback = SCPI_SystemServiceLEDEnable,},
+					 {.pattern = "SYSTem:SERVice:LED[:ENAble]?", .callback = SCPI_SystemServiceLEDEnableQ,},
+					 {.pattern = "SYSTem:SERVice:LED:PING", .callback = SCPI_SystemServiceLEDPing,},
+					 {.pattern = "SYSTem:SERVice:RESET", .callback = SCPI_SystemServiceReset,},
 
-	//{.pattern = "TS", .callback = SCPI_TS,},
+					 //{.pattern = "TS", .callback = SCPI_TS,},
 
 
-	{.pattern = "CONFiguration:RESOLution", .callback = SCPI_AdcConfigurationResolution,},
-	{.pattern = "CONFiguration:RESOLution?", .callback = SCPI_AdcConfigurationResolutionQ,},
-	{.pattern = "CONFiguration:SAMPling:TIME:PERIod", .callback = SCPI_AdcConfigurationSamplingTimePeriod,},
-	{.pattern = "CONFiguration:SAMPling:TIME:PERIod?", .callback = SCPI_AdcConfigurationSamplingTimePeriodQ,},
-	{.pattern = "CONFiguration:SAMPling:TIME:CYCLe", .callback = SCPI_AdcConfigurationSamplingTimeCycle,},
-	{.pattern = "CONFiguration:SAMPling:TIME:CYCLe?", .callback = SCPI_AdcConfigurationSamplingTimeCycleQ,},
-	{.pattern = "CONFiguration:OVERSAMPling[:ENAble]", .callback = SCPI_AdcConfigurationOverSamplingEnable,},
-	{.pattern = "CONFiguration:OVERSAMPling[:ENAble]?", .callback = SCPI_AdcConfigurationOverSamplingEnableQ,},
-	{.pattern = "CONFiguration:OVERSAMPling:RATIO", .callback = SCPI_AdcConfigurationOverSamplingRatio,},
-	{.pattern = "CONFiguration:OVERSAMPling:RATIO?", .callback = SCPI_AdcConfigurationOverSamplingRatioQ,},
+					 {.pattern = "CONFiguration:RESOLution", .callback = SCPI_AdcConfigurationResolution,},
+					 {.pattern = "CONFiguration:RESOLution?", .callback = SCPI_AdcConfigurationResolutionQ,},
+					 {.pattern = "CONFiguration:SAMPling:TIME:PERIod", .callback = SCPI_AdcConfigurationSamplingTimePeriod,},
+					 {.pattern = "CONFiguration:SAMPling:TIME:PERIod?", .callback = SCPI_AdcConfigurationSamplingTimePeriodQ,},
+					 {.pattern = "CONFiguration:SAMPling:TIME:CYCLe", .callback = SCPI_AdcConfigurationSamplingTimeCycle,},
+					 {.pattern = "CONFiguration:SAMPling:TIME:CYCLe?", .callback = SCPI_AdcConfigurationSamplingTimeCycleQ,},
+					 {.pattern = "CONFiguration:OVERSAMPling[:ENAble]", .callback = SCPI_AdcConfigurationOverSamplingEnable,},
+					 {.pattern = "CONFiguration:OVERSAMPling[:ENAble]?", .callback = SCPI_AdcConfigurationOverSamplingEnableQ,},
+					 {.pattern = "CONFiguration:OVERSAMPling:RATIO", .callback = SCPI_AdcConfigurationOverSamplingRatio,},
+					 {.pattern = "CONFiguration:OVERSAMPling:RATIO?", .callback = SCPI_AdcConfigurationOverSamplingRatioQ,},
 
-	{.pattern = "CONFiguration:GAIN", .callback = SCPI_AdcConfigurationGain,},
-	{.pattern = "CONFiguration:GAIN?", .callback = SCPI_AdcConfigurationGainQ,},
-	{.pattern = "SAMPle:COUNt", .callback = SCPI_AdcConfigurationSampleCount,},
-	{.pattern = "SAMPle:COUNt?", .callback = SCPI_AdcConfigurationSampleCountQ,},
+					 {.pattern = "CONFiguration:GAIN", .callback = SCPI_AdcConfigurationGain,},
+					 {.pattern = "CONFiguration:GAIN?", .callback = SCPI_AdcConfigurationGainQ,},
+					 {.pattern = "SAMPle:COUNt", .callback = SCPI_AdcConfigurationSampleCount,},
+					 {.pattern = "SAMPle:COUNt?", .callback = SCPI_AdcConfigurationSampleCountQ,},
 
-	{.pattern = "MEASure?", .callback = SCPI_MeasureQ,},
-	{.pattern = "READ?", .callback = SCPI_MeasureQ,},
-	{.pattern = "R?", .callback = SCPI_MeasureQ,},
-	{.pattern = "FETCh?", .callback = SCPI_FetchQ,},
-	{.pattern = "DATA[:DATA]?", .callback = SCPI_DataDataQ,},
+					 {.pattern = "MEASure?", .callback = SCPI_MeasureQ,},
+					 {.pattern = "READ?", .callback = SCPI_MeasureQ,},
+					 {.pattern = "R?", .callback = SCPI_MeasureQ,},
+					 {.pattern = "FETCh?", .callback = SCPI_FetchQ,},
+					 {.pattern = "DATA[:DATA]?", .callback = SCPI_DataDataQ,},
 
-	{.pattern = "INITiate[:IMMediate]", .callback = SCPI_Initiate,},
-	{.pattern = "*TRG", .callback = SCPI_Initiate,},
+					 {.pattern = "INITiate[:IMMediate]", .callback = SCPI_Initiate,},
+					 {.pattern = "*TRG", .callback = SCPI_Initiate,},
 
-	{.pattern = "ADC:NULL:OFFSet:ENAble", .callback = SCPI_NullOffsetEnable,},
-	{.pattern = "ADC:NULL:OFFSet:ENAble?", .callback = SCPI_NullOffsetEnableQ,},
-	{.pattern = "ADC:NULL:OFFSet", .callback = SCPI_NullOffset,},
-	{.pattern = "ADC:NULL:OFFSet?", .callback = SCPI_NullOffsetQ,},
+					 {.pattern = "ADC:NULL:OFFSet:ENAble", .callback = SCPI_NullOffsetEnable,},
+					 {.pattern = "ADC:NULL:OFFSet:ENAble?", .callback = SCPI_NullOffsetEnableQ,},
+					 {.pattern = "ADC:NULL:OFFSet", .callback = SCPI_NullOffset,},
+					 {.pattern = "ADC:NULL:OFFSet?", .callback = SCPI_NullOffsetQ,},
 
-	{.pattern = "CALibration:COUNt?", .callback = SCPI_CalibrationCountQ,},
-	{.pattern = "CALibration:STORe", .callback = SCPI_CalibrationStore,},
-	{.pattern = "CALibration:VALue", .callback = SCPI_CalibrationValue,},
-	{.pattern = "CALibration:VALue?", .callback = SCPI_CalibrationValueQ,},
-	{.pattern = "CALIBration:ADC:AUTO[:MODE]", .callback = SCPI_CalibrationAdcAutoMode,},
+					 {.pattern = "CALibration:COUNt?", .callback = SCPI_CalibrationCountQ,},
+					 {.pattern = "CALibration:STORe", .callback = SCPI_CalibrationStore,},
+					 {.pattern = "CALibration:VALue", .callback = SCPI_CalibrationValue,},
+					 {.pattern = "CALibration:VALue?", .callback = SCPI_CalibrationValueQ,},
+					 {.pattern = "CALIBration:ADC:AUTO[:MODE]", .callback = SCPI_CalibrationAdcAutoMode,},
 
-	{.pattern = "FORMat[:DATA]", .callback = SCPI_FormatData,},
-	{.pattern = "FORMat[:DATA]?", .callback = SCPI_FormatDataQ,},
+					 {.pattern = "FORMat[:DATA]", .callback = SCPI_FormatData,},
+					 {.pattern = "FORMat[:DATA]?", .callback = SCPI_FormatDataQ,},
 
-	{.pattern = "CALCulate:AVERage?", .callback = SCPI_CalculateAverageQ,},
-	{.pattern = "CALCulate:OFFSet:ENAble", .callback = SCPI_CalculateOffsetEnable,},
-	{.pattern = "CALCulate:OFFSet:ENAble?", .callback = SCPI_CalculateOffsetEnableQ,},
-	{.pattern = "CALCulate:OFFSet", .callback = SCPI_CalculateOffset,},
-	{.pattern = "CALCulate:OFFSet?", .callback = SCPI_CalculateOffsetQ,},
-*/
-	{.pattern = "RANGe", .callback = SCPI_Range,},
-	{.pattern = "RANGe?", .callback = SCPI_RangeQ,},
-	{.pattern = "VOLTage", .callback = SCPI_Voltage,},
-	{.pattern = "VOLTage?", .callback = SCPI_VoltageQ,},
-	{.pattern = "TS", .callback = SCPI_TS,},
-	{.pattern = "TS?", .callback = SCPI_TSQ,},
+					 {.pattern = "CALCulate:AVERage?", .callback = SCPI_CalculateAverageQ,},
+					 {.pattern = "CALCulate:OFFSet:ENAble", .callback = SCPI_CalculateOffsetEnable,},
+					 {.pattern = "CALCulate:OFFSet:ENAble?", .callback = SCPI_CalculateOffsetEnableQ,},
+					 {.pattern = "CALCulate:OFFSet", .callback = SCPI_CalculateOffset,},
+					 {.pattern = "CALCulate:OFFSet?", .callback = SCPI_CalculateOffsetQ,},
+					 */
+					{ .pattern = "RANGe", .callback = SCPI_Range, }, {
+							.pattern = "RANGe?", .callback = SCPI_RangeQ, }, {
+							.pattern = "VOLTage", .callback = SCPI_Voltage, }, {
+							.pattern = "VOLTage?", .callback = SCPI_VoltageQ, },
+					{ .pattern = "TS", .callback = SCPI_TS, }, { .pattern =
+							"TS?", .callback = SCPI_TSQ, },
 
-	SCPI_CMD_LIST_END
-};
-
-// --------------------------------------------------------------------------------------------------------------------
-
-scpi_interface_t scpi_interface = {
-    .error = SCPI_Error,
-    .write = SCPI_Write,
-    .control = SCPI_Control,
-    .flush = SCPI_Flush,
-    .reset = SCPI_Reset,
-};
+					SCPI_CMD_LIST_END };
 
 // --------------------------------------------------------------------------------------------------------------------
 
-scpi_interface_t scpi_hislip_interface = {
-    .error = SCPI_Error,
-    .write = SCPI_WriteHiSLIP,
-    .control = SCPI_Control,
-    .flush = SCPI_Flush,
-    .reset = SCPI_Reset,
-};
+	scpi_interface_t scpi_interface = { .error = SCPI_Error,
+			.write = SCPI_Write, .control = SCPI_Control, .flush = SCPI_Flush,
+			.reset = SCPI_Reset, };
 
 // --------------------------------------------------------------------------------------------------------------------
 
-char scpi_input_buffer[SCPI_INPUT_BUFFER_LENGTH];
-scpi_error_t scpi_error_queue_data[SCPI_ERROR_QUEUE_SIZE];
+	scpi_interface_t scpi_hislip_interface = { .error = SCPI_Error, .write =
+			SCPI_WriteHiSLIP, .control = SCPI_Control, .flush = SCPI_Flush,
+			.reset = SCPI_Reset, };
 
-scpi_t scpi_context;
-scpi_t scpi_hislip_context;
+// --------------------------------------------------------------------------------------------------------------------
+
+	char scpi_input_buffer[SCPI_INPUT_BUFFER_LENGTH];
+	scpi_error_t scpi_error_queue_data[SCPI_ERROR_QUEUE_SIZE];
+
+	scpi_t scpi_context;
+	scpi_t scpi_hislip_context;

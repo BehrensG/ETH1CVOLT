@@ -131,7 +131,7 @@ typedef struct {
 	bsp_security_t security;
 	bsp_ip4_lan_t ip4_current;
 	bool default_cfg;
-	float voltage;
+	double voltage;
 	uint32_t range;
 } bsp_t;
 
